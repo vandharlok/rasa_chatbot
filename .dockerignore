@@ -1,0 +1,9 @@
+tests/*
+results/*
+train_test_split/*
+tensorboard/*
+node_modules/*
+.cache/*
+.rasa/*
+.vscode/*
+git

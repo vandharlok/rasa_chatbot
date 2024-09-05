@@ -1,0 +1,72 @@
+version: '3.8'
+services:
+  rasa:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "5005:5005"
+    depends_on:
+      - duckling
+      - backend
+      - db
+      - frontend
+    environment:
+      - DATABASE_URL=postgresql://${PG_USER}:${PG_PASSWORD}@db:5432/${PG_DATABASE}
+  
+  duckling:
+    image: rasa/duckling
+    ports:
+      - "8000:8000"
+
+  backend:
+    build: ../backend-chatbot-main
+    ports:
+      - "3010:3010"
+    volumes:
+      - ../backend-chatbot-main:/app
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - db
+
+  calendar:
+    build:
+      context: ../chatbot-portal-web-main
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../chatbot-portal-web-main:/app
+    depends_on:
+      - backend
+
+  frontend:
+    build:
+      context: ../frontend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ../frontend:/app
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      POSTGRES_DB: ${PG_DATABASE}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  action-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.actions
+    ports:
+      - "5055:5055"
+    volumes:
+      - ./actions:/app/actions
+
+volumes:
+  postgres-data:
