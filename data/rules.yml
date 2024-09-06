@@ -194,6 +194,3 @@ rules:
   steps:
   - intent: duvida
   - action: utter_duvida
-
-
-

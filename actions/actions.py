@@ -168,7 +168,6 @@ class ActionSalvarCadastro(Action):
         email = tracker.get_slot("email")
         cpf = tracker.get_slot("cpf")
         telefone = tracker.get_slot("telefone")
-        data_nascimento=tracker.get_slot("data_nascimento")
 
         url = "http://localhost:3010/usuario/cadastro"
         data = {
@@ -176,12 +175,12 @@ class ActionSalvarCadastro(Action):
             "email": email,
             "cpf": cpf,
             "phoneNumber": telefone,
-            "birth_date": data_nascimento
+            "adminId": 1
         }
         try:
             response = requests.post(url, json=data)
             if 200 <= response.status_code < 300:
-                logger.info(f"Usuário de email : {email} registrado com sucesso.")  
+                logger.info(f"Usuário de email : {email} registrado com sucesso.")
                 return [SlotSet("login_sucess", True)]
             
             else:
@@ -229,48 +228,6 @@ class ValidateNome(FormValidationAction):
         return validate_cpf_value(slot_value, dispatcher)   
     
     
-    def validate_telefone(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]
-        ) -> Dict[Text, Any]:
-        
-        pattern = re.compile(r'^\(\d{2}\) \d{5}-\d{4}$')
-        
-        if pattern.match(slot_value):
-            logger.info("Telefone validado com sucesso.")
-            return {"telefone": slot_value}
-        else:
-            dispatcher.utter_message(text="O telefone deve estar no formato (00) 00000-0000.")
-            return {"telefone": None}
-    
-    def validate_data_nascimento(
-            self, 
-            slot_value: Any,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict
-            ) -> Dict[Text, Any]:
-    
-        if not re.match(r"\d{2}/\d{2}/\d{4}", slot_value):
-            dispatcher.utter_message(text="Formato inválido. Use DD/MM/AAAA.")
-            return {"data_nascimento": None,"time":None}
-  
-        
-        try:
-            data_nasc = datetime.strptime(slot_value, "%d/%m/%Y")
-        except ValueError:
-            dispatcher.utter_message(text="Data inválida. Por favor, insira uma data válida.")
-            return {"data_nascimento": None,"time":None}
-        if data_nasc > datetime.now():
-            dispatcher.utter_message(text="A data de nascimento não pode ser no futuro.")
-            return {"data_nascimento": None,"time":None}
-        
-        logger.info("birthdate validated")
-        return {"data_nascimento": slot_value,"time":None}
-        
     def validate_email(
         self, 
         slot_value: Any,

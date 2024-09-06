@@ -31,12 +31,12 @@ intents:
   - verificar_plano_de_saude
   - preco_consulta
   - informacoes_sobre_servico
-  - iniciar_cadastro
   - negacao
   - perguntar_dias_livres
   - metodo_de_pagamento
   - duvida
   - provide_feedback
+  - iniciar_cadastro
 
 
 slots:
@@ -66,14 +66,6 @@ slots:
       conditions:
        - active_loop: cadastro_form
          requested_slot: nome
-  data_nascimento:
-    type: text
-    influence_conversation: false
-    mappings:
-    - type: from_text
-      conditions:
-       - active_loop: cadastro_form
-         requested_slot: data_nascimento
   cpf:
     type: text
     influence_conversation: false
@@ -169,7 +161,6 @@ forms:
     required_slots:
     - nome
     - cpf
-    - data_nascimento
     - email
     - telefone
   event_form:
@@ -195,7 +186,8 @@ forms:
 responses:
   utter_metodo_de_pagamento:
     - text: "Aceitamos diversas formas de pagamento, incluindo Pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros"
-
+  utter_inicia_cadastro:
+    - text: oi
   utter_ask_delete_event_form_cpf:
     - text: Você poderia me passar seu CPF para que possamos continuar?
 
@@ -265,11 +257,6 @@ responses:
           payload: "/metodo_de_pagamento" 
         - title: "Falar com atendente"
           payload: "/informacoes_sobre_servico" 
-
-
-
-  utter_ask_cadastro_form_data_nascimento:
-    - text: Qual é a sua data de nascimento?
 
   utter_ask_cadastro_form_cpf:
     - text: Prazer {nome}, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema
