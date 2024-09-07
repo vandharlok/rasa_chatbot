@@ -22,11 +22,6 @@ logger = logging.getLogger(__name__)
 ## action
 
 
-class WebsiteOutput(CollectingOutputChannel):
-    @classmethod
-    def name(cls) -> Text:
-        return "website"
-
 
 # responsavel por dar um fallback, acionado pelo core fallback e configurado no config.yml, pode-se setar a % confianca para dar trigger no fallback, atualmente 0.7
 class ActionDefaultFallback(Action):

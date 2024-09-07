@@ -41,3 +41,6 @@ RF25 O chatbot deve ser capaz de integrar-se com plataformas de pagamento para p
 
 Personalização e Aprendizado Adaptativo
 RF26: O chatbot deve ser capaz de aprender com interações passadas para personalizar respostas e recomendações com base no histórico e preferências do usuário.
+
+
+tensorboard --logdir ./tensorboard
