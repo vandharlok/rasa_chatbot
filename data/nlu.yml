@@ -12,6 +12,10 @@ nlu:
 
   - intent: remarcar_consulta
     examples: |
+      - remarcar consulta
+      - remarcar minha consulta
+      - remarcar a data da consulta
+      - remarcar uma consulta
       - Quero  mudar  o  dia  da  minha consulta
       - Como posso adiar a consulta agendada
       - É possível reagendar minha consulta 
@@ -155,6 +159,8 @@ nlu:
 
   - intent: cancelar_consulta
     examples: |
+      - cancelar consulta
+      - cancelar uma consulta
       - Quero cancelar a consulta.
       - Como faz para cancelar a consulta?
       - Preciso cancelar a consulta.
@@ -524,6 +530,8 @@ nlu:
 
   - intent: marcar_consulta
     examples: |
+      - marcar consulta
+      - marcar uma consulta
       - como agendo uma consulta
       - como agendo um horario com voces
       - quero marcar uma consulta com voces

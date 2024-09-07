@@ -39,7 +39,7 @@ pipeline:
 
 policies:
 - name: TEDPolicy
-  max_history: 8
+  max_history: 10
   epochs: 60
   batch_size: 
   - 8
@@ -51,11 +51,12 @@ policies:
   constrain_similarities: true
   model_confidence: "softmax"
   random_seed: 42
+  core_fallback_threshold: 0.8
   check_for_contradictions: true
   tensorboard_log_directory: "./tensorboard"
   tensorboard_log_level: epoch
 - name: RulePolicy
-  core_fallback_threshold: 0.6
+  core_fallback_threshold: 0.8
   core_fallback_action_name: "action_custom_fallback"
   enable_fallback_prediction: true
   check_for_contradictions: true

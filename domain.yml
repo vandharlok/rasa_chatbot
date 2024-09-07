@@ -8,8 +8,8 @@ actions:
   - action_add_event
   - action_find_free_slots
   - action_find_slots_for_specific_date
-  - action_modify_google_calendar_event  
-  - action_delete_google_calendar_event
+  - action_modify_event_form
+  - action_delete_event_form
   - validate_event_form
   - validate_delete_event_form
   - validate_modify_event_form

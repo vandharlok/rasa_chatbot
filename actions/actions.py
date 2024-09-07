@@ -474,7 +474,7 @@ class ActionFindFreeSlots(Action):
 #Action responsavel por modificar a data do evento(consulta)
 class ModifyGoogleCalendarEvent(Action):
     def name(self) -> str:
-        return "action_modify_google_calendar_event"
+        return "action_modify_event_form"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -514,7 +514,7 @@ class ModifyGoogleCalendarEvent(Action):
 #Action responsavel por excluir o evento(consulta) 
 class ActionDeleteGoogleCalendarEvent(Action):
     def name(self):
-        return "action_delete_google_calendar_event"
+        return "action_delete_event_form"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,

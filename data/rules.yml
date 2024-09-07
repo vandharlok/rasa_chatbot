@@ -75,7 +75,7 @@ rules:
   steps:
   - action: utter_confirm_appointment
   - intent: concordancia
-  - action: action_modify_google_calendar_event 
+  - action: action_modify_event_form
   - slot_was_set:
     - event_modify_completed: true 
   - action: utter_terminar_conversa

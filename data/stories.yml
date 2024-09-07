@@ -215,7 +215,7 @@ stories:
     - form_completed: true
   - action: utter_confirm_appointment
   - intent: concordancia
-  - action: action_modify_google_calendar_event
+  - action: action_modify_event_form
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -253,7 +253,7 @@ stories:
     - form_completed: true
   - action: utter_confirm_appointment
   - intent: concordancia
-  - action: action_modify_google_calendar_event
+  - action: action_modify_event_form
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -276,7 +276,7 @@ stories:
     - form_completed: true
   - action: utter_confirm_appointment
   - intent: concordancia
-  - action: action_modify_google_calendar_event
+  - action: action_modify_event_form
   - slot_was_set:
     - event_modify_completed: true
   - action: utter_terminar_conversa
@@ -285,7 +285,7 @@ stories:
 
 - story: depois de marcar o evento
   steps:
-  - action: action_modify_google_calendar_event
+  - action: action_modify_event_form
   - slot_was_set:
     - event_modify_completed: true
   - action: utter_terminar_conversa
@@ -315,7 +315,7 @@ stories:
 
 - story: depois de marcar o evento
   steps:
-  - action: action_delete_google_calendar_event
+  - action: action_delete_event_form
   - slot_was_set:
     - event_delete_completed: true
   - action: utter_terminar_conversa
@@ -343,7 +343,7 @@ stories:
   - intent: concordancia
   - action: delete_event_form
   - active_loop: delete_event_form
-  - action: action_delete_google_calendar_event
+  - action: action_delete_event_form
   - slot_was_set:
     - event_delete_completed: true
   - action: utter_terminar_conversa
