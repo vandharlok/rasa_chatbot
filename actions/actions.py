@@ -228,6 +228,24 @@ class ValidateNome(FormValidationAction):
         return validate_cpf_value(slot_value, dispatcher)   
     
     
+    def validate_telefone(
+        self, 
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+        ) -> Dict[Text, Any]:
+        
+        pattern = re.compile(r'^\(\d{2}\) \d{5}-\d{4}$')
+        
+        if pattern.match(slot_value):
+            logger.info("Telefone validado com sucesso.")
+            return {"telefone": slot_value}
+        else:
+            dispatcher.utter_message(text="O telefone deve estar no formato (00) 00000-0000.")
+            return {"telefone": None}
+        
+        
     def validate_email(
         self, 
         slot_value: Any,

@@ -280,8 +280,9 @@ responses:
     - text: Muito obrigado, tenha um ótimo dia!
 
   utter_saudações:
-    - text: Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade
-
+    - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
+      channel: "socketio"
+    - text: "Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade"
   utter_preco_consulta:
     - text: Nossas consultas custam R$450,00
 

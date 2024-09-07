@@ -62,4 +62,4 @@ policies:
   tensorboard_log_directory: "./tensorboard"
   tensorboard_log_level: epoch
 
-assistant_id: 20240515-202338-respectful-coriander
+assistant_id: 20240515-202338-clinica-mais-saude
