@@ -1,33 +1,34 @@
-# The config recipe.
 # https://rasa.com/docs/rasa/model-configuration/
 recipe: default.v1
-
-
 
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: pt
 
-
-
 #review this pipeline
-
 pipeline:
 - name: SpacyNLP
-  model: pt_core_news_md
+  model: pt_core_news_sm
+  case_sensitive: False
 - name: SpacyTokenizer
+  case_sensitive: False
 - name: SpacyFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
 - name: DIETClassifier
-  epochs: 60
-  learning_rate: 0.0006  
-  constrain_similarities: true
-  batch_size: 16  
-  early_stopping_patience: 10
-  checkpoint_model: true
+  epochs: 30
+  learning_rate: 0.0006
+  constrain_similarities: True
+  batch_size: 16  #quantidade de exemplos que sera processado de uma so vez em cada iteracao
+  early_stopping_patience: 5
+  evaluate_on_number_of_examples: 200
+  evaluate_every_number_of_epochs: 3
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
 - name: FallbackClassifier
-  threshold: 0.7
+  threshold: 0.9
   ambiguity_threshold: 0.2
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
@@ -37,31 +38,34 @@ pipeline:
   timezone: "America/Sao_Paulo"
 
 
+
 policies:
 - name: TEDPolicy
-  max_history: 10
-  epochs: 60
-  batch_size: 
-  - 8
-  - 16
+  max_history: 12
+  epochs: 40
+  batch_size: 8
   early_stopping_patience: 10
-  learning_rate: 0.001
+  learning_rate: 0.0007
   regularization_constant: 0.0011 
   dropout_rate: 0.25
-  constrain_similarities: true
+  use_gpu: True
+  evaluate_every_number_of_epochs: 3
+  evaluate_on_number_of_examples: 200
+  constrain_similarities: True
   model_confidence: "softmax"
   random_seed: 42
   core_fallback_threshold: 0.8
-  check_for_contradictions: true
-  tensorboard_log_directory: "./tensorboard"
+  check_for_contradictions: True
+  tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
 - name: RulePolicy
   core_fallback_threshold: 0.8
   core_fallback_action_name: "action_custom_fallback"
-  enable_fallback_prediction: true
-  check_for_contradictions: true
-  tensorboard_log_directory: "./tensorboard"
+  enable_fallback_prediction: True
+  check_for_contradictions: True
+  tensorboard_log_directory: "./tensorboard/Policy"
   tensorboard_log_level: epoch
+
 
 assistant_id: 20240515-202338-clinica-mais-saude
 

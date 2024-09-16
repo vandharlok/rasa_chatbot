@@ -6,8 +6,14 @@ stories:
 #POSITIVO 
 #marcando consultas
 
-
-
+- story: iniciar_fluxo_marcacao
+  steps:
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: concordancia
+  - action: utter_verifica_cadastro
+  - intent: concordancia
+  - checkpoint: consulta_iniciada
 
 - story: nao marcando consulta
   steps:
@@ -19,11 +25,7 @@ stories:
 
 - story: marcando consulta dps de perguntar algo (negativo)
   steps: 
-  - intent: marcar_consulta
-  - action: utter_marcar_consulta
-  - intent: concordancia
-  - action: utter_verifica_cadastro
-  - intent: concordancia
+  - checkpoint: consulta_iniciada
   - action: event_form
   - active_loop: event_form
   - slot_was_set:
@@ -36,11 +38,7 @@ stories:
 
 - story: marcando consulta dps de perguntar algo
   steps:
-  - intent: marcar_consulta
-  - action: utter_marcar_consulta
-  - intent: concordancia
-  - action: utter_verifica_cadastro
-  - intent: concordancia
+  - checkpoint: consulta_iniciada
   - action: event_form
   - active_loop: event_form
   - slot_was_set:
@@ -54,18 +52,14 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
  
 
 - story: marcar consulta ja cadastrado
   steps:
-  - intent: marcar_consulta
-  - action: utter_marcar_consulta
-  - intent: concordancia
-  - action: utter_verifica_cadastro
-  - intent: concordancia
+  - checkpoint: consulta_iniciada
   - action: event_form
   - active_loop: event_form
   - slot_was_set:
@@ -79,8 +73,8 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
  
 
@@ -93,9 +87,11 @@ stories:
   - intent: negacao
   - action: utter_inform_form
   - action: cadastro_form
-  - active_loop: cadastro_form
+  - active_loop: null
+  - action: action_salvar_cadastro
   - slot_was_set:
     - login_sucess: true 
+  - action: utter_success_sign
   - action: event_form
   - active_loop: event_form
   - slot_was_set:
@@ -109,9 +105,10 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
+ 
   
 
 - story: falando o dia que quer e marcando horario
@@ -129,11 +126,11 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
  
-- story: falando o dia que quer e marcando horario 3
+- story: perguntar dias livres e marcar consulta
   steps:
   - action: event_form
   - active_loop: event_form
@@ -150,7 +147,7 @@ stories:
   - action: utter_terminar_conversa
 
 
-- story: falando o dia que quer e marcando horario 2
+- story: negando a confirmacao da consulta
   steps:
   - action: event_form
   - active_loop: event_form
@@ -172,32 +169,14 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
+ 
 
 #CADASTARNADO //////////////////////////////////////////////////////////////////////////////////////////////
 #POSITIVO 
 
-- story: cadastrando do meio da conversa
-  steps:
-  - intent: iniciar_cadastro
-  - action: utter_inicia_cadastro
-  - intent: concordancia
-  - action: cadastro_form
-  - active_loop: cadastro_form
-  
-  
-  
-
-- story: cadastrando do meio da conversa
-  steps:
-  - intent: iniciar_cadastro
-  - action: utter_inicia_cadastro
-  - intent: negacao
-  - action: utter_show_options
-  - action: action_reset_all
-  
 #REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
 #REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
 #REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
@@ -206,13 +185,7 @@ stories:
 
 - story: alterar o dia de uma consulta dps de perguntar algo
   steps:
-  - intent: remarcar_consulta
-  - action: utter_remarcar_consulta
-  - intent: concordancia
-  - action: modify_event_form
-  - active_loop: modify_event_form
-  - slot_was_set:
-    - form_completed: true
+  - checkpoint: alterando_data
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
@@ -220,29 +193,22 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
-  
+ 
 
 
 - story: nao alterar o dia de uma consulta dps de perguntar algo
   steps:
-  - intent: remarcar_consulta
-  - action: utter_remarcar_consulta
-  - intent: concordancia
-  - action: modify_event_form
-  - active_loop: modify_event_form
-  - slot_was_set:
-    - form_completed: true
+  - checkpoint: alterando_data
   - action: utter_confirm_appointment
   - intent: negacao
   - action: utter_show_options
   - action: action_reset_all
 
 
-
-- story: alterar o dia de uma consulta
+- story: alterando dia da consulta checkpoint
   steps:
   - intent: remarcar_consulta
   - action: utter_remarcar_consulta
@@ -251,6 +217,11 @@ stories:
   - active_loop: modify_event_form
   - slot_was_set:
     - form_completed: true
+  - checkpoint: alterando_data
+
+- story: alterar o dia de uma consulta
+  steps:
+  - checkpoint: alterando_data
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
@@ -258,9 +229,10 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
+ 
   
 - story: falando o dia que quer e marcando horario 2
   steps:
@@ -292,10 +264,10 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
-  
+ 
 
 - story: nao remarcando consulta
   steps:
@@ -322,10 +294,10 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
-  
+ 
 
 - story: cancelando o cancelamento
   steps:
@@ -350,14 +322,10 @@ stories:
   - intent: negacao
   - action: utter_final
   - intent: provide_feedback
-  - slot_was_set:
-      - feedback
+    entities:
+      - feedback: 5
   - action: action_store_feedback
+ 
   
 
-
-
-#DUVIDA CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-#DUVIDA CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-#DUVIDA CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-#DUVIDA CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
+###H

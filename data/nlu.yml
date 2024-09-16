@@ -1,14 +1,6 @@
 version: "3.1"
 
 nlu:
-  - intent: provide_feedback
-    examples: |
-      - [1](feedback)
-      - [2](feedback)
-      - [3](feedback)
-      - [4](feedback)
-      - [5](feedback)
-
 
   - intent: remarcar_consulta
     examples: |
@@ -23,12 +15,8 @@ nlu:
       - Preciso antecipar minha consulta 
       - Podem alterar a data da minha consulta
       - Gostaria de mover minha consulta marcada 
-      - Necessito remarcar a consulta 
-      - necessito ajustar a data da minha consulta 
-      - necessito adiar minha consulta 
       - Posso alterar o dia da minha consulta
       - necessito antecipar minha consulta.
-      - Seria possível ajustar o agendamento da minha consulta 
       - Queria perguntar se posso adiantar minha consulta 
       - Por favor, preciso reagendar a consulta 
       - Gostaria de mudar a data da minha consulta
@@ -65,16 +53,13 @@ nlu:
       - Posso alterar o horário da minha consulta 
       - É possível adiar minha consulta 
       - Como posso reagendar minha consulta 
-      - Posso ajustar o horário da minha consulta marcada?
       - Como posso mudar a consulta agendada?
       - É viável mudar a minha consulta ?
       - Como posso reagendar minha consulta?
       - Posso mudar a hora da minha consulta?
       - É possível adiar a consulta?
-      - Como posso modificar o dia?
       - Posso mudar a data da minha consulta
       - Como posso trocar o dia da minha consulta ?
-      - Posso substituir a data da minha consulta agendada?
       - Como posso adiar minha consulta marcada ?
       - Posso reagendar minha consulta para outra data?
       - É possível alterar o horário da minha consulta?
@@ -82,7 +67,6 @@ nlu:
       - Posso adiar minha consulta ?
       - Posso ajustar o horário da minha consulta ?
       - Como posso mudar minha consulta para outra data?
-      - Como posso reagendar minha consulta para uma hora diferente?
       - Posso mudar a minha consulta
       - Quero mudar a data da minha consulta
       - Preciso reagendar o dia da minha consulta
@@ -91,15 +75,12 @@ nlu:
       - É necessário modificar a data da minha consulta
       - Gostaria de ajustar o dia agendado para minha consulta
       - Necessito modificar o horário da minha consulta
-      - É possível reagendar minha consulta para uma semana diferente?
       - Quero antecipar a data da minha consulta
       - Preciso alterar o agendamento da minha consulta
       - Quero reagendar minha consulta 
       - Posso modificar o dia da minha consulta 
       - Gostaria de alterar o dia da minha consulta 
-      - Gostaria de modificar o agendamento da minha consulta para outro dia.
       - Posso reagendar minha consulta para a semana seguinte?
-      - Quero trocar o dia agendado da minha consulta para mais cedo.
       - Gostaria de modificar a data da minha consulta
       - Gostaria de reagendar minha consulta para o mesmo dia
       - Posso trocar a data da minha consulta 
@@ -107,55 +88,35 @@ nlu:
       - É possível reagendar minha consulta
       - Posso reagendar minha consulta para o mes que vem?
       - Posso ajustar a data da minha consulta
-      - Quero mudar o dia da minha consulta para o último dia do mes.
-      - É permitido reagendar minha consulta para o próximo mes?
       - Quero alterar a data da minha consulta .
-      - Posso mudar o agendamento da minha consulta para o mes seguinte?
       - Gostaria de trocar o dia da minha consulta 
       - Posso alterar a data da minha consulta
-      - Posso modificar a data da minha consulta 
       - Gostaria de ajustar o dia da minha consulta 
       - Posso adiar minha consulta para o último dia do mes?
-      - Quero reagendar minha consulta 
       - Posso reagendar minha consulta para o próximo mes?
       - Quero mudar minha consulta 
       - Gostaria de reagendar minha consulta 
       - Gostaria de mudar o dia da minha consulta
-      - Posso trocar o dia da minha consulta para o último dia do mes?
       - Posso alterar a data da minha consulta 
       - Posso mudar o dia da minha consulta
-      - Quero ajustar a data da minha consulta 
       - Posso trocar o dia da minha consulta 
       - Necessito adiantar a consulta que tenho
       - necessito ajustar a data da minha consulta.
-      - É possível adiantar a minha consulta marcada para amanhã para a manhã?
       - preciso reagendar minha consulta para mais cedo.
-      - Posso alterar a data da minha consulta para um dia antes do previsto?
       - Necessito mudar a consulta  para a primeira hora disponível.
       - Quero reagendar minha consulta para uma data mais cedo
-      - Gostaria de modificar a data da minha consulta
       - Quero adiantar a data da minha consulta 
-      - Posso alterar o agendamento da minha consulta para a manhã de amanhã?
       - Necessito reagendar minha consulta para um momento mais cedo 
-      - Preciso mover minha consulta para um horário mais cedo 
       - preciso reagendar minha consulta
-      - Gostaria de mudar a data da minha consulta para antes do previsto.
       - Necessito adiantar minha consulta 
       - preciso ajustar a data da minha consulta.
-      - Preciso antecipar minha consulta 
       - Quero reagendar minha consulta para uma hora mais cedo 
-      - Necessito alterar o dia da minha consulta para um mais cedo 
-      - Preciso reagendar minha consulta para a primeira hora disponível 
-      - Posso adiantar a data da minha consulta médica para uma mais cedo?
       - Necessito reagendar minha consulta para um horário mais cedo
       - mudar o dia 
       - mudar o dia da consulta
       - quero trocar o dia ta consulta
       - quero remarcar minha consulta
       - preciso remarcar minha consulta
-      - remarcar consulta
-
-
 
   - intent: cancelar_consulta
     examples: |
@@ -271,6 +232,73 @@ nlu:
       - oi, boa tarde!
       - Boa noite, como estão as coisas?
       - olá
+      - bom dia
+      - boa tarde
+      - boa noite
+      - Oi, tudo bem?
+      - Olá, como vai?
+      - Oi
+      - E aí?
+      - E aí, beleza?
+      - Oi, boa tarde!
+      - bom dia, como estão as coisas?
+      - boa noite, tudo certo?
+      - olá
+      - Oi, como você está?
+      - tudo bem?
+      - boa tarde, tudo certo?
+      - E aí, tudo bem?
+      - boa noite, tudo bem com você?
+      - olá, tudo certo?
+      - Oi, como vai?
+      - oi, tudo certo?
+      - Oi, como está indo?
+      - boa tarde, como estão as coisas?
+      - bom dia, tudo tranquilo?
+      - E aí, como você está?
+      - Oi, tudo tranquilo?
+      - Olá, tudo bem por aí?
+      - Oi, beleza?
+      - olá, tudo certo?
+      - bom dia, como você está?
+      - boa tarde, tudo bem por aí?
+      - Olá, como estão as coisas?
+      - Oi, tudo certo com você?
+      - Olá, como vai o dia?
+      - E aí, como você está indo?
+      - Oi, tudo ok?
+      - bom dia, tudo certo?
+      - boa tarde, como está?
+      - Olá, como estão as coisas por aí?
+      - Oi, tudo tranquilo contigo?
+      - Oi, como vai seu dia?
+      - boa noite, tudo tranquilo?
+      - Oi, como vai tudo?
+      - Oi, tudo em ordem?
+      - E aí, beleza com você?
+      - Oi, como vai sua tarde?
+      - bom dia, tudo bem por aí?
+      - boa tarde, tudo certo com você?
+      - Oi, tudo tranquilo por aí?
+      - Oi, tudo bem com você?
+      - Olá, tudo bem como está?
+      - E aí, tudo certo?
+      - Olá, como está o dia?
+      - oi, tudo certo com você?
+      - boa tarde, como vai o dia?
+      - bom dia, como você está hoje?
+      - Oi, como estão as coisas com você?
+      - boa tarde, tudo certo com as coisas?
+      - Oi, beleza por aí?
+      - Olá, tudo certo por aí?
+      - boa tarde, tudo tranquilo contigo?
+      - Oi, tudo bem hoje?
+      - Olá, tudo bem por aqui?
+      - E aí, beleza com você hoje?
+      - boa noite, tudo em ordem?
+      - Oi, tudo certo aí?
+      - bom dia, tudo tranquilo com você?
+      - Oi, tudo em ordem por aí?
 
 
   - intent: metodo_de_pagamento
@@ -458,34 +486,57 @@ nlu:
       - Quais horários estão abertos para eu agendar uma consulta?
       - quais horários vocês têm para consulta?
       - Vocês poderiam verificar quais horários estão livres para consulta?
+      - Quando posso marcar uma consulta nos próximos dias?
+      - Quais horários estão disponíveis para a próxima semana?
+      - Qual o primeiro dia livre para agendamento?
+      - Tem algum horário disponível ainda nesta semana?
+      - Pode me dizer quando há um horário livre para consulta?
+      - Qual a primeira data aberta para marcar uma consulta?
+      - Quando posso agendar a consulta mais cedo possível?
+      - Pode verificar os dias disponíveis para agendamento?
+      - Qual é o próximo dia disponível para uma consulta médica?
+      - Gostaria de saber quando posso agendar uma consulta.
+      - Quais dias você tem disponíveis para consulta?
+      - Qual é a data mais próxima para agendar uma consulta?
+      - Quando posso marcar uma consulta no futuro próximo?
+      - Quais são os horários disponíveis nos próximos dias?
+      - Qual é o dia mais rápido para uma consulta disponível?
+      - Quais são as opções de datas disponíveis para consulta?
+      - Existe algum dia livre para agendamento esta semana?
+      - Você pode me mostrar os horários de consulta disponíveis?
+      - Posso saber quais são os dias livres para uma consulta?
+      - Quais datas você tem livres para agendar consulta?
+      - Tem algum horário de consulta para essa semana?
+      - Pode me informar sobre os próximos dias abertos para consulta?
+      - Preciso saber quais datas estão livres para agendamento.
+      - Quais dias da próxima semana estão disponíveis para consulta?
+      - Qual é o próximo horário disponível para marcar consulta?
+      - Quando há disponibilidade para marcar uma consulta médica?
+      - Preciso agendar uma consulta, quais datas você tem livres?
+      - Quando posso marcar a consulta mais próxima possível?
+      - Você tem horários livres para os próximos dias?
+      - Quando é o próximo horário vago para uma consulta?
+      - Qual o primeiro dia livre para consulta médica?
+      - Pode listar os horários disponíveis para agendar uma consulta?
+      - Qual a primeira data livre para agendar uma consulta médica?
+      - Quais dias estão disponíveis para consulta na próxima semana?
+      - Pode me mostrar as datas livres para consulta?
+      - Existe alguma data disponível ainda este mês?
+      - Quais são os próximos horários livres para agendar consulta?
+      - Pode me informar sobre os dias abertos para consulta?
+      - Quando posso agendar a consulta mais cedo disponível?
+      - Tem alguma data livre para consulta nas próximas semanas?
+      - Quais horários posso escolher para marcar uma consulta?
+      - Qual é o horário de consulta disponível mais próximo?
+      - Preciso saber quando você tem horários livres para agendamento.
+      - Tem alguma vaga disponível para consulta nesta semana?
+      - Quais dias da semana você tem horários disponíveis para consulta?
+      - Quando você tem horários livres para consulta nas próximas semanas?
+      - Qual o dia mais próximo com horários livres para consulta?
+      - Pode me dizer quando posso agendar uma consulta médica?
+      - Qual é a data mais próxima disponível para consulta?
+      - Quando posso marcar a consulta mais breve possível?
 
-  - intent: iniciar_cadastro
-    examples: |
-      - Quero iniciar meu cadastro agora.
-      - Como posso me inscrever neste serviço?
-      - Estou interessado em criar uma nova conta.
-      - Pode me orientar sobre como me registrar aqui?
-      - Desejo abrir uma conta, qual o procedimento?
-      - Gostaria de me cadastrar, voce pode me ajudar?
-      - Estou pronto para registrar minha conta, como procedo?
-      - Como eu faço para começar meu cadastro no site?
-      - Preciso de orientação para abrir uma conta nova.
-      - Posso me cadastrar online agora mesmo?
-      - Gostaria de me inscrever para acessar os serviços.
-      - Como posso proceder para me registrar e começar a usar?
-      - Quais são os requisitos para fazer um cadastro?
-      - Estou interessado em abrir uma conta, podem me guiar?
-      - Quero configurar minha nova conta, como posso fazer isso?
-      - Estou interessado em me cadastrar no seu serviço.
-      - Estou pronto para criar minha conta.
-      - Quais são os procedimentos para iniciar um cadastro aqui?
-      - Qual é o processo para criar uma conta no sistema?
-      - Pode me guiar na criação de uma nova conta?
-      - Como posso me inscrever e configurar minha conta?
-      - Preciso de ajuda para configurar um cadastro.
-      - Quero criar uma conta.
-      - Quero criar um cadastro.
-      - Como me cadastro?
 
   - intent: concordancia
     examples: |
@@ -526,6 +577,157 @@ nlu:
       - Claro
       - Sim
       - ja sim
+      - Sim, gostaria de agendar.
+      - Com certeza, quero agendar.
+      - Sim, eu desejo agendar.
+      - Claro, pode agendar pra mim.
+      - Sim, quero marcar sim.
+      - Sim, desejo agendar.
+      - Sim, quero agendar a consulta.
+      - Claro, pode agendar.
+      - Sim, quero sim.
+      - Sim, desejo marcar a consulta.
+      - Com certeza, pode agendar.
+      - Sim, já quero agendar.
+      - Sim, desejo marcar.
+      - Sim, por favor, agende.
+      - Pode marcar, sim.
+      - Sim, quero remarcar a consulta.
+      - Sim, pode remarcar a data da consulta.
+      - Com certeza, quero remarcar.
+      - Sim, preciso remarcar a consulta.
+      - Sim, pode remarcar, por favor.
+      - Sim, quero sim remarcar.
+      - Claro, pode remarcar a consulta.
+      - Sim, desejo remarcar a consulta.
+      - Sim, por favor, remarque para mim.
+      - Sim, quero cancelar a consulta agendada.
+      - Pode cancelar minha consulta sim.
+      - Sim, eu desejo cancelar.
+      - Sim, cancele minha consulta, por favor.
+      - Sim, desejo cancelar a consulta.
+      - Sim, pode cancelar a consulta.
+      - Sim, quero cancelar a consulta agendada.
+      - Sim, já tenho cadastro com vocês.
+      - Sim, estou cadastrado com vocês.
+      - Sim, tenho cadastro.
+      - Sim, já tenho cadastro sim.
+      - Sim, eu já sou cadastrado.
+      - Sim, sou cadastrado na plataforma.
+      - Sim, já possuo cadastro com vocês.
+      - Sim, já estou cadastrado.
+      - Sim, já estou registrado com vocês.
+      - Sim, podem checar, já tenho cadastro.
+      - Sim, estou sim cadastrado.
+      - Sim, quero marcar uma consulta.
+      - Sim, desejo marcar uma consulta.
+      - Sim, pode marcar a consulta.
+      - Sim, desejo marcar agora.
+      - Sim, quero marcar a consulta com vocês.
+      - Sim, por favor, marque a consulta.
+      - Sim, desejo marcar a consulta com vocês.
+      - Sim, pode marcar uma consulta pra mim.
+
+  - intent: transferir_atendente
+    examples: |
+      - Gostaria de falar com um atendente, por favor.
+      - Você pode me transferir para o atendimento humano?
+      - Preciso falar com um atendente agora.
+      - Me conecte com um atendente, por favor.
+      - Como posso falar com um atendente?
+      - Quero ser transferido para um atendente humano.
+      - Por favor, passe minha solicitação para um atendente.
+      - Pode me transferir para o suporte humano?
+      - Preciso falar com alguém do suporte ao cliente.
+      - Há como falar com um atendente diretamente?
+      - Por favor, me transfira para um atendente real.
+      - Quero falar com uma pessoa, pode me transferir?
+      - Como faço para falar com um atendente?
+      - Pode me colocar em contato com um atendente?
+      - Gostaria de falar diretamente com alguém do suporte.
+      - Você pode me passar para o atendimento humano?
+      - Preciso de um atendente, pode transferir?
+      - Quero falar com um atendente, por favor.
+      - Me conecte com alguém do atendimento, por favor.
+      - Pode transferir essa conversa para um atendente humano?
+      - Quero ser atendido por uma pessoa, pode me transferir?
+      - Me transfira para um atendente humano, por favor.
+      - Há como falar com uma pessoa do suporte?
+      - Preciso de ajuda de um atendente, por favor.
+      - Você pode me transferir para um atendente real?
+      - Como posso falar com uma pessoa do suporte?
+      - Por favor, passe minha solicitação para um atendente humano.
+      - Quero ser transferido para alguém do suporte.
+      - Pode me passar para o atendimento humano?
+      - Preciso falar diretamente com alguém do suporte.
+      - Você pode me conectar com um atendente?
+      - Me conecte com um ser humano, por favor.
+      - Gostaria de falar com um atendente humano.
+      - Pode me transferir para alguém do atendimento ao cliente?
+      - Como faço para ser transferido para um atendente?
+      - Preciso falar com um atendente humano agora.
+      - Há como falar com um atendente de verdade?
+      - Quero falar com um atendente real, por favor.
+      - Você pode me conectar com um atendente humano?
+      - Me passe para um atendente, por favor.
+      - Preciso de um atendente, pode me ajudar?
+      - Gostaria de ser transferido para um atendente humano.
+      - Pode me colocar em contato com uma pessoa?
+      - Quero falar com um atendente ao vivo, pode transferir?
+      - Você pode me passar para um atendente humano?
+      - Como posso falar com um atendente humano?
+      - Preciso de um atendente real, por favor.
+      - Me transfira para um atendente humano.
+      - Pode transferir essa conversa para alguém do suporte?
+      - Quero ser atendido por uma pessoa do suporte.
+      - Me conecte com alguém do atendimento ao cliente.
+      - Você pode me passar para o atendimento ao cliente?
+      - Preciso de ajuda de uma pessoa do suporte.
+      - Como faço para falar com um atendente real?
+      - Quero falar com uma pessoa do suporte ao cliente.
+      - Pode me transferir para um atendente humano agora?
+      - Gostaria de falar com alguém do atendimento.
+      - Me conecte com um atendente real, por favor.
+      - Preciso de um atendente humano, pode me ajudar?
+      - Como posso ser transferido para um atendente humano?
+      - Você pode me passar para o suporte humano?
+      - Quero falar com um atendente ao vivo.
+      - Me conecte com um ser humano do suporte.
+      - Preciso falar com alguém do atendimento humano.
+      - Você pode me transferir para um atendente de verdade?
+      - Como faço para ser transferido para um atendente humano?
+      - Quero ser atendido por uma pessoa do atendimento.
+      - Me transfira para o suporte ao cliente, por favor.
+      - Você pode me passar para um atendente ao vivo?
+      - Preciso de ajuda de um atendente ao vivo.
+      - Como posso falar com uma pessoa do atendimento?
+      - Me conecte com uma pessoa do atendimento.
+      - Você pode me passar para um ser humano?
+      - Preciso de um atendente humano, por favor.
+      - Pode me transferir para o atendimento humano ao vivo?
+      - Quero falar com um atendente de verdade.
+      - Me transfira para o suporte humano, por favor.
+      - Como faço para ser atendido por uma pessoa?
+      - Pode me conectar com um atendente humano?
+      - Preciso falar com alguém do suporte humano.
+      - Me conecte com um atendente ao vivo.
+      - Quero ser transferido para o suporte ao cliente.
+      - Pode me transferir para um ser humano?
+      - Como posso falar com um atendente real?
+      - Preciso de ajuda de uma pessoa do atendimento.
+      - Me transfira para o atendimento humano.
+      - Pode me passar para o suporte ao cliente?
+      - Quero falar com um atendente humano ao vivo.
+      - Me conecte com alguém do suporte humano.
+      - Você pode me passar para um atendente ao vivo?
+      - Preciso falar com uma pessoa do suporte humano.
+      - Como faço para ser transferido para um atendimento humano?
+      - Quero falar com um atendente real.
+      - Me transfira para o atendimento ao cliente, por favor.
+      - Pode me conectar com alguém do suporte ao cliente?
+
+
+
 
 
   - intent: marcar_consulta
@@ -573,6 +775,57 @@ nlu:
       - É possível agendar uma consulta
       - Como faço para reservar um horário para uma consulta médica 
       - Gostaria de marcar uma consulta, como devo proceder?
+      - Como posso marcar uma consulta com a clínica?
+      - Preciso de informações sobre como agendar uma consulta.
+      - Como agendar uma consulta médica na clínica?
+      - Gostaria de saber como posso marcar uma consulta.
+      - Qual o processo para agendar uma consulta com vocês?
+      - Posso agendar uma consulta para semana que vem?
+      - Queria marcar uma consulta para amanhã.
+      - Como faço para marcar um horário disponível?
+      - Vocês podem agendar uma consulta pra mim?
+      - Preciso agendar um horário para consulta.
+      - Como posso marcar uma consulta com um médico?
+      - Quero agendar um atendimento com vocês.
+      - Gostaria de marcar um horário para consulta médica.
+      - Como agendar um atendimento na clínica?
+      - Pode me ajudar a agendar uma consulta?
+      - Tem como agendar uma consulta?
+      - Poderiam me informar como faço para agendar uma consulta?
+      - Quero marcar uma consulta médica.
+      - Como posso fazer para marcar um atendimento?
+      - Qual o procedimento para marcar um horário de consulta?
+      - Preciso de uma consulta com o médico, como agendar?
+      - Como proceder para marcar uma consulta?
+      - Poderiam agendar uma consulta para mim?
+      - Quero saber como posso marcar uma consulta médica.
+      - Qual a melhor maneira de marcar uma consulta com vocês?
+      - Como posso agendar uma consulta médica?
+      - Tem algum horário disponível para marcar uma consulta?
+      - Gostaria de marcar um atendimento na clínica.
+      - Preciso marcar uma consulta para hoje, como faço?
+      - Quero reservar um horário para atendimento.
+      - Como posso agendar uma consulta médica com urgência?
+      - Podem me orientar sobre como marcar uma consulta?
+      - Tem como marcar uma consulta com vocês?
+      - Preciso agendar uma consulta urgente.
+      - Quero saber como posso agendar uma consulta para a próxima semana.
+      - Como posso reservar uma consulta na clínica?
+      - Queria reservar um horário para uma consulta.
+      - Como agendar um atendimento com vocês?
+      - Preciso saber como marcar uma consulta médica.
+      - Quero reservar um horário para a consulta médica.
+      - Como posso garantir um horário para consulta?
+      - Preciso agendar uma consulta o mais rápido possível.
+      - Gostaria de reservar um atendimento.
+      - Como faço para marcar uma consulta urgente?
+      - Tem algum procedimento para marcar uma consulta médica?
+      - Preciso marcar uma consulta para essa semana.
+      - Vocês podem me informar como agendar uma consulta?
+      - Como faço para reservar um horário na clínica?
+      - Tem algum horário para eu marcar uma consulta?
+      - Quero agendar um horário disponível para consulta.
+
 
   - intent: informacoes_sobre_servico
     examples: |
@@ -614,7 +867,56 @@ nlu:
       - Voces tem qual medico
       - Voces tem quais psicologos
       - Qual medico psiquiatra tem
-     
+      - Quais serviços médicos vocês oferecem na clínica?
+      - Gostaria de saber quais tipos de serviços estão disponíveis.
+      - Que tratamentos a clínica disponibiliza?
+      - Quais são os serviços que a clínica oferece aos pacientes?
+      - Vocês podem me dizer quais são os serviços de saúde disponíveis?
+      - Quais especialidades médicas estão disponíveis na clínica?
+      - O que a clínica oferece em termos de serviços médicos?
+      - Quais são os principais serviços de saúde da clínica?
+      - Quais tratamentos posso encontrar na clínica?
+      - Gostaria de saber mais sobre os serviços da clínica.
+      - Que tipo de atendimento vocês prestam na clínica?
+      - Vocês oferecem serviços de saúde mental?
+      - Quais são os serviços especializados oferecidos pela clínica?
+      - Que serviços médicos estão à disposição dos pacientes?
+      - Quais são os procedimentos médicos disponíveis na clínica?
+      - Quais serviços são oferecidos para consultas médicas?
+      - Posso saber quais tipos de consulta a clínica oferece?
+      - Quais tratamentos e exames são oferecidos pela clínica?
+      - Vocês têm algum serviço especializado em saúde feminina?
+      - Que tipos de serviços clínicos estão disponíveis?
+      - Quais tratamentos a clínica tem para oferecer?
+      - Vocês podem me dar detalhes sobre os serviços prestados?
+      - Quais especialidades médicas posso encontrar na clínica?
+      - A clínica oferece serviços de fisioterapia?
+      - Quais são os serviços mais procurados da clínica?
+      - O que a clínica disponibiliza em termos de consultas?
+      - Quais tipos de consultas médicas vocês fazem?
+      - Vocês têm serviços de diagnóstico por imagem?
+      - Quais são os serviços médicos mais comuns na clínica?
+      - Gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - Quais tratamentos para dor a clínica oferece?
+      - A clínica oferece serviços de nutrição?
+      - Vocês têm serviços de odontologia?
+      - Quais são os serviços de apoio à saúde mental na clínica?
+      - Vocês fazem exames laboratoriais na clínica?
+      - Posso saber quais serviços clínicos vocês prestam?
+      - Quais são os serviços médicos disponíveis para atendimento?
+      - Vocês fazem exames de rotina na clínica?
+      - Que tipos de especialidades médicas estão disponíveis para consultas?
+      - Vocês oferecem consultas com especialistas em cardiologia?
+      - A clínica tem serviços de pediatria?
+      - Quais serviços vocês disponibilizam para pacientes em tratamento?
+      - Quais tratamentos médicos são feitos na clínica?
+      - Vocês oferecem algum serviço de emergência médica?
+      - Quais são os procedimentos médicos oferecidos na clínica?
+      - Quais serviços de prevenção e cuidados de saúde vocês oferecem?
+      - A clínica oferece consultas com especialistas?
+      - Vocês têm algum serviço especializado em ortopedia?
+      - Quais exames podem ser realizados na clínica?
+
 
   - intent: preco_consulta
     examples: |
@@ -643,12 +945,107 @@ nlu:
       - valor
       - e o valor
       - e o preço
-      
-
-
+      - Quanto custa o atendimento com um especialista?
+      - Qual é o preço para uma consulta de rotina?
+      - Vocês podem me informar o custo de uma consulta médica?
+      - Quanto está a consulta com o clínico geral?
+      - Qual é o valor de uma consulta com o pediatra?
+      - Quanto custa uma consulta de emergência?
+      - Vocês podem me dizer o valor das consultas na clínica?
+      - Qual é o preço de uma consulta especializada?
+      - Quanto custa um exame médico na clínica?
+      - Quanto sai uma consulta de acompanhamento?
+      - Qual é o valor cobrado para um exame de rotina?
+      - Quanto cobram pela consulta com o nutricionista?
+      - Qual é o preço para um check-up médico completo?
+      - Quanto custa a avaliação inicial com o cardiologista?
+      - Qual o valor de uma consulta para diagnóstico?
+      - Qual é o preço de uma consulta com o ginecologista?
+      - Quanto custa agendar uma consulta com o dermatologista?
+      - Qual é o custo de uma consulta para consulta de retorno?
+      - Quanto vocês cobram por um exame de sangue?
+      - Qual o valor de uma consulta com o neurologista?
+      - Qual é o preço de uma consulta com o ortopedista?
+      - Quanto custa um atendimento na clínica?
+      - Qual o valor cobrado por uma consulta na especialidade de endocrinologia?
+      - Vocês podem me dizer quanto custa uma consulta com o urologista?
+      - Quanto está a consulta para acompanhamento com o psiquiatra?
+      - Qual é o preço para uma consulta com o oftalmologista?
+      - Quanto custa a avaliação inicial com o fisioterapeuta?
+      - Qual é o valor de uma consulta para exames preventivos?
+      - Quanto custa a consulta com o cardiologista?
+      - Vocês poderiam informar o custo de uma consulta de rotina?
+      - Quanto está a consulta com o reumatologista?
+      - Qual é o preço cobrado por uma consulta de emergência?
+      - Qual o valor para uma consulta com o gastroenterologista?
+      - Quanto custa uma consulta de triagem na clínica?
+      - Qual é o preço de um exame laboratorial básico?
+      - Vocês podem me informar o valor da consulta com o psicólogo?
+      - Quanto custa o atendimento médico na clínica?
+      - Qual o preço para uma avaliação inicial com o oncologista?
+      - Qual o custo para realizar um exame de imagem?
+      - Quanto custa uma consulta de revisão com o pediatra?
+      - Qual é o preço para uma consulta de urgência?
+      - Vocês poderiam me dizer o valor cobrado por uma consulta com o neurologista?
+      - Quanto custa agendar uma consulta com o psicoterapeuta?
+      - Qual é o preço para uma consulta de rotina com o clínico geral?
+      - Qual é o valor de uma consulta na especialidade de geriatria?
+      - Quanto custa realizar um exame físico completo?
+      - Qual o valor de uma consulta de acompanhamento com o cardiologista?
+      - Vocês podem me dizer quanto custa uma consulta de emergência?
+      - Quanto sai uma consulta com o pneumologista?
 
   - intent: verificar_plano_de_saude
     examples: |
+      - Quais planos de saúde são válidos nesta clínica?
+      - Vocês aceitam todos os tipos de convênio médico?
+      - Meu plano de saúde cobre consultas especializadas?
+      - Quais são os planos que vocês aceitam para procedimentos?
+      - Posso usar meu seguro de saúde para consultas de rotina aqui?
+      - Vocês aceitam planos de saúde para exames?
+      - O meu convênio médico é aceito para consultas de urgência?
+      - Como faço para confirmar se meu plano de saúde é aceito?
+      - Vocês têm parceria com quais operadoras de saúde?
+      - Meu plano cobre consultas de especialidade médica?
+      - Quais convênios médicos são aceitos para tratamentos específicos?
+      - Como posso verificar se meu convênio cobre os serviços da clínica?
+      - O plano de saúde que possuo cobre procedimentos médicos aqui?
+      - Vocês aceitam convênios para consultas de emergência?
+      - Meu plano cobre consultas e exames nesta clínica?
+      - Vocês confirmam a cobertura do plano antes de realizar o atendimento?
+      - Quais convênios aceitam para consultas com especialistas?
+      - Posso usar meu convênio para consultas e procedimentos?
+      - Vocês trabalham com o plano de saúde da Unimed?
+      - O meu seguro cobre exames laboratoriais?
+      - Vocês aceitam qualquer plano de saúde para consultas?
+      - Como posso verificar se meu convênio cobre os exames que preciso?
+      - Meu plano cobre consultas de retorno?
+      - Quais operadoras de saúde vocês têm acordo?
+      - Vocês aceitam convênios médicos para todos os tipos de consulta?
+      - Posso utilizar meu plano de saúde para consultas com psicólogos?
+      - Vocês aceitam planos de saúde para procedimentos cirúrgicos?
+      - Como confirmar se meu seguro de saúde cobre consultas especializadas?
+      - Quais seguros de saúde são aceitos para exames de imagem?
+      - Meu plano de saúde é aceito para consultas de rotina?
+      - Vocês têm acordo com planos de saúde internacionais?
+      - Meu convênio médico cobre consultas com dermatologistas?
+      - O seguro cobre o custo de consultas de urgência?
+      - Vocês aceitam o convênio da Amil para consultas médicas?
+      - Meu plano de saúde cobre procedimentos ambulatoriais aqui?
+      - Posso usar meu seguro de saúde para marcar uma consulta de rotina?
+      - Quais seguradoras são aceitas para tratamentos médicos?
+      - Vocês aceitam planos de saúde para consultas com cardiologistas?
+      - O meu plano cobre exames e consultas de rotina?
+      - Como verificar se o plano cobre os serviços da clínica?
+      - Vocês trabalham com todos os tipos de convênio médico?
+      - Meu plano cobre atendimento de emergência?
+      - Vocês aceitam planos de saúde para exames de laboratório?
+      - Como posso saber se meu plano de saúde é aceito na clínica?
+      - O seguro cobre os custos de consultas com pediatras?
+      - Meu convênio cobre todos os procedimentos médicos nesta clínica?
+      - Vocês aceitam convênios para consultas e exames?
+      - Quais são os convênios aceitos para atendimento de urgência?
+      - Posso utilizar meu plano de saúde para consultas psiquiátricas?
       - Voces aceitam o plano de saude?
       - Meu plano de saúde cobre consulta ?
       - Voces trabalham com o plano ?
@@ -691,6 +1088,95 @@ nlu:
   - intent: solicitar_atestado
     examples: |
       - Preciso de um atestado médico para o trabalho, como faço?
+      - Como posso solicitar um atestado médico para justificar minha ausência?
+      - Gostaria de pedir um atestado médico para a escola.
+      - Preciso de um atestado para justificar minha ausência no trabalho.
+      - Vocês podem me fornecer um atestado médico para a faculdade?
+      - Preciso de um atestado médico para minha ausência de ontem.
+      - Como consigo um atestado médico após a consulta?
+      - Quero um atestado médico para justificar minha ausência por motivo de saúde.
+      - Vocês emitem atestados médicos para consultas?
+      - Preciso de um atestado médico urgente, como proceder?
+      - Como faço para solicitar um atestado de saúde?
+      - Preciso de um atestado médico para justificar minha ausência na reunião.
+      - Como posso obter um atestado médico após a consulta?
+      - Vocês emitem atestados médicos para justificar ausências?
+      - Preciso de um atestado para apresentar ao meu empregador.
+      - Gostaria de solicitar um atestado para minha ausência no trabalho.
+      - Preciso de um atestado para justificar uma ausência por doença.
+      - É possível solicitar um atestado médico online?
+      - Gostaria de um atestado médico para justificar minha falta no serviço.
+      - Posso pedir um atestado médico pela consulta de hoje?
+      - Preciso de um atestado médico para apresentar à minha empresa.
+      - Vocês podem emitir um atestado para justificar minha ausência escolar?
+      - Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - Preciso de um atestado para justificar minha ausência de ontem.
+      - Posso obter um atestado médico após a consulta de hoje?
+      - Preciso de um atestado médico para justificar minha licença.
+      - Gostaria de um atestado para apresentar à minha escola.
+      - Como faço para solicitar um atestado médico para o trabalho?
+      - Vocês emitem atestados médicos após consultas?
+      - Preciso de um atestado para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - Como posso obter um atestado médico após a consulta?
+      - Preciso de um atestado para apresentar à faculdade.
+      - Vocês emitem atestados médicos para justificar faltas?
+      - Preciso de um atestado médico para justificar minha ausência no trabalho.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência escolar.
+      - Preciso de um atestado para justificar minha falta no trabalho.
+      - Como posso obter um atestado médico após minha consulta?
+      - Preciso de um atestado médico para justificar minha ausência na empresa.
+      - Vocês emitem atestados médicos para consultas?
+      - Preciso de um atestado médico para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência por motivo de saúde.
+      - Como faço para solicitar um atestado de saúde após minha consulta?
+      - Vocês emitem atestados médicos para justificar faltas no trabalho?
+      - Preciso de um atestado médico para justificar minha ausência por motivo de saúde.
+      - Gostaria de solicitar um atestado médico para justificar minha falta na faculdade.
+      - Como posso obter um atestado médico para justificar minha ausência no serviço?
+      - Preciso de um atestado para apresentar à minha empresa devido à minha ausência.
+      - Vocês podem fornecer um atestado médico para justificar minha falta no trabalho?
+      - Como posso solicitar um atestado médico para justificar minha ausência na escola?
+      - Preciso de um atestado para justificar minha ausência no trabalho por motivo de doença.
+      - Gostaria de um atestado médico para apresentar à empresa.
+      - Preciso de um atestado médico para justificar minha ausência por motivos de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Vocês fornecem atestados médicos para justificar ausências no trabalho?
+      - Gostaria de solicitar um atestado médico para apresentar ao meu empregador.
+      - Preciso de um atestado médico para justificar minha ausência na escola.
+      - Como faço para solicitar um atestado médico para o trabalho?
+      - Preciso de um atestado médico para justificar minha ausência por doença.
+      - Gostaria de pedir um atestado médico após a consulta de hoje.
+      - Preciso de um atestado médico para justificar minha falta no trabalho por motivos de saúde.
+      - Como posso obter um atestado médico para justificar minha ausência no trabalho?
+      - Vocês podem fornecer um atestado médico para justificar minha ausência por motivo de saúde?
+      - Preciso de um atestado médico para apresentar à minha escola.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - Preciso de um atestado médico para justificar minha ausência de ontem.
+      - Vocês emitem atestados médicos para consultas realizadas na clínica?
+      - Gostaria de um atestado médico para justificar minha ausência por motivo de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Preciso de um atestado para apresentar à minha empresa para justificar minha ausência.
+      - Como posso obter um atestado médico para justificar minha ausência por motivos de saúde?
+      - Vocês emitem atestados médicos para justificar faltas no serviço?
+      - Preciso de um atestado médico para justificar minha falta por motivo de saúde.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no trabalho.
+      - Como posso obter um atestado médico após minha consulta?
+      - Vocês fornecem atestados médicos para justificar ausências por doença?
+      - Preciso de um atestado médico para apresentar ao meu empregador por motivo de doença.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência na escola.
+      - Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - Preciso de um atestado médico para justificar minha ausência na faculdade.
+      - Vocês emitem atestados médicos para justificar faltas por doença?
+      - Gostaria de um atestado médico para justificar minha ausência no serviço.
+      - Preciso de um atestado médico para justificar minha ausência no trabalho por motivos de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Vocês fornecem atestados médicos para consultas feitas na clínica?
+      - Preciso de um atestado médico para justificar minha ausência de ontem.
+      - Gostaria de solicitar um atestado médico para apresentar à minha empresa.
+      - Preciso de um atestado médico para justificar minha ausência no trabalho devido à doença.
+      - Vocês fornecem atestados médicos para justificar ausências escolares?
+      - Preciso de um atestado médico para o trabalho, como faço?
       - Gostaria de solicitar um atestado para justificar minha ausencia na faculdade.
       - Como posso conseguir um atestado médico para a escola?
       - É possível obter um atestado para faltar ao serviço por motivo de saúde?
@@ -723,9 +1209,226 @@ nlu:
       - Posso renovar minha receita online?
       - Gostaria de uma receita para um novo tratamento.
       - Quero uma receita para continuar meu tratamento atual.
+      - Preciso de uma nova receita para o meu medicamento.
+      - Como posso solicitar a receita para meu tratamento contínuo?
+      - Gostaria de pedir uma receita médica.
+      - Minha receita expirou, preciso de uma nova.
+      - Como faço para renovar minha receita médica?
+      - Vocês podem emitir uma receita para mim?
+      - Preciso de uma receita para o meu medicamento de uso contínuo.
+      - Posso pedir uma receita médica pela consulta de hoje?
+      - Gostaria de renovar minha receita.
+      - Preciso de uma receita para o tratamento que estou fazendo.
+      - Como consigo uma receita nova para meu remédio?
+      - Minha receita médica venceu, como posso renová-la?
+      - Vocês podem me fornecer uma receita para o medicamento que tomo?
+      - Preciso de uma nova receita para continuar meu tratamento.
+      - Gostaria de solicitar uma receita para meu medicamento.
+      - Minha receita médica expirou, como faço para obter outra?
+      - Posso solicitar uma receita para meu remédio?
+      - Preciso de uma receita para o meu tratamento.
+      - Como faço para pedir uma nova receita para meu remédio?
+      - Minha receita venceu, preciso de outra.
+      - Gostaria de obter uma receita médica para meu medicamento de uso contínuo.
+      - Preciso de uma receita nova, como proceder?
+      - Posso pedir uma receita médica para meu medicamento atual?
+      - Gostaria de solicitar a receita do meu tratamento.
+      - Preciso de uma receita nova para continuar meu tratamento médico.
+      - Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - Preciso renovar minha receita, como faço?
+      - Minha receita está vencida, posso solicitar uma nova?
+      - Gostaria de pedir uma nova receita para meu tratamento contínuo.
+      - Preciso de uma receita para o medicamento que uso regularmente.
+      - Como posso obter uma nova receita médica?
+      - Preciso de uma receita para meu tratamento médico.
+      - Vocês podem emitir uma receita médica para o meu medicamento?
+      - Gostaria de pedir uma receita para meu tratamento.
+      - Minha receita está vencida, preciso de uma nova.
+      - Como posso solicitar uma receita para o meu medicamento de uso contínuo?
+      - Gostaria de renovar minha receita médica.
+      - Preciso de uma receita médica urgente, como posso solicitar?
+      - Minha receita médica expirou, posso pedir uma nova?
+      - Preciso de uma receita para o meu remédio, como faço para pedir?
+      - Como posso pedir uma nova receita médica?
+      - Preciso de uma nova receita para meu tratamento, vocês podem me ajudar?
+      - Posso renovar minha receita médica?
+      - Preciso de uma receita para o medicamento que estou usando.
+      - Gostaria de solicitar uma nova receita para meu medicamento.
+      - Minha receita venceu, posso pedir outra?
+      - Preciso de uma receita nova para meu remédio de uso contínuo.
+      - Como faço para solicitar uma receita médica?
+      - Gostaria de pedir uma receita para o medicamento que tomo.
+      - Preciso de uma receita médica para meu tratamento.
+      - Minha receita venceu, preciso renovar.
+      - Como posso renovar minha receita médica para o meu remédio?
+      - Preciso de uma receita médica para continuar meu tratamento.
+      - Gostaria de obter uma receita médica nova.
+      - Minha receita venceu, como posso solicitar uma nova?
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir?
+      - Gostaria de solicitar a renovação da minha receita médica.
+      - Como consigo uma nova receita para meu medicamento?
+      - Minha receita está vencida, preciso de uma nova.
+      - Gostaria de pedir uma receita médica nova.
+      - Preciso de uma receita para o meu medicamento de uso contínuo.
+      - Como posso renovar minha receita médica?
+      - Preciso de uma receita nova para meu tratamento contínuo.
+      - Posso pedir uma receita médica para o meu remédio?
+      - Preciso de uma receita médica urgente, como posso conseguir?
+      - Minha receita expirou, como faço para renovar?
+      - Gostaria de pedir uma receita para continuar meu tratamento.
+      - Como faço para solicitar uma receita médica nova?
+      - Preciso de uma nova receita médica para meu medicamento.
+      - Minha receita médica venceu, posso solicitar uma nova?
+      - Preciso de uma receita para meu remédio de uso contínuo.
+      - Gostaria de solicitar a renovação da minha receita.
+      - Como faço para renovar minha receita médica?
+      - Preciso de uma nova receita para meu medicamento.
+      - Gostaria de pedir uma receita médica para meu tratamento.
+      - Minha receita venceu, preciso de uma nova para continuar meu tratamento.
+      - Preciso de uma receita para o medicamento que tomo, como posso pedir?
+      - Como posso obter uma receita nova para meu medicamento?
+      - Preciso renovar minha receita médica, como faço?
+      - Minha receita está vencida, posso pedir uma nova?
+      - Gostaria de obter uma receita médica para continuar meu tratamento.
+      - Preciso de uma receita nova para o meu remédio.
+      - Como faço para pedir uma receita médica para meu tratamento contínuo?
+      - Preciso de uma receita nova para continuar meu tratamento, como solicito?
+      - Minha receita venceu, posso pedir outra para meu medicamento?
+      - Gostaria de solicitar uma receita médica para o meu remédio.
+      - Preciso de uma receita médica para o tratamento que estou fazendo.
+      - Minha receita venceu, preciso de uma nova para o meu remédio.
+      
+  - intent: provide_feedback
+    examples: |
+      - [1](feedback)
+      - [2](feedback)
+      - [3](feedback)
+      - [4](feedback)
+      - [5](feedback)
+      - Minha nota é [1](feedback)
+      - Minha nota é [2](feedback)
+      - Minha nota é [3](feedback)
+      - Minha nota é [4](feedback)
+      - Minha nota é [5](feedback)
+      - Dou nota [1](feedback)
+      - Dou nota [2](feedback)
+      - Dou nota [3](feedback)
+      - Dou nota [4](feedback)
+      - Dou nota [5](feedback)
+      - Avalio como [1](feedback)
+      - Avalio como [2](feedback)
+      - Avalio como [3](feedback)
+      - Avalio como [4](feedback)
+      - Avalio como [5](feedback)
+      - [1](feedback) estrela
+      - [2](feedback) estrelas
+      - [3](feedback) estrelas
+      - [4](feedback) estrelas
+      - [5](feedback) estrelas
+      - Minha avaliação é [1](feedback)
+      - Minha avaliação é [2](feedback)
+      - Minha avaliação é [3](feedback)
+      - Minha avaliação é [4](feedback)
+      - Minha avaliação é [5](feedback)
+      - Nota [1](feedback)
+      - Nota [2](feedback)
+      - Nota [3](feedback)
+      - Nota [4](feedback)
+      - Nota [5](feedback)
+      - Classifico como [1](feedback)
+      - Classifico como [2](feedback)
+      - Classifico como [3](feedback)
+      - Classifico como [4](feedback)
+      - Classifico como [5](feedback)
+      - Dou [1](feedback)
+      - Dou [2](feedback)
+      - Dou [3](feedback)
+      - Dou [4](feedback)
+      - Dou [5](feedback)
+      - Avaliação: [1](feedback)
+      - Avaliação: [2](feedback)
+      - Avaliação: [3](feedback)
+      - Avaliação: [4](feedback)
+      - Avaliação: [5](feedback)
+      - Fico com [1](feedback)
+      - Fico com [2](feedback)
+      - Fico com [3](feedback)
+      - Fico com [4](feedback)
+      - Fico com [5](feedback)
+      - Meu feedback é [1](feedback)
+      - Meu feedback é [2](feedback)
+      - Meu feedback é [3](feedback)
+      - Meu feedback é [4](feedback)
+      - Meu feedback é [5](feedback)
+      - Dou uma nota de [1](feedback)
+      - Dou uma nota de [2](feedback)
+      - Dou uma nota de [3](feedback)
+      - Dou uma nota de [4](feedback)
+      - Dou uma nota de [5](feedback)
+      - Atribuo nota [1](feedback)
+      - Atribuo nota [2](feedback)
+      - Atribuo nota [3](feedback)
+      - Atribuo nota [4](feedback)
+      - Atribuo nota [5](feedback)
+      - [1](feedback) de 5
+      - [2](feedback) de 5
+      - [3](feedback) de 5
+      - [4](feedback) de 5
+      - [5](feedback) de 5
 
+
+      
   - intent: saber_local_de_atendimento
     examples: |
+      - Onde fica a clínica?
+      - Qual o endereço da clínica?
+      - Como faço para chegar na clínica?
+      - Qual o local da clínica?
+      - Onde está localizada a clínica?
+      - Qual é o endereço para a consulta?
+      - A clínica fica onde?
+      - Você pode me passar o endereço da clínica?
+      - Qual o endereço completo da clínica?
+      - Onde devo ir para a consulta?
+      - Pode me informar o endereço da clínica?
+      - Onde fica a clínica para minha consulta?
+      - Qual o endereço da clínica para minha consulta?
+      - Como faço para chegar à clínica?
+      - Preciso saber onde fica a clínica.
+      - Onde está localizada a clínica para meu atendimento?
+      - Qual o endereço da clínica onde farei a consulta?
+      - Como posso encontrar o local da clínica?
+      - Onde é o local da clínica?
+      - Você pode me informar o endereço da clínica?
+      - Onde fica o consultório para a minha consulta?
+      - Qual o endereço do consultório onde farei a consulta?
+      - Como faço para ir até a clínica?
+      - Onde está a clínica localizada?
+      - Pode me passar a localização da clínica?
+      - Onde devo ir para o atendimento?
+      - Preciso saber o endereço da clínica.
+      - Qual a localização da clínica?
+      - Onde posso encontrar a clínica para minha consulta?
+      - Como posso chegar à clínica para minha consulta?
+      - Qual o endereço da clínica onde estou agendado?
+      - Onde fica a clínica onde vou ser atendido?
+      - Pode me dar o endereço completo da clínica?
+      - Onde devo comparecer para minha consulta?
+      - Qual o local exato da clínica?
+      - Você pode me dizer onde fica a clínica?
+      - Como posso localizar a clínica?
+      - Qual a localização exata da clínica?
+      - Onde fica o consultório da clínica?
+      - Pode me enviar o endereço da clínica?
+      - Preciso do endereço da clínica para a consulta.
+      - Onde está localizada a clínica onde marquei a consulta?
+      - Onde devo ir para a consulta na clínica?
+      - Pode me confirmar o endereço da clínica?
+      - Onde fica o consultório para a consulta de amanhã?
+      - Como posso chegar ao consultório da clínica?
+      - Você pode me passar a localização da clínica?
+      - Qual o endereço onde a clínica está situada?
+      - Preciso do endereço da clínica para minha consulta marcada.
       - Em qual local será realizada a consulta?
       - Preciso do endereço para a consulta de amanhã.
       - A consulta será em qual clínica?
@@ -777,6 +1480,55 @@ nlu:
 
   - intent: negacao
     examples: |
+      - Não, obrigado.
+      - Não, não quero agendar.
+      - Não, por enquanto está tudo bem.
+      - Não, não preciso marcar agora.
+      - Não, não desejo remarcar a consulta.
+      - Não, não preciso cancelar a consulta.
+      - Não, já está tudo certo, obrigado.
+      - Não, não tenho interesse em agendar.
+      - Não quero remarcar.
+      - Não preciso cancelar, obrigado.
+      - Não desejo agendar no momento.
+      - Não, não tenho cadastro ainda.
+      - Não, prefiro não marcar agora.
+      - Não, não quero cancelar a consulta.
+      - Não quero marcar uma consulta agora.
+      - Não, obrigado, vou deixar para depois.
+      - Não, não preciso agendar.
+      - Não quero remarcar a consulta.
+      - Não, já resolvi, obrigado.
+      - Não, não quero cancelar.
+      - Não, está tudo certo com a consulta.
+      - Não desejo marcar uma consulta, obrigado.
+      - Não, não tenho interesse em cancelar.
+      - Não, obrigado, não tenho cadastro ainda.
+      - Não preciso marcar agora.
+      - Não, prefiro não cancelar.
+      - Não, obrigado, não preciso remarcar.
+      - Não, já tenho tudo organizado.
+      - Não quero fazer nada disso agora.
+      - Nao, estou bem com o que já está agendado.
+      - Nao desejo cancelar a consulta.
+      - Nao, não quero marcar nenhuma consulta no momento.
+      - Nao, obrigado, já estou cadastrado.
+      - Nao, não tenho intenção de cancelar.
+      - Nao preciso agendar uma nova consulta.
+      - Nao, vou manter a data da consulta.
+      - Nao, obrigado, vou deixar como está.
+      - Nao tenho cadastro ainda, obrigado.
+      - Nao, não quero remarcar a data da consulta.
+      - Nao preciso remarcar, obrigado.
+      - Nao, não preciso de ajuda com isso agora.
+      - Nao quero agendar uma consulta no momento.
+      - Nao, prefiro não mexer no agendamento.
+      - Nao, obrigado, está tudo certo.
+      - Nao, não quero fazer alterações.
+      - Nao desejo marcar uma consulta agora.
+      - Nao preciso fazer isso agora.
+      - Nao, obrigado, vou pensar mais um pouco.
+      - Nao, já estou organizado com a consulta.
       - nao obrigado
       - nao somente isso obrigado
       - somente isso obrigado
@@ -810,31 +1562,6 @@ nlu:
       - não
       - nao sou
 
-  - intent: resultado_de_exames
-    examples: |
-      - Quando os resultados dos meus exames estarão prontos?
-      - Gostaria de saber se já posso retirar o resultado de meus exames.
-      - Em quanto tempo ficam prontos os resultados dos exames?
-      - Como posso verificar se meu resultado de exame já está disponível?
-      - Posso acessar o resultado do meu exame online?
-      - Há alguma atualização sobre os resultados do meu teste laboratorial?
-      - Quando posso esperar receber os resultados do exame que fiz?
-      - É possível obter os resultados do meu exame por email?
-      - Quanto tempo geralmente leva para os resultados serem liberados?
-      - Poderia me informar se os resultados dos exames de sangue estão prontos?
-      - Onde posso retirar os resultados dos meus exames?
-      - Voce sabe dizer se os resultados do meu raio-x já estão disponíveis?
-      - Como são entregues os resultados dos exames de imagem?
-      - Posso buscar os resultados dos exames na clínica?
-      - Quais são os procedimentos para retirar os resultados dos meus exames?
-
   - intent: duvida
     examples: |
-      - quero tirar uma duvida
-      - duvida
-      - dúvida
-      - tenho uma duvida
-      - tenho uma dúvida 
-      - quero tirar algumas duvidas
-      - tirar dúvida
       

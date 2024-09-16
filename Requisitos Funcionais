@@ -44,3 +44,5 @@ RF26: O chatbot deve ser capaz de aprender com interações passadas para person
 
 
 tensorboard --logdir ./tensorboard
+
+

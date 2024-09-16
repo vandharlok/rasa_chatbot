@@ -1,0 +1,106 @@
+[
+  {
+    "text": "Gostaria de mover minha consulta marcada",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.998927891254425
+    }
+  },
+  {
+    "text": "Sim, por favor",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.7186786532402039
+    }
+  },
+  {
+    "text": "Pode fornecer os preços para as consultas disponíveis?",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.9876800775527954
+    }
+  },
+  {
+    "text": "Absolutamente",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.4579964578151703
+    }
+  },
+  {
+    "text": "Quero saber quais são os procedimentos disponíveis.",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "solicitar_receita",
+      "confidence": 0.23932577669620514
+    }
+  },
+  {
+    "text": "Preciso renovar minha receita para medicação contínua.",
+    "intent": "solicitar_receita",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.999937891960144
+    }
+  },
+  {
+    "text": "Preciso canctlar meu agendamento.",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.9999940395355225
+    }
+  },
+  {
+    "text": "É possível canceiar meu horário?",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.5280643701553345
+    }
+  },
+  {
+    "text": "pix",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9999558925628662
+    }
+  },
+  {
+    "text": "Jamais",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "exatamente",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.9679274559020996
+    }
+  },
+  {
+    "text": "Como funciona a clínica?",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9830448627471924
+    }
+  },
+  {
+    "text": "preco",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.999981164932251
+    }
+  }
+]

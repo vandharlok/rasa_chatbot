@@ -1,0 +1,152 @@
+{
+  "iniciar_cadastro": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "resultado_de_exames": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "metodo_de_pagamento": {
+    "precision": 1.0,
+    "recall": 0.9908256880733946,
+    "f1-score": 0.9953917050691244,
+    "support": 109,
+    "confused_with": {
+      "concordancia": 1
+    }
+  },
+  "perguntar_dias_livres": {
+    "precision": 0.9761904761904762,
+    "recall": 1.0,
+    "f1-score": 0.9879518072289156,
+    "support": 41,
+    "confused_with": {}
+  },
+  "saber_local_de_atendimento": {
+    "precision": 0.9791666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9894736842105264,
+    "support": 47,
+    "confused_with": {}
+  },
+  "remarcar_consulta": {
+    "precision": 0.984,
+    "recall": 0.9919354838709677,
+    "f1-score": 0.9879518072289156,
+    "support": 124,
+    "confused_with": {
+      "cancelar_consulta": 1
+    }
+  },
+  "preco_consulta": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "f1-score": 0.9583333333333334,
+    "support": 25,
+    "confused_with": {
+      "perguntar_dias_livres": 1,
+      "concordancia": 1
+    }
+  },
+  "solicitar_receita": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "remarcar_consulta": 1
+    }
+  },
+  "cancelar_consulta": {
+    "precision": 0.9882352941176471,
+    "recall": 0.9767441860465116,
+    "f1-score": 0.9824561403508771,
+    "support": 86,
+    "confused_with": {
+      "remarcar_consulta": 1,
+      "marcar_consulta": 1
+    }
+  },
+  "marcar_consulta": {
+    "precision": 0.9722222222222222,
+    "recall": 1.0,
+    "f1-score": 0.9859154929577464,
+    "support": 35,
+    "confused_with": {}
+  },
+  "informacoes_sobre_servico": {
+    "precision": 1.0,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.972972972972973,
+    "support": 38,
+    "confused_with": {
+      "solicitar_receita": 1,
+      "saber_local_de_atendimento": 1
+    }
+  },
+  "concordancia": {
+    "precision": 0.9032258064516129,
+    "recall": 0.9032258064516129,
+    "f1-score": 0.9032258064516129,
+    "support": 31,
+    "confused_with": {
+      "negacao": 3
+    }
+  },
+  "negacao": {
+    "precision": 0.8928571428571429,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9259259259259259,
+    "support": 26,
+    "confused_with": {
+      "concordancia": 1
+    }
+  },
+  "verificar_plano_de_saude": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "saudações": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "solicitar_atestado": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "accuracy": 0.9810495626822158,
+  "macro avg": {
+    "precision": 0.9768269338649438,
+    "recall": 0.9765607112729321,
+    "f1-score": 0.9764332505664552,
+    "support": 686
+  },
+  "weighted avg": {
+    "precision": 0.9814736758649037,
+    "recall": 0.9810495626822158,
+    "f1-score": 0.9810767607977804,
+    "support": 686
+  },
+  "micro avg": {
+    "precision": 0.9810495626822158,
+    "recall": 0.9810495626822158,
+    "f1-score": 0.9810495626822158,
+    "support": 686
+  }
+}

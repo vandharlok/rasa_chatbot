@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y build-essential
 COPY requirements.txt /app/requirements.txt
 WORKDIR /app
 RUN pip install -r requirements.txt
-RUN pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_md-3.7.0/pt_core_news_md-3.7.0.tar.gz
+RUN pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0.tar.gz
 
 COPY . /app
 

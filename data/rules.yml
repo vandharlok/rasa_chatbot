@@ -9,6 +9,13 @@ rules:
   - intent: nlu_fallback
   - action: action_custom_fallback
 
+
+
+- rule: falar com atendente
+  steps:
+  - intent: transferir_atendente
+  - action: utter_transferir_atendente
+
 - rule: saudacoes
   conversation_start: true
   steps:
@@ -36,16 +43,20 @@ rules:
 
 ##arumar aki, ta salvando 2x
 
-- rule: finaliza o forms e chama a action salvar user (100% correto)
+- rule: Finaliza cadastro e inicia agendamento (sucesso)
   condition:
   - active_loop: cadastro_form
   steps:
   - action: cadastro_form
-  - active_loop: null 
+  - active_loop: null
   - action: action_salvar_cadastro
   - slot_was_set:
-    - login_sucess: true 
+      - login_sucess: true
   - action: utter_success_sign
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+    - form_completed: true
   wait_for_user_input: false
 
 
@@ -139,7 +150,7 @@ rules:
   wait_for_user_input: false
 
 
-- rule: Completar modify_form e confirmar
+- rule: Completar event_form e confirmar
   condition:
   - active_loop: event_form
   - slot_was_set:
@@ -190,7 +201,7 @@ rules:
   - intent: metodo_de_pagamento
   - action: utter_metodo_de_pagamento
 
-- rule: duvidas
+- rule: duvida
   steps:
   - intent: duvida
   - action: utter_duvida

@@ -34,10 +34,9 @@ intents:
   - negacao
   - perguntar_dias_livres
   - metodo_de_pagamento
-  - duvida
   - provide_feedback
-  - iniciar_cadastro
-
+  - transferir_atendente
+  - duvida
 
 slots:
   feedback:
@@ -185,14 +184,13 @@ forms:
 
 responses:
   utter_metodo_de_pagamento:
-    - text: "Aceitamos diversas formas de pagamento, incluindo Pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros"
-  utter_inicia_cadastro:
-    - text: oi
+    - text: "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros"
+
   utter_ask_delete_event_form_cpf:
     - text: Você poderia me passar seu CPF para que possamos continuar?
 
   utter_ask_modify_event_form_cpf:
-    - text: Só para confirmar, você poderia digitar seu CPF novamente? Quero garantir que temos tudo certinho aqui
+    - text: Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema
  
 
   utter_ask_modify_event_form_time:
@@ -213,7 +211,7 @@ responses:
     - text: Tudo certo! Sua consulta foi remarcada. Nos vemos no novo dia!
     
   utter_ask_event_form_cpf:
-    - text: Poderia me passar seu CPF? Precisamos dele para te identificar no nosso sistema
+    - text: Poderia me passar seu CPF para te identificar em nosso sistema?
 
   utter_confirm_appointment:
     - text: Deseja agendar?
@@ -222,7 +220,7 @@ responses:
     - text: Desculpe, não entendi o que deseja
 
   utter_ask_event_form_time:
-    - text:  Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico
+    - text:  Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis
 
   utter_show_options:
     - text: No que posso te ajudar? 🤗
@@ -256,16 +254,16 @@ responses:
         - title: "Formas de pagamento"
           payload: "/metodo_de_pagamento" 
         - title: "Falar com atendente"
-          payload: "/informacoes_sobre_servico" 
+          payload: "/transferir_atendente" 
 
   utter_ask_cadastro_form_cpf:
     - text: Prazer {nome}, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema
 
   utter_informacoes_sobre_servico:
-    - text: "Aqui na clínica, temos um monte de coisas boas para você: desde terapia individual até sessões com psiquiatra, psicólogo, terapias comportamentais e até psicoterapia online"
+    - text: "Aqui na clínica, temos diversos tipos de atendimento: desde terapia individual até sessões com psiquiatra, psicólogo, terapias comportamentais e até psicoterapia online"
 
-
-
+  utter_transferir_atendente:
+    - text: Estamos te transferindo para nosso atendente, aguarde um momento 😊
 
   utter_ask_cadastro_form_email:
     - text: Agora informe seu email
@@ -280,11 +278,12 @@ responses:
     - text: Muito obrigado, tenha um ótimo dia!
 
   utter_saudações:
-    - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
-      channel: "socketio"
     - text: "Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade"
+      channel: "socketio"
+      
+    - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
   utter_preco_consulta:
-    - text: Nossas consultas custam R$450,00
+    - text: O preço de nossas consultas é de R$480,00
 
   utter_marcar_consulta: 
     - text: Deseja marcar uma consulta conosco?

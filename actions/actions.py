@@ -1,9 +1,9 @@
-from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction,SlotSet,UserUtteranceReverted, UserUttered
+from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction,SlotSet,UserUtteranceReverted
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
-from typing import Dict, Text, Any, List, Tuple
+from typing import Dict, Text, Any, List
 from rasa_sdk import Action, Tracker
-from datetime import datetime, timedelta
+from datetime import timedelta
 import requests
 import logging 
 import dateparser
@@ -12,7 +12,6 @@ from rasa_sdk.types import DomainDict
 import re
 from helpers.utils import validate_cpf_bd, validate_cpf_value,validate_time_def,generate_random_string,find_next_free_slots,get_event_id_from_cpf,modify_event
 import openai
-from rasa.core.channels.channel import CollectingOutputChannel
 from typing import Text
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -107,22 +106,32 @@ class ActionStoreFeedback(Action):
     def name(self) -> Text:
         return "action_store_feedback"
 
-    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        feedback = tracker.latest_message.get('text')
-        try:
-            feedback = float(feedback)
-        except ValueError:
-            dispatcher.utter_message(text="Desculpe, eu não entendi. Por favor, avalie nossa conversa de 1 a 5.")
-            return [SlotSet("feedback", None), FollowupAction("action_listen")]
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # Retrieve the 'feedback' entity directly from the latest message
+        feedback_entity = next(tracker.get_latest_entity_values('feedback'), None)
         
+        if feedback_entity is None:
+            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, avalie nossa conversa com uma nota de 1 a 5.")
+            return []
+
+        try:
+            feedback = float(feedback_entity)
+        except ValueError:
+            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, use um número de 1 a 5 para avaliar.")
+            return []
+
         if 1 <= feedback <= 5:
             dispatcher.utter_message(text="Muito obrigado pelo seu feedback!")
-            logger.info("Feedback provided")
+            # If you have a logger, you can log the feedback
+            # logger.info(f"Feedback provided: {feedback}")
             return [SlotSet("feedback", feedback)]
         else:
-            dispatcher.utter_message(text="Desculpe, eu não entendi. Por favor, avalie nossa conversa de 1 a 5.")
-            return [SlotSet("feedback", None), FollowupAction("action_listen")]
-
+            dispatcher.utter_message(text="A nota deve ser entre 1 e 5. Por favor, tente novamente.")
+            return []
 
 #Custom fallback, esse fallback faz com que se o fallback for gerado 3 vezes, chama o show_options e reseta a conversa
 class ActionCustomFallback(Action):
@@ -363,6 +372,30 @@ class ValidateCPFActionDelete(FormValidationAction):
     
 
 
+class ValidateCPFActionDelete(FormValidationAction):
+    def name(self):
+        return "validate_modify_event_form"
+
+    def validate_cpf(
+        self, 
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,     
+        ) -> Dict[Text,Any]:
+        return validate_cpf_bd(slot_value,dispatcher)
+    
+    def validate_time(self, 
+                      slot_value: Any,
+                      dispatcher: CollectingDispatcher,
+                      tracker: Tracker,
+                      domain: Dict) -> Dict[Text, Any]:
+        return validate_time_def(slot_value, dispatcher)
+  
+
+
+    
+
 
 #Valida o cpf do usuario, e o horario para marcar a consulta
 
@@ -418,9 +451,9 @@ class ValidateAndAddEvent(Action):
         new_end_time_str = new_end_time.isoformat()
 
         try:
-            url = "http://localhost:3010/evento/cadastrar"
+            url = "http://localhost:3010/agendamento/cadastrar"
             data = {
-                "codEvento": random_string,
+                "codAgendamento": random_string,
                 "cpfUser": cpf_user,
                 "nomeUser": "vands",
                 "dataInicial": start_time,
@@ -455,7 +488,7 @@ class ActionFindFreeSlots(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        api_url = "http://localhost:3010/eventos"
+        api_url = "http://localhost:3010/agendamentos"
         free_slots = find_next_free_slots(api_url)
 
         if free_slots:
@@ -478,12 +511,19 @@ class ModifyGoogleCalendarEvent(Action):
         cpf_user = tracker.get_slot('cpf')
 
         event_id, error_message = get_event_id_from_cpf(cpf_user)
+        print(event_id)
         if not event_id:
             dispatcher.utter_message(text=error_message)
             return []
 
         try:
-            target_date = dateparser.parse(new_start_time_str, settings={'TIMEZONE': 'America/Sao_Paulo', 'RETURN_AS_TIMEZONE_AWARE': True})
+            target_date = dateparser.parse(
+                new_start_time_str,
+                settings={
+                    'TIMEZONE': 'America/Sao_Paulo',
+                    'RETURN_AS_TIMEZONE_AWARE': True
+                }
+            )
             if not target_date:
                 dispatcher.utter_message(text="Formato de data e hora incorreto. Por favor, tente novamente.")
                 return [SlotSet("time", None), FollowupAction("action_listen")]
@@ -494,17 +534,32 @@ class ModifyGoogleCalendarEvent(Action):
 
             if modify_event(event_id, new_start_time_str, new_end_time_str):
                 dispatcher.utter_message(text="Mudança de consulta concluída com sucesso!")
-                return[SlotSet("form_completed", False),SlotSet("event_modify_completed", True), SlotSet("cpf", None),SlotSet("event_id",None),SlotSet("time",None)]
+                return [
+                    SlotSet("form_completed", False),
+                    SlotSet("event_modify_completed", True),
+                    SlotSet("cpf", None),
+                    SlotSet("event_id", None),
+                    SlotSet("time", None)
+                ]
             else:
                 dispatcher.utter_message(text="Não conseguimos mudar sua consulta de data!")
-                return[SlotSet("change_appoint",None),SlotSet("event_modify_completed", False), SlotSet("cpf", None),SlotSet("event_id",None),SlotSet("time",None)]
+                return [
+                    SlotSet("event_modify_completed", False),
+                    SlotSet("cpf", None),
+                    SlotSet("event_id", None),
+                    SlotSet("time", None)
+                ]
 
         except ValueError as e:
             dispatcher.utter_message(text=f"Erro ao processar as datas: {str(e)}")
             logger.error(f"Error processing dates: {e}")
-            
-        return [SlotSet("cpf", None), SlotSet("event_id", None),SlotSet("time",None)]
-    
+
+        return [
+            SlotSet("cpf", None),
+            SlotSet("event_id", None),
+            SlotSet("time", None)
+        ]
+
     
 #Action responsavel por excluir o evento(consulta) 
 class ActionDeleteGoogleCalendarEvent(Action):
@@ -518,13 +573,13 @@ class ActionDeleteGoogleCalendarEvent(Action):
         
         cpf_user = tracker.get_slot('cpf')
         event_id, error_message = get_event_id_from_cpf(cpf_user)
-
+        
         if not event_id:
             dispatcher.utter_message(text=error_message)
             return [SlotSet("event_delete_completed", False), SlotSet("cpf", None)]
 
         
-        url_delete = f"http://localhost:3010/evento/deletar/{event_id}"
+        url_delete = f"http://localhost:3010/agendamento/deletar/{event_id}"
         try:
             response_delete = requests.delete(url_delete)
             if 200 <= response_delete.status_code < 300:
