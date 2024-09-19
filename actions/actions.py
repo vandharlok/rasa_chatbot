@@ -1,4 +1,4 @@
-from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction,SlotSet,UserUtteranceReverted
+from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction,SlotSet,UserUtteranceReverted,ConversationPaused
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
 from typing import Dict, Text, Any, List
@@ -21,6 +21,25 @@ logger = logging.getLogger(__name__)
 ## action
 
 
+class ActionHandoverToHuman(Action):
+    def name(self) -> Text:
+        return "action_transferir_atendente"
+
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        # Send a message to the user
+        dispatcher.utter_message(text="Estamos te transferindo para nosso atendente, aguarde um momento... 😊")
+
+        # Optionally, notify the frontend or backend system
+        # For example, you might publish a message to a message queue,
+        # make an API call, or set a flag in a database.
+
+        # Return the ConversationPaused event
+        return [ConversationPaused()]
 
 # responsavel por dar um fallback, acionado pelo core fallback e configurado no config.yml, pode-se setar a % confianca para dar trigger no fallback, atualmente 0.7
 class ActionDefaultFallback(Action):
@@ -76,29 +95,6 @@ class ActionResetAll(Action):
 #            return []
 
 
-
-# class ActionDefaultFallback(Action):
-#     def name(self) -> Text:
-#        return "action_default_fallback"
-# 
-#     def run(
-#        self,
-#         dispatcher: CollectingDispatcher,
-#        tracker: Tracker,
-#         domain: Dict[Text, Any],
-#     ) -> List[Dict[Text, Any]]:
-# 
-#         # tell the user they are being passed to a customer service agent
-#        dispatcher.utter_message(text="I am passing you to a human...")
-# 
-#         # assume there's a function to call customer service
-#         # pass the tracker so that the agent has a record of the conversation between the user
-#         # and the bot for context
-#         call_customer_service(tracker)
-# 
-#        # pause the tracker so that the bot stops responding to user input
-#        return [ConversationPaused(), UserUtteranceReverted()]
-#
 
 
 #Guarda o feedback gerado pelo user

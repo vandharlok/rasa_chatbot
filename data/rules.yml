@@ -14,7 +14,7 @@ rules:
 - rule: falar com atendente
   steps:
   - intent: transferir_atendente
-  - action: utter_transferir_atendente
+  - action: action_transferir_atendente
 
 - rule: saudacoes
   conversation_start: true

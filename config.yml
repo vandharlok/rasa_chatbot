@@ -5,45 +5,43 @@ recipe: default.v1
 # https://rasa.com/docs/rasa/nlu/components/
 language: pt
 
-#review this pipeline
+
 pipeline:
-- name: SpacyNLP
-  model: pt_core_news_sm
-  case_sensitive: False
-- name: SpacyTokenizer
-  case_sensitive: False
-- name: SpacyFeaturizer
+#review this pipeline
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+  analyzer: word
 - name: CountVectorsFeaturizer
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
-  epochs: 30
-  learning_rate: 0.0006
-  constrain_similarities: True
-  batch_size: 16  #quantidade de exemplos que sera processado de uma so vez em cada iteracao
+  epochs: 80
+  learning_rate: 0.00005  # Increased learning rate
+  regularization_constant: 0.0005
+  batch_size: 64
   early_stopping_patience: 5
   evaluate_on_number_of_examples: 200
-  evaluate_every_number_of_epochs: 3
+  evaluate_every_number_of_epochs: 5
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
 - name: FallbackClassifier
-  threshold: 0.9
+  threshold: 0.7
   ambiguity_threshold: 0.2
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
   url: http://localhost:8000
-  dimensions: ["time", "PhoneNumber"]
-  locale: pt_BR
+  dimensions: ["time", "phone-number"]
+  locale: "pt_BR"
   timezone: "America/Sao_Paulo"
-
-
 
 policies:
 - name: TEDPolicy
-  max_history: 12
+  max_history: 8
   epochs: 40
-  batch_size: 8
+  batch_size: 
+  - 8
+  - 16
   early_stopping_patience: 10
   learning_rate: 0.0007
   regularization_constant: 0.0011 

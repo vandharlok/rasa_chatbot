@@ -732,7 +732,7 @@ nlu:
 
   - intent: marcar_consulta
     examples: |
-      - marcar consulta
+      - marcar consulta com o psicologo
       - marcar uma consulta
       - como agendo uma consulta
       - como agendo um horario com voces

@@ -16,10 +16,13 @@ actions:
   - validate_cadastro_form
   - action_reset_all
   - action_store_feedback
+  - action_transferir_atendente
 
 entities:
   - time
   - feedback
+  - especialista
+
 
 intents:
   - saudações  
@@ -261,9 +264,6 @@ responses:
 
   utter_informacoes_sobre_servico:
     - text: "Aqui na clínica, temos diversos tipos de atendimento: desde terapia individual até sessões com psiquiatra, psicólogo, terapias comportamentais e até psicoterapia online"
-
-  utter_transferir_atendente:
-    - text: Estamos te transferindo para nosso atendente, aguarde um momento 😊
 
   utter_ask_cadastro_form_email:
     - text: Agora informe seu email

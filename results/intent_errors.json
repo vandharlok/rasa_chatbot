@@ -1,74 +1,274 @@
 [
   {
-    "text": "Gostaria de mover minha consulta marcada",
-    "intent": "remarcar_consulta",
+    "text": "Como posso desfazer a reserva da minha consulta",
+    "intent": "cancelar_consulta",
     "intent_prediction": {
-      "name": "cancelar_consulta",
-      "confidence": 0.998927891254425
+      "name": "remarcar_consulta",
+      "confidence": 0.5788775086402893
     }
   },
   {
-    "text": "Sim, por favor",
+    "text": "Ola",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.3957245945930481
+    }
+  },
+  {
+    "text": "Como funcionam os pagamentos para serviços",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9981826543807983
+    }
+  },
+  {
+    "text": "isso mesmo",
     "intent": "concordancia",
     "intent_prediction": {
       "name": "negacao",
-      "confidence": 0.7186786532402039
+      "confidence": 0.6650020480155945
     }
   },
   {
-    "text": "Pode fornecer os preços para as consultas disponíveis?",
+    "text": "Sim, quero cancelar a consulta agendada.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.571465253829956
+    }
+  },
+  {
+    "text": "Qual o processo para agendar uma consulta com vocês?",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.5301071405410767
+    }
+  },
+  {
+    "text": "O que a clínica disponibiliza em termos de consultas?",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.6316987872123718
+    }
+  },
+  {
+    "text": "Gostaria de saber o preço de uma consulta?",
     "intent": "preco_consulta",
     "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.3369542360305786
+    }
+  },
+  {
+    "text": "Vocês podem me informar o custo de uma consulta médica?",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.28231295943260193
+    }
+  },
+  {
+    "text": "Vocês poderiam informar o custo de uma consulta de rotina?",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.5821566581726074
+    }
+  },
+  {
+    "text": "remarcar uma consulta",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.30655813217163086
+    }
+  },
+  {
+    "text": "isso",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.5223650336265564
+    }
+  },
+  {
+    "text": "sou",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.3350343108177185
+    }
+  },
+  {
+    "text": "Tem algum horário disponível para marcar uma consulta?",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
       "name": "perguntar_dias_livres",
-      "confidence": 0.9876800775527954
+      "confidence": 0.6498342752456665
+    }
+  },
+  {
+    "text": "Qual é o centro de atendimento?",
+    "intent": "saber_local_de_atendimento",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 0.23920829594135284
+    }
+  },
+  {
+    "text": "Preciso tirar minha consulta",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.558089017868042
+    }
+  },
+  {
+    "text": "necessito cancelar todas as minhas consultas agendadas",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.5029648542404175
+    }
+  },
+  {
+    "text": "Concordo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.734613299369812
+    }
+  },
+  {
+    "text": "Sim, quero marcar uma consulta.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.5315774083137512
+    }
+  },
+  {
+    "text": "Preciso agendar uma consulta o mais rápido possível.",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.8641032576560974
+    }
+  },
+  {
+    "text": "Qual medico psiquiatra tem",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.7157576680183411
+    }
+  },
+  {
+    "text": "e o preço",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.3337726593017578
+    }
+  },
+  {
+    "text": "Meu plano de saude é compatível com os serviços que voces oferecem?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.5877276062965393
+    }
+  },
+  {
+    "text": "Nao desejo cancelar a consulta.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.894098162651062
+    }
+  },
+  {
+    "text": "Nao preciso agendar uma nova consulta.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.7637284994125366
+    }
+  },
+  {
+    "text": "Nao desejo marcar uma consulta agora.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.3490867614746094
+    }
+  },
+  {
+    "text": "Necessito caecelar todas as minhas consulsas agendadas.",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.9835414290428162
+    }
+  },
+  {
+    "text": "Gostaria de saber quando posso agendar uma consulta.",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.8180099129676819
+    }
+  },
+  {
+    "text": "Quando há disponibilidade para marcar uma consulta médica?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.5564282536506653
+    }
+  },
+  {
+    "text": "Quais horários posso escolher para marcar uma consulta?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.4664665460586548
+    }
+  },
+  {
+    "text": "exatamente",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 0.5435146689414978
     }
   },
   {
     "text": "Absolutamente",
     "intent": "concordancia",
     "intent_prediction": {
-      "name": "negacao",
-      "confidence": 0.4579964578151703
+      "name": "metodo_de_pagamento",
+      "confidence": 0.5264797210693359
     }
   },
   {
-    "text": "Quero saber quais são os procedimentos disponíveis.",
-    "intent": "informacoes_sobre_servico",
+    "text": "É possível marcar um atendimento?",
+    "intent": "marcar_consulta",
     "intent_prediction": {
-      "name": "solicitar_receita",
-      "confidence": 0.23932577669620514
+      "name": "cancelar_consulta",
+      "confidence": 0.3212687075138092
     }
   },
   {
-    "text": "Preciso renovar minha receita para medicação contínua.",
-    "intent": "solicitar_receita",
+    "text": "Quero saber como posso agendar uma consulta para a próxima semana.",
+    "intent": "marcar_consulta",
     "intent_prediction": {
-      "name": "remarcar_consulta",
-      "confidence": 0.999937891960144
-    }
-  },
-  {
-    "text": "Preciso canctlar meu agendamento.",
-    "intent": "cancelar_consulta",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.9999940395355225
-    }
-  },
-  {
-    "text": "É possível canceiar meu horário?",
-    "intent": "cancelar_consulta",
-    "intent_prediction": {
-      "name": "remarcar_consulta",
-      "confidence": 0.5280643701553345
-    }
-  },
-  {
-    "text": "pix",
-    "intent": "metodo_de_pagamento",
-    "intent_prediction": {
-      "name": "concordancia",
-      "confidence": 0.9999558925628662
+      "name": "perguntar_dias_livres",
+      "confidence": 0.9276494979858398
     }
   },
   {
@@ -76,31 +276,63 @@
     "intent": "negacao",
     "intent_prediction": {
       "name": "concordancia",
-      "confidence": 1.0
+      "confidence": 0.429212361574173
     }
   },
   {
-    "text": "exatamente",
+    "text": "Quais são as opções de datas disponíveis para consulta?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 0.5560078024864197
+    }
+  },
+  {
+    "text": "Tem algum horário de consulta para essa semana?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.6679370999336243
+    }
+  },
+  {
+    "text": "Ótimo",
     "intent": "concordancia",
     "intent_prediction": {
-      "name": "negacao",
-      "confidence": 0.9679274559020996
+      "name": "saudações",
+      "confidence": 0.30111145973205566
     }
   },
   {
-    "text": "Como funciona a clínica?",
-    "intent": "informacoes_sobre_servico",
+    "text": "Melhor ainda",
+    "intent": "concordancia",
     "intent_prediction": {
-      "name": "saber_local_de_atendimento",
-      "confidence": 0.9830448627471924
+      "name": "marcar_consulta",
+      "confidence": 0.6205297708511353
     }
   },
   {
-    "text": "preco",
+    "text": "Sim, pode remarcar a data da consulta.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.6808207035064697
+    }
+  },
+  {
+    "text": "Pode fornecer os preços para as consultas disponíveis?",
     "intent": "preco_consulta",
     "intent_prediction": {
-      "name": "concordancia",
-      "confidence": 0.999981164932251
+      "name": "perguntar_dias_livres",
+      "confidence": 0.6296471953392029
+    }
+  },
+  {
+    "text": "Com quais convenios médicos voces tem parceria?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.7004708051681519
     }
   }
 ]
