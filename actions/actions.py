@@ -5,8 +5,10 @@ from typing import Dict, Text, Any, List
 from rasa_sdk import Action, Tracker
 from datetime import timedelta
 import requests
+from googlesearch import search
 import logging 
 import dateparser
+from rasa_sdk.events import Form, EventType
 from rasa_sdk.forms import FormValidationAction
 from rasa_sdk.types import DomainDict
 import re
@@ -18,7 +20,72 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
-## action
+class ActionOutOfScope(Action):
+    def name(self) -> Text:
+        return 'action_out_of_scope'
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        latest = tracker.latest_message
+        query = latest.get('text')  # Captura a consulta do usuário
+
+        # Mensagem em Português
+        text = "Desculpe, eu não entendi. Você quer que eu pesquise isso no Google?"
+
+        dispatcher.utter_message(text=text)
+        return [SlotSet('out_of_scope', query)]
+
+
+class ActionHandleAffirm(Action):
+    def name(self) -> Text:
+        return 'action_handle_affirm'
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        query = tracker.get_slot('out_of_scope')
+        print(f"Consulta para pesquisa: {query}")  # Log para depuração
+
+        if query:
+            try:
+                text = "Aqui estão os principais resultados:"
+                dispatcher.utter_message(text=text)
+
+                urls = list(search(
+                    term=query,           # Usando 'term' em vez de 'query'
+                    num_results=1,        # Usando 'num_results' em vez de 'num'
+                    lang='pt',            # Idioma em Português
+                    sleep_interval=1      # Usando 'sleep_interval' em vez de 'pause'
+                ))
+
+                if urls:
+                    for url in urls:
+                        dispatcher.utter_message(text=url)
+                else:
+                    dispatcher.utter_message(text="Desculpe, não encontrei resultados para sua pesquisa.")
+
+            except Exception as e:
+                dispatcher.utter_message(text=f"Desculpe, não consegui completar a pesquisa.\n{str(e)}")
+                print(f'> ActionHandleAffirm [ERROR] {str(e)}')
+
+            return [SlotSet('out_of_scope', None)]
+        else:
+            dispatcher.utter_message(text="Desculpe, não tenho uma consulta para pesquisar.")
+            return []
+
+class ActionHandleDeny(Action):
+    def name(self) -> Text:
+        return 'action_handle_deny'
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Tudo bem.")
+        return [SlotSet('out_of_scope', None)]
 
 
 class ActionHandoverToHuman(Action):
@@ -53,6 +120,26 @@ class ActionDefaultFallback(Action):
         logger.info("fallback triggered ")
         # Reverter a última fala do usuário
         return [UserUtteranceReverted()]
+    
+    
+    
+           
+class ActionProvidePriceAndResetSlot(Action):
+
+    def name(self):
+        return "action_provide_price_and_reset_slot"
+
+    def run(self, dispatcher, tracker, domain):
+        especialista = tracker.get_slot("especialista")
+        if especialista == "psicólogo":
+            message = "O preço da consulta com o psicólogo é de R$110,00"
+        elif especialista == "psiquiatra":
+            message = "O preço da consulta com o psiquiatra é de R$480,00"
+        else:
+            message = ("O preço de nossas consultas variam de especialistas, "
+                       "as consultas com os psicológos são R$110,00 e psiquiatras R$480,00")
+        dispatcher.utter_message(text=message)
+        return [SlotSet("especialista", None)]
 
 # Reseta a conversa, zerando todos slots e atencoes das historias
 class ActionResetAll(Action):

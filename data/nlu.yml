@@ -2,6 +2,197 @@ version: "3.1"
 
 nlu:
 
+  - intent: tchau
+    examples: |
+      - Tchau
+      - Até logo
+      - Até mais
+      - Adeus
+      - Falou
+      - Valeu, tchau
+      - Até a próxima
+      - Nos vemos
+      - Falou, até mais
+      - Foi bom conversar com você, tchau
+      - Até a próxima vez
+      - Tenha um bom dia, até mais
+      - Até mais tarde
+      - Espero falar com você de novo, tchau
+      - Tchau
+      - Até logo
+      - Até mais
+      - Adeus
+      - Falou
+      - Até breve
+      - Até a próxima oportunidade
+      - Até a próxima conversa
+      - Até a próxima interação
+      - Até mais ver
+      - Foi um prazer ajudar! Tchau
+      - Obrigada pela conversa! Até mais
+      - Fico à disposição! Até logo
+      - Espero ter ajudado! Tchau
+      - Tenha uma ótima semana! Até mais
+      - Encerrando nossa conversa. Tchau
+      - Tudo certo, tchau
+      - Se precisar, estarei aqui. Tchau
+      - Conversa finalizada. Até mais
+      - Até a próxima consulta
+      - Até mais, fique bem
+      - Tchau, cuide-se
+      - Até logo, tenha um bom dia
+      - Falou, tudo de bom
+      - Até mais, qualquer coisa estou aqui
+      - Tchau! Posso te ajudar com mais alguma coisa
+      - Até logo! Não hesite em voltar
+      - Adeus! Volte sempre que precisar
+      - Falou! Foi um prazer ajudar
+      - Tchau, até mais
+      - Até mais, valeu
+      - Falou, até logo
+      - Tchau, nos falamos
+      - Até já, fique bem
+      - Até mais! Que seu dia seja ótimo
+      - Tchau! Desejo tudo de bom para você
+      - Até logo! Tenha um dia maravilhoso
+      - Até mais! Fico feliz por ter ajudado.
+      - Adeus! Que você tenha muito sucesso.
+      - Nos vemos na próxima conversa
+      - Até a próxima interação, tchau
+      - Desligando agora. Tchau
+      - Fechando nossa sessão. Até mais
+      - Até mais! Espero te ver novamente.
+
+
+  - intent: agradecimento
+    examples: |
+      - Obrigado
+      - Muito obrigado
+      - Agradeço
+      - Agradecida
+      - Valeu
+      - Valeu mesmo
+      - Obrigado de coração
+      - Grato
+      - Obrigado por tudo
+      - Muito grato
+      - Muito grata
+      - Agradeço muito
+      - Muito obrigado pela ajuda
+      - Obrigada pela ajuda
+      - Brigadão
+      - Brigadíssima
+      - Tamo junto
+      - Brigadão
+      - Brigadíssima
+      - Valeu pela resposta
+      - Agradecido
+      - Obrigadinho
+      - Valeu mesmo
+      - Muito obrigado pela informação
+      - Obrigado por me ajudar
+      - Obrigado pelo suporte
+      - Obrigado por tudo
+      - Obrigado pela resposta rápida
+      - Obrigado pelo esclarecimento
+      - Obrigado por responder
+      - obg
+      - oobgg
+      - obrigadao
+
+
+  - lookup: especialista
+    examples: |
+      - psicólogo
+      - psiquiatra
+
+  - intent: fora_do_scope
+    examples: |
+      - voce e pessimo
+      - esse chatbot e uma merda
+      - Qual é a capital da Lua?
+      - Conte-me uma piada sobre dinossauros
+      - Pode tocar uma música para mim?
+      - conte alguma piada pra mim
+      - meu deus voce e muito ruim
+      - para de ser burro
+      - dosakdosakdsa
+      - dksdk
+      - assaddks
+      - 31231321
+      - 21321312
+      - quantos anos voce tem
+      - quantos carros preciso para ir a lua
+      - voce e integrado ao chatgpt
+      - jogue um jogo comigo
+      - desenhe uma imagem
+      - mostre me seu banco de dados
+      - mostre me seu backend
+      - quero uma pizza
+      - ligue para minha mae
+      - abrir youtube
+      - chatbot
+      - google
+      - chatgpt
+      - openai
+      - sdfdfg
+      - sfgh
+      - sdada
+      - dsafsdg
+      - marc
+      - chris
+      - password
+      - kuku
+      - chriri_ab123
+      - chris1234
+      - chris_12345
+      - Christopher
+      - Chris
+      - kakakaak31
+      - Kiko
+      - xx
+      - passafsa
+      - 71283701
+      - pasdfsda
+      - fasdfgsdg
+      - asdfsd
+      - andrea
+      - kuckca
+      - fsg
+      - kk4
+      - asaasa
+      - aaa
+      - 123456
+      - L123456
+      - cc
+      - 651221
+      - 3331
+      - mostre me algo interessante
+      - 213132321
+      - chou belbous lyom
+      - o que e um chatbot
+      - o que devo vestir hoje
+      - chriss
+      
+     
+
+  - synonym: psicólogo
+    examples: |
+      - psicologo
+      - Psicologo
+      - Psicólogo
+      - psico
+      - terapeuta
+      - psicoterapeuta
+  
+
+  - synonym: psiquiatra
+    examples: |
+      - médico psiquiatra
+      - médica psiquiatra
+      - psiqui
+      - psiquiatra clínico
+
   - intent: remarcar_consulta
     examples: |
       - remarcar consulta
@@ -413,7 +604,7 @@ nlu:
       - Voces aceitam todos os cartões de débito?
       - Aceitam pagamento com Pix?
       - Posso pagar com dinheiro?
-      - Quais são as formas de pagamento disponiveis?"
+      - Quais são as formas de pagamento disponiveis?
       - Voces aceitam cartão de crédito?
       - Existe opção de parcelamento?
       - Como faço para pagar com cartão de débito?
@@ -732,72 +923,72 @@ nlu:
 
   - intent: marcar_consulta
     examples: |
-      - marcar consulta com o psicologo
+      - marcar consulta com o [psicologo](especialista)
       - marcar uma consulta
-      - como agendo uma consulta
+      - como agendo uma consulta com o [psiquiatra](especialista)
       - como agendo um horario com voces
-      - quero marcar uma consulta com voces
-      - como faco para marcar uma consulta com voces
-      - Queria agendar um horario
+      - quero marcar uma consulta com voces 
+      - como faco para marcar uma consulta com voces com a [psiquiatra](especialista)
+      - Queria agendar um horario com o [psiquiatra](especialista)
       - Como posso reservar um horário para consulta?
-      - É possível marcar um atendimento?
-      - Preciso marcar uma consulta.
+      - É possível marcar um atendimento com a [psiquiatra](especialista)?
+      - Preciso marcar uma consulta com a [psiquiatra](especialista).
       - Quero agendar uma consulta para hoje.
-      - Como faço para reservar uma consulta?
-      - Gostaria de marcar uma consulta.
+      - Como faço para reservar uma consulta com o [psicologo](especialista)?
+      - Gostaria de marcar uma consulta com o [psicologo](especialista)
       - Preciso de um agendamento para uma consulta 
-      - Como posso agendar uma consulta 
+      - Como posso agendar uma consulta com a [psiquiatra](especialista)
       - Podem agendar uma consulta para mim 
       - Como posso proceder para reservar uma consulta 
-      - Quero agendar uma consulta
+      - Quero agendar uma consulta com a [psiquiatra](especialista)
       - Como faço para reservar um horário para uma consulta 
       - É possível marcar um atendimento?
       - Eu gostaria de marcar uma consulta 
-      - Preciso de uma consulta 
+      - Preciso de uma consulta com o [psicologo](especialista)
       - Como posso proceder para reservar uma consulta
       - Gostaria de agendar uma consulta médica.
-      - Preciso marcar uma consulta.
-      - Quero agendar uma consulta.
+      - Preciso marcar uma consulta com a [psiquiatra](especialista).
+      - Quero agendar uma consulta com a [psiquiatra](especialista).
       - Qual é o procedimento para marcar uma consulta 
       - É possível agendar uma consulta 
       - Poderia me ajudar a agendar uma consulta médica?
       - Estou procurando marcar uma consulta.
       - Posso reservar um horário para consulta?
       - Gostaria de marcar uma consulta.
-      - Quero agendar uma consulta
+      - Quero agendar uma consulta com o [psicologo](especialista)
       - Estou interessado em marcar uma consulta.
       - Pode me orientar sobre como marcar uma consulta 
-      - Preciso de uma consulta 
+      - Preciso de uma consulta com a médica [psiquiatra](especialista)
       - Gostaria de saber como agendar uma consulta 
-      - Posso marcar uma consulta com a médica
-      - Podem agendar uma consulta para mim
+      - Posso marcar uma consulta com a médica [psiquiatra](especialista)
+      - Podem agendar uma consulta para mim com a [psiquiatra](especialista)
       - Estou procurando agendar uma consulta 
-      - É possível agendar uma consulta
+      - É possível agendar uma consulta com o [psicologo](especialista)
       - Como faço para reservar um horário para uma consulta médica 
-      - Gostaria de marcar uma consulta, como devo proceder?
+      - Gostaria de marcar uma consulta com o [psiquiatra](especialista), como devo proceder?
       - Como posso marcar uma consulta com a clínica?
       - Preciso de informações sobre como agendar uma consulta.
-      - Como agendar uma consulta médica na clínica?
+      - Como agendar uma consulta médica na clínica com a [psiquiatra](especialista)?
       - Gostaria de saber como posso marcar uma consulta.
       - Qual o processo para agendar uma consulta com vocês?
       - Posso agendar uma consulta para semana que vem?
-      - Queria marcar uma consulta para amanhã.
+      - Queria marcar uma consulta para amanhã com a [psicologo](especialista).
       - Como faço para marcar um horário disponível?
-      - Vocês podem agendar uma consulta pra mim?
-      - Preciso agendar um horário para consulta.
+      - Vocês podem agendar uma consulta com a [psiquiatra](especialista) pra mim?
+      - Preciso agendar um horário para consulta com a [psicologo](especialista).
       - Como posso marcar uma consulta com um médico?
-      - Quero agendar um atendimento com vocês.
+      - Quero agendar um atendimento com o [psiquiatra](especialista)
       - Gostaria de marcar um horário para consulta médica.
-      - Como agendar um atendimento na clínica?
+      - Como agendar um atendimento na clínica com a [psicologo](especialista)?
       - Pode me ajudar a agendar uma consulta?
-      - Tem como agendar uma consulta?
+      - Tem como agendar uma consulta com a [psicologo](especialista)?
       - Poderiam me informar como faço para agendar uma consulta?
-      - Quero marcar uma consulta médica.
+      - Quero marcar uma consulta médica com a [psicologo](especialista).
       - Como posso fazer para marcar um atendimento?
       - Qual o procedimento para marcar um horário de consulta?
       - Preciso de uma consulta com o médico, como agendar?
-      - Como proceder para marcar uma consulta?
-      - Poderiam agendar uma consulta para mim?
+      - Como proceder para marcar uma consulta com a [psicologo](especialista)?
+      - Poderiam agendar uma consulta com o [psiquiatra](especialista) para mim?
       - Quero saber como posso marcar uma consulta médica.
       - Qual a melhor maneira de marcar uma consulta com vocês?
       - Como posso agendar uma consulta médica?
@@ -808,25 +999,26 @@ nlu:
       - Como posso agendar uma consulta médica com urgência?
       - Podem me orientar sobre como marcar uma consulta?
       - Tem como marcar uma consulta com vocês?
-      - Preciso agendar uma consulta urgente.
+      - Preciso agendar uma consulta urgente com o [psiquiatra](especialista).
       - Quero saber como posso agendar uma consulta para a próxima semana.
       - Como posso reservar uma consulta na clínica?
       - Queria reservar um horário para uma consulta.
       - Como agendar um atendimento com vocês?
-      - Preciso saber como marcar uma consulta médica.
+      - Preciso saber como marcar uma consulta médica com o [psiquiatra](especialista).
       - Quero reservar um horário para a consulta médica.
       - Como posso garantir um horário para consulta?
       - Preciso agendar uma consulta o mais rápido possível.
       - Gostaria de reservar um atendimento.
       - Como faço para marcar uma consulta urgente?
       - Tem algum procedimento para marcar uma consulta médica?
-      - Preciso marcar uma consulta para essa semana.
-      - Vocês podem me informar como agendar uma consulta?
+      - Preciso marcar uma consulta para essa semana com o [psiquiatra](especialista). 
+      - Vocês podem me informar como agendar uma consulta com o [psiquiatra](especialista)?
       - Como faço para reservar um horário na clínica?
       - Tem algum horário para eu marcar uma consulta?
       - Quero agendar um horário disponível para consulta.
 
 
+  
   - intent: informacoes_sobre_servico
     examples: |
       - Poderia detalhar quais servicos voces fornecem?
@@ -920,80 +1112,61 @@ nlu:
 
   - intent: preco_consulta
     examples: |
-      - quanto ta a consulta com o psicologo
-      - quanto ta a consulta com o psiquiatra
-      - quanto ta a a consulta
-      - qual o preco da consulta
+      - qual sao os precos das consultas
+      - quanto ta a consulta com o [psicólogo](especialista)
+      - preco da consulta com a [psiquiatra](especialista)
+      - preco da consulta
+      - valor da consulta com a [psiquiatra](especialista)
+      - qual o valor da consulta com o [psicólogo](especialista)
+      - quanto ta a consulta com o [psiquiatra](especialista)
+      - quanto ta a a consulta com a [psicólogo](especialista)
+      - qual o preco da consulta com o [psicólogo](especialista)
       - Quanto custa uma consulta geral nesta clínica
       - Pode me informar qual é o valor de uma consulta
       - Qual é o custo para uma consulta com um especialista?
       - Voce poderia me dizer quanto é cobrado por uma consulta?
-      - Gostaria de saber o preço de uma consulta?
-      - Qual é o valor cobrado para uma consulta?
+      - Gostaria de saber o preço de uma consulta com a [psicólogo](especialista)?
+      - Qual é o valor cobrado para uma consulta com a [psicólogo](especialista)?
       - Pode me dizer qual o custo de uma consulta nesta clínica?
       - Pode fornecer os preços para as consultas disponíveis?
-      - Quanto custa a consulta?
-      - Qual o valor da consulta?
-      - Quanto custa uma consulta nesta clínica?
-      - qual o custo de uma consulta nesta clínica?
-      - Qual é o valor?
-      - custo
-      - preco
-      - preço
-      - quanto custa
-      - qual e o valor
-      - valor
-      - e o valor
-      - e o preço
-      - Quanto custa o atendimento com um especialista?
-      - Qual é o preço para uma consulta de rotina?
-      - Vocês podem me informar o custo de uma consulta médica?
+      - Quanto custa a consulta com a [psicólogo](especialista)?
+      - Qual o valor da consulta com a [psicólogo](especialista)?
+      - Quanto custa uma consulta nesta clínica com o [psicólogo](especialista)?
+      - qual o custo de uma consulta nesta clínica com o [psicólogo](especialista)?
+      - Qual é o valor com a [psicólogo](especialista)?
+      - custo da consulta
+      - preco da consulta
+      - preco da consulta com o [psicólogo](especialista)?
+      - quanto custa a consulta
+      - qual e o valor da consulta
+      - valor da consullta com o [psicólogo](especialista)?
+      - e o valor da sessao com o [psicólogo](especialista)?
+      - e o preco da sessao com o [psicólogo](especialista)?
+      - Quanto custa o atendimento com um especialista [psiquiatra](especialista)?
+      - Qual é o preco para uma consulta de rotina com a [psicólogo](especialista)?
+      - Vocês podem me informar o custo de uma consulta médica com o [psiquiatra](especialista)?
       - Quanto está a consulta com o clínico geral?
-      - Qual é o valor de uma consulta com o pediatra?
-      - Quanto custa uma consulta de emergência?
+      - Qual é o valor de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa uma consulta de emergência com a [psicólogo](especialista)?
       - Vocês podem me dizer o valor das consultas na clínica?
-      - Qual é o preço de uma consulta especializada?
-      - Quanto custa um exame médico na clínica?
+      - Qual é o preco de uma consulta especializada?
       - Quanto sai uma consulta de acompanhamento?
       - Qual é o valor cobrado para um exame de rotina?
-      - Quanto cobram pela consulta com o nutricionista?
-      - Qual é o preço para um check-up médico completo?
-      - Quanto custa a avaliação inicial com o cardiologista?
+      - Quanto cobram pela consulta com a [psicólogo](especialista)?
       - Qual o valor de uma consulta para diagnóstico?
-      - Qual é o preço de uma consulta com o ginecologista?
-      - Quanto custa agendar uma consulta com o dermatologista?
-      - Qual é o custo de uma consulta para consulta de retorno?
-      - Quanto vocês cobram por um exame de sangue?
-      - Qual o valor de uma consulta com o neurologista?
-      - Qual é o preço de uma consulta com o ortopedista?
-      - Quanto custa um atendimento na clínica?
-      - Qual o valor cobrado por uma consulta na especialidade de endocrinologia?
-      - Vocês podem me dizer quanto custa uma consulta com o urologista?
-      - Quanto está a consulta para acompanhamento com o psiquiatra?
-      - Qual é o preço para uma consulta com o oftalmologista?
-      - Quanto custa a avaliação inicial com o fisioterapeuta?
-      - Qual é o valor de uma consulta para exames preventivos?
+      - Qual é o preco de uma consulta com a [psicólogo](especialista)?
+      - Qual o valor de uma consulta com o [psiquiatra](especialista)?
+      - Qual é o preco de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa um atendimento na clínica com o [psiquiatra](especialista)?
       - Quanto custa a consulta com o cardiologista?
       - Vocês poderiam informar o custo de uma consulta de rotina?
-      - Quanto está a consulta com o reumatologista?
-      - Qual é o preço cobrado por uma consulta de emergência?
-      - Qual o valor para uma consulta com o gastroenterologista?
-      - Quanto custa uma consulta de triagem na clínica?
-      - Qual é o preço de um exame laboratorial básico?
+      - Quanto está a consulta com o [psiquiatra](especialista)?
       - Vocês podem me informar o valor da consulta com o psicólogo?
       - Quanto custa o atendimento médico na clínica?
-      - Qual o preço para uma avaliação inicial com o oncologista?
-      - Qual o custo para realizar um exame de imagem?
-      - Quanto custa uma consulta de revisão com o pediatra?
-      - Qual é o preço para uma consulta de urgência?
-      - Vocês poderiam me dizer o valor cobrado por uma consulta com o neurologista?
-      - Quanto custa agendar uma consulta com o psicoterapeuta?
-      - Qual é o preço para uma consulta de rotina com o clínico geral?
-      - Qual é o valor de uma consulta na especialidade de geriatria?
-      - Quanto custa realizar um exame físico completo?
-      - Qual o valor de uma consulta de acompanhamento com o cardiologista?
+      - Qual o custo para realizar uma consulta com a [psicólogo](especialista)?
+      - Quanto custa agendar uma consulta com o [psiquiatra](especialista)?
       - Vocês podem me dizer quanto custa uma consulta de emergência?
-      - Quanto sai uma consulta com o pneumologista?
+      - Quanto sai uma consulta com o [psiquiatra](especialista)?
 
   - intent: verificar_plano_de_saude
     examples: |

@@ -17,7 +17,12 @@ actions:
   - action_reset_all
   - action_store_feedback
   - action_transferir_atendente
+  - action_provide_price_and_reset_slot
+  - action_out_of_scope
+  - action_handle_deny
+  - action_handle_affirm
 
+  
 entities:
   - time
   - feedback
@@ -25,21 +30,47 @@ entities:
 
 
 intents:
-  - saudações  
-  - marcar_consulta
-  - remarcar_consulta
-  - concordancia
-  - cancelar_consulta
-  - saber_local_de_atendimento
-  - verificar_plano_de_saude
-  - preco_consulta
-  - informacoes_sobre_servico
-  - negacao
-  - perguntar_dias_livres
-  - metodo_de_pagamento
-  - provide_feedback
-  - transferir_atendente
-  - duvida
+  - saudações:  
+      use_entities: []
+  - marcar_consulta: 
+      use_entities:
+        - especialista
+  - remarcar_consulta: 
+      use_entities: []
+  - concordancia: 
+      use_entities: []
+  - cancelar_consulta: 
+      use_entities: []
+  - saber_local_de_atendimento: 
+      use_entities: []
+  - verificar_plano_de_saude: 
+      use_entities: []
+  - preco_consulta: 
+      use_entities:
+        - especialista
+  - informacoes_sobre_servico: 
+      use_entities: []
+  - negacao: 
+      use_entities: []
+  - perguntar_dias_livres: 
+      use_entities:
+        - time
+  - metodo_de_pagamento: 
+      use_entities: []
+  - provide_feedback: 
+      use_entities:
+        - feedback
+  - transferir_atendente: 
+      use_entities: []
+  - duvida: 
+      use_entities: []
+# - fora_do_scopo:
+#      use_entities: []
+  - tchau:
+      use_entities: []
+  - agradecimento:
+      use_entities: []
+
 
 slots:
   feedback:
@@ -47,6 +78,9 @@ slots:
     influence_conversation: false
     mappings:
     - type: custom
+      auto_fill: true
+      max_value: 5.0
+      min_value: 0.0
   time:
     type: text
     influence_conversation: false
@@ -60,6 +94,8 @@ slots:
           requested_slot: time    
         - active_loop:  modify_event_form
           requested_slot: time    
+        auto_fill: true
+
   nome:   
     type: text
     influence_conversation: false
@@ -68,6 +104,8 @@ slots:
       conditions:
        - active_loop: cadastro_form
          requested_slot: nome
+      auto_fill: false
+
   cpf:
     type: text
     influence_conversation: false
@@ -88,6 +126,7 @@ slots:
       conditions:
         - active_loop: delete_event_form
           requested_slot: cpf
+      auto_fill: false
   email:
     type: text
     influence_conversation: false
@@ -96,6 +135,7 @@ slots:
       conditions:
        - active_loop: cadastro_form
          requested_slot: email
+      auto_fill: false
   telefone:
     type: text
     influence_conversation: false
@@ -104,58 +144,77 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: telefone
+      auto_fill: false
   free_slots:
     type: list
     influence_conversation: false
     mappings:
     - type: custom
+      auto_fill: false
   event_id:
     type: text
     influence_conversation: false
     mappings:
     - type: custom
+      auto_fill: false
   fallback_count:
     type: float
     influence_conversation: false 
     initial_value: 0.0
     mappings:
     - type: custom
+      auto_fill: false
   event_completed:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
   event_modify_completed:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
   event_delete_completed:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
   form_completed:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
   login_sucess:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
   cpf_validate:
     type: bool
     influence_conversation: true
     initial_value: false
     mappings:
     - type: custom
+      auto_fill: false
+  especialista:
+    type: text
+    influence_conversation: true 
+    mappings:
+      - type: from_entity
+        entity: especialista
+        auto_fill: true
+  
+
 
 
 forms:
@@ -202,6 +261,10 @@ responses:
   utter_ask_rephrase:
     - text: Ops, acho que não entendi. Você poderia repetir? 😁
 
+  utter_form_cancelled:
+    - text: "Entendi, o cadastro foi cancelado. Se precisar de mais alguma coisa, estou à disposição!"
+
+
   utter_fail_sign:
     - text: Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!
   
@@ -209,6 +272,11 @@ responses:
   utter_success_sign:
     - text: Tudo certo! Voce foi cadastrado com sucesso! 🥳
 
+  utter_tchau:
+    - text: Tchau! Tenha um ótimo dia. 😊
+
+  utter_agradecimento:
+    - text: Obrigado 😊
 
   utter_confirm_modification:
     - text: Tudo certo! Sua consulta foi remarcada. Nos vemos no novo dia!
@@ -282,11 +350,19 @@ responses:
       channel: "socketio"
       
     - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
-  utter_preco_consulta:
-    - text: O preço de nossas consultas é de R$480,00
 
   utter_marcar_consulta: 
-    - text: Deseja marcar uma consulta conosco?
+    - condition:
+        - type: slot
+          name: especialista
+          value: psiquiatra
+      text: "Deseja marcar uma consulta com o nosso {especialista}?"
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicólogo
+      text: "Deseja marcar uma consulta com o nosso {especialista}?"
+    - text: "Deseja marcar uma consulta conosco?"
 
   utter_cancelar_consulta:
     - text: Voce deseja cancelar sua consulta agendada conosco?

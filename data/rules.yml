@@ -9,8 +9,6 @@ rules:
   - intent: nlu_fallback
   - action: action_custom_fallback
 
-
-
 - rule: falar com atendente
   steps:
   - intent: transferir_atendente
@@ -23,13 +21,11 @@ rules:
   - action: utter_saudações
   - action: utter_show_options
 
-
 - rule: saudacoes
   conversation_start: false
   steps:
   - intent: saudações
   - action: utter_show_options
-
 
 ####################
 #CADASTRO
@@ -37,9 +33,6 @@ rules:
   steps:
   - action: cadastro_form
   - active_loop: cadastro_form
-  wait_for_user_input: false
-
-
 
 ##arumar aki, ta salvando 2x
 
@@ -59,7 +52,6 @@ rules:
     - form_completed: true
   wait_for_user_input: false
 
-
 - rule: finaliza o forms e chama a action salvar user (100% correto)
   condition:
   - active_loop: cadastro_form
@@ -73,9 +65,6 @@ rules:
 
 ####################
 #MODIFICANDO A DATA
-
-
-
 - rule: Completar modify_event_form e confirmar
   condition:
   - active_loop: modify_event_form
@@ -97,7 +86,6 @@ rules:
   - intent: remarcar_consulta
   - action: utter_remarcar_consulta
 
-
 - rule: finaliza o forms e chama a action  modify
   condition:
   - active_loop: modify_event_form
@@ -110,8 +98,6 @@ rules:
       - requested_slot: null
   wait_for_user_input: false
 
-
-
 ####################
 #CANCELANDO A CONSULTA
 
@@ -119,7 +105,6 @@ rules:
   steps:
   - intent: cancelar_consulta
   - action: utter_cancelar_consulta
-
 
 - rule: finaliza o forms e chama a action delete
   condition:
@@ -131,9 +116,6 @@ rules:
       - requested_slot: null
   wait_for_user_input: false
 
-
-
-
 ####################
 #MARCANDO CONSULTA
 
@@ -142,13 +124,10 @@ rules:
   - intent: marcar_consulta
   - action: utter_marcar_consulta
 
-
 - rule: event
   steps:
   - action: event_form
   - active_loop: event_form
-  wait_for_user_input: false
-
 
 - rule: Completar event_form e confirmar
   condition:
@@ -166,11 +145,8 @@ rules:
   wait_for_user_input: false
 
 
-####################
+###################
 #FAQS
-
-
-
 - rule: checar dias livres
   steps:
   - intent: perguntar_dias_livres
@@ -184,7 +160,7 @@ rules:
 - rule: informando sobre precos
   steps:
   - intent: preco_consulta
-  - action: utter_preco_consulta
+  - action: action_provide_price_and_reset_slot
 
 - rule: informando sobre plano de saude
   steps:
@@ -205,3 +181,14 @@ rules:
   steps:
   - intent: duvida
   - action: utter_duvida
+
+- rule: se despedindo em qualquer momento que o user se despede
+  steps:
+  - intent: tchau
+  - action: utter_tchau
+
+- rule: agradecendo qualquer momento que o user agradece
+  steps:
+  - intent: agradecimento
+  - action: utter_agradecimento
+

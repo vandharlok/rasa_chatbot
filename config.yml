@@ -9,6 +9,8 @@ language: pt
 pipeline:
 #review this pipeline
 - name: WhitespaceTokenizer
+- name: RegexFeaturizer
+  case_sensitive: False
 - name: CountVectorsFeaturizer
   analyzer: word
 - name: CountVectorsFeaturizer
@@ -16,28 +18,40 @@ pipeline:
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
-  epochs: 80
+  epochs: 40
   learning_rate: 0.00005  # Increased learning rate
   regularization_constant: 0.0005
   batch_size: 64
   early_stopping_patience: 5
   evaluate_on_number_of_examples: 200
   evaluate_every_number_of_epochs: 5
+  constrain_similarities: True
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
+- name: RegexEntityExtractor
+  case_sensitive: False
+  use_lookup_tables: True
+- name: EntitySynonymMapper
 - name: FallbackClassifier
   threshold: 0.7
   ambiguity_threshold: 0.2
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
   url: http://localhost:8000
-  dimensions: ["time", "phone-number"]
+  dimensions: ["time"]
   locale: "pt_BR"
   timezone: "America/Sao_Paulo"
 
 policies:
+- name: RulePolicy
+  core_fallback_threshold: 0.8
+  core_fallback_action_name: "action_custom_fallback"
+  enable_fallback_prediction: True
+  check_for_contradictions: True
+  tensorboard_log_directory: "./tensorboard/Policy"
+  tensorboard_log_level: epoch
 - name: TEDPolicy
-  max_history: 8
+  max_history: 10
   epochs: 40
   batch_size: 
   - 8
@@ -56,13 +70,7 @@ policies:
   check_for_contradictions: True
   tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
-- name: RulePolicy
-  core_fallback_threshold: 0.8
-  core_fallback_action_name: "action_custom_fallback"
-  enable_fallback_prediction: True
-  check_for_contradictions: True
-  tensorboard_log_directory: "./tensorboard/Policy"
-  tensorboard_log_level: epoch
+
 
 
 assistant_id: 20240515-202338-clinica-mais-saude
