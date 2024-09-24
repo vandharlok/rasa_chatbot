@@ -2,6 +2,30 @@ version: "3.1"
 
 nlu:
 
+  - lookup: especialista
+    examples: |
+      - psicólogo
+      - psiquiatra
+      - psicologo
+      - medico psiquiatra
+      - médica psiquiatra
+      - terapeuta
+      - especialista
+      - psicóloga
+      - psicologa
+
+  - lookup: profissional
+    examples: |
+      - dr karen
+      - karen
+      - doutora karen
+      - médica karen
+      - doutor wesley
+      - wesley
+      - dr wesley
+      - médico wesley
+      
+
   - intent: tchau
     examples: |
       - Tchau
@@ -101,11 +125,6 @@ nlu:
       - obrigadao
 
 
-  - lookup: especialista
-    examples: |
-      - psicólogo
-      - psiquiatra
-
   - intent: fora_do_scope
     examples: |
       - voce e pessimo
@@ -176,22 +195,7 @@ nlu:
       
      
 
-  - synonym: psicólogo
-    examples: |
-      - psicologo
-      - Psicologo
-      - Psicólogo
-      - psico
-      - terapeuta
-      - psicoterapeuta
   
-
-  - synonym: psiquiatra
-    examples: |
-      - médico psiquiatra
-      - médica psiquiatra
-      - psiqui
-      - psiquiatra clínico
 
   - intent: remarcar_consulta
     examples: |
@@ -923,72 +927,72 @@ nlu:
 
   - intent: marcar_consulta
     examples: |
-      - marcar consulta com o [psicologo](especialista)
+      - marcar consulta com o psicologo
       - marcar uma consulta
-      - como agendo uma consulta com o [psiquiatra](especialista)
+      - como agendo uma consulta
       - como agendo um horario com voces
-      - quero marcar uma consulta com voces 
-      - como faco para marcar uma consulta com voces com a [psiquiatra](especialista)
-      - Queria agendar um horario com o [psiquiatra](especialista)
+      - quero marcar uma consulta com voces
+      - como faco para marcar uma consulta com voces
+      - Queria agendar um horario
       - Como posso reservar um horário para consulta?
-      - É possível marcar um atendimento com a [psiquiatra](especialista)?
-      - Preciso marcar uma consulta com a [psiquiatra](especialista).
+      - É possível marcar um atendimento?
+      - Preciso marcar uma consulta.
       - Quero agendar uma consulta para hoje.
-      - Como faço para reservar uma consulta com o [psicologo](especialista)?
-      - Gostaria de marcar uma consulta com o [psicologo](especialista)
+      - Como faço para reservar uma consulta?
+      - Gostaria de marcar uma consulta.
       - Preciso de um agendamento para uma consulta 
-      - Como posso agendar uma consulta com a [psiquiatra](especialista)
+      - Como posso agendar uma consulta 
       - Podem agendar uma consulta para mim 
       - Como posso proceder para reservar uma consulta 
-      - Quero agendar uma consulta com a [psiquiatra](especialista)
+      - Quero agendar uma consulta
       - Como faço para reservar um horário para uma consulta 
       - É possível marcar um atendimento?
       - Eu gostaria de marcar uma consulta 
-      - Preciso de uma consulta com o [psicologo](especialista)
+      - Preciso de uma consulta 
       - Como posso proceder para reservar uma consulta
       - Gostaria de agendar uma consulta médica.
-      - Preciso marcar uma consulta com a [psiquiatra](especialista).
-      - Quero agendar uma consulta com a [psiquiatra](especialista).
+      - Preciso marcar uma consulta.
+      - Quero agendar uma consulta.
       - Qual é o procedimento para marcar uma consulta 
       - É possível agendar uma consulta 
       - Poderia me ajudar a agendar uma consulta médica?
       - Estou procurando marcar uma consulta.
       - Posso reservar um horário para consulta?
       - Gostaria de marcar uma consulta.
-      - Quero agendar uma consulta com o [psicologo](especialista)
+      - Quero agendar uma consulta
       - Estou interessado em marcar uma consulta.
       - Pode me orientar sobre como marcar uma consulta 
-      - Preciso de uma consulta com a médica [psiquiatra](especialista)
+      - Preciso de uma consulta 
       - Gostaria de saber como agendar uma consulta 
-      - Posso marcar uma consulta com a médica [psiquiatra](especialista)
-      - Podem agendar uma consulta para mim com a [psiquiatra](especialista)
+      - Posso marcar uma consulta com a médica
+      - Podem agendar uma consulta para mim
       - Estou procurando agendar uma consulta 
-      - É possível agendar uma consulta com o [psicologo](especialista)
+      - É possível agendar uma consulta
       - Como faço para reservar um horário para uma consulta médica 
-      - Gostaria de marcar uma consulta com o [psiquiatra](especialista), como devo proceder?
+      - Gostaria de marcar uma consulta, como devo proceder?
       - Como posso marcar uma consulta com a clínica?
       - Preciso de informações sobre como agendar uma consulta.
-      - Como agendar uma consulta médica na clínica com a [psiquiatra](especialista)?
+      - Como agendar uma consulta médica na clínica?
       - Gostaria de saber como posso marcar uma consulta.
       - Qual o processo para agendar uma consulta com vocês?
       - Posso agendar uma consulta para semana que vem?
-      - Queria marcar uma consulta para amanhã com a [psicologo](especialista).
+      - Queria marcar uma consulta para amanhã.
       - Como faço para marcar um horário disponível?
-      - Vocês podem agendar uma consulta com a [psiquiatra](especialista) pra mim?
-      - Preciso agendar um horário para consulta com a [psicologo](especialista).
+      - Vocês podem agendar uma consulta pra mim?
+      - Preciso agendar um horário para consulta.
       - Como posso marcar uma consulta com um médico?
-      - Quero agendar um atendimento com o [psiquiatra](especialista)
+      - Quero agendar um atendimento com vocês.
       - Gostaria de marcar um horário para consulta médica.
-      - Como agendar um atendimento na clínica com a [psicologo](especialista)?
+      - Como agendar um atendimento na clínica?
       - Pode me ajudar a agendar uma consulta?
-      - Tem como agendar uma consulta com a [psicologo](especialista)?
+      - Tem como agendar uma consulta?
       - Poderiam me informar como faço para agendar uma consulta?
-      - Quero marcar uma consulta médica com a [psicologo](especialista).
+      - Quero marcar uma consulta médica.
       - Como posso fazer para marcar um atendimento?
       - Qual o procedimento para marcar um horário de consulta?
       - Preciso de uma consulta com o médico, como agendar?
-      - Como proceder para marcar uma consulta com a [psicologo](especialista)?
-      - Poderiam agendar uma consulta com o [psiquiatra](especialista) para mim?
+      - Como proceder para marcar uma consulta?
+      - Poderiam agendar uma consulta para mim?
       - Quero saber como posso marcar uma consulta médica.
       - Qual a melhor maneira de marcar uma consulta com vocês?
       - Como posso agendar uma consulta médica?
@@ -999,20 +1003,20 @@ nlu:
       - Como posso agendar uma consulta médica com urgência?
       - Podem me orientar sobre como marcar uma consulta?
       - Tem como marcar uma consulta com vocês?
-      - Preciso agendar uma consulta urgente com o [psiquiatra](especialista).
+      - Preciso agendar uma consulta urgente.
       - Quero saber como posso agendar uma consulta para a próxima semana.
       - Como posso reservar uma consulta na clínica?
       - Queria reservar um horário para uma consulta.
       - Como agendar um atendimento com vocês?
-      - Preciso saber como marcar uma consulta médica com o [psiquiatra](especialista).
+      - Preciso saber como marcar uma consulta médica.
       - Quero reservar um horário para a consulta médica.
       - Como posso garantir um horário para consulta?
       - Preciso agendar uma consulta o mais rápido possível.
       - Gostaria de reservar um atendimento.
       - Como faço para marcar uma consulta urgente?
       - Tem algum procedimento para marcar uma consulta médica?
-      - Preciso marcar uma consulta para essa semana com o [psiquiatra](especialista). 
-      - Vocês podem me informar como agendar uma consulta com o [psiquiatra](especialista)?
+      - Preciso marcar uma consulta para essa semana.
+      - Vocês podem me informar como agendar uma consulta?
       - Como faço para reservar um horário na clínica?
       - Tem algum horário para eu marcar uma consulta?
       - Quero agendar um horário disponível para consulta.

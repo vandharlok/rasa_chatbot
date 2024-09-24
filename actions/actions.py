@@ -15,11 +15,43 @@ import re
 from helpers.utils import validate_cpf_bd, validate_cpf_value,validate_time_def,generate_random_string,find_next_free_slots,get_event_id_from_cpf,modify_event
 import openai
 from typing import Text
+from .profissionais_especialistas import PROFISSIONAIS_ESPECIALISTAS
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
+class ActionConfirmarConsulta(Action):
+
+    def name(self) -> Text:
+        return "action_confirmar_consulta"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        especialista = tracker.get_slot('especialista')
+        profissional = tracker.get_slot('profissional')
+
+        if especialista and profissional:
+            # Confirmar a seleção
+            mensagem = f"Deseja marcar uma consulta com o nosso {especialista} {profissional}?"
+            dispatcher.utter_message(text=mensagem)
+            return []
+        elif especialista:
+            # Apresentar botões para selecionar o profissional
+            profissionais = [prof for prof, esp in PROFISSIONAIS_ESPECIALISTAS.items() if esp.lower() == especialista.lower()]
+            if profissionais:
+                buttons = [{"title": prof.title(), "payload": f"/marcar_consulta{{\"profissional\": \"{prof}\"}}" } for prof in profissionais]
+                dispatcher.utter_message(text=f"Deseja marcar uma consulta com um {especialista}?", buttons=buttons)
+            else:
+                dispatcher.utter_message(text="Desculpe, não há profissionais disponíveis para essa especialidade no momento.")
+            return []
+        else:
+            # Solicitar confirmação geral
+            dispatcher.utter_message(text="Deseja marcar uma consulta conosco?")
+            return []
+        
 class ActionOutOfScope(Action):
     def name(self) -> Text:
         return 'action_out_of_scope'
@@ -502,7 +534,35 @@ class ValidateCPFActionEvent(FormValidationAction):
                       tracker: Tracker,
                       domain: Dict) -> Dict[Text, Any]:
         return validate_time_def(slot_value, dispatcher)
-  
+    
+    def validate_especialista(
+        self, 
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,     
+        ) -> Dict[Text,Any]:
+        
+        names=['psicóloga','psiquiatra']
+        if slot_value.lower() in names:
+            return {"especialista": slot_value.lower()}
+        else:
+            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
+            return {"especialista": None}
+
+    def validate_profissional(
+        self, 
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,     
+        ) -> Dict[Text,Any]:
+        names=['karen','isabella','wesley', 'maria']
+        if slot_value.lower() in names:
+            return {"profissional": slot_value.lower()}
+        else:
+            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
+            return {"profissional": None}
 
 
 
@@ -679,5 +739,4 @@ class ActionDeleteGoogleCalendarEvent(Action):
             return [SlotSet("event_delete_completed", False), SlotSet("cpf", None),SlotSet("event_id",None)]
             
         
-
 

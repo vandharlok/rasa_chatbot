@@ -33,8 +33,7 @@ intents:
   - saudações:  
       use_entities: []
   - marcar_consulta: 
-      use_entities:
-        - especialista
+      use_entities: []
   - remarcar_consulta: 
       use_entities: []
   - concordancia: 
@@ -64,8 +63,6 @@ intents:
       use_entities: []
   - duvida: 
       use_entities: []
-# - fora_do_scopo:
-#      use_entities: []
   - tchau:
       use_entities: []
   - agradecimento:
@@ -210,11 +207,20 @@ slots:
     type: text
     influence_conversation: true 
     mappings:
-      - type: from_entity
-        entity: especialista
-        auto_fill: true
-  
-
+      - type: from_text
+        conditions:
+          - active_loop: event_form
+            requested_slot: especialista
+        auto_fill: false
+  profissional:
+    type: text
+    influence_conversation: true 
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: event_form
+            requested_slot: profissional
+        auto_fill: false
 
 
 forms:
@@ -227,6 +233,8 @@ forms:
   event_form:
     required_slots:
     - cpf
+    - especialista
+    - profissional
     - time
    
   modify_event_form:
@@ -283,6 +291,42 @@ responses:
     
   utter_ask_event_form_cpf:
     - text: Poderia me passar seu CPF para te identificar em nosso sistema?
+
+  utter_ask_event_form_especialista:
+    - text: Qual especialista deseja marcar a consulta?
+      buttons:
+        - title: "Psiquiatra"
+          payload: "psiquiatra"
+        - title: "Psicólogo"
+          payload: "psicóloga"
+
+  utter_ask_event_form_profissional:
+    - condition:
+        - type: slot
+          name: especialista
+          value: psiquiatra
+      text: Qual profissional tem preferência?
+      buttons:
+        - title: "Psiquiatra - Karen"
+          payload: "Karen"
+        - title: "Psiquiatra - Wesley"
+          payload: "Wesley"
+        - title: "Psiquiatra - Isabella"
+          payload: "Isabella"
+        - title: "Psiquiatra - Maria"
+          payload: "Maria"
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicóloga
+      text: Qual profissional tem preferência?
+      buttons:
+        - title: "Psicóloga - Maria"
+          payload: "Maria"
+        - title: "Psicóloga - Isabella"
+          payload: "Isabella"
+    
+
 
   utter_confirm_appointment:
     - text: Deseja agendar?
@@ -352,17 +396,7 @@ responses:
     - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
 
   utter_marcar_consulta: 
-    - condition:
-        - type: slot
-          name: especialista
-          value: psiquiatra
-      text: "Deseja marcar uma consulta com o nosso {especialista}?"
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicólogo
-      text: "Deseja marcar uma consulta com o nosso {especialista}?"
-    - text: "Deseja marcar uma consulta conosco?"
+    - text: "Deseja agendar uma consulta conosco?"
 
   utter_cancelar_consulta:
     - text: Voce deseja cancelar sua consulta agendada conosco?
