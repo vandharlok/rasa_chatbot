@@ -1,57 +1,19 @@
-from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction,SlotSet,UserUtteranceReverted,ConversationPaused
+from rasa_sdk.events import AllSlotsReset,Restarted, SlotSet,UserUtteranceReverted,ConversationPaused, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
 from typing import Dict, Text, Any, List
 from rasa_sdk import Action, Tracker
-from datetime import timedelta
-import requests
 from googlesearch import search
-import logging 
-import dateparser
-from rasa_sdk.events import Form, EventType
-from rasa_sdk.forms import FormValidationAction
-from rasa_sdk.types import DomainDict
-import re
-from helpers.utils import validate_cpf_bd, validate_cpf_value,validate_time_def,generate_random_string,find_next_free_slots,get_event_id_from_cpf,modify_event
-import openai
 from typing import Text
-from .profissionais_especialistas import PROFISSIONAIS_ESPECIALISTAS
+
+import logging 
+import openai
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 
-class ActionConfirmarConsulta(Action):
-
-    def name(self) -> Text:
-        return "action_confirmar_consulta"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        especialista = tracker.get_slot('especialista')
-        profissional = tracker.get_slot('profissional')
-
-        if especialista and profissional:
-            # Confirmar a seleção
-            mensagem = f"Deseja marcar uma consulta com o nosso {especialista} {profissional}?"
-            dispatcher.utter_message(text=mensagem)
-            return []
-        elif especialista:
-            # Apresentar botões para selecionar o profissional
-            profissionais = [prof for prof, esp in PROFISSIONAIS_ESPECIALISTAS.items() if esp.lower() == especialista.lower()]
-            if profissionais:
-                buttons = [{"title": prof.title(), "payload": f"/marcar_consulta{{\"profissional\": \"{prof}\"}}" } for prof in profissionais]
-                dispatcher.utter_message(text=f"Deseja marcar uma consulta com um {especialista}?", buttons=buttons)
-            else:
-                dispatcher.utter_message(text="Desculpe, não há profissionais disponíveis para essa especialidade no momento.")
-            return []
-        else:
-            # Solicitar confirmação geral
-            dispatcher.utter_message(text="Deseja marcar uma consulta conosco?")
-            return []
-        
 class ActionOutOfScope(Action):
     def name(self) -> Text:
         return 'action_out_of_scope'
@@ -61,9 +23,8 @@ class ActionOutOfScope(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         latest = tracker.latest_message
-        query = latest.get('text')  # Captura a consulta do usuário
+        query = latest.get('text')  
 
-        # Mensagem em Português
         text = "Desculpe, eu não entendi. Você quer que eu pesquise isso no Google?"
 
         dispatcher.utter_message(text=text)
@@ -79,7 +40,7 @@ class ActionHandleAffirm(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         query = tracker.get_slot('out_of_scope')
-        print(f"Consulta para pesquisa: {query}")  # Log para depuração
+        print(f"Consulta para pesquisa: {query}") 
 
         if query:
             try:
@@ -87,10 +48,10 @@ class ActionHandleAffirm(Action):
                 dispatcher.utter_message(text=text)
 
                 urls = list(search(
-                    term=query,           # Usando 'term' em vez de 'query'
-                    num_results=1,        # Usando 'num_results' em vez de 'num'
-                    lang='pt',            # Idioma em Português
-                    sleep_interval=1      # Usando 'sleep_interval' em vez de 'pause'
+                    term=query,           
+                    num_results=1,        
+                    lang='pt',            
+                    sleep_interval=1      
                 ))
 
                 if urls:
@@ -130,15 +91,12 @@ class ActionHandoverToHuman(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
-        # Send a message to the user
         dispatcher.utter_message(text="Estamos te transferindo para nosso atendente, aguarde um momento... 😊")
 
-        # Optionally, notify the frontend or backend system
-        # For example, you might publish a message to a message queue,
-        # make an API call, or set a flag in a database.
-
-        # Return the ConversationPaused event
+   
+        #pausa o bot, para o atendente responder
         return [ConversationPaused()]
+
 
 # responsavel por dar um fallback, acionado pelo core fallback e configurado no config.yml, pode-se setar a % confianca para dar trigger no fallback, atualmente 0.7
 class ActionDefaultFallback(Action):
@@ -155,23 +113,51 @@ class ActionDefaultFallback(Action):
     
     
     
-           
+##Action responsavel por fornecer os precos baseados nas entidades e depois resetar o slot
 class ActionProvidePriceAndResetSlot(Action):
-
-    def name(self):
+    def name(self) -> Text:
         return "action_provide_price_and_reset_slot"
 
-    def run(self, dispatcher, tracker, domain):
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[SlotSet]:
+        list_synonym_psico = ['psicólogo', 'psicologo', 'psicóloga', 'psicologa']
         especialista = tracker.get_slot("especialista")
-        if especialista == "psicólogo":
-            message = "O preço da consulta com o psicólogo é de R$110,00"
-        elif especialista == "psiquiatra":
-            message = "O preço da consulta com o psiquiatra é de R$480,00"
+
+        if especialista:
+            especialista = especialista.lower()
+            if especialista in list_synonym_psico:
+                message = "O preço da consulta com o psicólogo é de R$110,00"
+            elif especialista == "psiquiatra":
+                message = "O preço da consulta com o psiquiatra é de R$480,00"
+            else:
+                message = (
+                    "O preço de nossas consultas varia de especialistas. "
+                    "As consultas com os psicólogos são R$110,00 e psiquiatras R$480,00."
+                )
         else:
-            message = ("O preço de nossas consultas variam de especialistas, "
-                       "as consultas com os psicológos são R$110,00 e psiquiatras R$480,00")
+            message = (
+                "O preço de nossas consultas varia de especialistas. "
+                "As consultas com os psicólogos são R$110,00 e psiquiatras R$480,00."
+            )
+
         dispatcher.utter_message(text=message)
         return [SlotSet("especialista", None)]
+    
+    
+    
+#Action para resetar o valor de time e form_completed
+class ActionResetTimeSlot(Action):
+    def name(self) -> Text:
+        return "action_reset_slot_time"
+
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[SlotSet]:
+        return [SlotSet("time", None), SlotSet("form_completed",False)]
+    
+
+    
 
 # Reseta a conversa, zerando todos slots e atencoes das historias
 class ActionResetAll(Action):
@@ -226,7 +212,6 @@ class ActionStoreFeedback(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # Retrieve the 'feedback' entity directly from the latest message
         feedback_entity = next(tracker.get_latest_entity_values('feedback'), None)
         
         if feedback_entity is None:
@@ -241,8 +226,7 @@ class ActionStoreFeedback(Action):
 
         if 1 <= feedback <= 5:
             dispatcher.utter_message(text="Muito obrigado pelo seu feedback!")
-            # If you have a logger, you can log the feedback
-            # logger.info(f"Feedback provided: {feedback}")
+            logger.info(f"Feedback provided: {feedback}")
             return [SlotSet("feedback", feedback)]
         else:
             dispatcher.utter_message(text="A nota deve ser entre 1 e 5. Por favor, tente novamente.")
@@ -272,471 +256,49 @@ class ActionCustomFallback(Action):
         dispatcher.utter_message(response="utter_ask_rephrase")
         return [SlotSet("fallback_count", fallback_count)]
     
-#Cadastra o usuario no banco \
-# #////////////////////////////////////  
+            
 
-class ActionSalvarCadastro(Action):
+
+
+class AskForSlotAction(Action):
     def name(self) -> Text:
-        return "action_salvar_cadastro"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        nome = tracker.get_slot("nome")
-        email = tracker.get_slot("email")
-        cpf = tracker.get_slot("cpf")
-        telefone = tracker.get_slot("telefone")
-
-        url = "http://localhost:3010/usuario/cadastro"
-        data = {
-            "name": nome,
-            "email": email,
-            "cpf": cpf,
-            "phoneNumber": telefone,
-            "adminId": 1
-        }
-        try:
-            response = requests.post(url, json=data)
-            if 200 <= response.status_code < 300:
-                logger.info(f"Usuário de email : {email} registrado com sucesso.")
-                return [SlotSet("login_sucess", True)]
-            
-            else:
-                dispatcher.utter_message(text="Falha ao cadastrar o usuário. Tente novamente.")
-                logger.warning(f"Falha ao cadastrar usuario: {email}. Status code: {response.status_code}")
-                return [SlotSet("login_sucess", False)]
-        except requests.exceptions.RequestException as e:
-            logger.error("Erro de conexão com o serviço de registro: %s", str(e))
-            return [SlotSet("login_sucess", False)]
-
-####VALIDANDO FORMS
-####VALIDANDO FORMS
-
-
-### As classes de validação precisam receber os 5 parametros mesmo nao usando todos, como tracker ou domain.
-### As classes de validação servem para validar os slots dos formularios 
-class ValidateNome(FormValidationAction):
-    def name(self):
-        return "validate_cadastro_form"
-
-    def validate_nome(
-            self, 
-            slot_value: Any,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any],     
-            ) -> Dict[Text, Any]:
-            # Expressão regular ajustada para aceitar acentos
-            if not re.match(r'^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$', slot_value):
-                dispatcher.utter_message(text="O nome deve conter apenas letras.")
-                return {"nome": None}
-            elif len(slot_value) <= 2:
-                dispatcher.utter_message(text="O nome deve ter mais de 2 caracteres.")
-                return {"nome": None}
-            else:
-                return {"nome": slot_value}
-        
-    def validate_cpf(
-            self, 
-            slot_value: Any,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: DomainDict
-            ) -> Dict[Text, Any]:
-        return validate_cpf_value(slot_value, dispatcher)   
-    
-    
-    def validate_telefone(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]
-        ) -> Dict[Text, Any]:
-        
-        pattern = re.compile(r'^\(\d{2}\) \d{5}-\d{4}$')
-        
-        if pattern.match(slot_value):
-            logger.info("Telefone validado com sucesso.")
-            return {"telefone": slot_value}
-        else:
-            dispatcher.utter_message(text="O telefone deve estar no formato (00) 00000-0000.")
-            return {"telefone": None}
-        
-        
-    def validate_email(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text, Any]:
-        # Expressão regular para validar formato de e-mail
-        email_pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
-
-        if re.match(email_pattern, slot_value):
-            logger.info("email validated")
-            return {"email": slot_value}
-        else:
-            dispatcher.utter_message(text="Insira um endereço de e-mail válido.")
-            return {"email": None}
-               
-####ACTION PARA LIDAR COM PAGAMENTOS PIX         
-class ActionGeneratePixCode(Action):
-    def name(self):
-        return "action_generate_pix_code"
-
-    def run(self, dispatcher, tracker, domain):
-        valor = tracker.get_slot("valor_pagamento")  # Supondo que você tenha capturado o valor do pagamento
-        user_info = tracker.get_slot("user_info")  # Informações do usuário (nome, CPF, etc.)
-
-        # Exemplo com a API da Gerencianet (adaptar conforme a API do provedor escolhido)
-        headers = {
-            "Authorization": "Bearer sua_chave_de_acesso",
-            "Content-Type": "application/json"
-        }
-        data = {
-            "valor": {
-                "original": str(valor)
-            },
-            "chave": "sua_chave_pix",  # Sua chave Pix cadastrada
-            "solicitacaoPagador": "Pagamento de compra"
-        }
-
-        try:
-            response = requests.post("https://api.gerencianet.com.br/v2/cob", headers=headers, json=data)
-            response.raise_for_status() 
-            
-            # Convertendo a resposta para JSON
-            pix_data = response.json()
-
-            # Verificando se o campo 'location' está presente na resposta
-            if 'location' in pix_data:
-                pix_code = pix_data['location']
-                dispatcher.utter_message(text=f"Aqui está seu código Pix: {pix_code}")
-                return [SlotSet("pix_code", pix_code)]
-            else:
-                # Se a chave 'location' não estiver presente, tratamos como um erro
-                dispatcher.utter_message(text="Ocorreu um erro ao gerar o código Pix. Tente novamente mais tarde.")
-                return []
-
-        except requests.exceptions.HTTPError as http_err:
-            dispatcher.utter_message(text=f"Erro HTTP ao tentar gerar o código Pix: {http_err}")
-            return []
-        except requests.exceptions.ConnectionError as conn_err:
-            dispatcher.utter_message(text=f"Erro de conexão ao tentar acessar o serviço de pagamento: {conn_err}")
-            return []
-        except requests.exceptions.Timeout as timeout_err:
-            dispatcher.utter_message(text=f"A requisição para gerar o código Pix excedeu o tempo limite: {timeout_err}")
-            return []
-        except requests.exceptions.RequestException as req_err:
-            dispatcher.utter_message(text=f"Ocorreu um erro ao tentar gerar o código Pix: {req_err}")
-            return []
-        except Exception as e:
-            dispatcher.utter_message(text=f"Ocorreu um erro inesperado: {e}")
-            return []
-            
-class ActionConfirmPixPayment(Action):
-    def name(self):
-        return "action_confirm_pix_payment"
-
-    def run(self, dispatcher, tracker, domain):
-        payment_id = tracker.get_slot("payment_id")  # ID da transação Pix (txid)
-
-        headers = {
-            "Authorization": "Bearer sua_chave_de_acesso",
-            "Content-Type": "application/json"
-        }
-
-        try:
-            # Fazendo a requisição para verificar o status do pagamento
-            response = requests.get(f"https://api.gerencianet.com.br/v2/cob/{payment_id}", headers=headers)
-            response.raise_for_status()
-            payment_data = response.json()
-
-            status = payment_data.get('status', '')
-            if status == 'CONCLUIDA':  # Verificar a documentação do seu provedor
-                dispatcher.utter_message(text="O pagamento foi confirmado com sucesso!")
-                return [SlotSet("payment_status", "confirmed")]
-            else:
-                dispatcher.utter_message(text="O pagamento ainda não foi confirmado. Tente novamente mais tarde.")
-                return [SlotSet("payment_status", "pending")]
-
-        except requests.exceptions.RequestException as e:
-            dispatcher.utter_message(text=f"Ocorreu um erro ao verificar o status do pagamento: {e}")
-            return []          
-           
-           
-           
-            
-#Valida o CPF para excluir a consulta
-
-class ValidateCPFActionDelete(FormValidationAction):
-    def name(self):
-        return "validate_delete_event_form"
-
-    def validate_cpf(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        return validate_cpf_bd(slot_value,dispatcher)
-    
-
-
-class ValidateCPFActionDelete(FormValidationAction):
-    def name(self):
-        return "validate_modify_event_form"
-
-    def validate_cpf(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        return validate_cpf_bd(slot_value,dispatcher)
-    
-    def validate_time(self, 
-                      slot_value: Any,
-                      dispatcher: CollectingDispatcher,
-                      tracker: Tracker,
-                      domain: Dict) -> Dict[Text, Any]:
-        return validate_time_def(slot_value, dispatcher)
-  
-
-
-    
-
-
-#Valida o cpf do usuario, e o horario para marcar a consulta
-
-
-class ValidateCPFActionEvent(FormValidationAction):
-    def name(self):
-        return "validate_event_form"
-
-    def validate_cpf(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        return validate_cpf_bd(slot_value,dispatcher)
-    
-    def validate_time(self, 
-                      slot_value: Any,
-                      dispatcher: CollectingDispatcher,
-                      tracker: Tracker,
-                      domain: Dict) -> Dict[Text, Any]:
-        return validate_time_def(slot_value, dispatcher)
-    
-    def validate_especialista(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        
-        names=['psicóloga','psiquiatra']
-        if slot_value.lower() in names:
-            return {"especialista": slot_value.lower()}
-        else:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
-            return {"especialista": None}
-
-    def validate_profissional(
-        self, 
-        slot_value: Any,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        names=['karen','isabella','wesley', 'maria']
-        if slot_value.lower() in names:
-            return {"profissional": slot_value.lower()}
-        else:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
-            return {"profissional": None}
-
-
-
-
-
-#Ação que é responsavel por adicionar a consulta no banco, com o respectivo usuario
-class ValidateAndAddEvent(Action):
-    def name(self) -> Text:
-        return "action_add_event"
+        return "action_ask_event_form_especialista"
 
     def run(
-        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
-    ) -> List[Dict[Text, Any]]:
-        time_str = tracker.get_slot('time')
-        cpf_user = tracker.get_slot('cpf')
-        
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[EventType]:
+        buttons=[]
+        buttons.append({"title": 'Psiquiatra' , "payload": 'psiquiatra'})
+        buttons.append({"title": 'Psicóloga' , "payload": 'psicóloga'})
+        dispatcher.utter_message(text="Qual dos nossos especialista deseja marcar a consulta?",buttons=buttons)
+        return []  
 
-        target_date = dateparser.parse(time_str, settings={'TIMEZONE': 'America/Sao_Paulo', 'RETURN_AS_TIMEZONE_AWARE': True})
-        if not target_date:
-            dispatcher.utter_message(text="Formato de data e hora incorreto. Por favor, tente novamente.")
-            return [SlotSet("time", None), FollowupAction("action_listen")]
-    
-        new_end_time = target_date + timedelta(hours=1)
-        
-        string_length = 10  
-        random_string = generate_random_string(string_length)
-        
-        start_time= target_date.isoformat()
-        new_end_time_str = new_end_time.isoformat()
-
-        try:
-            url = "http://localhost:3010/agendamento/cadastrar"
-            data = {
-                "codAgendamento": random_string,
-                "cpfUser": cpf_user,
-                "nomeUser": "vands",
-                "dataInicial": start_time,
-                "dataFinal": new_end_time_str
-            }
-            response = requests.post(url, json=data)
-            if 200 <= response.status_code < 300:
-                dispatcher.utter_message(text="Consulta marcada!")
-                logger.info("Appointment created")  
-                return [SlotSet("form_completed", False),SlotSet("time", None),SlotSet("event_completed", True), SlotSet("event_id", None),SlotSet("cpf", None)]
-            else:
-                dispatcher.utter_message(text="Falha ao cadastrar o usuário. Tente novamente.")
-                logger.warning("Fail to appoint.")
-                return [SlotSet("time", None), SlotSet("cpf", None)]
-            
-        except requests.exceptions.RequestException as e:
-            #fazer um log aki
-            dispatcher.utter_message(text="Erro ao conectar ao serviço de cadastro.")
-            logger.error("Error to connect to service")
-            return [SlotSet("time", None), SlotSet("event_id", None), SlotSet("cpf", None)]
-        except Exception as e:
-            logger.error("Error to connect to service")
-            dispatcher.utter_message(text=f"Não foi possível adicionar o evento: {e}")
-            return [SlotSet("time", None), SlotSet("event_id", None), SlotSet("cpf", None)]
-        
-
-# Ação responsável por buscar no calendario os 5 próximos horários livres
-class ActionFindFreeSlots(Action):
+class AskForSlotAction(Action):
     def name(self) -> Text:
-        return "action_find_free_slots"
+        return "action_ask_event_form_profissional"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        api_url = "http://localhost:3010/agendamentos"
-        free_slots = find_next_free_slots(api_url)
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[EventType]:
+        especialista = tracker.get_slot('especialista')
+        buttons = []
+        if especialista.lower() == 'psiquiatra':    
+            buttons.append({"title": 'Psiquiatra Dr. João', "payload": 'joao'})
+            buttons.append({"title": 'Psiquiatra Dr. Pedro', "payload": 'pedro'})
+            buttons.append({"title": 'Não quero agendar com psiquiatra', "payload": 'nenhum'})
 
-        if free_slots:
-            dispatcher.utter_message(text=f"Os próximos horários disponíveis são: {', '.join(free_slots)}")
-            return [SlotSet("free_slots", free_slots),SlotSet("time", None)]
+            dispatcher.utter_message(text="Qual psiquiatra você tem preferência de consultar?", buttons=buttons)
+        elif especialista.lower() == 'psicóloga':
+            buttons.append({"title": 'Psicóloga Maria', "payload": 'maria'})
+            buttons.append({"title": 'Psicóloga Ana', "payload": 'ana'})
+            buttons.append({"title": 'Não quero agendar com psicólogo', "payload": 'nenhum'})
+
+            dispatcher.utter_message(text="Qual psicológo você tem preferência de consultar?", buttons=buttons)
+
         else:
-            dispatcher.utter_message(text="Nenhum horário disponível dentro do intervalo especificado.")
-            return [SlotSet("free_slots", []),SlotSet("time", None)]
-
-
-#Action responsavel por modificar a data do evento(consulta)
-class ModifyGoogleCalendarEvent(Action):
-    def name(self) -> str:
-        return "action_modify_event_form"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        new_start_time_str = tracker.get_slot('time')
-        cpf_user = tracker.get_slot('cpf')
-
-        event_id, error_message = get_event_id_from_cpf(cpf_user)
-        print(event_id)
-        if not event_id:
-            dispatcher.utter_message(text=error_message)
+            dispatcher.utter_message(text="Desculpe, não entendi o especialista escolhido.")
             return []
 
-        try:
-            target_date = dateparser.parse(
-                new_start_time_str,
-                settings={
-                    'TIMEZONE': 'America/Sao_Paulo',
-                    'RETURN_AS_TIMEZONE_AWARE': True
-                }
-            )
-            if not target_date:
-                dispatcher.utter_message(text="Formato de data e hora incorreto. Por favor, tente novamente.")
-                return [SlotSet("time", None), FollowupAction("action_listen")]
-
-            new_end_time = target_date + timedelta(hours=1)
-            new_start_time_str = target_date.isoformat()
-            new_end_time_str = new_end_time.isoformat()
-
-            if modify_event(event_id, new_start_time_str, new_end_time_str):
-                dispatcher.utter_message(text="Mudança de consulta concluída com sucesso!")
-                return [
-                    SlotSet("form_completed", False),
-                    SlotSet("event_modify_completed", True),
-                    SlotSet("cpf", None),
-                    SlotSet("event_id", None),
-                    SlotSet("time", None)
-                ]
-            else:
-                dispatcher.utter_message(text="Não conseguimos mudar sua consulta de data!")
-                return [
-                    SlotSet("event_modify_completed", False),
-                    SlotSet("cpf", None),
-                    SlotSet("event_id", None),
-                    SlotSet("time", None)
-                ]
-
-        except ValueError as e:
-            dispatcher.utter_message(text=f"Erro ao processar as datas: {str(e)}")
-            logger.error(f"Error processing dates: {e}")
-
-        return [
-            SlotSet("cpf", None),
-            SlotSet("event_id", None),
-            SlotSet("time", None)
-        ]
-
-    
-#Action responsavel por excluir o evento(consulta) 
-class ActionDeleteGoogleCalendarEvent(Action):
-    def name(self):
-        return "action_delete_event_form"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        
-        cpf_user = tracker.get_slot('cpf')
-        event_id, error_message = get_event_id_from_cpf(cpf_user)
-        
-        if not event_id:
-            dispatcher.utter_message(text=error_message)
-            return [SlotSet("event_delete_completed", False), SlotSet("cpf", None)]
-
-        
-        url_delete = f"http://localhost:3010/agendamento/deletar/{event_id}"
-        try:
-            response_delete = requests.delete(url_delete)
-            if 200 <= response_delete.status_code < 300:
-                dispatcher.utter_message(text="Consulta cancelada com sucesso!")
-                logger.info(f"Appointment {event_id} successfully cancelled.")
-                return [SlotSet("event_delete_completed", True), SlotSet("cpf", None),SlotSet("event_id",None)]
-            else:
-                dispatcher.utter_message(text="Parece que não conseguimos cancelar sua consulta, tente mais tarde novamente.")
-                logger.warning(f"Failed to delete event {event_id} from local database: {response_delete.status_code}")
-                return [SlotSet("event_delete_completed", False), SlotSet("cpf", None),SlotSet("event_id",None)]
-        except Exception as e:
-            dispatcher.utter_message(text="Erro ao deletar a consulta, tente novamente mais tarde!")
-            logger.error(f"Failed to communicate with local database for deleting event {event_id}: {str(e)}")
-            return [SlotSet("event_delete_completed", False), SlotSet("cpf", None),SlotSet("event_id",None)]
-            
-        
+        return []
 

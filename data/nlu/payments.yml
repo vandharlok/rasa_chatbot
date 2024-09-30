@@ -1,0 +1,203 @@
+version: "3.1"
+
+nlu:
+
+  - intent: metodo_de_pagamento
+    examples: |
+      - Quais são as formas de pagamento disponíveis?
+      - são as formas de pagamento?
+      - Quais são as opções de pagamento disponíveis?
+      - opções de pagamento?
+      - Quais formas de pagamento estão disponíveis?
+      - Quais formas de pagamento voces aceitam?
+      - métodos de pagamento estão disponíveis?
+      - Quais métodos de pagamento voces aceitam?
+      - formas de pagamento aceitas?
+      - Quais opções de pagamento voces oferecem?
+      - métodos de pagamento voces oferecem?
+      - Quais são os métodos de pagamento aceitos?
+      - Quais são as formas de pagamento aceitas pela clínica?
+      - tipos de pagamento são aceitos?
+      - tipos de pagamento estão disponíveis?
+      - Voces aceitam cartão de crédito?
+      - Voces aceitam cartão de débito?
+      - Aceitam cartão de crédito?
+      - Aceitam cartão de débito?
+      - Voces aceitam Pix?
+      - Voces parcelam a consulta?
+      - Voces parcelam?
+      - Aceitam Pix?
+      - Voces aceitam pagamento em dinheiro?
+      - pagamento em dinheiro?
+      - Quais formas de pagamento por cartão voces aceitam?
+      - Aceitam pagamentos em parcelas?
+      - Voces aceitam pagamentos em parcelas?
+      - Quais são as formas de parcelamento disponíveis?
+      - Voces aceitam pagamento na entrega?
+      - Existe opção de parcelamento?
+      - Existem opções de parcelamento?
+      - Quais são as opções de parcelamento?
+      - Quais são as formas de pagar pela consulta?
+      - Quais opções de pagamento para consultas voces tem?
+      - Voces aceitam cartão de crédito para pagamento da consulta?
+      - cartão de crédito?
+      - cartão de débito?
+      - Aceitam Pix para pagamento da consulta?
+      - Posso pagar a consulta com Pix?
+      - Posso pagar com dinheiro?
+      - Aceitam dinheiro?
+      - Quais cartões de crédito são aceitos?
+      - Quais cartões de débito são aceitos?
+      - Aceitam pagamento por cartão?
+      - Posso pagar a consulta em dinheiro?
+      - Aceitam pagamento em dinheiro?
+      - Voces aceitam todos os tipos de cartão?
+      - Posso pagar a consulta com cartão?
+      - Aceitam pagamento em cartão?
+      - Aceitam pagamento em dinheiro para consulta?
+      - Posso pagar a consulta com dinheiro?
+      - Quais são os métodos de pagamento aceitos pela clínica?
+      - Posso pagar com cartão de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento com cartão de débito?
+      - Aceitam cartões de crédito?
+      - Aceitam cartões de débito?
+      - Posso pagar com Pix?
+      - Aceitam Pix como forma de pagamento?
+      - Voces aceitam pagamento por Pix?
+      - Posso usar Pix para pagar a consulta?
+      - Quaih são os métoeos de pagamento aceitos?a?
+      - Voces oferecem parcelamento?
+      - Aceitam parcelamento?
+      - Existe opção de parcelamento?
+      - Posso pagar em parcelas?
+      - Voces aceitam pagamento em parcelas?
+      - Quais opções de parcelamento estão disponíveis?
+      - Voces aceitam pagamento por cartão de crédito?
+      - Aceitam pagamento por cartão de débito?
+      - Quais formas de pagamento voces aceitam?
+      - Posso pagar com cartão?
+      - Aceitam pagamento com cartão?
+      - Posso pagar em dinheiro?
+      - Aceitam cartões de débito?
+      - Aceitam cartões de crédito?
+      - Aceitam pagamento por Pix?
+      - Voces oferecem desconto para pagamento em dinheiro?
+      - Existe desconto para pagamento em dinheiro?
+      - Posso pagar com cartão de crédito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento com cartão de débito?
+      - Voces aceitam Pix para pagamento?
+      - Aceitam Pix para pagar a consulta?
+      - Voces aceitam pagamento em dinheiro?
+      - Posso pagar em dinheiro?
+      - Voces aceitam cartão de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Voces aceitam todos os cartões de débito?
+      - Posso pagar a consulta com cartão de débito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento em Pix?
+      - Voces aceitam todos os tipos de cartão?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento em dinheiro?
+      - Posso pagar em dinheiro?
+      - Aceitam Pix?
+      - Aceitam pagamento por Pix?
+      - Voces aceitam cartão de crédito?
+      - Aceitam cartão de crédito?
+      - Posso pagar com cartão de crédito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento com cartão de débito?
+      - Voces aceitam todos os cartões de débito?
+      - Aceitam pagamento com Pix?
+      - Posso pagar com dinheiro?
+      - Quais são as formas de pagamento disponiveis?
+      - Voces aceitam cartão de crédito?
+      - Existe opção de parcelamento?
+      - Como faço para pagar com cartão de débito?
+      - Podem me informar os métodos de pagamento
+      - Quais opções de pagamento voces oferecem?
+      - posso usar Pix para fazer o pagamento?
+      - Posso dividir o pagamento em mais de uma forma
+      - Como funcionam os pagamentos para serviços
+      - Podem confirmar se meu método de pagamento foi aceito?
+      - voces aceitam cartao
+      - voces aceitam cartao de credito
+      - aceitam cartão
+      - aceitam pix
+      - voces aceitam pix
+      - pix
+      - cartao
+      - cartao de credito
+      - cartao de debito
+      - voces parcelam
+      - voces parcelam no cartao de credito
+      - em ate quantas vezes voces parcelam no cartao
+      - cartão de crédito
+      - cartão de débito
+      - cartão
+      - o pagamento e na hora?
+      - como e o pagamento
+      - pagamento
+ 
+
+  - intent: preco_consulta
+    examples: |
+      - qual sao os precos das consultas
+      - quanto ta a consulta com o [psicólogo](especialista)
+      - preco da consulta com a [psiquiatra](especialista)
+      - preco da consulta
+      - valor da consulta com a [psiquiatra](especialista)
+      - qual o valor da consulta com o [psicólogo](especialista)
+      - quanto ta a consulta com o [psiquiatra](especialista)
+      - quanto ta a a consulta com a [psicólogo](especialista)
+      - qual o preco da consulta com o [psicólogo](especialista)
+      - Quanto custa uma consulta geral nesta clínica
+      - Pode me informar qual é o valor de uma consulta
+      - Qual é o custo para uma consulta com um especialista?
+      - Voce poderia me dizer quanto é cobrado por uma consulta?
+      - Gostaria de saber o preço de uma consulta com a [psicólogo](especialista)?
+      - Qual é o valor cobrado para uma consulta com a [psicólogo](especialista)?
+      - Pode me dizer qual o custo de uma consulta nesta clínica?
+      - Pode fornecer os preços para as consultas disponíveis?
+      - Quanto custa a consulta com a [psicólogo](especialista)?
+      - Qual o valor da consulta com a [psicólogo](especialista)?
+      - Quanto custa uma consulta nesta clínica com o [psicólogo](especialista)?
+      - qual o custo de uma consulta nesta clínica com o [psicólogo](especialista)?
+      - Qual é o valor com a [psicólogo](especialista)?
+      - custo da consulta
+      - preco da consulta
+      - preco da consulta com o [psicólogo](especialista)?
+      - quanto custa a consulta
+      - qual e o valor da consulta
+      - valor da consullta com o [psicólogo](especialista)?
+      - e o valor da sessao com o [psicólogo](especialista)?
+      - e o preco da sessao com o [psicólogo](especialista)?
+      - Quanto custa o atendimento com um especialista [psiquiatra](especialista)?
+      - Qual é o preco para uma consulta de rotina com a [psicólogo](especialista)?
+      - Vocês podem me informar o custo de uma consulta médica com o [psiquiatra](especialista)?
+      - Quanto está a consulta com o clínico geral?
+      - Qual é o valor de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa uma consulta de emergência com a [psicólogo](especialista)?
+      - Vocês podem me dizer o valor das consultas na clínica?
+      - Qual é o preco de uma consulta especializada?
+      - Quanto sai uma consulta de acompanhamento?
+      - Qual é o valor cobrado para um exame de rotina?
+      - Quanto cobram pela consulta com a [psicólogo](especialista)?
+      - Qual o valor de uma consulta para diagnóstico?
+      - Qual é o preco de uma consulta com a [psicólogo](especialista)?
+      - Qual o valor de uma consulta com o [psiquiatra](especialista)?
+      - Qual é o preco de uma consulta com o [psiquiatra](especialista)?
+      - Quanto custa um atendimento na clínica com o [psiquiatra](especialista)?
+      - Quanto custa a consulta com o cardiologista?
+      - Vocês poderiam informar o custo de uma consulta de rotina?
+      - Quanto está a consulta com o [psiquiatra](especialista)?
+      - Vocês podem me informar o valor da consulta com o psicólogo?
+      - Quanto custa o atendimento médico na clínica?
+      - Qual o custo para realizar uma consulta com a [psicólogo](especialista)?
+      - Quanto custa agendar uma consulta com o [psiquiatra](especialista)?
+      - Vocês podem me dizer quanto custa uma consulta de emergência?
+      - Quanto sai uma consulta com o [psiquiatra](especialista)?

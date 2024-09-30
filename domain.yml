@@ -21,8 +21,11 @@ actions:
   - action_out_of_scope
   - action_handle_deny
   - action_handle_affirm
+  - action_ask_event_form_especialista
+  - action_ask_event_form_profissional
+  - action_reset_slot_time
 
-  
+
 entities:
   - time
   - feedback
@@ -33,7 +36,8 @@ intents:
   - saudações:  
       use_entities: []
   - marcar_consulta: 
-      use_entities: []
+      use_entities: 
+        - especialista
   - remarcar_consulta: 
       use_entities: []
   - concordancia: 
@@ -67,20 +71,25 @@ intents:
       use_entities: []
   - agradecimento:
       use_entities: []
-
+  - fora_do_scope:
+      use_entities: []
+  - solicitar_receita:
+      use_entities: []
+  - solicitar_atestado:
+      use_entities: []
 
 slots:
   feedback:
     type: float
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: true
+      auto_fill: True
       max_value: 5.0
       min_value: 0.0
   time:
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
       - type: from_entity
         entity: time
@@ -91,21 +100,21 @@ slots:
           requested_slot: time    
         - active_loop:  modify_event_form
           requested_slot: time    
-        auto_fill: true
+        auto_fill: True
 
   nome:   
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: from_text
       conditions:
        - active_loop: cadastro_form
          requested_slot: nome
-      auto_fill: false
+      auto_fill: False
 
   cpf:
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: from_text
       conditions:
@@ -123,105 +132,107 @@ slots:
       conditions:
         - active_loop: delete_event_form
           requested_slot: cpf
-      auto_fill: false
+      auto_fill: False
   email:
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: from_text
       conditions:
        - active_loop: cadastro_form
          requested_slot: email
-      auto_fill: false
+      auto_fill: False
   telefone:
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: from_text
       conditions:
       - active_loop: cadastro_form
         requested_slot: telefone
-      auto_fill: false
+      auto_fill: False
   free_slots:
     type: list
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   event_id:
     type: text
-    influence_conversation: false
+    influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   fallback_count:
     type: float
-    influence_conversation: false 
+    influence_conversation: False 
     initial_value: 0.0
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   event_completed:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   event_modify_completed:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   event_delete_completed:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   form_completed:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   login_sucess:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   cpf_validate:
     type: bool
-    influence_conversation: true
-    initial_value: false
+    influence_conversation: True
+    initial_value: False
     mappings:
     - type: custom
-      auto_fill: false
+      auto_fill: False
   especialista:
     type: text
-    influence_conversation: true 
+    influence_conversation: True 
     mappings:
       - type: from_text
         conditions:
           - active_loop: event_form
             requested_slot: especialista
-        auto_fill: false
+        auto_fill: False
+      - type: from_entity
+        entity: especialista
+        auto_fill: True
   profissional:
     type: text
-    influence_conversation: true 
+    influence_conversation: True 
     mappings:
       - type: from_text
         conditions:
           - active_loop: event_form
             requested_slot: profissional
-        auto_fill: false
-
+      
 
 forms:
   cadastro_form:
@@ -244,13 +255,6 @@ forms:
   delete_event_form:
     required_slots:
     - cpf
-
-  
-  
-
-
-  
-
 
 responses:
   utter_metodo_de_pagamento:
@@ -291,42 +295,6 @@ responses:
     
   utter_ask_event_form_cpf:
     - text: Poderia me passar seu CPF para te identificar em nosso sistema?
-
-  utter_ask_event_form_especialista:
-    - text: Qual especialista deseja marcar a consulta?
-      buttons:
-        - title: "Psiquiatra"
-          payload: "psiquiatra"
-        - title: "Psicólogo"
-          payload: "psicóloga"
-
-  utter_ask_event_form_profissional:
-    - condition:
-        - type: slot
-          name: especialista
-          value: psiquiatra
-      text: Qual profissional tem preferência?
-      buttons:
-        - title: "Psiquiatra - Karen"
-          payload: "Karen"
-        - title: "Psiquiatra - Wesley"
-          payload: "Wesley"
-        - title: "Psiquiatra - Isabella"
-          payload: "Isabella"
-        - title: "Psiquiatra - Maria"
-          payload: "Maria"
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicóloga
-      text: Qual profissional tem preferência?
-      buttons:
-        - title: "Psicóloga - Maria"
-          payload: "Maria"
-        - title: "Psicóloga - Isabella"
-          payload: "Isabella"
-    
-
 
   utter_confirm_appointment:
     - text: Deseja agendar?
@@ -396,8 +364,18 @@ responses:
     - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
 
   utter_marcar_consulta: 
-    - text: "Deseja agendar uma consulta conosco?"
-
+    - condition:
+        - type: slot
+          name: especialista
+          value: psiquiatra
+      text: Deseja agendar uma consulta com nosso psiquiatra?
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicólogo
+      text: Deseja agendar uma consulta com nosso psicólogo?
+    - text: Deseja agendar uma consulta conosco?
+    
   utter_cancelar_consulta:
     - text: Voce deseja cancelar sua consulta agendada conosco?
 
@@ -426,4 +404,4 @@ responses:
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: false
+  carry_over_slots_to_new_session: False

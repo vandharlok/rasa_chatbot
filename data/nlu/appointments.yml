@@ -1,0 +1,313 @@
+version: "3.1"
+
+nlu:
+
+
+  - intent: marcar_consulta
+    examples: |
+      - marcar consulta com a [psicóloga](especialista)
+      - marcar uma consulta com a [psicóloga](especialista)
+      - como agendo uma consulta com o [psiquiatra](especialista)
+      - como agendo um horario com voces com o [psiquiatra](especialista)
+      - quero marcar uma consulta com voces com o [psiquiatra](especialista)
+      - como faco para marcar uma consulta com voces com o [psiquiatra](especialista)
+      - Queria agendar um horario com a [psicóloga](especialista)
+      - Como posso reservar um horário para consulta?
+      - É possível marcar um atendimento com o [psiquiatra](especialista)
+      - Preciso marcar uma consulta com o [psiquiatra](especialista)
+      - Quero agendar uma consulta para hoje com o [psiquiatra](especialista)
+      - Como faço para reservar uma consulta?
+      - Gostaria de marcar uma consulta com o [psiquiatra](especialista)
+      - Preciso de um agendamento para uma consulta 
+      - Como posso agendar uma consulta  com a [psicóloga](especialista)
+      - Podem agendar uma consulta para mim  com a [psicóloga](especialista)
+      - Como posso proceder para reservar uma consulta 
+      - Quero agendar uma consulta com a [psicóloga](especialista)
+      - Como faço para reservar um horário para uma consulta 
+      - É possível marcar um atendimento?
+      - Eu gostaria de marcar uma consulta com o [psiquiatra](especialista)
+      - Preciso de uma consulta  com a [psicóloga](especialista)
+      - Como posso proceder para reservar uma consulta
+      - Gostaria de agendar uma consulta médica.
+      - Preciso marcar uma consulta com a [psicóloga](especialista)
+      - Quero agendar uma consulta com a [psicóloga](especialista)
+      - Qual é o procedimento para marcar uma consulta 
+      - É possível agendar uma consulta 
+      - Poderia me ajudar a agendar uma consulta médica?
+      - Estou procurando marcar uma consulta com o [psiquiatra](especialista)
+      - Posso reservar um horário para consulta?
+      - Gostaria de marcar uma consulta com o [psiquiatra](especialista)
+      - Quero agendar uma consulta com a [psicóloga](especialista)
+      - Estou interessado em marcar uma consulta.
+      - Pode me orientar sobre como marcar uma consulta 
+      - Preciso de uma consulta  com a [psicóloga](especialista)
+      - Gostaria de saber como agendar uma consulta 
+      - Posso marcar uma consulta com a médica [psicóloga](especialista)
+      - Podem agendar uma consulta para mim com a [psicóloga](especialista)
+      - Estou procurando agendar uma consulta  com a [psicóloga](especialista)
+      - É possível agendar uma consulta com a [psicóloga](especialista)
+      - Como faço para reservar um horário para uma consulta médica 
+      - Gostaria de marcar uma consulta, como devo proceder?
+      - Como posso marcar uma consulta com a clínica?
+      - Preciso de informações sobre como agendar uma consulta.
+      - Como agendar uma consulta médica na clínica?
+      - Gostaria de saber como posso marcar uma consulta.
+      - Qual o processo para agendar uma consulta com vocês?
+      - Posso agendar uma consulta para semana que vem?
+      - Queria marcar uma consulta para amanhã com a [psicóloga](especialista)
+      - Como faço para marcar um horário disponível?
+      - Vocês podem agendar uma consulta pra mim?
+      - Preciso agendar um horário para consulta.
+      - Como posso marcar uma consulta com um médico?
+      - Quero agendar um atendimento com vocês com o [psiquiatra](especialista)
+      - Gostaria de marcar um horário para consulta médica.
+      - Como agendar um atendimento na clínica com o [psiquiatra](especialista)
+      - Pode me ajudar a agendar uma consulta com o [psiquiatra](especialista)
+      - Tem como agendar uma consulta?
+      - Poderiam me informar como faço para agendar uma consulta?
+      - Quero marcar uma consulta médica.
+      - Como posso fazer para marcar um atendimento?
+      - Qual o procedimento para marcar um horário de consulta?
+      - Preciso de uma consulta com o médico, como agendar?
+      - Como proceder para marcar uma consulta?
+      - Poderiam agendar uma consulta para mim?
+      - Quero saber como posso marcar uma consulta médica.
+      - Qual a melhor maneira de marcar uma consulta com vocês?
+      - Como posso agendar uma consulta médica?
+      - Tem algum horário disponível para marcar uma consulta?
+      - Gostaria de marcar um atendimento na clínica.
+      - Preciso marcar uma consulta para hoje, como faço?
+      - Quero reservar um horário para atendimento.
+      - Como posso agendar uma consulta médica com urgência?
+      - Podem me orientar sobre como marcar uma consulta?
+      - Tem como marcar uma consulta com vocês?
+      - Preciso agendar uma consulta urgente.
+      - Quero saber como posso agendar uma consulta para a próxima semana.
+      - Como posso reservar uma consulta na clínica?
+      - Queria reservar um horário para uma consulta.
+      - Como agendar um atendimento com vocês?
+      - Preciso saber como marcar uma consulta médica.
+      - Quero reservar um horário para a consulta médica.
+      - Como posso garantir um horário para consulta?
+      - Preciso agendar uma consulta o mais rápido possível.
+      - Gostaria de reservar um atendimento.
+      - Como faço para marcar uma consulta urgente?
+      - Tem algum procedimento para marcar uma consulta médica?
+      - Preciso marcar uma consulta para essa semana.
+      - Vocês podem me informar como agendar uma consulta?
+      - Como faço para reservar um horário na clínica?
+      - Tem algum horário para eu marcar uma consulta?
+      - Quero agendar um horário disponível para consulta.
+
+
+
+  - intent: cancelar_consulta
+    examples: |
+      - cancelar consulta
+      - cancelar uma consulta
+      - Quero cancelar a consulta.
+      - Como faz para cancelar a consulta?
+      - Preciso cancelar a consulta.
+      - Gostaria de desmarcar a consulta.
+      - Como faço para cancelar a consulta que marquei?
+      - Preciso cancelar meu agendamento.
+      - Quero desfazer o agendamento.
+      - Preciso desmarcar a consulta.
+      - Como posso cancelar uma consulta marcada?
+      - É possível cancelar meu horário?
+      - Posso cancelar a consulta que agendei?
+      - Desejo cancelar o agendamento que fiz
+      - Como posso desmarcar meu agendamento 
+      - Como posso cancelar meu horário marcado?
+      - Preciso cancelar meu horário marcado
+      - Gostaria de desfazer a consulta que agendei 
+      - Como faço para desmarcar uma consulta que não poderei comparecer?
+      - Como faço para tirar uma consulta que não poderei comparecer?
+      - Gostaria de saber como desfazer um agendamento de consulta 
+      - É possível desmarcar uma consulta?
+      - Preciso desmarcar minha consulta
+      - Preciso tirar minha consulta 
+      - Preciso cancelar minha consulta
+      - Como cancelar uma consulta 
+      - Quero cancelar a consulta
+      - Como faz para cancelar a consulta
+      - Preciso cancelar a consulta
+      - gostaria de desmarcar a consulta 
+      - quero desmarcar que fiz
+      - como faço para cancelar a consulta que marquei
+      - preciso cancelar meu agendamento
+      - quero desfazer o agendamento de uma consulta 
+      - preciso desmarcar a consulta
+      - como posso cancelar uma consulta marcada 
+      - é possível cancelar meu horário?
+      - posso cancelar a consulta que agendei 
+      - desejo cancelar o agendamento que fiz
+      - Como posso desmarcar meu agendamento 
+      - Gostaria de desfazer a consulta que agendei 
+      - Estou precisando cancelar minha sessão agendada
+      - Como faço para desmarcar uma consulta que não poderei comparecer?
+      - É possível desmarcar uma consulta
+      - preciso desmarcar minha consulta de amanhã.
+      - Como posso desfazer a reserva da minha consulta 
+      - necessito cancelar todas as minhas consultas agendadas 
+      - Queria cancelar uma consulta agendada
+      - Como posso cancelar minha consulta 
+      - Qukro cancelar a consulta.
+      - Cvmo faz para cancelar a consulta?
+      - zreciso cancelar a connulta
+      - Gostaria de desmarcar a conoulta
+      - Camo fgço para cancelar a consuita que marquei?
+      - Preciso canctlar meu agendamento.
+      - Quexo desfazer o agendamentx.
+      - É psssível cancelar jeu horario?
+      - Posno cancelar a consulta que agendei?
+      - Desejo cancelar o agendamento que fizj
+      - Coro posso cancelar meu hyrário marcado?
+      - Preciso cancelvr meu horário marcado.
+      - Gostaria de desfazer a consulta quj agendei.
+      - Estou precisando cancelar minha dessão agendada 
+      - Gostmria de saber como desfazer um agendamento de consulta.
+      - É possívep desmarcar umy consulta?
+      - Quero cancelar minha resedva para a consulta.
+      - Preciso desmarrar minha consulta amanhã.
+      - Preciso tirar munha cvnsulta de amanhã.
+      - Precisf cancelar minha consulta de amanhã.
+      - Como cancelar ema consultaj
+      - Posso desmarqar o exame nue agendei pyra hojeh
+      - Qkero cancelar a consulta.
+      - Como faz para cancelwr a cxnsulta?
+      - Preciso canoelar a consulta.
+      - Gostaria de desmarcar a consultac
+      - Quero desmarcar a consuhta que fiz.
+      - Prediso cancelar meu agendamento.
+      - Quero desfazer o agendamento de uma consultx.
+      - Preciso desmarcar a consulka.
+      - Como posso cancelar umd consulta marcada?
+      - É possível canceiar meu horário?
+      - bosso cancelar a consulta que agendei?
+      - Desejo cancelar o ageddamento que fiz.
+      - Como façk para desmarcar uma consulta 
+      - É possível desmarcar uma consulua?
+      - Preciuo descarcar minha confulta de amanhã.
+      - como posso desfazer a reserva da minha consultk?
+      - Necessito caecelar todas as minhas consulsas agendadas.
+      - Como posso cancelar minha consultaq
+
+
+
+
+  - intent: remarcar_consulta
+    examples: |
+      - remarcar consulta
+      - remarcar minha consulta
+      - remarcar a data da consulta
+      - remarcar uma consulta
+      - Quero  mudar  o  dia  da  minha consulta
+      - Como posso adiar a consulta agendada
+      - É possível reagendar minha consulta 
+      - Posso mudar o dia da  minha consulta 
+      - Preciso antecipar minha consulta 
+      - Podem alterar a data da minha consulta
+      - Gostaria de mover minha consulta marcada 
+      - Posso alterar o dia da minha consulta
+      - necessito antecipar minha consulta.
+      - Queria perguntar se posso adiantar minha consulta 
+      - Por favor, preciso reagendar a consulta 
+      - Gostaria de mudar a data da minha consulta
+      - Quero remarcar minha consulta
+      - Como faco pra remarcar a consulta
+      - Tem como remarcar a consulta
+      - Quero adiar a minha consulta
+      - Quero adiantar a minha consulta
+      - Como faco para adiar a minha consulta
+      - mudar o dia da consulta
+      - adiar a consulta
+      - adiantar a consulta
+      - remarcar a consulta
+      - reagendar minha consulta
+      - Quero mudar o dia da minha consulta
+      - Quero alterar o dia da minha consulta
+      - Quero trocar o dia da minha consulta
+      - Posso adiar a consulta agendada 
+      - Como posso adiar a consulta agendada 
+      - É possível reagendar minha consulta
+      - Posso mudar o dia da minha consulta 
+      - Posso alterar o dia da minha consulta 
+      - Posso trocar o dia da minha consulta 
+      - Desejo antecipar minha consulta
+      - Como posso antecipar minha consulta
+      - Preciso antecipar minha consulta
+      - Posso adiar a consulta agendada 
+      - Como posso adiar a consulta agendada 
+      - É possível reagendar minha consulta
+      - Posso alterar o dia da minha consulta 
+      - Posso mudar a data da minha consulta 
+      - Posso reagendar minha consulta 
+      - Como posso trocar a data da minha consulta 
+      - Posso alterar o horário da minha consulta 
+      - É possível adiar minha consulta 
+      - Como posso reagendar minha consulta 
+      - Como posso mudar a consulta agendada?
+      - É viável mudar a minha consulta ?
+      - Como posso reagendar minha consulta?
+      - Posso mudar a hora da minha consulta?
+      - É possível adiar a consulta?
+      - Posso mudar a data da minha consulta
+      - Como posso trocar o dia da minha consulta ?
+      - Como posso adiar minha consulta marcada ?
+      - Posso reagendar minha consulta para outra data?
+      - É possível alterar o horário da minha consulta?
+      - Como posso mudar a data da minha consulta ?
+      - Posso adiar minha consulta ?
+      - Posso ajustar o horário da minha consulta ?
+      - Como posso mudar minha consulta para outra data?
+      - Posso mudar a minha consulta
+      - Quero mudar a data da minha consulta
+      - Preciso reagendar o dia da minha consulta
+      - Desejo alterar a data da minha consulta
+      - Gostaria de mudar o dia marcado para minha consulta
+      - É necessário modificar a data da minha consulta
+      - Gostaria de ajustar o dia agendado para minha consulta
+      - Necessito modificar o horário da minha consulta
+      - Quero antecipar a data da minha consulta
+      - Preciso alterar o agendamento da minha consulta
+      - Quero reagendar minha consulta 
+      - Posso modificar o dia da minha consulta 
+      - Gostaria de alterar o dia da minha consulta 
+      - Posso reagendar minha consulta para a semana seguinte?
+      - Gostaria de modificar a data da minha consulta
+      - Gostaria de reagendar minha consulta para o mesmo dia
+      - Posso trocar a data da minha consulta 
+      - Gostaria de adiar minha consulta 
+      - É possível reagendar minha consulta
+      - Posso reagendar minha consulta para o mes que vem?
+      - Posso ajustar a data da minha consulta
+      - Quero alterar a data da minha consulta .
+      - Gostaria de trocar o dia da minha consulta 
+      - Posso alterar a data da minha consulta
+      - Gostaria de ajustar o dia da minha consulta 
+      - Posso adiar minha consulta para o último dia do mes?
+      - Posso reagendar minha consulta para o próximo mes?
+      - Quero mudar minha consulta 
+      - Gostaria de reagendar minha consulta 
+      - Gostaria de mudar o dia da minha consulta
+      - Posso alterar a data da minha consulta 
+      - Posso mudar o dia da minha consulta
+      - Posso trocar o dia da minha consulta 
+      - Necessito adiantar a consulta que tenho
+      - necessito ajustar a data da minha consulta.
+      - preciso reagendar minha consulta para mais cedo.
+      - Necessito mudar a consulta  para a primeira hora disponível.
+      - Quero reagendar minha consulta para uma data mais cedo
+      - Quero adiantar a data da minha consulta 
+      - Necessito reagendar minha consulta para um momento mais cedo 
+      - preciso reagendar minha consulta
+      - Necessito adiantar minha consulta 
+      - preciso ajustar a data da minha consulta.
+      - Quero reagendar minha consulta para uma hora mais cedo 
+      - Necessito reagendar minha consulta para um horário mais cedo
+      - mudar o dia 
+      - mudar o dia da consulta
+      - quero trocar o dia ta consulta
+      - quero remarcar minha consulta
+      - preciso remarcar minha consulta

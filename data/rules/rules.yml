@@ -1,0 +1,58 @@
+version: "3.1"
+
+rules:
+
+- rule: Sauda o usuario
+  conversation_start: False
+  steps:
+  - intent: saudações
+  - action: utter_show_options
+
+
+- rule: Regra para confirmar se quer remarcar consulta
+  steps:
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+
+
+- rule: Regra para confirmar se quer cancelar consulta
+  steps:
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+
+
+- rule: Regra para confirmar se quer marcar consulta
+  steps:   
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+
+
+- rule: Informar que tem duvidas 
+  steps:
+  - intent: duvida
+  - action: utter_duvida
+
+
+- rule: Informando sobre local de atendimento
+  steps:
+  - intent: saber_local_de_atendimento
+  - action: utter_saber_local_de_atendimento
+
+- rule: Informando sobre plano de saude da clinica
+  steps:
+  - intent: verificar_plano_de_saude
+  - action: utter_verificar_plano_de_saude
+
+
+- rule: Informando sobre os servicos da clinica
+  steps:
+  - intent: informacoes_sobre_servico
+  - action: utter_informacoes_sobre_servico
+
+
+- rule: informa os metodos de pagamento da clinica
+  steps:
+  - intent: metodo_de_pagamento
+  - action: utter_metodo_de_pagamento
+
+

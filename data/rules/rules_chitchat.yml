@@ -1,0 +1,21 @@
+version: "3.1"
+
+rules:
+
+- rule: agradecendo qualquer momento que o user agradece
+  steps:
+  - intent: agradecimento
+  - action: utter_agradecimento
+
+- rule: se despedindo em qualquer momento que o user se despede
+  steps:
+  - intent: tchau
+  - action: utter_tchau
+
+
+- rule: saudacoes
+  conversation_start: True
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options

@@ -1,0 +1,216 @@
+version: "3.1"
+
+nlu:
+
+  - intent: solicitar_atestado
+    examples: |
+      - Preciso de um atestado médico para o trabalho, como faço?
+      - Como posso solicitar um atestado médico para justificar minha ausência?
+      - Gostaria de pedir um atestado médico para a escola.
+      - Preciso de um atestado para justificar minha ausência no trabalho.
+      - Vocês podem me fornecer um atestado médico para a faculdade?
+      - Preciso de um atestado médico para minha ausência de ontem.
+      - Como consigo um atestado médico após a consulta?
+      - Quero um atestado médico para justificar minha ausência por motivo de saúde.
+      - Vocês emitem atestados médicos para consultas?
+      - Preciso de um atestado médico urgente, como proceder?
+      - Como faço para solicitar um atestado de saúde?
+      - Preciso de um atestado médico para justificar minha ausência na reunião.
+      - Como posso obter um atestado médico após a consulta?
+      - Vocês emitem atestados médicos para justificar ausências?
+      - Preciso de um atestado para apresentar ao meu empregador.
+      - Gostaria de solicitar um atestado para minha ausência no trabalho.
+      - Preciso de um atestado para justificar uma ausência por doença.
+      - É possível solicitar um atestado médico online?
+      - Gostaria de um atestado médico para justificar minha falta no serviço.
+      - Posso pedir um atestado médico pela consulta de hoje?
+      - Preciso de um atestado médico para apresentar à minha empresa.
+      - Vocês podem emitir um atestado para justificar minha ausência escolar?
+      - Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - Preciso de um atestado para justificar minha ausência de ontem.
+      - Posso obter um atestado médico após a consulta de hoje?
+      - Preciso de um atestado médico para justificar minha licença.
+      - Gostaria de um atestado para apresentar à minha escola.
+      - Como faço para solicitar um atestado médico para o trabalho?
+      - Vocês emitem atestados médicos após consultas?
+      - Preciso de um atestado para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - Como posso obter um atestado médico após a consulta?
+      - Preciso de um atestado para apresentar à faculdade.
+      - Vocês emitem atestados médicos para justificar faltas?
+      - Preciso de um atestado médico para justificar minha ausência no trabalho.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência escolar.
+      - Preciso de um atestado para justificar minha falta no trabalho.
+      - Como posso obter um atestado médico após minha consulta?
+      - Preciso de um atestado médico para justificar minha ausência na empresa.
+      - Vocês emitem atestados médicos para consultas?
+      - Preciso de um atestado médico para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência por motivo de saúde.
+      - Como faço para solicitar um atestado de saúde após minha consulta?
+      - Vocês emitem atestados médicos para justificar faltas no trabalho?
+      - Preciso de um atestado médico para justificar minha ausência por motivo de saúde.
+      - Gostaria de solicitar um atestado médico para justificar minha falta na faculdade.
+      - Como posso obter um atestado médico para justificar minha ausência no serviço?
+      - Preciso de um atestado para apresentar à minha empresa devido à minha ausência.
+      - Vocês podem fornecer um atestado médico para justificar minha falta no trabalho?
+      - Como posso solicitar um atestado médico para justificar minha ausência na escola?
+      - Preciso de um atestado para justificar minha ausência no trabalho por motivo de doença.
+      - Gostaria de um atestado médico para apresentar à empresa.
+      - Preciso de um atestado médico para justificar minha ausência por motivos de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Vocês fornecem atestados médicos para justificar ausências no trabalho?
+      - Gostaria de solicitar um atestado médico para apresentar ao meu empregador.
+      - Preciso de um atestado médico para justificar minha ausência na escola.
+      - Como faço para solicitar um atestado médico para o trabalho?
+      - Preciso de um atestado médico para justificar minha ausência por doença.
+      - Gostaria de pedir um atestado médico após a consulta de hoje.
+      - Preciso de um atestado médico para justificar minha falta no trabalho por motivos de saúde.
+      - Como posso obter um atestado médico para justificar minha ausência no trabalho?
+      - Vocês podem fornecer um atestado médico para justificar minha ausência por motivo de saúde?
+      - Preciso de um atestado médico para apresentar à minha escola.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - Preciso de um atestado médico para justificar minha ausência de ontem.
+      - Vocês emitem atestados médicos para consultas realizadas na clínica?
+      - Gostaria de um atestado médico para justificar minha ausência por motivo de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Preciso de um atestado para apresentar à minha empresa para justificar minha ausência.
+      - Como posso obter um atestado médico para justificar minha ausência por motivos de saúde?
+      - Vocês emitem atestados médicos para justificar faltas no serviço?
+      - Preciso de um atestado médico para justificar minha falta por motivo de saúde.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no trabalho.
+      - Como posso obter um atestado médico após minha consulta?
+      - Vocês fornecem atestados médicos para justificar ausências por doença?
+      - Preciso de um atestado médico para apresentar ao meu empregador por motivo de doença.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência na escola.
+      - Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - Preciso de um atestado médico para justificar minha ausência na faculdade.
+      - Vocês emitem atestados médicos para justificar faltas por doença?
+      - Gostaria de um atestado médico para justificar minha ausência no serviço.
+      - Preciso de um atestado médico para justificar minha ausência no trabalho por motivos de saúde.
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - Vocês fornecem atestados médicos para consultas feitas na clínica?
+      - Preciso de um atestado médico para justificar minha ausência de ontem.
+      - Gostaria de solicitar um atestado médico para apresentar à minha empresa.
+      - Preciso de um atestado médico para justificar minha ausência no trabalho devido à doença.
+      - Vocês fornecem atestados médicos para justificar ausências escolares?
+      - Preciso de um atestado médico para o trabalho, como faço?
+      - Gostaria de solicitar um atestado para justificar minha ausencia na faculdade.
+      - Como posso conseguir um atestado médico para a escola?
+      - É possível obter um atestado para faltar ao serviço por motivo de saúde?
+      - Preciso de um atestado para minha ausencia de ontem, voce pode me ajudar?
+      - Como faço para solicitar um atestado médico?
+      - Gostaria de um atestado para justificar a minha falta no trabalho devido a doença.
+      - Quero um atestado médico para apresentar na universidade, o que preciso fazer?
+      - Preciso de um atestado que cubra minha licença médica, como proceder?
+      - Voce pode emitir um atestado de saúde para mim?
+      - Como solicitar um atestado médico após a  consulta ?
+      - Quero um atestado para justificar minha ausencia na reunião devido a  consulta  médica.
+      - Preciso de documentação médica para justificar meu afastamento, como obter?
+      - Gostaria de um atestado por motivo de saúde, como eu faço?
+      - É possível receber um atestado médico hoje?
+
+  - intent: solicitar_receita
+    examples: |
+      - Minha receita acabou. Como faço para solicitar uma nova receita?
+      - Preciso renovar minha receita para medicação contínua.
+      - Como posso conseguir uma nova receita médica?
+      - Necessito de uma renovação da minha receita, voce pode me ajudar?
+      - Gostaria de solicitar uma receita para meu medicamento.
+      - Minha receita venceu, como faço para renovar?
+      - É possível obter uma receita nova hoje?
+      - Preciso de uma receita urgente, como proceder?
+      - Como renovar uma receita de uso contínuo?
+      - Meu medicamento acabou, preciso de uma nova receita.
+      - Como faço para solicitar uma receita pela primeira vez?
+      - Preciso de uma receita atualizada, voce pode emitir uma?
+      - Posso renovar minha receita online?
+      - Gostaria de uma receita para um novo tratamento.
+      - Quero uma receita para continuar meu tratamento atual.
+      - Preciso de uma nova receita para o meu medicamento.
+      - Como posso solicitar a receita para meu tratamento contínuo?
+      - Gostaria de pedir uma receita médica.
+      - Minha receita expirou, preciso de uma nova.
+      - Como faço para renovar minha receita médica?
+      - Vocês podem emitir uma receita para mim?
+      - Preciso de uma receita para o meu medicamento de uso contínuo.
+      - Posso pedir uma receita médica pela consulta de hoje?
+      - Gostaria de renovar minha receita.
+      - Preciso de uma receita para o tratamento que estou fazendo.
+      - Como consigo uma receita nova para meu remédio?
+      - Minha receita médica venceu, como posso renová-la?
+      - Vocês podem me fornecer uma receita para o medicamento que tomo?
+      - Preciso de uma nova receita para continuar meu tratamento.
+      - Gostaria de solicitar uma receita para meu medicamento.
+      - Minha receita médica expirou, como faço para obter outra?
+      - Posso solicitar uma receita para meu remédio?
+      - Preciso de uma receita para o meu tratamento.
+      - Como faço para pedir uma nova receita para meu remédio?
+      - Minha receita venceu, preciso de outra.
+      - Gostaria de obter uma receita médica para meu medicamento de uso contínuo.
+      - Preciso de uma receita nova, como proceder?
+      - Posso pedir uma receita médica para meu medicamento atual?
+      - Gostaria de solicitar a receita do meu tratamento.
+      - Preciso de uma receita nova para continuar meu tratamento médico.
+      - Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - Preciso renovar minha receita, como faço?
+      - Minha receita está vencida, posso solicitar uma nova?
+      - Gostaria de pedir uma nova receita para meu tratamento contínuo.
+      - Preciso de uma receita para o medicamento que uso regularmente.
+      - Como posso obter uma nova receita médica?
+      - Preciso de uma receita para meu tratamento médico.
+      - Vocês podem emitir uma receita médica para o meu medicamento?
+      - Gostaria de pedir uma receita para meu tratamento.
+      - Minha receita está vencida, preciso de uma nova.
+      - Como posso solicitar uma receita para o meu medicamento de uso contínuo?
+      - Gostaria de renovar minha receita médica.
+      - Preciso de uma receita médica urgente, como posso solicitar?
+      - Minha receita médica expirou, posso pedir uma nova?
+      - Preciso de uma receita para o meu remédio, como faço para pedir?
+      - Como posso pedir uma nova receita médica?
+      - Preciso de uma nova receita para meu tratamento, vocês podem me ajudar?
+      - Posso renovar minha receita médica?
+      - Preciso de uma receita para o medicamento que estou usando.
+      - Gostaria de solicitar uma nova receita para meu medicamento.
+      - Minha receita venceu, posso pedir outra?
+      - Preciso de uma receita nova para meu remédio de uso contínuo.
+      - Como faço para solicitar uma receita médica?
+      - Gostaria de pedir uma receita para o medicamento que tomo.
+      - Preciso de uma receita médica para meu tratamento.
+      - Minha receita venceu, preciso renovar.
+      - Como posso renovar minha receita médica para o meu remédio?
+      - Preciso de uma receita médica para continuar meu tratamento.
+      - Gostaria de obter uma receita médica nova.
+      - Minha receita venceu, como posso solicitar uma nova?
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir?
+      - Gostaria de solicitar a renovação da minha receita médica.
+      - Como consigo uma nova receita para meu medicamento?
+      - Minha receita está vencida, preciso de uma nova.
+      - Gostaria de pedir uma receita médica nova.
+      - Preciso de uma receita para o meu medicamento de uso contínuo.
+      - Como posso renovar minha receita médica?
+      - Preciso de uma receita nova para meu tratamento contínuo.
+      - Posso pedir uma receita médica para o meu remédio?
+      - Preciso de uma receita médica urgente, como posso conseguir?
+      - Minha receita expirou, como faço para renovar?
+      - Gostaria de pedir uma receita para continuar meu tratamento.
+      - Como faço para solicitar uma receita médica nova?
+      - Preciso de uma nova receita médica para meu medicamento.
+      - Minha receita médica venceu, posso solicitar uma nova?
+      - Preciso de uma receita para meu remédio de uso contínuo.
+      - Gostaria de solicitar a renovação da minha receita.
+      - Como faço para renovar minha receita médica?
+      - Preciso de uma nova receita para meu medicamento.
+      - Gostaria de pedir uma receita médica para meu tratamento.
+      - Minha receita venceu, preciso de uma nova para continuar meu tratamento.
+      - Preciso de uma receita para o medicamento que tomo, como posso pedir?
+      - Como posso obter uma receita nova para meu medicamento?
+      - Preciso renovar minha receita médica, como faço?
+      - Minha receita está vencida, posso pedir uma nova?
+      - Gostaria de obter uma receita médica para continuar meu tratamento.
+      - Preciso de uma receita nova para o meu remédio.
+      - Como faço para pedir uma receita médica para meu tratamento contínuo?
+      - Preciso de uma receita nova para continuar meu tratamento, como solicito?
+      - Minha receita venceu, posso pedir outra para meu medicamento?
+      - Gostaria de solicitar uma receita médica para o meu remédio.
+      - Preciso de uma receita médica para o tratamento que estou fazendo.
+      - Minha receita venceu, preciso de uma nova para o meu remédio.

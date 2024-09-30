@@ -1,0 +1,103 @@
+version: "3.1"
+
+rules:
+
+
+- rule: event
+  steps:
+  - action: event_form
+  - active_loop: event_form
+
+- rule: Completar event_form e confirmar
+  condition:
+  - active_loop: event_form
+  - slot_was_set:
+      - requested_slot: null
+      - form_completed: True
+  steps:
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_add_event 
+  - slot_was_set:
+    - event_completed: True 
+  - action: utter_terminar_conversa
+  wait_for_user_input: False
+
+
+
+- rule: finaliza o forms e chama a action delete
+  condition:
+  - active_loop: delete_event_form
+  steps:
+  - action: delete_event_form
+  - active_loop: delete_event_form
+  - slot_was_set:
+      - requested_slot: null
+  wait_for_user_input: False
+
+
+
+- rule: finaliza o forms e chama a action  modify
+  condition:
+  - active_loop: modify_event_form
+  - slot_was_set:
+        - requested_slot: null
+  steps:
+  - action: modify_event_form
+  - active_loop: modify_event_form
+  - slot_was_set:
+      - requested_slot: null
+  wait_for_user_input: False
+
+
+- rule: Completar modify_event_form e confirmar
+  condition:
+  - active_loop: modify_event_form
+  - slot_was_set:
+      - requested_slot: null
+      - form_completed: True
+      - cpf_validate: True
+  steps:
+  - action: utter_confirm_appointment
+  - intent: concordancia
+  - action: action_modify_event_form
+  - slot_was_set:
+    - event_modify_completed: True 
+  - action: utter_terminar_conversa
+  wait_for_user_input: False
+
+
+
+- rule: finaliza o forms e chama a action salvar user (100% correto)
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - action: cadastro_form
+  - active_loop: null 
+  - action: action_salvar_cadastro
+  - slot_was_set:
+    - login_sucess: False 
+  - action: utter_fail_sign
+
+
+- rule: Finaliza cadastro e inicia agendamento (sucesso)
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - action: cadastro_form
+  - active_loop: null
+  - action: action_salvar_cadastro
+  - slot_was_set:
+      - login_sucess: True
+  - action: utter_success_sign
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+    - form_completed: true
+  wait_for_user_input: False
+
+
+- rule: cadastrando usuario
+  steps:
+  - action: cadastro_form
+  - active_loop: cadastro_form

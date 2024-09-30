@@ -50,9 +50,13 @@ policies:
   check_for_contradictions: True
   tensorboard_log_directory: "./tensorboard/Policy"
   tensorboard_log_level: epoch
+  restrict_rules: true 
 - name: TEDPolicy
   max_history: 10
   epochs: 40
+  loss_type: cross_entropy
+  constrain_similarities: true
+  check_for_contradictions: true
   batch_size: 
   - 8
   - 16
@@ -63,11 +67,9 @@ policies:
   use_gpu: True
   evaluate_every_number_of_epochs: 3
   evaluate_on_number_of_examples: 200
-  constrain_similarities: True
   model_confidence: "softmax"
-  random_seed: 42
+  random_seed: 1
   core_fallback_threshold: 0.8
-  check_for_contradictions: True
   tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
 

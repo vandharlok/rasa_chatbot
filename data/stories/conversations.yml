@@ -1,0 +1,165 @@
+version: "3.1"
+
+stories:
+
+- story: Inicia conversa e quer marcar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+
+- story: Sauda o usuario e mostra as opcoes do bot
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+
+
+- story: Inicia conversa e quer remarcar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+
+
+- story: Inicia conversa e quer cancelar consulta
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+
+
+- story: se despedindo em qualquer momento que o user se despede
+  steps:
+  - intent: tchau
+  - action: utter_tchau
+
+
+- story: falar com atendente
+  steps:
+  - intent: transferir_atendente
+  - action: action_transferir_atendente
+
+
+- story: Inicia conversa e quer saber o preco 
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+
+
+- story: informando sobre precos baseado em entidades ou nao
+  steps:
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+
+
+- story: Inicia conversa e quer saber o local de atendimento 
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: saber_local_de_atendimento
+  - action: utter_saber_local_de_atendimento
+
+
+- story: Inicia conversa e quer saber os planos de saude aceito pela clinica
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: verificar_plano_de_saude
+  - action: utter_verificar_plano_de_saude
+
+
+- story: Inicia conversa e quer saber os servicos da clinica
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: informacoes_sobre_servico
+  - action: utter_informacoes_sobre_servico
+
+- story: Inicia conversa e quer saber os metodos de pagamento
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: metodo_de_pagamento
+  - action: utter_metodo_de_pagamento
+
+- story: Inicia conversa e tem duvidas
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+
+- story: Inicia conversa e quer saber o local de atendimento
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: saber_local_de_atendimento
+  - action: utter_saber_local_de_atendimento
+
+- story: Inicia conversa e quer saber os servicos
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: informacoes_sobre_servico
+  - action: utter_informacoes_sobre_servico
+
+- story: Inicia conversa e quer saber os metodos de pagamento
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: metodo_de_pagamento
+  - action: utter_metodo_de_pagamento
+
+- story: Inicia conversa e quer saber os precos da clinica
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: preco_consulta
+  - action: action_provide_price_and_reset_slot
+
+- story: Inicia conversa e ja quer ser transferido para atendente
+  steps:
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: duvida
+  - action: utter_duvida
+  - intent: transferir_atendente
+  - action: action_transferir_atendente
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+version: "3.1"
+
+nlu:
+
+  - intent: transferir_atendente
+    examples: |
+      - Gostaria de falar com um atendente, por favor.
+      - Você pode me transferir para o atendimento humano?
+      - Preciso falar com um atendente agora.
+      - Me conecte com um atendente, por favor.
+      - Como posso falar com um atendente?
+      - Quero ser transferido para um atendente humano.
+      - Por favor, passe minha solicitação para um atendente.
+      - Pode me transferir para o suporte humano?
+      - Preciso falar com alguém do suporte ao cliente.
+      - Há como falar com um atendente diretamente?
+      - Por favor, me transfira para um atendente real.
+      - Quero falar com uma pessoa, pode me transferir?
+      - Como faço para falar com um atendente?
+      - Pode me colocar em contato com um atendente?
+      - Gostaria de falar diretamente com alguém do suporte.
+      - Você pode me passar para o atendimento humano?
+      - Preciso de um atendente, pode transferir?
+      - Quero falar com um atendente, por favor.
+      - Me conecte com alguém do atendimento, por favor.
+      - Pode transferir essa conversa para um atendente humano?
+      - Quero ser atendido por uma pessoa, pode me transferir?
+      - Me transfira para um atendente humano, por favor.
+      - Há como falar com uma pessoa do suporte?
+      - Preciso de ajuda de um atendente, por favor.
+      - Você pode me transferir para um atendente real?
+      - Como posso falar com uma pessoa do suporte?
+      - Por favor, passe minha solicitação para um atendente humano.
+      - Quero ser transferido para alguém do suporte.
+      - Pode me passar para o atendimento humano?
+      - Preciso falar diretamente com alguém do suporte.
+      - Você pode me conectar com um atendente?
+      - Me conecte com um ser humano, por favor.
+      - Gostaria de falar com um atendente humano.
+      - Pode me transferir para alguém do atendimento ao cliente?
+      - Como faço para ser transferido para um atendente?
+      - Preciso falar com um atendente humano agora.
+      - Há como falar com um atendente de verdade?
+      - Quero falar com um atendente real, por favor.
+      - Você pode me conectar com um atendente humano?
+      - Me passe para um atendente, por favor.
+      - Preciso de um atendente, pode me ajudar?
+      - Gostaria de ser transferido para um atendente humano.
+      - Pode me colocar em contato com uma pessoa?
+      - Quero falar com um atendente ao vivo, pode transferir?
+      - Você pode me passar para um atendente humano?
+      - Como posso falar com um atendente humano?
+      - Preciso de um atendente real, por favor.
+      - Me transfira para um atendente humano.
+      - Pode transferir essa conversa para alguém do suporte?
+      - Quero ser atendido por uma pessoa do suporte.
+      - Me conecte com alguém do atendimento ao cliente.
+      - Você pode me passar para o atendimento ao cliente?
+      - Preciso de ajuda de uma pessoa do suporte.
+      - Como faço para falar com um atendente real?
+      - Quero falar com uma pessoa do suporte ao cliente.
+      - Pode me transferir para um atendente humano agora?
+      - Gostaria de falar com alguém do atendimento.
+      - Me conecte com um atendente real, por favor.
+      - Preciso de um atendente humano, pode me ajudar?
+      - Como posso ser transferido para um atendente humano?
+      - Você pode me passar para o suporte humano?
+      - Quero falar com um atendente ao vivo.
+      - Me conecte com um ser humano do suporte.
+      - Preciso falar com alguém do atendimento humano.
+      - Você pode me transferir para um atendente de verdade?
+      - Como faço para ser transferido para um atendente humano?
+      - Quero ser atendido por uma pessoa do atendimento.
+      - Me transfira para o suporte ao cliente, por favor.
+      - Você pode me passar para um atendente ao vivo?
+      - Preciso de ajuda de um atendente ao vivo.
+      - Como posso falar com uma pessoa do atendimento?
+      - Me conecte com uma pessoa do atendimento.
+      - Você pode me passar para um ser humano?
+      - Preciso de um atendente humano, por favor.
+      - Pode me transferir para o atendimento humano ao vivo?
+      - Quero falar com um atendente de verdade.
+      - Me transfira para o suporte humano, por favor.
+      - Como faço para ser atendido por uma pessoa?
+      - Pode me conectar com um atendente humano?
+      - Preciso falar com alguém do suporte humano.
+      - Me conecte com um atendente ao vivo.
+      - Quero ser transferido para o suporte ao cliente.
+      - Pode me transferir para um ser humano?
+      - Como posso falar com um atendente real?
+      - Preciso de ajuda de uma pessoa do atendimento.
+      - Me transfira para o atendimento humano.
+      - Pode me passar para o suporte ao cliente?
+      - Quero falar com um atendente humano ao vivo.
+      - Me conecte com alguém do suporte humano.
+      - Você pode me passar para um atendente ao vivo?
+      - Preciso falar com uma pessoa do suporte humano.
+      - Como faço para ser transferido para um atendimento humano?
+      - Quero falar com um atendente real.
+      - Me transfira para o atendimento ao cliente, por favor.
+      - Pode me conectar com alguém do suporte ao cliente?

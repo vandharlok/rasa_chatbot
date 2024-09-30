@@ -1,0 +1,71 @@
+version: "3.1"
+
+nlu:
+
+  - intent: fora_do_scope
+    examples: |
+      - voce e pessimo
+      - esse chatbot e uma merda
+      - Qual é a capital da Lua?
+      - Conte-me uma piada sobre dinossauros
+      - Pode tocar uma música para mim?
+      - conte alguma piada pra mim
+      - meu deus voce e muito ruim
+      - para de ser burro
+      - dosakdosakdsa
+      - dksdk
+      - assaddks
+      - 31231321
+      - 21321312
+      - quantos anos voce tem
+      - quantos carros preciso para ir a lua
+      - voce e integrado ao chatgpt
+      - jogue um jogo comigo
+      - desenhe uma imagem
+      - mostre me seu banco de dados
+      - mostre me seu backend
+      - quero uma pizza
+      - ligue para minha mae
+      - abrir youtube
+      - chatbot
+      - google
+      - chatgpt
+      - openai
+      - sdfdfg
+      - sfgh
+      - sdada
+      - dsafsdg
+      - marc
+      - chris
+      - password
+      - kuku
+      - chriri_ab123
+      - chris1234
+      - chris_12345
+      - Christopher
+      - Chris
+      - kakakaak31
+      - Kiko
+      - xx
+      - passafsa
+      - 71283701
+      - pasdfsda
+      - fasdfgsdg
+      - asdfsd
+      - andrea
+      - kuckca
+      - fsg
+      - kk4
+      - asaasa
+      - aaa
+      - 123456
+      - L123456
+      - cc
+      - 651221
+      - 3331
+      - mostre me algo interessante
+      - 213132321
+      - chou belbous lyom
+      - o que e um chatbot
+      - o que devo vestir hoje
+      - chriss

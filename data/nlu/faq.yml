@@ -1,0 +1,287 @@
+version: "3.1"
+
+nlu:
+
+  - intent: duvida
+    examples: |
+
+
+  - intent: saber_local_de_atendimento
+    examples: |
+      - Onde fica a clínica?
+      - Qual o endereço da clínica?
+      - Como faço para chegar na clínica?
+      - Qual o local da clínica?
+      - Onde está localizada a clínica?
+      - Qual é o endereço para a consulta?
+      - A clínica fica onde?
+      - Você pode me passar o endereço da clínica?
+      - Qual o endereço completo da clínica?
+      - Onde devo ir para a consulta?
+      - Pode me informar o endereço da clínica?
+      - Onde fica a clínica para minha consulta?
+      - Qual o endereço da clínica para minha consulta?
+      - Como faço para chegar à clínica?
+      - Preciso saber onde fica a clínica.
+      - Onde está localizada a clínica para meu atendimento?
+      - Qual o endereço da clínica onde farei a consulta?
+      - Como posso encontrar o local da clínica?
+      - Onde é o local da clínica?
+      - Você pode me informar o endereço da clínica?
+      - Onde fica o consultório para a minha consulta?
+      - Qual o endereço do consultório onde farei a consulta?
+      - Como faço para ir até a clínica?
+      - Onde está a clínica localizada?
+      - Pode me passar a localização da clínica?
+      - Onde devo ir para o atendimento?
+      - Preciso saber o endereço da clínica.
+      - Qual a localização da clínica?
+      - Onde posso encontrar a clínica para minha consulta?
+      - Como posso chegar à clínica para minha consulta?
+      - Qual o endereço da clínica onde estou agendado?
+      - Onde fica a clínica onde vou ser atendido?
+      - Pode me dar o endereço completo da clínica?
+      - Onde devo comparecer para minha consulta?
+      - Qual o local exato da clínica?
+      - Você pode me dizer onde fica a clínica?
+      - Como posso localizar a clínica?
+      - Qual a localização exata da clínica?
+      - Onde fica o consultório da clínica?
+      - Pode me enviar o endereço da clínica?
+      - Preciso do endereço da clínica para a consulta.
+      - Onde está localizada a clínica onde marquei a consulta?
+      - Onde devo ir para a consulta na clínica?
+      - Pode me confirmar o endereço da clínica?
+      - Onde fica o consultório para a consulta de amanhã?
+      - Como posso chegar ao consultório da clínica?
+      - Você pode me passar a localização da clínica?
+      - Qual o endereço onde a clínica está situada?
+      - Preciso do endereço da clínica para minha consulta marcada.
+      - Em qual local será realizada a consulta?
+      - Preciso do endereço para a consulta de amanhã.
+      - A consulta será em qual clínica?
+      - Você pode me informar o local do atendimento?
+      - Onde fica o consultório para minha consulta?
+      - Qual é o endereço da consulta marcada para hoje?
+      - Como posso chegar ao local de atendimento?
+      - Preciso do endereço exato da clínica.
+      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta.
+      - Para qual local devo me dirigir para procedimentos?
+      - Qual é o endereço para a consulta?
+      - Devo ir a qual endereço para a consulta com o especialista?
+      - Pode confirmar o endereço do atendimento agendado para amanhã?
+      - Qual é o endereço da clínica para minha consulta de amanhã?
+      - A consulta será realizada em qual local?
+      - Qual é o centro de atendimento?
+      - Preciso saber o endereço exato.
+      - Qual é o consultório onde estou agendado?
+      - Gostaria de saber o endereço do hospital para minha consulta.
+      - Você pode me enviar a localização do consultório?
+      - Para onde devo ir para a consulta marcada?
+      - Pode me confirmar o local da minha consulta agendada para amanhã?
+      - Qual é o endereço da clínica?
+      - Em que clínica será realizada a consulta?
+      - Preciso saber o endereço da clínica para minha consulta.
+      - Onde posso encontrar o consultório para minha consulta?
+      - Você pode me dizer o endereço da clínica?
+      - Preciso saber onde fica o consultório.
+      - Qual é o endereço do hospital para minha consulta?
+      - A consulta de amanhã será realizada em qual local?
+      - Como posso chegar ao endereço da minha consulta?
+      - Onde fica o local de atendimento?
+      - Qual é o endereço da clínica onde tenho consulta amanhã?
+      - Em que local ocorrerá o atendimento?
+      - Qual é o consultório onde será a consulta?
+      - Preciso saber o local exato da minha consulta amanhã.
+      - A consulta de amanhã será em qual endereço?
+      - Para onde devo me dirigir para o atendimento de amanhã?
+      - Preciso confirmar o endereço do local de atendimento.
+      - Como posso descobrir o endereço da clínica?
+      - Qual é o endereço do consultório?
+      - Para onde devo ir para o atendimento?
+      - Como posso chegar ao local da consulta?
+      - Onde fica o consultório da consulta de amanhã?
+      - Em qual local será realizada a consulta de amanhã?
+      - Qual é o endereço exato da consulta?
+      - Onde será o atendimento amanhã?
+
+
+  - intent: verificar_plano_de_saude
+    examples: |
+      - Quais planos de saúde são válidos nesta clínica?
+      - Vocês aceitam todos os tipos de convênio médico?
+      - Meu plano de saúde cobre consultas especializadas?
+      - Quais são os planos que vocês aceitam para procedimentos?
+      - Posso usar meu seguro de saúde para consultas de rotina aqui?
+      - Vocês aceitam planos de saúde para exames?
+      - O meu convênio médico é aceito para consultas de urgência?
+      - Como faço para confirmar se meu plano de saúde é aceito?
+      - Vocês têm parceria com quais operadoras de saúde?
+      - Meu plano cobre consultas de especialidade médica?
+      - Quais convênios médicos são aceitos para tratamentos específicos?
+      - Como posso verificar se meu convênio cobre os serviços da clínica?
+      - O plano de saúde que possuo cobre procedimentos médicos aqui?
+      - Vocês aceitam convênios para consultas de emergência?
+      - Meu plano cobre consultas e exames nesta clínica?
+      - Vocês confirmam a cobertura do plano antes de realizar o atendimento?
+      - Quais convênios aceitam para consultas com especialistas?
+      - Posso usar meu convênio para consultas e procedimentos?
+      - Vocês trabalham com o plano de saúde da Unimed?
+      - O meu seguro cobre exames laboratoriais?
+      - Vocês aceitam qualquer plano de saúde para consultas?
+      - Como posso verificar se meu convênio cobre os exames que preciso?
+      - Meu plano cobre consultas de retorno?
+      - Quais operadoras de saúde vocês têm acordo?
+      - Vocês aceitam convênios médicos para todos os tipos de consulta?
+      - Posso utilizar meu plano de saúde para consultas com psicólogos?
+      - Vocês aceitam planos de saúde para procedimentos cirúrgicos?
+      - Como confirmar se meu seguro de saúde cobre consultas especializadas?
+      - Quais seguros de saúde são aceitos para exames de imagem?
+      - Meu plano de saúde é aceito para consultas de rotina?
+      - Vocês têm acordo com planos de saúde internacionais?
+      - Meu convênio médico cobre consultas com dermatologistas?
+      - O seguro cobre o custo de consultas de urgência?
+      - Vocês aceitam o convênio da Amil para consultas médicas?
+      - Meu plano de saúde cobre procedimentos ambulatoriais aqui?
+      - Posso usar meu seguro de saúde para marcar uma consulta de rotina?
+      - Quais seguradoras são aceitas para tratamentos médicos?
+      - Vocês aceitam planos de saúde para consultas com cardiologistas?
+      - O meu plano cobre exames e consultas de rotina?
+      - Como verificar se o plano cobre os serviços da clínica?
+      - Vocês trabalham com todos os tipos de convênio médico?
+      - Meu plano cobre atendimento de emergência?
+      - Vocês aceitam planos de saúde para exames de laboratório?
+      - Como posso saber se meu plano de saúde é aceito na clínica?
+      - O seguro cobre os custos de consultas com pediatras?
+      - Meu convênio cobre todos os procedimentos médicos nesta clínica?
+      - Vocês aceitam convênios para consultas e exames?
+      - Quais são os convênios aceitos para atendimento de urgência?
+      - Posso utilizar meu plano de saúde para consultas psiquiátricas?
+      - Voces aceitam o plano de saude?
+      - Meu plano de saúde cobre consulta ?
+      - Voces trabalham com o plano ?
+      - Esse serviço é coberto pelo meu lano de saúde?
+      - Quais planos de saúde são aceitos aí?
+      - O plano que eu tenho é válido para consulta com voces?
+      - Meu plano de saúde inclui esse tipo de tratamento?
+      - Voces aceitam planos de saúde 
+      - Como posso verificar se meu plano é aceito?
+      - Posso usar meu plano de saúde para todos os serviços?
+      - Quais planos voces aceitam 
+      - Meu plano de saude
+      - É necessário autorização do plano para consulta ?
+      - Voces confirmam cobertura com o plano de saude 
+      - Meu plano cobre consulta de emergencia?
+      - Quais seguros de saude voces aceitam?
+      - Este tratamento pode ser coberto pelo meu seguro de saude?
+      - convenio médico
+      - Com quais convenios médicos voces tem parceria?
+      - Posso usar meu plano de assistencia médica para serviços aqui?
+      - Como faço para saber se voces aceitam meu plano de saude?
+      - Meu seguro cobre consultas nessa clínica?
+      - Voces tem acordo com planos de saude para procedimentos especiais?
+      - É possível utilizar meu seguro de saude internacional nesta clínica?
+      - Quais são os planos de saude aceitos ?
+      - Meu plano de saude é compatível com os serviços que voces oferecem?
+      - Voces confirmam o plano de saude antes de marcar uma consulta?
+      - Como verificar se meu plano de saude está aceito por voces?
+      - Meu seguro de saude cobre os custos de uma emergencia aqui?
+      - Quais seguradoras são aceitas nesta clínica?
+      - Posso consultar aqui com meu plano de saude atual?
+      - plano de saude
+      - convenio medico
+      - qual convenio medico voces aceitam
+      - qual plano de saude e aceito?
+      - Como posso verificar se meu Plano é aceito?
+      - Como posso provar se meu plano é aceito?
+
+
+  - intent: informacoes_sobre_servico
+    examples: |
+      - Poderia detalhar quais servicos voces fornecem?
+      - Gostaria de uma descrição dos servicos que voces disponibilizam.
+      - Que servicos sua clínica oferece aos pacientes?
+      - Quais são os servicos mais populares que voces oferecem?
+      - Estou curioso sobre os servicos, voce pode explicar?
+      - Pode listar os servicos de saúde que voces disponibilizam?
+      - Gostaria de saber mais sobre os servicos  que voces oferecem.
+      - Poderia me fornecer uma visão geral dos seus servicos médicos?
+      - Pode me explicar os diferentes tipos de consultas que voces oferecem?
+      - Que tipos de serviços de saúde voces prestam?
+      - Quais tratamentos específicos voces disponibilizam 
+      - Eu gostaria de saber mais sobre os programas de que voces conduzem.
+      - Poderia listar todos os serviços médicos que voces oferecem?
+      - Como funciona a clinica
+      - Me fale mais sobre as especialidades da clínica.
+      - Gostaria de uma descrição dos serviços que voces disponibilizam.
+      - Quero saber quais são os procedimentos disponíveis.
+      - Que serviços sua clínica oferece aos pacientes?
+      - Quais são os serviços mais populares que voces oferecem?
+      - Estou curioso sobre os serviços, voce pode explicar?
+      - Quais tratamentos voces oferecem para condições específicas?
+      - Pode listar os serviços de saúde que voces disponibilizam?
+      - Que tipo de consultas voces proporcionam?
+      - Poderia me fornecer uma visão geral dos seus serviços médicos?
+      - Estou interessado sobre os serviços que voces disponibilizam.
+      - Estou interessado nos serviços terapeuticos disponíveis
+      - Pode descrever as várias opções de serviço que sua clínica possui?
+      - Gostaria de conhecer os serviços que voces oferecem, como funcionam?
+      - Pode me dar uma visão geral das consultas especializadas que voces tem?
+      - Quais são as suas principais ofertas de serviços de saúde mental?
+      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem.
+      - Como funciona a clínica?
+      - Que profissionais voces tem na clínica?
+      - Que tipo de consulta tem na clínica?
+      - Voces tem psicologo
+      - Voces tem qual medico
+      - Voces tem quais psicologos
+      - Qual medico psiquiatra tem
+      - Quais serviços médicos vocês oferecem na clínica?
+      - Gostaria de saber quais tipos de serviços estão disponíveis.
+      - Que tratamentos a clínica disponibiliza?
+      - Quais são os serviços que a clínica oferece aos pacientes?
+      - Vocês podem me dizer quais são os serviços de saúde disponíveis?
+      - Quais especialidades médicas estão disponíveis na clínica?
+      - O que a clínica oferece em termos de serviços médicos?
+      - Quais são os principais serviços de saúde da clínica?
+      - Quais tratamentos posso encontrar na clínica?
+      - Gostaria de saber mais sobre os serviços da clínica.
+      - Que tipo de atendimento vocês prestam na clínica?
+      - Vocês oferecem serviços de saúde mental?
+      - Quais são os serviços especializados oferecidos pela clínica?
+      - Que serviços médicos estão à disposição dos pacientes?
+      - Quais são os procedimentos médicos disponíveis na clínica?
+      - Quais serviços são oferecidos para consultas médicas?
+      - Posso saber quais tipos de consulta a clínica oferece?
+      - Quais tratamentos e exames são oferecidos pela clínica?
+      - Vocês têm algum serviço especializado em saúde feminina?
+      - Que tipos de serviços clínicos estão disponíveis?
+      - Quais tratamentos a clínica tem para oferecer?
+      - Vocês podem me dar detalhes sobre os serviços prestados?
+      - Quais especialidades médicas posso encontrar na clínica?
+      - A clínica oferece serviços de fisioterapia?
+      - Quais são os serviços mais procurados da clínica?
+      - O que a clínica disponibiliza em termos de consultas?
+      - Quais tipos de consultas médicas vocês fazem?
+      - Vocês têm serviços de diagnóstico por imagem?
+      - Quais são os serviços médicos mais comuns na clínica?
+      - Gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - Quais tratamentos para dor a clínica oferece?
+      - A clínica oferece serviços de nutrição?
+      - Vocês têm serviços de odontologia?
+      - Quais são os serviços de apoio à saúde mental na clínica?
+      - Vocês fazem exames laboratoriais na clínica?
+      - Posso saber quais serviços clínicos vocês prestam?
+      - Quais são os serviços médicos disponíveis para atendimento?
+      - Vocês fazem exames de rotina na clínica?
+      - Que tipos de especialidades médicas estão disponíveis para consultas?
+      - Vocês oferecem consultas com especialistas em cardiologia?
+      - A clínica tem serviços de pediatria?
+      - Quais serviços vocês disponibilizam para pacientes em tratamento?
+      - Quais tratamentos médicos são feitos na clínica?
+      - Vocês oferecem algum serviço de emergência médica?
+      - Quais são os procedimentos médicos oferecidos na clínica?
+      - Quais serviços de prevenção e cuidados de saúde vocês oferecem?
+      - A clínica oferece consultas com especialistas?
+      - Vocês têm algum serviço especializado em ortopedia?
+      - Quais exames podem ser realizados na clínica?

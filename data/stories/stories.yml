@@ -6,20 +6,6 @@ stories:
 #POSITIVO 
 #marcando consultas
 
-#- story: Out of scope and search
-#  steps:
-#  - intent: fora_do_scopo
-#  - action: action_out_of_scope
-# - intent: concordancia
-#  - action: action_handle_affirm
-
-#- story: Out of scope and don't search
-#  steps:
-#  - intent: fora_do_scopo
-#  - action: action_out_of_scope
-#  - intent: negacao
-#  - action: action_handle_deny
-
 
 - story: iniciar_fluxo_marcacao
   steps:
@@ -30,6 +16,7 @@ stories:
   - intent: concordancia
   - checkpoint: consulta_iniciada
 
+
 - story: nao marcando consulta
   steps:
   - intent: marcar_consulta
@@ -38,17 +25,6 @@ stories:
   - action: utter_show_options
   - action: action_reset_all
 
-- story: marcando consulta dps de perguntar algo (negativo)
-  steps: 
-  - checkpoint: consulta_iniciada
-  - action: event_form
-  - active_loop: null
-  - slot_was_set:
-    - form_completed: true
-  - action: utter_confirm_appointment
-  - intent: negacao
-  - action: utter_show_options
-  - action: action_reset_all
 
 
 - story: marcando consulta dps de perguntar algo
@@ -57,12 +33,12 @@ stories:
   - action: event_form
   - active_loop: null
   - slot_was_set:
-    - form_completed: true
+    - form_completed: True
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
   - slot_was_set:
-    - event_completed: true
+    - event_completed: True
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -78,12 +54,12 @@ stories:
   - action: event_form
   - active_loop: null
   - slot_was_set:
-    - form_completed: true
+    - form_completed: True
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
   - slot_was_set:
-    - event_completed: true
+    - event_completed: True
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -105,18 +81,18 @@ stories:
   - active_loop: null
   - action: action_salvar_cadastro
   - slot_was_set:
-    - login_sucess: true 
+    - login_sucess: True 
   - action: utter_success_sign
   - action: event_form
   - active_loop: null
   - slot_was_set:
-    - form_completed: true
+    - form_completed: True
     - requested_slot: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
   - slot_was_set:
-    - event_completed: true
+    - event_completed: True
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -132,12 +108,12 @@ stories:
   - action: event_form
   - active_loop: null
   - slot_was_set:
-    - form_completed: true
+    - form_completed: True
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
   - slot_was_set:
-    - event_completed: true
+    - event_completed: True
   - action: utter_terminar_conversa
   - intent: negacao
   - action: utter_final
@@ -145,7 +121,9 @@ stories:
     entities:
       - feedback: 5
   - action: action_store_feedback
- 
+
+
+
 - story: perguntar dias livres e marcar consulta
   steps:
   - action: event_form
@@ -162,18 +140,6 @@ stories:
     - event_completed: true
   - action: utter_terminar_conversa
 
-
-- story: negando a confirmacao da consulta
-  steps:
-  - action: event_form
-  - active_loop: null
-  - slot_was_set:
-    - form_completed: true
-  - action: utter_confirm_appointment
-  - intent: negacao
-  - action: utter_show_options
-  - action: action_reset_all
-  
 
 
 - story: depois de marcar o evento
@@ -344,4 +310,3 @@ stories:
  
   
 
-###H
