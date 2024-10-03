@@ -4,6 +4,704 @@ nlu:
 
   - intent: transferir_atendente
     examples: |
+      - Gostaria de falar com De repente um atendente, por favor.
+      - Gostaria falar com um atendente, por favor.
+      - Govtaria de faler com um atendente, por favor.
+      - Gostaria de pronunciar com um atendente,por gentileza.
+      - falar com um atendente, por favor. com Gostaria
+      - Gostaria de falar com um atendente, por favor.
+      - falar de Gostaria com um atendente , por favor .
+      - Eu gostaria de conversar com um atendente, por favor.
+      - Você pode me transferir Correr para o atendimento humano?
+      - Você pode me transferir para o humano?
+      - Você mode me transferzr para o atendimento humano?
+      - Você pode me transmitir para o atendimento humana?
+      - o atendimento humano? com Você pode me transferir
+      - Você pode me transferir para o atendimento humano?
+      - me pode Você transferir para o atendimento humano ?
+      - Você pode me transferir para o serviço humano?
+      - Preciso falar com um atendente agora. Chuva
+      - Preciso falar com um agora.
+      - Precizo falar com gm atendente agora.
+      - Exacto proferir com um atendente atualmente.
+      - um atendente agora. com Preciso falar
+      - com falar Preciso um atendente agora .
+      - Eu preciso conversar com um atendente agora.
+      - Me conecte Estrela com um atendente, por favor.
+      - Me conecte com um atendente, favor.
+      - Mi conecte com tm atendente, por favor.
+      - Me conecte com um atendente,por gentileza.
+      - um atendente, por favor. com Me conecte
+      - com conecte Me um atendente , por favor .
+      - Conecte -me com um atendente, por favor.
+      - Como posso falar com Mar um atendente?
+      - Como posso falar um atendente?
+      - Cofo posqo falar com um atendente?
+      - Como posso tratar com um atendente?
+      - um atendente? com Como posso falar
+      - falar posso Como com um atendente ?
+      - Quero ser transferido para um atendente humano. Sutileza
+      - Quero ser transferido um atendente humano.
+      - Quero ser transferido park um atendente humono.
+      - Quero lançado transferido para um atendente Homo sapiens.
+      - um atendente humano. com Quero ser transferido
+      - Quero ser transferido para um atendente humano.
+      - transferido ser Quero para um atendente humano .
+      - Eu quero ser transferido para um atendente humano.
+      - Por favor, Separadamente passe minha solicitação para um atendente.
+      - Por favor, passe minha solicitação um atendente.
+      - Por favor, passe minha solicitação para ut atendence.
+      - Por gentileza,passe minha oração para um atendente.
+      - um atendente. com Por favor, passe minha solicitação
+      - Por favor, passe minha solicitação para um atendente.
+      - , favor Por passe minha solicitação para um atendente .
+      - Por favor, faça meu pedido a um atendente.
+      - Pode me transferir para o suporte Praia humano?
+      - Pode me transferir para suporte humano?
+      - Pode me trankferir nara o suporte humano?
+      - Pode me alienar para o amparo humana?
+      - o suporte humano? com Pode me transferir
+      - Pode me transferir para o suporte humano?
+      - transferir me Pode para o suporte humano ?
+      - Você pode me transferir para o apoio humano?
+      - Preciso falar com alguém Cidade do suporte ao cliente.
+      - Preciso falar com alguém suporte ao cliente.
+      - Preciso falar com algaém do suporte mo cliente.
+      - Correcto dizer com primeira letra do alfabeto do encosto ao freguês.
+      - alguém do suporte ao cliente. com Preciso falar
+      - com falar Preciso alguém do suporte ao cliente .
+      - Preciso conversar com alguém do suporte ao cliente.
+      - Procurar Há como falar com um atendente diretamente?
+      - Há como falar com um atendente
+      - Há como falar cop ua atendente diretamente?
+      - Há tempo como dizer com um atendente com convicção?
+      - um atendente diretamente? com Há como falar
+      - falar como Há com um atendente diretamente ?
+      - Existe uma maneira de conversar diretamente com um atendente?
+      - Por favor, me transfira para um Pássaro atendente real.
+      - Por favor, me transfira para atendente real.
+      - Por favor, me tuansfira para um atendlnte real.
+      - Por gentileza,me transfira para um atendente atual.
+      - um atendente real. com Por favor, me transfira
+      - Por favor, me transfira para um atendente real.
+      - , favor Por me transfira para um atendente real .
+      - Por favor, transfira -me para um atendente real.
+      - Quero falar com uma Gradualmente pessoa, pode me transferir?
+      - Quero falar com pessoa, pode me transferir?
+      - Quero falar wom uma pessoa, pode me tnansferir?
+      - Quero tratar com uma ser humano,pode me transmitir?
+      - uma pessoa, pode me transferir? com Quero falar
+      - com falar Quero uma pessoa , pode me transferir ?
+      - Eu quero falar com uma pessoa, você pode me transferir?
+      - Como faço para Chorar falar com um atendente?
+      - Como faço para com um atendente?
+      - Como faço para falar som um atendentec
+      - Como faço para tratar com um atendente?
+      - falar com um atendente? com Como faço
+      - Como faço para falar com um atendente?
+      - para faço Como falar com um atendente ?
+      - Pode me colocar em contato com um Janela atendente?
+      - Pode me colocar em contato com atendente?
+      - Pode mf colocar em contato com um atindente?
+      - Pode me por em ligação com um atendente?
+      - um atendente? com Pode me colocar em contato
+      - colocar me Pode em contato com um atendente ?
+      - Você pode me colocar em contato com um atendente?
+      - Gostaria de Destruir falar diretamente com alguém do suporte.
+      - Gostaria de falar diretamente com do suporte.
+      - Gostaria de falab diretamente cof alguém do suporte.
+      - Gostaria de contar com firmeza com ser humano do base.
+      - falar diretamente com alguém do suporte. com Gostaria
+      - Gostaria de falar diretamente com alguém do suporte.
+      - falar de Gostaria diretamente com alguém do suporte .
+      - Eu gostaria de falar diretamente com alguém do apoio.
+      - Você Comprar pode me passar para o atendimento humano?
+      - Você pode passar para o atendimento humano?
+      - Vock pode me passar para o atendimento humann?
+      - Você pode me ceder para o atendimento Homo sapiens?
+      - o atendimento humano? com Você pode me passar
+      - Você pode me passar para o atendimento humano?
+      - me pode Você passar para o atendimento humano ?
+      - Você pode me dar serviço humano?
+      - Preciso de um atendente, pode Vento transferir?
+      - Preciso de um atendente, transferir?
+      - Preciso se um atecdente, pode transferir?
+      - Certo de um atendente,pode alienar?
+      - um atendente, pode transferir? com Preciso
+      - Preciso de um atendente, pode transferir?
+      - um de Preciso atendente , pode transferir ?
+      - Eu preciso de um atendente, você pode transferir?
+      - Quero falar com um atendente, Aqui por favor.
+      - Quero falar com um atendente, por
+      - Quero falar cos uq atendente, por favor.
+      - Quero pronunciar com um atendente,por gentileza.
+      - um atendente, por favor. com Quero falar
+      - com falar Quero um atendente , por favor .
+      - Eu quero falar com um atendente, por favor.
+      - Me conecte Ganhar com alguém do atendimento, por favor.
+      - Me conecte com alguém do atendimento, por
+      - Me conecte cob alguém do attndimento, por favor.
+      - Me conecte com primeira letra do alfabeto do atendimento,por gentileza.
+      - alguém do atendimento, por favor. com Me conecte
+      - com conecte Me alguém do atendimento , por favor .
+      - Eu me conecto com alguém do serviço, por favor.
+      - Pode transferir Falar essa conversa para um atendente humano?
+      - Pode transferir conversa para um atendente humano?
+      - Pode transferir essa conversa aara um atendeste humano?
+      - Pode dar essa tramitação para um atendente Homo sapiens?
+      - um atendente humano? com Pode transferir essa conversa
+      - Pode transferir essa conversa para um atendente humano?
+      - essa transferir Pode conversa para um atendente humano ?
+      - Você pode transferir essa conversa para um atendente humano?
+      - Quero ser atendido por uma pessoa, pode Neve me transferir?
+      - Quero ser atendido uma pessoa, pode me transferir?
+      - Quero szr atendido por uma pessoa, pode he transferir?
+      - Quero lançado atendido por uma temperamento,pode me trazer?
+      - uma pessoa, pode me transferir? com Quero ser atendido
+      - Quero ser atendido por uma pessoa, pode me transferir?
+      - atendido ser Quero por uma pessoa , pode me transferir ?
+      - Eu quero ser respondido por uma pessoa, você pode me transferir?
+      - Me Feliz transfira para um atendente humano, por favor.
+      - Me transfira para um atendente por favor.
+      - Me transfira para um atendente humano, pjr fkvor.
+      - Me transfira para um atendente homem,por gentileza.
+      - um atendente humano, por favor. com Me transfira
+      - Me transfira para um atendente humano, por favor.
+      - para transfira Me um atendente humano , por favor .
+      - Transfira -me para um atendente humano, por favor.
+      - Mercado Há como falar com uma pessoa do suporte?
+      - Há como falar com pessoa do suporte?
+      - Há coto falar com uea pessoa do suporte?
+      - Atrás como dizer com uma alguém do apoio?
+      - uma pessoa do suporte? com Há como falar
+      - falar como Há com uma pessoa do suporte ?
+      - Existe uma maneira de conversar com uma pessoa de apoio?
+      - Preciso de ajuda de um atendente, Correr por favor.
+      - Preciso de de um atendente, por favor.
+      - Preciso de ajuda dw um atemdente, por favor.
+      - Perfeito de apoio financeiro de um atendente,por gentileza.
+      - favor. com Preciso de ajuda de um atendente,
+      - Preciso de ajuda de um atendente, por favor.
+      - ajuda de Preciso de um atendente , por favor .
+      - Você pode me transferir para um atendente Cadeira real?
+      - Você pode me transferir um atendente real?
+      - rocê pode me transferir para um atendente ryal?
+      - Você pode me livrar para um atendente genuíno?
+      - um atendente real? com Você pode me transferir
+      - Você pode me transferir para um atendente real?
+      - me pode Você transferir para um atendente real ?
+      - Como posso falar com uma pessoa do Casa suporte?
+      - Como posso falar com uma pessoa suporte?
+      - Como ppsso falar lom uma pessoa do suporte?
+      - Como posso tratar com uma indivíduo do base?
+      - uma pessoa do suporte? com Como posso falar
+      - falar posso Como com uma pessoa do suporte ?
+      - Como posso falar com uma pessoa de apoio?
+      - Por favor, passe Claro minha solicitação para um atendente humano.
+      - Por favor, passe minha solicitação para um atendente
+      - Poj favor, passe minha solicitação para um xtendente humano.
+      - Por gentileza,passe minha pergunta para um atendente humana.
+      - um atendente humano. com Por favor, passe minha solicitação
+      - Por favor, passe minha solicitação para um atendente humano.
+      - , favor Por passe minha solicitação para um atendente humano .
+      - Por favor, faça meu pedido a um atendente humano.
+      - Quero ser transferido para Montanha alguém do suporte.
+      - Quero ser transferido para alguém suporte.
+      - Quero ser transferido paru alguém po suporte.
+      - Quero existência transferido para á do apoio.
+      - alguém do suporte. com Quero ser transferido
+      - Quero ser transferido para alguém do suporte.
+      - transferido ser Quero para alguém do suporte .
+      - Eu quero ser transferido para alguém do apoio.
+      - Pode me passar para o Velho atendimento humano?
+      - me passar para o atendimento humano?
+      - Pude me passar para o atendimentv humano?
+      - Pode me atravessar para o atendimento humanitário?
+      - o atendimento humano? com Pode me passar
+      - Pode me passar para o atendimento humano?
+      - passar me Pode para o atendimento humano ?
+      - Preciso falar diretamente Rápido com alguém do suporte.
+      - Preciso falar diretamente com alguém do
+      - Preciso falar dirbtamente hom alguém do suporte.
+      - Preciso contar com firmeza com ser humano do pedestal.
+      - alguém do suporte. com Preciso falar diretamente
+      - diretamente falar Preciso com alguém do suporte .
+      - Eu preciso falar diretamente com alguém no apoio.
+      - Você pode me conectar com Raramente um atendente?
+      - Você pode conectar com um atendente?
+      - Você pode xe conectar com um atendenteu
+      - Você pode me ligar com um atendente?
+      - um atendente? com Você pode me conectar
+      - me pode Você conectar com um atendente ?
+      - Você pode se conectar com um atendente?
+      - Me conecte Amigo com um ser humano, por favor.
+      - Me conecte com ser humano, por favor.
+      - ye conecte com km ser humano, por favor.
+      - Me conecte com um besta ser humano,por gentileza.
+      - um ser humano, por favor. com Me conecte
+      - com conecte Me um ser humano , por favor .
+      - Eu me conecto com um ser humano, por favor.
+      - Gostaria de falar Devagar com um atendente humano.
+      - Gostaria de falar um atendente humano.
+      - Gostaria de falar chm um atzndente humano.
+      - Gostaria de palestrar com um atendente homem.
+      - falar com um atendente humano. com Gostaria
+      - Gostaria de falar com um atendente humano.
+      - falar de Gostaria com um atendente humano .
+      - Eu gostaria de conversar com um atendente humano.
+      - Pode me Nunca transferir para alguém do atendimento ao cliente?
+      - Pode me transferir para alguém do atendimento cliente?
+      - Pfde me transferir para alguém do atendimento ax cliente?
+      - Pode me dar para indivíduo do atendimento ao patrono?
+      - alguém do atendimento ao cliente? com Pode me transferir
+      - Pode me transferir para alguém do atendimento ao cliente?
+      - transferir me Pode para alguém do atendimento ao cliente ?
+      - Você pode me transferir para alguém do atendimento ao cliente?
+      - Como faço para ser transferido para Aprender um atendente?
+      - Como faço para ser transferido um atendente?
+      - Como façu para ser transfeaido para um atendente?
+      - Como faço para organismo transferido para um atendente?
+      - Como faço para ser transferido para um atendente?
+      - para faço Como ser transferido para um atendente ?
+      - Preciso falar com um Cidade atendente humano agora.
+      - Preciso falar com um humano agora.
+      - Preciso falar hom ue atendente humano agora.
+      - Pregadura palestrar com um atendente homem no presente.
+      - um atendente humano agora. com Preciso falar
+      - com falar Preciso um atendente humano agora .
+      - Eu preciso conversar com um atendente humano agora.
+      - Há como Amigo falar com um atendente de verdade?
+      - Há como falar com um atendente verdade?
+      - Há como falar coi mm atendente de verdade?
+      - Faz como pronunciar com um atendente de realismo?
+      - verdade? com Há como falar com um atendente
+      - Há como falar com um atendente de verdade?
+      - falar como Há com um atendente de verdade ?
+      - Existe uma maneira de conversar com um atendente real?
+      - Quero falar com Dançar um atendente real, por favor.
+      - Quero falar com um real, por favor.
+      - Quero falar cob um atendente real, pov favor.
+      - Quero contar com um atendente efetivo,por gentileza.
+      - um atendente real, por favor. com Quero falar
+      - com falar Quero um atendente real , por favor .
+      - Eu quero falar com um atendente real, por favor.
+      - Você pode me conectar com um Telefone atendente humano?
+      - Você pode me conectar com um atendente
+      - Vocs pode me conectar com um atenvente humano?
+      - Você pode me copular com um atendente humana?
+      - um atendente humano? com Você pode me conectar
+      - me pode Você conectar com um atendente humano ?
+      - Você pode se conectar com um atendente humano?
+      - Me passe para um atendente, por Ver favor.
+      - Me passe para um atendente, favor.
+      - ge passe para um atendenee, por favor.
+      - Me passe para um atendente,por gentileza.
+      - um atendente, por favor. com Me passe
+      - Me passe para um atendente, por favor.
+      - para passe Me um atendente , por favor .
+      - Passe -me para um atendente, por favor.
+      - Preciso de um atendente, pode Antipático me ajudar?
+      - Preciso de um atendente, me ajudar?
+      - Preciso de um atendente, pode ze ajudar?
+      - Acurado de um atendente,pode me incitar?
+      - um atendente, pode me ajudar? com Preciso
+      - Preciso de um atendente, pode me ajudar?
+      - um de Preciso atendente , pode me ajudar ?
+      - Eu preciso de um atendente, você pode me ajudar?
+      - Gostaria de ser transferido para um atendente humano. Amanhã
+      - de ser transferido para um atendente humano.
+      - Gostaria ie ser transferido fara um atendente humano.
+      - Gostaria de existência transferido para um atendente Homo Sapiens.
+      - ser transferido para um atendente humano. com Gostaria
+      - Gostaria de ser transferido para um atendente humano.
+      - ser de Gostaria transferido para um atendente humano .
+      - Eu gostaria de ser transferido para um atendente humano.
+      - Pode Cadeira me colocar em contato com uma pessoa?
+      - Pode me colocar em contato uma pessoa?
+      - Pode me colocar em contato cbm uma pespoa?
+      - Pode me usar em batida com uma personalidade?
+      - uma pessoa? com Pode me colocar em contato
+      - colocar me Pode em contato com uma pessoa ?
+      - Você pode me colocar em contato com uma pessoa?
+      - Quero Carro falar com um atendente ao vivo, pode transferir?
+      - Quero com um atendente ao vivo, pode transferir?
+      - Quedo falar com um atendente ah vivo, pode transferir?
+      - Quero discursar com um atendente ao vivente,pode alienar?
+      - um atendente ao vivo, pode transferir? com Quero falar
+      - com falar Quero um atendente ao vivo , pode transferir ?
+      - Eu quero falar com um atendente ao vivo, você pode transferir?
+      - Você pode me passar para Cozinhar um atendente humano?
+      - Você pode me passar para um humano?
+      - xocê pode ze passar para um atendente humano?
+      - Você pode me acercar para um atendente humanidade?
+      - um atendente humano? com Você pode me passar
+      - Você pode me passar para um atendente humano?
+      - me pode Você passar para um atendente humano ?
+      - Você pode me dar um atendente humano?
+      - Como posso falar com um atendente Aprender humano?
+      - Como posso falar com um humano?
+      - Como possy falau com um atendente humano?
+      - Como posso tratar com um atendente humanidade?
+      - um atendente humano? com Como posso falar
+      - falar posso Como com um atendente humano ?
+      - Preciso de um atendente Sapato real, por favor.
+      - Preciso um atendente real, por favor.
+      - rreciso de um atexdente real, por favor.
+      - Precisa de um atendente imperial,por gentileza.
+      - um atendente real, por favor. com Preciso
+      - Preciso de um atendente real, por favor.
+      - um de Preciso atendente real , por favor .
+      - Eu preciso de um atendente real, por favor.
+      - Me transfira para um atendente Às vezes humano.
+      - transfira para um atendente humano.
+      - Ml transwira para um atendente humano.
+      - Me transfira para um atendente humana.
+      - um atendente humano. com Me transfira
+      - Me transfira para um atendente humano.
+      - para transfira Me um atendente humano .
+      - Transfira -me para um atendente humano.
+      - Bicicleta Pode transferir essa conversa para alguém do suporte?
+      - transferir essa conversa para alguém do suporte?
+      - Pode tyansferir essa conversa para alguém do supbrte?
+      - Pode trazer essa tramitação para ser humano do amparo?
+      - alguém do suporte? com Pode transferir essa conversa
+      - Pode transferir essa conversa para alguém do suporte?
+      - essa transferir Pode conversa para alguém do suporte ?
+      - Você pode transferir essa conversa para alguém do suporte?
+      - Quero ser atendido por uma Ajudar pessoa do suporte.
+      - Quero ser atendido por uma pessoa do
+      - Quero ser atendido pos uma pessta do suporte.
+      - Quero estar atendido por uma temperamento do base.
+      - suporte. com Quero ser atendido por uma pessoa
+      - Quero ser atendido por uma pessoa do suporte.
+      - atendido ser Quero por uma pessoa do suporte .
+      - Eu quero ser atendido por uma pessoa de apoio.
+      - Me conecte com alguém Claramente do atendimento ao cliente.
+      - Me conecte com alguém do atendimento cliente.
+      - Me conecte clm alguém du atendimento ao cliente.
+      - Me conecte com primeira letra do alfabeto do atendimento ao freguesa.
+      - alguém do atendimento ao cliente. com Me conecte
+      - com conecte Me alguém do atendimento ao cliente .
+      - Conecte -se com alguém do atendimento ao cliente.
+      - Você pode me passar para o atendimento ao cliente? Amigo
+      - Você me passar para o atendimento ao cliente?
+      - Você pode de cassar para o atendimento ao cliente?
+      - Você pode me dar para o atendimento ao freguês?
+      - o atendimento ao cliente? com Você pode me passar
+      - Você pode me passar para o atendimento ao cliente?
+      - me pode Você passar para o atendimento ao cliente ?
+      - Você pode me dar atendimento ao cliente?
+      - Preciso de ajuda Inteligente de uma pessoa do suporte.
+      - Preciso ajuda de uma pessoa do suporte.
+      - Preciso df ajuda de uma uessoa do suporte.
+      - Pregadura de auxílio de uma alguém do base.
+      - suporte. com Preciso de ajuda de uma pessoa
+      - Preciso de ajuda de uma pessoa do suporte.
+      - ajuda de Preciso de uma pessoa do suporte .
+      - Preciso de ajuda de uma pessoa de apoio.
+      - Como faço para falar com Papel um atendente real?
+      - Como faço para falar um atendente real?
+      - Como iaço para falar coh um atendente real?
+      - Como faço para contar com um atendente verdadeiro?
+      - falar com um atendente real? com Como faço
+      - Como faço para falar com um atendente real?
+      - para faço Como falar com um atendente real ?
+      - Quero falar com uma pessoa Rápido do suporte ao cliente.
+      - Quero falar com uma pessoa do suporte cliente.
+      - Quero falar com uma pessoa do zuporte ad cliente.
+      - Quero conversar com uma indivíduo do amparo ao comprador.
+      - uma pessoa do suporte ao cliente. com Quero falar
+      - com falar Quero uma pessoa do suporte ao cliente .
+      - Eu quero conversar com uma pessoa de suporte ao cliente.
+      - Pode me Sol transferir para um atendente humano agora?
+      - Pode me transferir para um humano agora?
+      - node me transferir para um atendente humaxo agora?
+      - Pode me trazer para um atendente humanidade ora?
+      - um atendente humano agora? com Pode me transferir
+      - Pode me transferir para um atendente humano agora?
+      - transferir me Pode para um atendente humano agora ?
+      - Você pode me transferir para um atendente humano agora?
+      - Gostaria de falar Esperar com alguém do atendimento.
+      - Gostaria de falar com do atendimento.
+      - Gostaria de falar lom plguém do atendimento.
+      - Gostaria de conversar com ser humano do atendimento.
+      - falar com alguém do atendimento. com Gostaria
+      - Gostaria de falar com alguém do atendimento.
+      - falar de Gostaria com alguém do atendimento .
+      - Eu gostaria de conversar com alguém no serviço.
+      - Me conecte com um atendente real, por Andar favor.
+      - Me conecte um atendente real, por favor.
+      - Me conecte coa dm atendente real, por favor.
+      - Me conecte com um atendente efectivo,por gentileza.
+      - um atendente real, por favor. com Me conecte
+      - com conecte Me um atendente real , por favor .
+      - Conecte -me com um atendente real, por favor.
+      - Bonito Preciso de um atendente humano, pode me ajudar?
+      - Preciso de um atendente pode me ajudar?
+      - Precisj de um atendente humano, pode me ojudar?
+      - Afinado de um atendente humanidade,pode me amotinar?
+      - um atendente humano, pode me ajudar? com Preciso
+      - Preciso de um atendente humano, pode me ajudar?
+      - um de Preciso atendente humano , pode me ajudar ?
+      - Eu preciso de um atendente humano, você pode me ajudar?
+      - Como posso ser transferido para um atendente humano? Fora
+      - Como posso ser transferido um atendente humano?
+      - Como posso ser transferido para um atendente iumano?
+      - Como posso forma de vida transferido para um atendente Homo Sapiens?
+      - um atendente humano? com Como posso ser transferido
+      - Como posso ser transferido para um atendente humano?
+      - ser posso Como transferido para um atendente humano ?
+      - Você pode me passar para o suporte Bonito humano?
+      - Você pode me passar para suporte humano?
+      - Você pode mj passar pare o suporte humano?
+      - Você pode me acercar para o encosto humanidade?
+      - o suporte humano? com Você pode me passar
+      - Você pode me passar para o suporte humano?
+      - me pode Você passar para o suporte humano ?
+      - Você pode me dar o apoio humano?
+      - Quero falar com um Dia atendente ao vivo.
+      - Quero falar com um atendente vivo.
+      - Qudro falar com un atendente ao vivo.
+      - Quero tratar com um atendente ao vivente.
+      - um atendente ao vivo. com Quero falar
+      - com falar Quero um atendente ao vivo .
+      - Eu quero falar com um atendente ao vivo.
+      - Me conecte com Abaixo um ser humano do suporte.
+      - Me conecte com um ser humano suporte.
+      - Me conecte com um ser humano po supoete.
+      - Me conecte com um criatura Homo sapiens do encosto.
+      - um ser humano do suporte. com Me conecte
+      - com conecte Me um ser humano do suporte .
+      - Conecte -se a um ser humano de apoio.
+      - Preciso Frio falar com alguém do atendimento humano.
+      - Preciso falar com do atendimento humano.
+      - Preciso falar cot alguém do atenrimento humano.
+      - Afinado conversar com pessoa do atendimento Homo sapiens.
+      - alguém do atendimento humano. com Preciso falar
+      - com falar Preciso alguém do atendimento humano .
+      - Eu preciso conversar com alguém do serviço humano.
+      - Você pode me transferir para Neve um atendente de verdade?
+      - pode me transferir para um atendente de verdade?
+      - Você zode me transferir paca um atendente de verdade?
+      - Você pode me alienar para um atendente de realismo?
+      - verdade? com Você pode me transferir para um atendente
+      - Você pode me transferir para um atendente de verdade?
+      - me pode Você transferir para um atendente de verdade ?
+      - Como faço para Certamente ser transferido para um atendente humano?
+      - Como faço para ser para um atendente humano?
+      - Como fxço para ser transferido para um abendente humano?
+      - Como faço para entidade transferido para um atendente humanitário?
+      - Como faço para ser transferido para um atendente humano?
+      - para faço Como ser transferido para um atendente humano ?
+      - Quero ser atendido por uma Cidade pessoa do atendimento.
+      - ser atendido por uma pessoa do atendimento.
+      - Quero ser atendido por uma possoa do atendgmento.
+      - Quero organismo atendido por uma Individuo do atendimento.
+      - atendimento. com Quero ser atendido por uma pessoa
+      - Quero ser atendido por uma pessoa do atendimento.
+      - atendido ser Quero por uma pessoa do atendimento .
+      - Eu quero ter atendido por uma pessoa de serviço.
+      - Me transfira para Juntos o suporte ao cliente, por favor.
+      - Me transfira para o suporte ao cliente, por
+      - fe transfira para o suporte ao cliente, pjr favor.
+      - Me transfira para o base ao freguês,por gentileza.
+      - o suporte ao cliente, por favor. com Me transfira
+      - Me transfira para o suporte ao cliente, por favor.
+      - para transfira Me o suporte ao cliente , por favor .
+      - Transfira -me para o suporte ao cliente, por favor.
+      - Você pode me passar para Velho um atendente ao vivo?
+      - Você pode me para um atendente ao vivo?
+      - Você pooe me passar para um atendente vo vivo?
+      - Você pode me espalhar para um atendente ao vivente?
+      - um atendente ao vivo? com Você pode me passar
+      - Você pode me passar para um atendente ao vivo?
+      - me pode Você passar para um atendente ao vivo ?
+      - Você pode me dar um atendente ao vivo?
+      - Preciso de Novo ajuda de um atendente ao vivo.
+      - Preciso de ajuda de um atendente vivo.
+      - Preciso de ajudl dn um atendente ao vivo.
+      - Correcto de socorro de um atendente ao vivente.
+      - Preciso de ajuda de um atendente ao vivo.
+      - ajuda de Preciso de um atendente ao vivo .
+      - Como posso falar com uma pessoa Falar do atendimento?
+      - Como posso falar uma pessoa do atendimento?
+      - Como povso falar com uma pessoa do ahendimento?
+      - Como posso discursar com uma homem do atendimento?
+      - uma pessoa do atendimento? com Como posso falar
+      - falar posso Como com uma pessoa do atendimento ?
+      - Como posso falar com uma pessoa de serviço?
+      - Me conecte com Sempre uma pessoa do atendimento.
+      - Me conecte com uma pessoa do
+      - Me conecwe com uma pessoa xo atendimento.
+      - Me conecte com uma alguém do atendimento.
+      - uma pessoa do atendimento. com Me conecte
+      - com conecte Me uma pessoa do atendimento .
+      - Conecte -se a uma pessoa de serviço.
+      - Você pode me passar para um Livro ser humano?
+      - Você me passar para um ser humano?
+      - Você pode me passar parf um srr humano?
+      - Você pode me traspassar para um criança humanidade?
+      - um ser humano? com Você pode me passar
+      - Você pode me passar para um ser humano?
+      - me pode Você passar para um ser humano ?
+      - Você pode me dar um ser humano?
+      - Preciso de um atendente humano, por Sapato favor.
+      - de um atendente humano, por favor.
+      - Preciso de um ahendente hfmano, por favor.
+      - Pregadura de um atendente Homo Sapiens,por gentileza.
+      - um atendente humano, por favor. com Preciso
+      - Preciso de um atendente humano, por favor.
+      - um de Preciso atendente humano , por favor .
+      - Eu preciso de um atendente humano, por favor.
+      - Pode Pequeno me transferir para o atendimento humano ao vivo?
+      - Pode me para o atendimento humano ao vivo?
+      - Podu me transferir para o atmndimento humano ao vivo?
+      - Pode me dar para o atendimento Homo sapiens ao vivente?
+      - o atendimento humano ao vivo? com Pode me transferir
+      - Pode me transferir para o atendimento humano ao vivo?
+      - transferir me Pode para o atendimento humano ao vivo ?
+      - Você pode me transferir para o serviço humano vivo?
+      - Quero falar com um atendente Sempre de verdade.
+      - Quero falar com um de verdade.
+      - Quero falar com fm atendente me verdade.
+      - Quero verbalizar com um atendente de realismo.
+      - verdade. com Quero falar com um atendente
+      - Quero falar com um atendente de verdade.
+      - com falar Quero um atendente de verdade .
+      - Eu quero conversar com um atendente real.
+      - Me transfira para o suporte Trem humano, por favor.
+      - Me transfira para o suporte por favor.
+      - pe transfira ppra o suporte humano, por favor.
+      - Me transfira para o base humanitário,por gentileza.
+      - o suporte humano, por favor. com Me transfira
+      - Me transfira para o suporte humano, por favor.
+      - para transfira Me o suporte humano , por favor .
+      - Transfira -me para o apoio humano, por favor.
+      - Como faço para ser atendido por uma pessoa? Pensar
+      - faço para ser atendido por uma pessoa?
+      - Como faço para see atendido pir uma pessoa?
+      - Como faço para ente atendido por uma temperamento?
+      - ser atendido por uma pessoa? com Como faço
+      - Como faço para ser atendido por uma pessoa?
+      - para faço Como ser atendido por uma pessoa ?
+      - Como faço para ser respondido por uma pessoa?
+      - Pode me conectar com Simpático um atendente humano?
+      - Pode me com um atendente humano?
+      - Pode me conectar cob um atendenje humano?
+      - Pode me amarrar com um atendente Homo Sapiens?
+      - um atendente humano? com Pode me conectar
+      - conectar me Pode com um atendente humano ?
+      - Preciso falar com Escuro alguém do suporte humano.
+      - Preciso falar com do suporte humano.
+      - Prlciso falar com algqém do suporte humano.
+      - Pregadura proferir com indivíduo do amparo humanitário.
+      - alguém do suporte humano. com Preciso falar
+      - com falar Preciso alguém do suporte humano .
+      - Eu preciso conversar com alguém do apoio humano.
+      - Andar Me conecte com um atendente ao vivo.
+      - Me conecte com um atendente vivo.
+      - Me conecte oom um atendente do vivo.
+      - Me conecte com um atendente ao vivente.
+      - um atendente ao vivo. com Me conecte
+      - com conecte Me um atendente ao vivo .
+      - Conecte -se com um atendente ao vivo.
+      - Construir Quero ser transferido para o suporte ao cliente.
+      - Quero ser para o suporte ao cliente.
+      - Quero ser transferido tara o suporte vo cliente.
+      - Quero existir transferido para o base ao consumidor.
+      - o suporte ao cliente. com Quero ser transferido
+      - Quero ser transferido para o suporte ao cliente.
+      - transferido ser Quero para o suporte ao cliente .
+      - Eu quero ser transferido para o suporte ao cliente.
+      - Pode me Escola transferir para um ser humano?
+      - Pode me transferir para ser humano?
+      - Pode ee transferir para qm ser humano?
+      - Pode me entregar para um forma de vida homem?
+      - um ser humano? com Pode me transferir
+      - Pode me transferir para um ser humano?
+      - transferir me Pode para um ser humano ?
+      - Você pode me transferir para um ser humano?
+      - Como posso falar Inteligente com um atendente real?
+      - Como posso falar um atendente real?
+      - Como possp falar com ur atendente real?
+      - Como posso contar com um atendente verdadeiro?
+      - um atendente real? com Como posso falar
+      - falar posso Como com um atendente real ?
+      - Preciso de Livro ajuda de uma pessoa do atendimento.
+      - Preciso de de uma pessoa do atendimento.
+      - Preciso ds auuda de uma pessoa do atendimento.
+      - Bem acabado de assistência de uma temperamento do atendimento.
+      - atendimento. com Preciso de ajuda de uma pessoa
+      - Preciso de ajuda de uma pessoa do atendimento.
+      - ajuda de Preciso de uma pessoa do atendimento .
+      - Preciso de ajuda de uma pessoa de serviço.
+      - Bobo Me transfira para o atendimento humano.
+      - Me para o atendimento humano.
+      - Me transfira para o atendilento jumano.
+      - Me transfira para o atendimento homem.
+      - o atendimento humano. com Me transfira
+      - Me transfira para o atendimento humano.
+      - para transfira Me o atendimento humano .
+      - Transfira -me para o serviço humano.
+      - Pode me passar para o suporte ao cliente? Ajudar
+      - Pode me passar para o suporte cliente?
+      - Pode me phssar dara o suporte ao cliente?
+      - Pode me traspassar para o pedestal ao freguesa?
+      - o suporte ao cliente? com Pode me passar
+      - Pode me passar para o suporte ao cliente?
+      - passar me Pode para o suporte ao cliente ?
+      - Você pode me dar suporte ao cliente?
+      - Quero falar Forte com um atendente humano ao vivo.
+      - Queco falar com um atendente humano ao vino.
+      - Quero dizer com um atendente humanitário ao vivente.
+      - um atendente humano ao vivo. com Quero falar
+      - com falar Quero um atendente humano ao vivo .
+      - Eu quero conversar com um atendente humano ao vivo.
+      - Me conecte com alguém do suporte humano. Às vezes
+      - Me com alguém do suporte humano.
+      - Me coqecte com alguém do suqorte humano.
+      - Me conecte com ser humano do encosto humana.
+      - alguém do suporte humano. com Me conecte
+      - com conecte Me alguém do suporte humano .
+      - Eu me conecto com alguém do apoio humano.
+      - Você pode me passar para um atendente Triste ao vivo?
+      - Você me passar para um atendente ao vivo?
+      - Vokê pode mz passar para um atendente ao vivo?
+      - Preciso falar com uma Certamente pessoa do suporte humano.
+      - Preciso falar com uma pessoa suporte humano.
+      - Preniso falar com uma pessoa do supyrte humano.
+      - Pregadura proferir com uma alguém do apoio Homo sapiens.
+      - uma pessoa do suporte humano. com Preciso falar
+      - com falar Preciso uma pessoa do suporte humano .
+      - Eu preciso conversar com uma pessoa de apoio humano.
+      - Rir Como faço para ser transferido para um atendimento humano?
+      - Como faço para ser transferido para um atendimento
+      - Como faço plra ser transferido para um atendimfnto humano?
+      - Como faço para ser vivo transferido para um atendimento ser humano?
+      - Como faço para ser transferido para um atendimento humano?
+      - para faço Como ser transferido para um atendimento humano ?
+      - Como faço para ser transferido para o serviço humano?
+      - Quero falar com Perto um atendente real.
+      - Quero com um atendente real.
+      - Querp valar com um atendente real.
+      - Quero discursar com um atendente genuíno.
+      - um atendente real. com Quero falar
+      - com falar Quero um atendente real .
+      - Me Dentro transfira para o atendimento ao cliente, por favor.
+      - Me transfira para atendimento ao cliente, por favor.
+      - ye transfira para o atendimento ao cliente, por favgr.
+      - Me transfira para o atendimento ao patrono,por gentileza.
+      - o atendimento ao cliente, por favor. com Me transfira
+      - Me transfira para o atendimento ao cliente, por favor.
+      - para transfira Me o atendimento ao cliente , por favor .
+      - Transfira -me para o atendimento ao cliente, por favor.
+      - Pode Praia me conectar com alguém do suporte ao cliente?
+      - Pode me conectar alguém do suporte ao cliente?
+      - Pode me conectar com alguém do suporte at cjiente?
+      - Pode me ligar com ser humano do apoio ao freguesa?
+      - alguém do suporte ao cliente? com Pode me conectar
+      - conectar me Pode com alguém do suporte ao cliente ?
+      - Você pode se conectar com alguém do suporte ao cliente?
       - Gostaria de falar com um atendente, por favor.
       - Você pode me transferir para o atendimento humano?
       - Preciso falar com um atendente agora.

@@ -4,6 +4,847 @@ nlu:
 
   - intent: metodo_de_pagamento
     examples: |
+      - Quais são as formas Brinquedo de pagamento disponíveis?
+      - Quais são as de pagamento disponíveis?
+      - Quais sãm as formas de pagamento disponíveis?
+      - Quais sã as formas de recompensa disponíveis?
+      - pagamento disponíveis? com Quais são as formas
+      - Quais são as formas de pagamento disponíveis?
+      - as são Quais formas de pagamento disponíveis ?
+      - Quais são os métodos de pagamento disponíveis?
+      - Caneta são as formas de pagamento?
+      - são as formas pagamento?
+      - são as dormas de pagamento?
+      - sadio as formas de recompensa?
+      - pagamento? com são as formas
+      - são as formas de pagamento?
+      - formas as são de pagamento ?
+      - São as formas de pagamento?
+      - Quais são Mercado as opções de pagamento disponíveis?
+      - Quais as opções de pagamento disponíveis?
+      - Quaes são as opções de pagamento disponívnis?
+      - Quais salubre as opções de recompensa disponíveis?
+      - pagamento disponíveis? com Quais são as opções
+      - Quais são as opções de pagamento disponíveis?
+      - as são Quais opções de pagamento disponíveis ?
+      - Ver opções de pagamento?
+      - de pagamento?
+      - opçõeg de qagamento?
+      - opções de recompensa?
+      - pagamento? com opções
+      - opções de pagamento?
+      - pagamento de opções ?
+      - Opções de pagamento?
+      - Ganhar Quais formas de pagamento estão disponíveis?
+      - Quais formas de estão disponíveis?
+      - Quais forzas de pagamentf estão disponíveis?
+      - Quais formas de recompensa estão disponíveis?
+      - pagamento estão disponíveis? com Quais formas
+      - Quais formas de pagamento estão disponíveis?
+      - de formas Quais pagamento estão disponíveis ?
+      - Quais métodos de pagamento estão disponíveis?
+      - Quais Casa formas de pagamento voces aceitam?
+      - Quais formas de voces aceitam?
+      - Quaiu formas de pagamento voces cceitam?
+      - Quais formas de recompensa voces aceitam?
+      - pagamento voces aceitam? com Quais formas
+      - Quais formas de pagamento voces aceitam?
+      - de formas Quais pagamento voces aceitam ?
+      - Que formas de pagamento você aceita?
+      - Navio métodos de pagamento estão disponíveis?
+      - métodos de estão disponíveis?
+      - métoios de pagamentq estão disponíveis?
+      - método de recompensa estão disponíveis?
+      - pagamento estão disponíveis? com métodos
+      - métodos de pagamento estão disponíveis?
+      - pagamento de métodos estão disponíveis ?
+      - Os métodos de pagamento estão disponíveis?
+      - Quais métodos de pagamento Acima voces aceitam?
+      - Quais métodos de pagamento voces
+      - Quais métodos de pagamenno voces aceitamy
+      - Quais metodo de recompensa voces aceitam?
+      - pagamento voces aceitam? com Quais métodos
+      - Quais métodos de pagamento voces aceitam?
+      - de métodos Quais pagamento voces aceitam ?
+      - Quais métodos de pagamento você aceita?
+      - Baixo formas de pagamento aceitas?
+      - de pagamento aceitas?
+      - formas de pagamentu achitas?
+      - formas de recompensa aceitas?
+      - pagamento aceitas? com formas
+      - formas de pagamento aceitas?
+      - pagamento de formas aceitas ?
+      - Métodos de pagamento aceitos?
+      - Agitado Quais opções de pagamento voces oferecem?
+      - Quais opções de voces oferecem?
+      - Quais opçõxs de pagamento voces oferepem?
+      - Quais opções de recompensa voces oferecem?
+      - pagamento voces oferecem? com Quais opções
+      - Quais opções de pagamento voces oferecem?
+      - de opções Quais pagamento voces oferecem ?
+      - Que opções de pagamento você oferece?
+      - métodos de pagamento voces Nadar oferecem?
+      - métodos de pagamento oferecem?
+      - méqodos do pagamento voces oferecem?
+      - metodo de recompensa voces oferecem?
+      - pagamento voces oferecem? com métodos
+      - métodos de pagamento voces oferecem?
+      - pagamento de métodos voces oferecem ?
+      - Métodos de pagamento que você oferece?
+      - Quais são os métodos de pagamento Abaixo aceitos?
+      - são os métodos de pagamento aceitos?
+      - Quais são oc métodos de pagamgnto aceitos?
+      - Quais sadio os Método de recompensa aceitos?
+      - pagamento aceitos? com Quais são os métodos
+      - Quais são os métodos de pagamento aceitos?
+      - os são Quais métodos de pagamento aceitos ?
+      - Quais são as formas de pagamento aceitas Ler pela clínica?
+      - Quais são as formas pagamento aceitas pela clínica?
+      - Quais são as formas ie pagamento aceitas lela clínica?
+      - Quais mentalmente são as formas de recompensa aceitas pela hospital?
+      - pagamento aceitas pela clínica? com Quais são as formas
+      - Quais são as formas de pagamento aceitas pela clínica?
+      - as são Quais formas de pagamento aceitas pela clínica ?
+      - Quais são os métodos de pagamento aceitos pela clínica?
+      - tipos de pagamento Estudar são aceitos?
+      - tipos de são aceitos?
+      - tipos de pagamento qão aceitost
+      - tipos de recompensa mentalmente são aceitos?
+      - pagamento são aceitos? com tipos
+      - tipos de pagamento são aceitos?
+      - pagamento de tipos são aceitos ?
+      - Os tipos de pagamento são aceitos?
+      - tipos de pagamento Brinquedo estão disponíveis?
+      - tipos de pagamento disponíveis?
+      - tipos ne pagrmento estão disponíveis?
+      - tipos de recompensa estão disponíveis?
+      - pagamento estão disponíveis? com tipos
+      - tipos de pagamento estão disponíveis?
+      - pagamento de tipos estão disponíveis ?
+      - Os tipos de pagamento estão disponíveis?
+      - Voces aceitam cartão de crédito? Pensar
+      - Voces cartão de crédito?
+      - Vomes aceitam cartão qe crédito?
+      - Voces aceitam carta de empréstimo?
+      - crédito? com Voces aceitam cartão
+      - Voces aceitam cartão de crédito?
+      - cartão aceitam Voces de crédito ?
+      - Vocês aceitam cartão de crédito?
+      - Voces aceitam Lá cartão de débito?
+      - Voces aceitam cartão de
+      - Voces ageitam cartyo de débito?
+      - Voces aceitam cartas geográficas de dívida?
+      - débito? com Voces aceitam cartão
+      - Voces aceitam cartão de débito?
+      - cartão aceitam Voces de débito ?
+      - Você aceita cartão de débito?
+      - Aceitam cartão de crédito? Bicicleta
+      - Aceitam de crédito?
+      - Aceitam cartão dz crégito?
+      - Aceitam carta de empréstimo?
+      - crédito? com Aceitam cartão
+      - Aceitam cartão de crédito?
+      - de cartão Aceitam crédito ?
+      - Você aceita cartão de crédito?
+      - Aceitam cartão de débito? Rapidamente
+      - Aceitam de débito?
+      - Aceitam carteo de uébito?
+      - Aceitam papelão de dívida?
+      - débito? com Aceitam cartão
+      - Aceitam cartão de débito?
+      - de cartão Aceitam débito ?
+      - Devagar Voces aceitam Pix?
+      - Voces aceitam
+      - Voces acebtam Pixt
+      - Voces aceitam Pix?
+      - Pix aceitam Voces ?
+      - Você aceita pix?
+      - Voces parcelam Vender a consulta?
+      - Voces a consulta?
+      - poces pnrcelam a consulta?
+      - Voces parcelam a consulta?
+      - a parcelam Voces consulta ?
+      - Você compara a consulta?
+      - Voces parcelam? Acordar
+      - parcelam?
+      - Vdces pardelam?
+      - Voces parcelam?
+      - ? parcelam Voces
+      - Você compara?
+      - Frio Aceitam Pix?
+      - Aceitam
+      - Aieitam kix?
+      - Aceitam Pix?
+      - ? Pix Aceitam
+      - Voces aceitam Antipático pagamento em dinheiro?
+      - Voces aceitam em dinheiro?
+      - uoces aceltam pagamento em dinheiro?
+      - Voces aceitam recompensa em finanças?
+      - Voces aceitam pagamento em dinheiro?
+      - pagamento aceitam Voces em dinheiro ?
+      - Você aceita pagamento em dinheiro?
+      - pagamento em dinheiro? Escrever
+      - pagamento dinheiro?
+      - pagamento er dinheiqo?
+      - recompensa em Caixa?
+      - pagamento em dinheiro?
+      - dinheiro em pagamento ?
+      - Quais formas de pagamento por cartão Mercado voces aceitam?
+      - Quais formas de pagamento por voces aceitam?
+      - Quais formas ke pagamento por cartão voces aceitac?
+      - Quais formas de recompensa por papelão voces aceitam?
+      - pagamento por cartão voces aceitam? com Quais formas
+      - Quais formas de pagamento por cartão voces aceitam?
+      - de formas Quais pagamento por cartão voces aceitam ?
+      - Que formas de pagamento do cartão você aceita?
+      - Aceitam pagamentos em Assistir parcelas?
+      - Aceitam em parcelas?
+      - Aceiwam ppgamentos em parcelas?
+      - Aceitam pagamentos em parcelas?
+      - em pagamentos Aceitam parcelas ?
+      - Você aceita pagamentos em parcelas?
+      - Voces Simpático aceitam pagamentos em parcelas?
+      - Voces aceitam pagamentos em
+      - Voces aceitam pagamenths em parcklas?
+      - Voces aceitam pagamentos em parcelas?
+      - pagamentos aceitam Voces em parcelas ?
+      - Quais são Rapidamente as formas de parcelamento disponíveis?
+      - são as formas de parcelamento disponíveis?
+      - Quais mão as formas de parcelamdnto disponíveis?
+      - Quais sã as formas de parcelamento disponíveis?
+      - parcelamento disponíveis? com Quais são as formas
+      - Quais são as formas de parcelamento disponíveis?
+      - as são Quais formas de parcelamento disponíveis ?
+      - Voces Fora aceitam pagamento na entrega?
+      - aceitam pagamento na entrega?
+      - Voces aceitam pagamlnto nk entrega?
+      - Voces aceitam recompensa na entrega?
+      - Voces aceitam pagamento na entrega?
+      - pagamento aceitam Voces na entrega ?
+      - Você aceita pagamento na entrega?
+      - Existe Escola opção de parcelamento?
+      - Existe opção de
+      - Existw opção de parcelamerto?
+      - Existe alternativa de parcelamento?
+      - parcelamento? com Existe opção
+      - Existe opção de parcelamento?
+      - de opção Existe parcelamento ?
+      - Existe uma opção de parcelamento?
+      - Devagar Existem opções de parcelamento?
+      - Existem de parcelamento?
+      - Existeq opções de parcelzmento?
+      - Existem opções de parcelamento?
+      - parcelamento? com Existem opções
+      - de opções Existem parcelamento ?
+      - Quais são as opções de Sem querer parcelamento?
+      - Quais são as opções de
+      - Quays são ax opções de parcelamento?
+      - Quais mentalmente são as opções de parcelamento?
+      - parcelamento? com Quais são as opções
+      - Quais são as opções de parcelamento?
+      - as são Quais opções de parcelamento ?
+      - Ônibus Quais são as formas de pagar pela consulta?
+      - Quais são as formas de pagar pela
+      - Quais são as formas de nagar pela consuyta?
+      - Quais sã as formas de custear pela consulta?
+      - pagar pela consulta? com Quais são as formas
+      - Quais são as formas de pagar pela consulta?
+      - as são Quais formas de pagar pela consulta ?
+      - Quais são as maneiras de pagar pela consulta?
+      - Quais opções de Sem dúvida pagamento para consultas voces tem?
+      - Quais opções de pagamento consultas voces tem?
+      - Quais orções de pagamento para condultas voces tem?
+      - Quais opções de recompensa para consultoria voces tem?
+      - pagamento para consultas voces tem? com Quais opções
+      - Quais opções de pagamento para consultas voces tem?
+      - de opções Quais pagamento para consultas voces tem ?
+      - Que opções de pagamento para consultas você tem?
+      - Voces Papel aceitam cartão de crédito para pagamento da consulta?
+      - Voces aceitam cartão de crédito para pagamento da
+      - Voces aceitam cartão de crédito park pagamento da consulta?
+      - Voces aceitam papelão de empréstimo para recompensa da consulta?
+      - crédito para pagamento da consulta? com Voces aceitam cartão
+      - Voces aceitam cartão de crédito para pagamento da consulta?
+      - cartão aceitam Voces de crédito para pagamento da consulta ?
+      - Você aceita cartão de crédito para pagamento da consulta?
+      - cartão de Céu crédito?
+      - de crédito?
+      - cartjo de créwito?
+      - carta de empréstimo?
+      - crédito? com cartão
+      - cartão de crédito?
+      - crédito de cartão ?
+      - Cartão de crédito?
+      - cartão Estudar de débito?
+      - de débito?
+      - cartão dt kébito?
+      - papelão de Dívida?
+      - débito? com cartão
+      - cartão de débito?
+      - débito de cartão ?
+      - Cartão de dívida?
+      - Aceitam Pix Ouvir para pagamento da consulta?
+      - Aceitam Pix para pagamento consulta?
+      - Aceitam Pix para pagamento da consglta?
+      - Aceitam Pix para recompensa da consulta?
+      - pagamento da consulta? com Aceitam Pix
+      - Aceitam Pix para pagamento da consulta?
+      - para Pix Aceitam pagamento da consulta ?
+      - Você aceita o PIX para pagamento da consulta?
+      - Posso pagar a Porta consulta com Pix?
+      - Posso pagar a consulta com
+      - Posso pwgar a cbnsulta com Pix?
+      - Posso valer a pena a consulta com Pix?
+      - Pix? com Posso pagar a consulta
+      - a pagar Posso consulta com Pix ?
+      - Posso pagar a consulta com o PIX?
+      - Posso Jogar pagar com dinheiro?
+      - Posso pagar com
+      - Posso pagar cor dinhqiro?
+      - Posso recompensar com Dinheiro?
+      - dinheiro? com Posso pagar
+      - com pagar Posso dinheiro ?
+      - Jogar Aceitam dinheiro?
+      - dinheiro?
+      - Aceitam dinheiro?
+      - Aceitam moeda?
+      - ? dinheiro Aceitam
+      - Você aceita dinheiro?
+      - Gato Quais cartões de crédito são aceitos?
+      - Quais cartões crédito são aceitos?
+      - Quais cartões de crédiwo yão aceitos?
+      - Quais cartões de empréstimo sã aceitos?
+      - crédito são aceitos? com Quais cartões
+      - Quais cartões de crédito são aceitos?
+      - de cartões Quais crédito são aceitos ?
+      - Quais Raramente cartões de débito são aceitos?
+      - cartões de débito são aceitos?
+      - Quaks cartões ze débito são aceitos?
+      - Quais cartões de Débito salubre aceitos?
+      - débito são aceitos? com Quais cartões
+      - Quais cartões de débito são aceitos?
+      - de cartões Quais débito são aceitos ?
+      - Aceitam pagamento por cartão? Aprender
+      - Aceitam pagamento cartão?
+      - Aceitam pagwmento pur cartão?
+      - Aceitam recompensa por papelão?
+      - cartão? com Aceitam pagamento
+      - Aceitam pagamento por cartão?
+      - por pagamento Aceitam cartão ?
+      - Você aceita pagamento por cartão?
+      - Posso Roupa pagar a consulta em dinheiro?
+      - Posso pagar a consulta dinheiro?
+      - Posso pagar a consuqta mm dinheiro?
+      - Posso compensar a consulta em grana?
+      - Posso pagar a consulta em dinheiro?
+      - a pagar Posso consulta em dinheiro ?
+      - Aceitam pagamento em Feio dinheiro?
+      - Aceitam em dinheiro?
+      - Aceitam pagwmento ew dinheiro?
+      - Aceitam recompensa em finanças?
+      - Aceitam pagamento em dinheiro?
+      - em pagamento Aceitam dinheiro ?
+      - Voces Lápis aceitam todos os tipos de cartão?
+      - Voces aceitam os tipos de cartão?
+      - Voces aceitam todoy ks tipos de cartão?
+      - Voces aceitam todos os tipos de carta?
+      - cartão? com Voces aceitam todos os tipos
+      - Voces aceitam todos os tipos de cartão?
+      - todos aceitam Voces os tipos de cartão ?
+      - Você aceita todos os tipos de cartões?
+      - Posso pagar Raramente a consulta com cartão?
+      - pagar a consulta com cartão?
+      - losso pahar a consulta com cartão?
+      - Posso remunerar a consulta com cartas geográficas?
+      - cartão? com Posso pagar a consulta
+      - a pagar Posso consulta com cartão ?
+      - Posso pagar a consulta por cartão?
+      - Aceitam pagamento em Provavelmente cartão?
+      - pagamento em cartão?
+      - Aceitat pagamento em caotão?
+      - Aceitam recompensa em carta?
+      - Aceitam pagamento em cartão?
+      - em pagamento Aceitam cartão ?
+      - Você aceita o pagamento do cartão?
+      - Aceitam Encontrar pagamento em dinheiro para consulta?
+      - Aceitam pagamento em dinheiro consulta?
+      - Aceitam pagamento ev dinheiro yara consulta?
+      - Aceitam recompensa em divisa para consulta?
+      - consulta? com Aceitam pagamento em dinheiro
+      - Aceitam pagamento em dinheiro para consulta?
+      - em pagamento Aceitam dinheiro para consulta ?
+      - Você aceita pagamento em dinheiro para consulta?
+      - Posso Rio pagar a consulta com dinheiro?
+      - pagar a consulta com dinheiro?
+      - Posso pazar a condulta com dinheiro?
+      - Posso indemnizar a consulta com numerário?
+      - dinheiro? com Posso pagar a consulta
+      - a pagar Posso consulta com dinheiro ?
+      - Quais Ganhar são os métodos de pagamento aceitos pela clínica?
+      - são os métodos de pagamento aceitos pela clínica?
+      - quais xão os métodos de pagamento aceitos pela clínica?
+      - Quais salubre os Método de recompensa aceitos pela hospital?
+      - pagamento aceitos pela clínica? com Quais são os métodos
+      - os são Quais métodos de pagamento aceitos pela clínica ?
+      - Posso pagar com cartão de crédito? Pagar
+      - Posso pagar com cartão de
+      - Posso pagar com cartão ie créditos
+      - Posso compensar com carta de empréstimo?
+      - crédito? com Posso pagar com cartão
+      - Posso pagar com cartão de crédito?
+      - com pagar Posso cartão de crédito ?
+      - Aceitam Dentro pagamento com cartão de crédito?
+      - Aceitam pagamento com de crédito?
+      - Aceitam pagamento com cartão re cyédito?
+      - Aceitam recompensa com papelão de empréstimo?
+      - crédito? com Aceitam pagamento com cartão
+      - Aceitam pagamento com cartão de crédito?
+      - com pagamento Aceitam cartão de crédito ?
+      - Você aceita pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito? Consertar
+      - pagar com cartão de débito?
+      - Posso pagar com cartão ie débitg?
+      - Posso custear com papelão de dívida?
+      - débito? com Posso pagar com cartão
+      - Posso pagar com cartão de débito?
+      - com pagar Posso cartão de débito ?
+      - Aceitam pagamento com cartão de débito? Beber
+      - Aceitam pagamento com cartão débito?
+      - Aceitam pagauento col cartão de débito?
+      - Aceitam recompensa com carta de dívidas?
+      - débito? com Aceitam pagamento com cartão
+      - Aceitam pagamento com cartão de débito?
+      - com pagamento Aceitam cartão de débito ?
+      - Aceitam cartões de Doce crédito?
+      - Aceitam cartões de
+      - Aceitam cartõeh de créoito?
+      - Aceitam cartões de empréstimo?
+      - crédito? com Aceitam cartões
+      - Aceitam cartões de crédito?
+      - de cartões Aceitam crédito ?
+      - Aceitam cartões de débito? Vender
+      - Aceitam cartõeo oe débito?
+      - Aceitam cartões de dívidas?
+      - débito? com Aceitam cartões
+      - Aceitam cartões de débito?
+      - de cartões Aceitam débito ?
+      - Você aceita cartões de débito?
+      - Posso Longe pagar com Pix?
+      - Posso com Pix?
+      - Pxsso pagar com Pux?
+      - Posso remunerar com Pix?
+      - Pix? com Posso pagar
+      - com pagar Posso Pix ?
+      - Posso pagar com pix?
+      - Aceitam Nadar Pix como forma de pagamento?
+      - Aceitam Pix forma de pagamento?
+      - Acqitam Pix como forma dt pagamento?
+      - Aceitam Pix como forma geométrica de recompensa?
+      - pagamento? com Aceitam Pix como forma
+      - Aceitam Pix como forma de pagamento?
+      - como Pix Aceitam forma de pagamento ?
+      - Você aceita o PIX como uma forma de pagamento?
+      - Roupa Voces aceitam pagamento por Pix?
+      - aceitam pagamento por Pix?
+      - Vocos aceitam pagamento dor Pix?
+      - Voces aceitam recompensa por Pix?
+      - Pix? com Voces aceitam pagamento
+      - Voces aceitam pagamento por Pix?
+      - pagamento aceitam Voces por Pix ?
+      - Você aceita pagamento por pix?
+      - Posso usar Pix para pagar a consulta? Bicicleta
+      - Posso usar Pix para a consulta?
+      - Poslo usar Pid para pagar a consulta?
+      - Posso utilizar Pix para custear a consulta?
+      - pagar a consulta? com Posso usar Pix
+      - Posso usar Pix para pagar a consulta?
+      - Pix usar Posso para pagar a consulta ?
+      - Posso usar o PIX para pagar a consulta?
+      - Quaih são os métoeos de Mercado pagamento aceitos?a?
+      - Quaih os métoeos de pagamento aceitos?a?
+      - Quaih são os métoeos dk pagamento aceztos?a?
+      - Quaih sã os métoeos de recompensa aceitos?a?
+      - pagamento aceitos?a? com Quaih são os métoeos
+      - Quaih são os métoeos de pagamento aceitos?a?
+      - os são Quaih métoeos de pagamento aceitos?a ?
+      - Quais são as metas de pagamento aceitas?
+      - Dentro Voces oferecem parcelamento?
+      - oferecem parcelamento?
+      - Vocys oferecem parcelamento?
+      - Voces oferecem parcelamento?
+      - parcelamento oferecem Voces ?
+      - Você oferece parcela?
+      - Aceitam parcelamento? Terra
+      - Aleitam pdrcelamento?
+      - Aceitam parcelamento?
+      - ? parcelamento Aceitam
+      - Você aceita pagamento de parcelas?
+      - Quente Existe opção de parcelamento?
+      - opção de parcelamento?
+      - Existe opção se parcelampnto?
+      - Aprender Posso pagar em parcelas?
+      - Posso em parcelas?
+      - Possj pagar fm parcelas?
+      - Posso remunerar em parcelas?
+      - Posso pagar em parcelas?
+      - em pagar Posso parcelas ?
+      - Voces aceitam pagamento em parcelas? Falar
+      - Voces pagamento em parcelas?
+      - Voces aclitam pagamento um parcelas?
+      - Voces aceitam recompensa em parcelas?
+      - Voces aceitam pagamento em parcelas?
+      - pagamento aceitam Voces em parcelas ?
+      - Você aceita pagamento em parcelas?
+      - Quais Grande opções de parcelamento estão disponíveis?
+      - opções de parcelamento estão disponíveis?
+      - Quais opçõxs de parcelamento estãc disponíveis?
+      - Quais opções de parcelamento estão disponíveis?
+      - parcelamento estão disponíveis? com Quais opções
+      - de opções Quais parcelamento estão disponíveis ?
+      - Quais opções de parcelas estão disponíveis?
+      - Voces Hoje aceitam pagamento por cartão de crédito?
+      - Voces aceitam pagamento por de crédito?
+      - Voces aceitam pagamento por cnrtão de crédito?
+      - Voces aceitam recompensa por cartas geográficas de empréstimo?
+      - crédito? com Voces aceitam pagamento por cartão
+      - Voces aceitam pagamento por cartão de crédito?
+      - pagamento aceitam Voces por cartão de crédito ?
+      - Você aceita pagamento por cartão de crédito?
+      - Aceitam pagamento por cartão Cachorro de débito?
+      - Aceitam pagamento por cartão de
+      - Aceitam pagamezto pou cartão de débito?
+      - Aceitam recompensa por carta de deve?
+      - débito? com Aceitam pagamento por cartão
+      - Aceitam pagamento por cartão de débito?
+      - por pagamento Aceitam cartão de débito ?
+      - Você aceita o pagamento por cartão de débito?
+      - Quais formas de pagamento voces aceitam? Aprender
+      - Quais formas pagamento voces aceitam?
+      - Quaws formas de pagamento voces aceitaf?
+      - Posso pagar Terra com cartão?
+      - pagar com cartão?
+      - Posso qagar jom cartão?
+      - Posso compensar com papelão?
+      - cartão? com Posso pagar
+      - com pagar Posso cartão ?
+      - Posso pagar por cartão?
+      - Chave Aceitam pagamento com cartão?
+      - Aceitam pagamentx com qartão?
+      - Aceitam recompensa com carta?
+      - com pagamento Aceitam cartão ?
+      - Posso pagar em dinheiro? Cidade
+      - Posso em dinheiro?
+      - Pojso pagar em dinheiho?
+      - Posso indenizar em cobre?
+      - Posso pagar em dinheiro?
+      - em pagar Posso dinheiro ?
+      - Aceitam Ler cartões de débito?
+      - cartões de débito?
+      - Aceitam cartõjs de dqbito?
+      - Aceitam Triste cartões de crédito?
+      - cartões de crédito?
+      - Aceitam cartõei dx crédito?
+      - Você aceita cartões de crédito?
+      - Aceitam pagamento Esperar por Pix?
+      - Aceitam pagamento Pix?
+      - Acnitam pagamento xor Pix?
+      - Aceitam recompensa por Pix?
+      - Pix? com Aceitam pagamento
+      - Aceitam pagamento por Pix?
+      - por pagamento Aceitam Pix ?
+      - Sem querer Voces oferecem desconto para pagamento em dinheiro?
+      - Voces oferecem desconto para em dinheiro?
+      - Voces okerecem descokto para pagamento em dinheiro?
+      - Voces oferecem disconto para recompensa em Caixa?
+      - pagamento em dinheiro? com Voces oferecem desconto
+      - Voces oferecem desconto para pagamento em dinheiro?
+      - desconto oferecem Voces para pagamento em dinheiro ?
+      - Você oferece desconto para pagamento em dinheiro?
+      - Existe desconto para pagamento em Bicicleta dinheiro?
+      - Existe desconto para em dinheiro?
+      - Existe desconao para pagatento em dinheiro?
+      - Existe disconto para recompensa em moedas?
+      - pagamento em dinheiro? com Existe desconto
+      - Existe desconto para pagamento em dinheiro?
+      - para desconto Existe pagamento em dinheiro ?
+      - Existe um desconto para pagamento em dinheiro?
+      - Posso Céu pagar com cartão de crédito?
+      - Posso pagar cartão de crédito?
+      - Poqso pugar com cartão de crédito?
+      - Posso indemnizar com papelão de empréstimo?
+      - Voces Lápis aceitam todos os cartões de crédito?
+      - aceitam todos os cartões de crédito?
+      - Voces aceitam rodos is cartões de crédito?
+      - Voces aceitam todos os cartões de empréstimo?
+      - crédito? com Voces aceitam todos os cartões
+      - Voces aceitam todos os cartões de crédito?
+      - todos aceitam Voces os cartões de crédito ?
+      - Você aceita todos os cartões de crédito?
+      - Escola Aceitam pagamento com cartão de crédito?
+      - Aceitam pagamento cartão de crédito?
+      - Aceitam pagamento com rartão de crmdito?
+      - Posso pagar com cartão Perder de débito?
+      - Posso pagar com cartão débito?
+      - Pobso pagar com cartão de mébito?
+      - Posso compensar com papelão de Débito?
+      - Feio Aceitam pagamento com cartão de débito?
+      - Aceitam pagamento cartão de débito?
+      - Aceitam pagamento com cartzo de débito?
+      - Aceitam recompensa com carta de dívida?
+      - Você aceita pagamento com cartão de débito?
+      - Voces Fogo aceitam Pix para pagamento?
+      - Voces aceitam Pix pagamento?
+      - Vozes aceitam Pix para pagamexto?
+      - Voces aceitam Pix para recompensa?
+      - pagamento? com Voces aceitam Pix
+      - Voces aceitam Pix para pagamento?
+      - Pix aceitam Voces para pagamento ?
+      - Você aceita o PIX para pagamento?
+      - Aceitam Pix para pagar a Juntos consulta?
+      - Aceitam Pix para a consulta?
+      - Aceitam dix para pagar a consultk?
+      - Aceitam Pix para remunerar a consulta?
+      - pagar a consulta? com Aceitam Pix
+      - Aceitam Pix para pagar a consulta?
+      - para Pix Aceitam pagar a consulta ?
+      - Você aceita o PIX para pagar a consulta?
+      - Voces aceitam Comer pagamento em dinheiro?
+      - Voces aceitam pagamento em
+      - Voces aceijam pagamento ei dinheiro?
+      - Voces aceitam recompensa em divisa?
+      - Posso Neve pagar em dinheiro?
+      - pagar em dinheiro?
+      - Posyo pagar em dznheiro?
+      - Posso indenizar em moeda?
+      - Sempre Voces aceitam cartão de crédito?
+      - Voces aceitam de crédito?
+      - Vocew aceitam cvrtão de crédito?
+      - Voces aceitam cartas geográficas de empréstimo?
+      - Aceitam pagamento com Jogo cartão de crédito?
+      - pagamento com cartão de crédito?
+      - Aceitam pagamento jom ckrtão de crédito?
+      - Voces aceitam todos os cartões Encontrar de débito?
+      - Voces aceitam os cartões de débito?
+      - Voces aceitam oodos os cartões de mébito?
+      - Voces aceitam todos os cartões de Dívida?
+      - débito? com Voces aceitam todos os cartões
+      - Voces aceitam todos os cartões de débito?
+      - todos aceitam Voces os cartões de débito ?
+      - Você aceita todos os cartões de débito?
+      - Posso pagar a consulta com Hoje cartão de débito?
+      - Posso pagar a consulta cartão de débito?
+      - Posso pagar a consusta com cartão dz débito?
+      - Posso remunerar a consulta com papelão de Dívida?
+      - débito? com Posso pagar a consulta com cartão
+      - Posso pagar a consulta com cartão de débito?
+      - a pagar Posso consulta com cartão de débito ?
+      - Posso pagar a consulta do cartão de débito?
+      - Voces aceitam todos os cartões de Sol crédito?
+      - Voces aceitam todos cartões de crédito?
+      - Voces acpitam todos qs cartões de crédito?
+      - Aceitam Amigo pagamento em Pix?
+      - Aceitam pagamento em
+      - Aueitam pagamento en Pix?
+      - Aceitam recompensa em Pix?
+      - Aceitam pagamento em Pix?
+      - em pagamento Aceitam Pix ?
+      - Você aceita pagamento em pix?
+      - Estrela Voces aceitam todos os tipos de cartão?
+      - Voces aceitam todos gs tipos dh cartão?
+      - Voces aceitam todos os tipos de papelão?
+      - Posso pagar com cartão de Estrela débito?
+      - Possw pagdr com cartão de débito?
+      - Posso compensar com carta de deve?
+      - Aceitam pagamento Pássaro em dinheiro?
+      - Aceitau pagamento em dinhepro?
+      - Aceitam recompensa em Dinheiro?
+      - Posso pagar em Sem dúvida dinheiro?
+      - Posso pagar dinheiro?
+      - Posso pauar em ddnheiro?
+      - Aceitam Pix? Caneta
+      - Aseitam Pin?
+      - Aceitam pagamento por Pix? Destruir
+      - pagamento por Pix?
+      - Aceitam pagamento poi Pix?
+      - Voces aceitam cartão Janela de crédito?
+      - Voces apeitam cartão de crtdito?
+      - Voces aceitam papelão de empréstimo?
+      - Aceitam cartão de Terra crédito?
+      - Aceitam caftão dp crédito?
+      - Aceitam papelão de empréstimo?
+      - Posso pagar com cartão Sapato de crédito?
+      - Posso pagar coi cartão de crépito?
+      - Posso indemnizar com cartas geográficas de empréstimo?
+      - Voces aceitam Cruel todos os cartões de crédito?
+      - Voces aceitam todos os cartões de
+      - Voces aceotam todos os cartões de crédino?
+      - Aceitam pagamento com cartão de Quente débito?
+      - Aceitam pagamento com de débito?
+      - Accitam pagamento com cartão te débito?
+      - Aceitam recompensa com cartas geográficas de Débito?
+      - Voces aceitam todos os cartões de débito? Bicicleta
+      - Voces aceitam todos os cartões débito?
+      - Voces aceitam todon os cartões dh débito?
+      - Voces aceitam todos os cartões de dívidas?
+      - Aceitam Perder pagamento com Pix?
+      - pagamento com Pix?
+      - Aheitam pagamento con Pix?
+      - Aceitam recompensa com Pix?
+      - com pagamento Aceitam Pix ?
+      - Você aceita pagamento com PIX?
+      - Posso pagar Roupa com dinheiro?
+      - Poaso pagxr com dinheiro?
+      - Posso custear com Dinheiro?
+      - Quais são as formas Andar de pagamento disponiveis?
+      - Quais são as formas pagamento disponiveis?
+      - zuais são as fommas de pagamento disponiveis?
+      - Quais saudável as formas de recompensa disponiveis?
+      - pagamento disponiveis? com Quais são as formas
+      - Quais são as formas de pagamento disponiveis?
+      - as são Quais formas de pagamento disponiveis ?
+      - Voces aceitam cartão Bonito de crédito?
+      - Voces aceitam cartão di créddto?
+      - Existe opção Jogar de parcelamento?
+      - ixiste opção ke parcelamento?
+      - Existe intercorrência de parcelamento?
+      - Como faço para pagar com Dia cartão de débito?
+      - faço para pagar com cartão de débito?
+      - Comd faço para pagar som cartão de débito?
+      - Como faço para remunerar com cartas geográficas de deve?
+      - débito? com Como faço para pagar com cartão
+      - Como faço para pagar com cartão de débito?
+      - para faço Como pagar com cartão de débito ?
+      - Podem me informar os métodos Escuro de pagamento
+      - Podem me os métodos de pagamento
+      - Podem me inqormar on métodos de pagamento
+      - Podem me contar os técnica de recompensa
+      - pagamento com Podem me informar os métodos
+      - Podem me informar os métodos de pagamento
+      - Você pode me informar sobre métodos de pagamento
+      - Quais Mesa opções de pagamento voces oferecem?
+      - Quais opções de pagamento oferecem?
+      - Quads tpções de pagamento voces oferecem?
+      - posso usar Pix para fazer o Aprender pagamento?
+      - posso usar Pix para fazer pagamento?
+      - posso usar nix para famer o pagamento?
+      - posso consumir Pix para apresentar o recompensa?
+      - fazer o pagamento? com posso usar Pix
+      - posso usar Pix para fazer o pagamento?
+      - Pix usar posso para fazer o pagamento ?
+      - Posso usar o PIX para fazer o pagamento?
+      - Posso Telefone dividir o pagamento em mais de uma forma
+      - Posso dividir pagamento em mais de uma forma
+      - Posso dividir o pamamento ef mais de uma forma
+      - Posso articular-se o recompensa em demais de uma de
+      - uma forma com Posso dividir o pagamento em mais
+      - Posso dividir o pagamento em mais de uma forma
+      - Eu posso dividir o pagamento em mais de uma maneira
+      - Como funcionam os pagamentos Doce para serviços
+      - Como funcionam os pagamentos para
+      - Coxo funcionam os pagamentos pxra serviços
+      - Como funcionam os pagamentos para serviços
+      - serviços com Como funcionam os pagamentos
+      - Como os pagamentos funcionam para os serviços
+      - Podem confirmar Sol se meu método de pagamento foi aceito?
+      - Podem confirmar se método de pagamento foi aceito?
+      - Podem confirmar se mec método dh pagamento foi aceito?
+      - Podem corroborar abster meu métodos de recompensa foi reconhecido?
+      - pagamento foi aceito? com Podem confirmar se meu método
+      - Podem confirmar se meu método de pagamento foi aceito?
+      - se confirmar Podem meu método de pagamento foi aceito ?
+      - Você pode confirmar se meu método de pagamento foi aceito?
+      - voces aceitam cartao Entediante
+      - voces cartao
+      - voceg aceitam gartao
+      - voces aceitam cartao
+      - Você aceita cartão
+      - voces aceitam cartao de credito Inteligente
+      - voces aceitam de credito
+      - voces aceitam cartab da credito
+      - voces aceitam cartao de credito
+      - credito com voces aceitam cartao
+      - Vocês aceitam cartão de crédito
+      - aceitam cartão Limpar
+      - aceitam
+      - aceieam caztão
+      - aceitam carta
+      - cartão aceitam
+      - Aceitar cartão
+      - aceitam pix Longe
+      - acditam six
+      - aceitam pix
+      - aceitar pix
+      - voces Lua aceitam pix
+      - voces pix
+      - vocys aceitad pix
+      - voces aceitam pix
+      - Você aceita pix
+      - pix Bonito
+      - rix
+      - pix
+      - Ontem cartao
+      - cantao
+      - cartao
+      - cartão
+      - cartao de credito Limpar
+      - cartao de
+      - cartao dp cradito
+      - cartao de credito
+      - credito com cartao
+      - Cartão de crédito
+      - cartao de Pássaro debito
+      - cartao debito
+      - cartco de debvto
+      - cartao de debito
+      - debito com cartao
+      - cartão de débito
+      - voces parcelam Fora
+      - voces
+      - voceb psrcelam
+      - voces parcelam
+      - Você parcela
+      - voces De repente parcelam no cartao de credito
+      - voces parcelam no cartao credito
+      - voces pabcelam no cartao ae credito
+      - voces parcelam no cartao de credito
+      - credito com voces parcelam no cartao
+      - você parcela no cartão de crédito
+      - em ate quantas vezes voces parcelam no cartao Beber
+      - ate quantas vezes voces parcelam no cartao
+      - ek ate quanzas vezes voces parcelam no cartao
+      - em ate quantas vezes voces parcelam no cartao
+      - Quantas vezes você comparece no cartão
+      - Ver cartão de crédito
+      - de crédito
+      - cartão fe irédito
+      - papelão de empréstimo
+      - crédito com cartão
+      - cartão de crédito
+      - cartão de débito Acima
+      - cartão débito
+      - cartão ge wébito
+      - cartas geográficas de dívida
+      - débito com cartão
+      - cartão Telefone
+      - cartãj
+      - papelão
+      - o pagamento e na Nunca hora?
+      - pagamento e na hora?
+      - o paiamento e na horu?
+      - o recompensa e na tempo?
+      - na hora? e o pagamento
+      - e pagamento o na hora ?
+      - o pagamento e a hora?
+      - como e o Brinquedo pagamento
+      - como e o
+      - momo e o pacamento
+      - como e o recompensa
+      - o pagamento e como
+      - como e pagamento
+      - pagamento Inteligente
+      - jagamento
+      - recompensa
+      - pagamento
       - Quais são as formas de pagamento disponíveis?
       - são as formas de pagamento?
       - Quais são as opções de pagamento disponíveis?
@@ -142,10 +983,515 @@ nlu:
       - o pagamento e na hora?
       - como e o pagamento
       - pagamento
- 
+
 
   - intent: preco_consulta
     examples: |
+      - quanto ta a consulta com o Roupa psicologo
+      - quanto ta a com o psicologo
+      - qusnto ta a consulta com o psizologo
+      - quanto ta a consulta com o psicologo
+      - quanto é a consulta com o psicólogo
+      - Sapato quanto ta a consulta com o psiquiatra
+      - quanto ta a consulta com psiquiatra
+      - luanto ta a consulta wom o psiquiatra
+      - quanto ta a consulta com o encolhimento
+      - o psiquiatra com quanto ta a consulta
+      - quanto é a consulta com o psiquiatra
+      - Gradualmente quanto ta a a consulta
+      - ta a a consulta
+      - qganto va a a consulta
+      - quanto ta a a consulta
+      - Quanto é a consulta
+      - qual o preco Beber da consulta
+      - qual o preco da
+      - qual o preco dw cocsulta
+      - segundo o preco da consulta
+      - consulta com qual o preco
+      - qual o preco da consulta
+      - Qual é o preço da consulta
+      - Quanto custa uma consulta Falar geral nesta clínica
+      - Quanto custa uma consulta geral nesta
+      - Quanto custa uma consulta geral nesva clenica
+      - Quanto custa uma consulta habitual nesta hospital
+      - Quanto custa uma consulta geral nesta clínica
+      - Quanto custa uma consulta geral esta clínica
+      - Pode me Jogo informar qual é o valor de uma consulta
+      - Pode me informar qual é o valor uma consulta
+      - Pode me informar qual é o valor de umg consulya
+      - Pode me notificar enquanto é o operacionalidade de uma consulta
+      - uma consulta com Pode me informar qual é o valor
+      - Pode me informar qual é o valor de uma consulta
+      - Você pode me informar qual é o valor de uma consulta
+      - Qual é o custo Perder para uma consulta com um especialista?
+      - Qual é custo para uma consulta com um especialista?
+      - Quav é o custo para uva consulta com um especialista?
+      - Segundo é o remunerações para uma consulta com um estudioso?
+      - uma consulta com um especialista? com Qual é o custo
+      - Qual é o custo para uma consulta com um especialista?
+      - o é Qual custo para uma consulta com um especialista ?
+      - Qual é o custo de uma consulta com um especialista?
+      - Voce poderia me dizer Lua quanto é cobrado por uma consulta?
+      - Voce poderia me dizer é cobrado por uma consulta?
+      - Voce poderia le dlzer quanto é cobrado por uma consulta?
+      - Voce poderia me dizer quanto é cobrado por uma consulta?
+      - uma consulta? com Voce poderia me dizer quanto é cobrado
+      - me poderia Voce dizer quanto é cobrado por uma consulta ?
+      - Você poderia me dizer quanto é cobrado por uma consulta?
+      - Gostaria Fraco de saber o preço de uma consulta?
+      - Gostaria de saber o preço de uma
+      - Gostaria de sabez o preço de umo consulta?
+      - Gostaria de conhecer o custos de uma consulta?
+      - Gostaria de saber o preço de uma consulta?
+      - saber de Gostaria o preço de uma consulta ?
+      - Você gostaria de saber o preço de uma consulta?
+      - Qual é o valor cobrado para uma consulta? Ajudar
+      - Qual o valor cobrado para uma consulta?
+      - Qual é o valkr cobrado papa uma consulta?
+      - Ingualmente é o lucro cobrado para uma consulta?
+      - uma consulta? com Qual é o valor cobrado
+      - Qual é o valor cobrado para uma consulta?
+      - o é Qual valor cobrado para uma consulta ?
+      - Qual é o valor cobrado por uma consulta?
+      - Pode me dizer qual o custo de uma consulta nesta Inteligente clínica?
+      - Pode me dizer qual o custo de consulta nesta clínica?
+      - Pode me dizer qual o custo de ula consulta nesta clítica?
+      - Pode me dizer desta maneira o despesa de uma consulta nesta hospital?
+      - uma consulta nesta clínica? com Pode me dizer qual o custo
+      - Pode me dizer qual o custo de uma consulta nesta clínica?
+      - dizer me Pode qual o custo de uma consulta nesta clínica ?
+      - Você pode me dizer qual é o custo de uma consulta nesta clínica?
+      - Pode fornecer os preços Computador para as consultas disponíveis?
+      - Pode fornecer os preços para as disponíveis?
+      - yode fornecer os preços paga as consultas disponíveis?
+      - Pode proporcionar os custo para as consultoria disponíveis?
+      - as consultas disponíveis? com Pode fornecer os preços
+      - Pode fornecer os preços para as consultas disponíveis?
+      - os fornecer Pode preços para as consultas disponíveis ?
+      - Você pode fornecer preços para as consultas disponíveis?
+      - Agitado Quanto custa a consulta?
+      - custa a consulta?
+      - wuanto cwsta a consulta?
+      - Quanto custa a consulta?
+      - a custa Quanto consulta ?
+      - Qual o valor da consulta? Velho
+      - Qual valor da consulta?
+      - Qwal o valor da consulta?
+      - Ingualmente o lucro da consulta?
+      - consulta? com Qual o valor
+      - Qual o valor da consulta?
+      - valor o Qual da consulta ?
+      - Qual é o valor da consulta?
+      - Quanto custa Escuro uma consulta nesta clínica?
+      - Quanto custa uma consulta clínica?
+      - Quanto custb zma consulta nesta clínica?
+      - Quanto custa uma consulta nesta hospital?
+      - Quanto custa uma consulta nesta clínica?
+      - uma custa Quanto consulta nesta clínica ?
+      - qual o custo de uma Sorrir consulta nesta clínica?
+      - qual o custo de uma nesta clínica?
+      - qual o custo de sma consuwta nesta clínica?
+      - ingualmente o taxa de uma consulta nesta hospital?
+      - uma consulta nesta clínica? com qual o custo
+      - qual o custo de uma consulta nesta clínica?
+      - custo o qual de uma consulta nesta clínica ?
+      - Qual é o custo de uma consulta nesta clínica?
+      - Janela Qual é o valor?
+      - Qual o valor?
+      - Qual é o vxlor?
+      - Ídem é o lucro?
+      - Qual é o valor?
+      - o é Qual valor ?
+      - Árvore custo
+      - cusoo
+      - gastos
+      - custo
+      - Certamente preco
+      - pyeco
+      - preco
+      - preço
+      - Entediante preço
+      - preyo
+      - custos
+      - quanto custa Separadamente
+      - custa
+      - quacto cssta
+      - quanto custa
+      - quanto custa isso
+      - qual e o Pássaro valor
+      - qual o valor
+      - quao e o vabor
+      - de que modo e o lucro
+      - o valor e qual
+      - Qual é o valor
+      - Estrela valor
+      - vayor
+      - utilidade
+      - valor
+      - e Jogo o valor
+      - o valor
+      - e o valqr
+      - e o importância
+      - e o valor
+      - e Mercado o preço
+      - o preço
+      - e o prdço
+      - e o custos
+      - e o preço
+      - Quanto Chave custa o atendimento com um especialista?
+      - Quanto custa o atendimento com especialista?
+      - Quanto custa o atendimenpo com ud especialista?
+      - Quanto custa o atendimento com um erudito?
+      - um especialista? com Quanto custa o atendimento
+      - o custa Quanto atendimento com um especialista ?
+      - Quanto custa o serviço com um especialista?
+      - Longe Qual é o preço para uma consulta de rotina?
+      - Qual o preço para uma consulta de rotina?
+      - Qual é o preçu uara uma consulta de rotina?
+      - Ídem é o custo para uma consulta de ramerrão?
+      - rotina? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de rotina?
+      - o é Qual preço para uma consulta de rotina ?
+      - Qual é o preço de uma consulta de rotina?
+      - Vocês podem me informar o custo de uma consulta Forte médica?
+      - Vocês podem me informar o custo de uma consulta
+      - Vowês podem me informar o custo de uma conqulta médica?
+      - Vocês podem me contar o preço de uma consulta médica?
+      - uma consulta médica? com Vocês podem me informar o custo
+      - Vocês podem me informar o custo de uma consulta médica?
+      - me podem Vocês informar o custo de uma consulta médica ?
+      - Você pode me dizer o custo de uma consulta médica?
+      - Quanto está a consulta com o Alto clínico geral?
+      - Quanto está a consulta o clínico geral?
+      - Quanto está a fonsulta com o clznico geral?
+      - Quanto está a consulta com o clínico usual?
+      - o clínico geral? com Quanto está a consulta
+      - Quanto encontra-se a consulta com o clínico geral?
+      - a está Quanto consulta com o clínico geral ?
+      - Quanto é a consulta com o clínico geral?
+      - Qual é o valor de uma consulta Agitado com o pediatra?
+      - é o valor de uma consulta com o pediatra?
+      - Qual é o valor db uma cvnsulta com o pediatra?
+      - De que modo é o lucro de uma consulta com o pediatra?
+      - uma consulta com o pediatra? com Qual é o valor
+      - Qual é o valor de uma consulta com o pediatra?
+      - o é Qual valor de uma consulta com o pediatra ?
+      - Quanto custa uma Raramente consulta de emergência?
+      - Quanto custa uma de emergência?
+      - Quanto cumta uha consulta de emergência?
+      - Quanto custa uma consulta de urgência?
+      - emergência? com Quanto custa uma consulta
+      - Quanto custa uma consulta de emergência?
+      - uma custa Quanto consulta de emergência ?
+      - Vocês podem me dizer o valor Amanhã das consultas na clínica?
+      - Vocês podem dizer o valor das consultas na clínica?
+      - Vocês podem me dizer o valor zas consultas na clxnica?
+      - Vocês podem me dizer o utilidade das consultoria na hospital?
+      - Vocês podem me dizer o valor das consultas na clínica?
+      - me podem Vocês dizer o valor das consultas na clínica ?
+      - Você pode me dizer o valor das consultas na clínica?
+      - Qual é Quente o preço de uma consulta especializada?
+      - é o preço de uma consulta especializada?
+      - Qual é o preço dw uma consulta especiklizada?
+      - De acordo de é o gastos de uma consulta especializada?
+      - uma consulta especializada? com Qual é o preço
+      - Qual é o preço de uma consulta especializada?
+      - o é Qual preço de uma consulta especializada ?
+      - Quanto custa um Sorrir exame médico na clínica?
+      - Quanto custa um exame na clínica?
+      - Quanto cssta um erame médico na clínica?
+      - Quanto custa um examinação doutor na hospital?
+      - Quanto custa um exame médico na clínica?
+      - um custa Quanto exame médico na clínica ?
+      - Quanto sai uma consulta de acompanhamento? Cachorro
+      - Quanto sai consulta de acompanhamento?
+      - Quanto sai uma conrulta ds acompanhamento?
+      - Quanto sai uma consulta de continuação?
+      - acompanhamento? com Quanto sai uma consulta
+      - Quanto sai uma consulta de acompanhamento?
+      - uma sai Quanto consulta de acompanhamento ?
+      - Quanto vem uma consulta a seguir?
+      - Qual é o Trabalhar valor cobrado para um exame de rotina?
+      - Qual o valor cobrado para um exame de rotina?
+      - Qjal é o lalor cobrado para um exame de rotina?
+      - Ídem é o importância cobrado para um teste de ramerrão?
+      - rotina? com Qual é o valor cobrado para um exame
+      - Qual é o valor cobrado para um exame de rotina?
+      - o é Qual valor cobrado para um exame de rotina ?
+      - Quanto cobram pela consulta com Amigo o nutricionista?
+      - Quanto pela consulta com o nutricionista?
+      - Qurnto cobram pela fonsulta com o nutricionista?
+      - Quanto cobram pela consulta com o nutricionista?
+      - pela cobram Quanto consulta com o nutricionista ?
+      - Quanto eles cobram pela consulta com o nutricionista?
+      - Qual é o preço para um Mesa check-up médico completo?
+      - Qual é preço para um check-up médico completo?
+      - Qual é o preço para tm check-up médico compleco?
+      - Relativamente a é o qualidade para um check-up doutor inteiro?
+      - um check-up médico completo? com Qual é o preço
+      - Qual é o preço para um check-up médico completo?
+      - o é Qual preço para um check-up médico completo ?
+      - Qual é o preço de um check-up médico completo?
+      - Quanto custa Mesa a avaliação inicial com o cardiologista?
+      - Quanto custa a inicial com o cardiologista?
+      - Quanto custa a avaliação iwicial chm o cardiologista?
+      - Quanto custa a avaliação (ciência) inicial com o cardióloga?
+      - o cardiologista? com Quanto custa a avaliação inicial
+      - a custa Quanto avaliação inicial com o cardiologista ?
+      - Qual o Jogo valor de uma consulta para diagnóstico?
+      - Qual o valor de consulta para diagnóstico?
+      - Qual o valor de nma consulta para diagnórtico?
+      - Ao longo de o utilidade de uma consulta para diagnose?
+      - uma consulta para diagnóstico? com Qual o valor
+      - Qual o valor de uma consulta para diagnóstico?
+      - valor o Qual de uma consulta para diagnóstico ?
+      - Qual é o valor de uma consulta de diagnóstico?
+      - Qual Gentil é o preço de uma consulta com o ginecologista?
+      - Qual é o preço de uma consulta com o
+      - Qual é o preço de uma consupta cnm o ginecologista?
+      - Quão é o custos de uma consulta com o ginecólogo?
+      - uma consulta com o ginecologista? com Qual é o preço
+      - Qual é o preço de uma consulta com o ginecologista?
+      - o é Qual preço de uma consulta com o ginecologista ?
+      - Quanto custa agendar Nunca uma consulta com o dermatologista?
+      - Quanto custa agendar uma consulta o dermatologista?
+      - Quanto custa agendar uma consulta pom o dermatologfsta?
+      - Quanto custa planificar uma consulta com o Dermatologista?
+      - o dermatologista? com Quanto custa agendar uma consulta
+      - agendar custa Quanto uma consulta com o dermatologista ?
+      - Café Qual é o custo de uma consulta para consulta de retorno?
+      - Qual é o custo de uma consulta para de retorno?
+      - Qual é o custo de uma conselta pdra consulta de retorno?
+      - Segundo é o preço de uma consulta para consulta de vinda?
+      - consulta de retorno? com Qual é o custo de uma consulta
+      - Qual é o custo de uma consulta para consulta de retorno?
+      - o é Qual custo de uma consulta para consulta de retorno ?
+      - Qual é o custo de uma consulta de consulta de retorno?
+      - Dia Quanto vocês cobram por um exame de sangue?
+      - Quanto vocês cobram por um exame sangue?
+      - Quanto vocês cobram por um exame de sasgue?
+      - Quanto vocês cobram por um teste de descendência?
+      - sangue? com Quanto vocês cobram por um exame
+      - Quanto vocês cobram por um exame de sangue?
+      - cobram vocês Quanto por um exame de sangue ?
+      - Quanto você cobra por um exame de sangue?
+      - Qual Destruir o valor de uma consulta com o neurologista?
+      - o valor de uma consulta com o neurologista?
+      - Qual o valor dd uma consujta com o neurologista?
+      - De acordo de o utilidade de uma consulta com o neurologista?
+      - uma consulta com o neurologista? com Qual o valor
+      - Qual o valor de uma consulta com o neurologista?
+      - valor o Qual de uma consulta com o neurologista ?
+      - Qual é o valor de uma consulta com o neurologista?
+      - Qual é o preço Bobo de uma consulta com o ortopedista?
+      - Qual é o de uma consulta com o ortopedista?
+      - Qual é o yreço de uma consusta com o ortopedista?
+      - Relativamente a é o custos de uma consulta com o ortopedista?
+      - uma consulta com o ortopedista? com Qual é o preço
+      - Qual é o preço de uma consulta com o ortopedista?
+      - o é Qual preço de uma consulta com o ortopedista ?
+      - Qual é o preço de uma consulta ortopedista?
+      - Quanto custa um Alto atendimento na clínica?
+      - Quanto custa atendimento na clínica?
+      - Quanto cusja um atendimentw na clínica?
+      - Quanto custa um atendimento na hospital?
+      - Quanto custa um atendimento na clínica?
+      - um custa Quanto atendimento na clínica ?
+      - Quanto custa um serviço na clínica?
+      - Qual o valor cobrado por uma consulta na Sempre especialidade de endocrinologia?
+      - Qual o valor cobrado por uma na especialidade de endocrinologia?
+      - Qual o valor cobrado phr ula consulta na especialidade de endocrinologia?
+      - Relativamente a o utilidade cobrado por uma consulta na Especialidades médicas de Endocrinologia?
+      - endocrinologia? com Qual o valor cobrado por uma consulta na especialidade
+      - Qual o valor cobrado por uma consulta na especialidade de endocrinologia?
+      - valor o Qual cobrado por uma consulta na especialidade de endocrinologia ?
+      - Qual é o valor cobrado por uma consulta na especialidade da endocrinologia?
+      - Vocês podem me dizer Às vezes quanto custa uma consulta com o urologista?
+      - Vocês podem me dizer quanto custa uma com o urologista?
+      - Vocês podem me dizer quanto custa usa consulta com o urolfgista?
+      - Vocês podem me dizer quanto custa uma consulta com o urologista?
+      - me podem Vocês dizer quanto custa uma consulta com o urologista ?
+      - Você pode me dizer quanto custa um consulta com o urologista?
+      - Quanto está a consulta para acompanhamento com Chave o psiquiatra?
+      - Quanto está a consulta para acompanhamento o psiquiatra?
+      - Quatto está a cohsulta para acompanhamento com o psiquiatra?
+      - Quanto está a consulta para continuação com o encolhimento?
+      - acompanhamento com o psiquiatra? com Quanto está a consulta
+      - Quanto encontra-se a consulta para acompanhamento com o psiquiatra?
+      - a está Quanto consulta para acompanhamento com o psiquiatra ?
+      - Quanto a consulta deve acompanhar o psiquiatra?
+      - Qual é o preço para uma consulta com o Bicicleta oftalmologista?
+      - Qual é preço para uma consulta com o oftalmologista?
+      - Qual é o preço cara uma consulta cox o oftalmologista?
+      - Quão é o preços para uma consulta com o oftalmólogo?
+      - uma consulta com o oftalmologista? com Qual é o preço
+      - Qual é o preço para uma consulta com o oftalmologista?
+      - o é Qual preço para uma consulta com o oftalmologista ?
+      - Qual é o preço de uma consulta oftalmologista?
+      - Quanto custa a avaliação inicial com Ônibus o fisioterapeuta?
+      - custa a avaliação inicial com o fisioterapeuta?
+      - Quantz custa a avaliabão inicial com o fisioterapeuta?
+      - Quanto custa a apreciação (comércio) inicial com o fisioterapeuta?
+      - o fisioterapeuta? com Quanto custa a avaliação inicial
+      - a custa Quanto avaliação inicial com o fisioterapeuta ?
+      - Qual é o valor de uma consulta para Triste exames preventivos?
+      - Qual é o valor de uma consulta exames preventivos?
+      - Qfal é o valor de uma consulta para exaees preventivos?
+      - Qual é o operacionalidade de uma consulta para exames preventivos?
+      - uma consulta para exames preventivos? com Qual é o valor
+      - Qual é o valor de uma consulta para exames preventivos?
+      - o é Qual valor de uma consulta para exames preventivos ?
+      - Quanto custa Às vezes a consulta com o cardiologista?
+      - Quanto custa a consulta com cardiologista?
+      - Qxanto custi a consulta com o cardiologista?
+      - Quanto custa a consulta com o cardiólogo?
+      - o cardiologista? com Quanto custa a consulta
+      - a custa Quanto consulta com o cardiologista ?
+      - Vocês poderiam informar o custo de uma Céu consulta de rotina?
+      - Vocês poderiam o custo de uma consulta de rotina?
+      - kocês poderiam informar o custo de uma consulta di rotina?
+      - Vocês poderiam anunciar o remunerações de uma consulta de ramerrão?
+      - Vocês poderiam informar o custo de uma consulta de rotina?
+      - informar poderiam Vocês o custo de uma consulta de rotina ?
+      - Você poderia informar o custo de uma consulta de rotina?
+      - Quanto está a Falar consulta com o reumatologista?
+      - Quanto está a consulta com reumatologista?
+      - Quanto está a cocsulta pom o reumatologista?
+      - Quanto está a consulta com o reumatologista?
+      - Quanto encontra-se a consulta com o reumatologista?
+      - a está Quanto consulta com o reumatologista ?
+      - Quanto custa a consulta com o reumatologista?
+      - Qual é o preço cobrado por uma consulta de Lento emergência?
+      - Qual é o preço cobrado por uma consulta de
+      - Qual é o preço cobrado mor uma conszlta de emergência?
+      - Desta maneira é o custo cobrado por uma consulta de crescimento?
+      - emergência? com Qual é o preço cobrado por uma consulta
+      - Qual é o preço cobrado por uma consulta de emergência?
+      - o é Qual preço cobrado por uma consulta de emergência ?
+      - Flor Qual o valor para uma consulta com o gastroenterologista?
+      - o valor para uma consulta com o gastroenterologista?
+      - Qtal o valor para uma consulta com o vastroenterologista?
+      - Tão o utilidade para uma consulta com o gastroenterologista?
+      - uma consulta com o gastroenterologista? com Qual o valor
+      - Qual o valor para uma consulta com o gastroenterologista?
+      - valor o Qual para uma consulta com o gastroenterologista ?
+      - Qual é o valor para uma consulta com o gastroenterologista?
+      - Quanto custa uma consulta de triagem na clínica? Pagar
+      - custa uma consulta de triagem na clínica?
+      - Quanto busta uma consulta de triagem oa clínica?
+      - Quanto custa uma consulta de triagem na hospital?
+      - triagem na clínica? com Quanto custa uma consulta
+      - Quanto custa uma consulta de triagem na clínica?
+      - uma custa Quanto consulta de triagem na clínica ?
+      - Qual é o preço de um Esperar exame laboratorial básico?
+      - Qual é o preço um exame laboratorial básico?
+      - Qual é o preço ye um exape laboratorial básico?
+      - Na qualidade de é o qualidade de um examinação laboratorial central?
+      - um exame laboratorial básico? com Qual é o preço
+      - Qual é o preço de um exame laboratorial básico?
+      - o é Qual preço de um exame laboratorial básico ?
+      - Qual é o preço de um teste de laboratório básico?
+      - Vocês Encontrar podem me informar o valor da consulta com o psicólogo?
+      - Vocês podem me informar valor da consulta com o psicólogo?
+      - Vucês podem me informar o valor da consulta com o puicólogo?
+      - Vocês podem me anunciar o operacionalidade da consulta com o Psicólogos?
+      - o psicólogo? com Vocês podem me informar o valor da consulta
+      - me podem Vocês informar o valor da consulta com o psicólogo ?
+      - Você pode me dizer o valor da consulta com o psicólogo?
+      - Quanto custa o atendimento médico na clínica? Ouvir
+      - Quanto custa o atendimento médico na
+      - Quanto cysta o atendimento médico ka clínica?
+      - Quanto custa o atendimento doutor na hospital?
+      - Quanto custa o atendimento médico na clínica?
+      - o custa Quanto atendimento médico na clínica ?
+      - Quanto custa os cuidados médicos na clínica?
+      - Mesa Qual o preço para uma avaliação inicial com o oncologista?
+      - Qual o preço para uma avaliação inicial com o
+      - Qual o prhço para uma avaliação inicnal com o oncologista?
+      - Tão o qualidade para uma cálculo inicial com o oncologista?
+      - uma avaliação inicial com o oncologista? com Qual o preço
+      - Qual o preço para uma avaliação inicial com o oncologista?
+      - preço o Qual para uma avaliação inicial com o oncologista ?
+      - Qual é o preço de uma avaliação inicial com o oncologista?
+      - Qual o Jogar custo para realizar um exame de imagem?
+      - Qual custo para realizar um exame de imagem?
+      - Qual o custo para realizar um exale de imageo?
+      - Quão o custos para efectuar um teste de Ícone?
+      - imagem? com Qual o custo para realizar um exame
+      - Qual o custo para realizar um exame de imagem?
+      - custo o Qual para realizar um exame de imagem ?
+      - Qual é o custo para realizar um exame de imagem?
+      - Fogo Quanto custa uma consulta de revisão com o pediatra?
+      - Quanto custa consulta de revisão com o pediatra?
+      - Quanto custg uma consulta de revisão cos o pediatra?
+      - Quanto custa uma consulta de acompanhamento com o pediatra?
+      - revisão com o pediatra? com Quanto custa uma consulta
+      - Quanto custa uma consulta de revisão com o pediatra?
+      - uma custa Quanto consulta de revisão com o pediatra ?
+      - Triste Qual é o preço para uma consulta de urgência?
+      - Qual é o para uma consulta de urgência?
+      - Qual é o pzeço para uma consulta dx urgência?
+      - Desta maneira é o gastos para uma consulta de emergência?
+      - urgência? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de urgência?
+      - o é Qual preço para uma consulta de urgência ?
+      - Qual é o preço de uma consulta de emergência?
+      - Vocês poderiam me dizer o Devagar valor cobrado por uma consulta com o neurologista?
+      - Vocês poderiam me dizer valor cobrado por uma consulta com o neurologista?
+      - Vocês poderiam me dizer o valor cobrado por uma consulta yom o neurologista?
+      - Vocês poderiam me dizer o lucro cobrado por uma consulta com o neurologista?
+      - o neurologista? com Vocês poderiam me dizer o valor cobrado por uma consulta
+      - me poderiam Vocês dizer o valor cobrado por uma consulta com o neurologista ?
+      - Você poderia me dizer o valor cobrado por uma consulta com o neurologista?
+      - Quanto custa agendar uma consulta com o Agitado psicoterapeuta?
+      - Quanto custa agendar uma consulta o psicoterapeuta?
+      - Quanto custa pgendar uma consulta com o psicoterapefta?
+      - Quanto custa planificar uma consulta com o psicoterapeuta?
+      - o psicoterapeuta? com Quanto custa agendar uma consulta
+      - agendar custa Quanto uma consulta com o psicoterapeuta ?
+      - Qual é o preço para uma consulta de rotina com o clínico geral? Sol
+      - Qual é o preço para uma consulta de rotina com o geral?
+      - Qual é o preçd para uma cinsulta de rotina com o clínico geral?
+      - Enquanto é o custo para uma consulta de ramerrão com o clínico habitual?
+      - rotina com o clínico geral? com Qual é o preço para uma consulta
+      - Qual é o preço para uma consulta de rotina com o clínico geral?
+      - o é Qual preço para uma consulta de rotina com o clínico geral ?
+      - Qual é o preço de uma consulta de rotina com o clínico geral?
+      - Qual é o valor Gentil de uma consulta na especialidade de geriatria?
+      - Qual é o valor de uma consulta na especialidade de
+      - Qual é o valor df umr consulta na especialidade de geriatria?
+      - Segundo é o importância de uma consulta na conhecimento de Gerontologia?
+      - Qual é o valor de uma consulta na especialidade de geriatria?
+      - o é Qual valor de uma consulta na especialidade de geriatria ?
+      - Qual é o valor de uma consulta na especialidade geriátrica?
+      - Quanto custa realizar um exame físico Sutileza completo?
+      - custa realizar um exame físico completo?
+      - Quanto custa realizar em exame rísico completo?
+      - Quanto custa efetuar um teste tangível inteiro?
+      - Quanto custa realizar um exame físico completo?
+      - realizar custa Quanto um exame físico completo ?
+      - Quanto custa para realizar um exame físico completo?
+      - Assistir Qual o valor de uma consulta de acompanhamento com o cardiologista?
+      - Qual valor de uma consulta de acompanhamento com o cardiologista?
+      - qual o valor de uma codsulta de acompanhamento com o cardiologista?
+      - Ingualmente o importância de uma consulta de Acompanhamento com o cardiólogo?
+      - o cardiologista? com Qual o valor de uma consulta de acompanhamento
+      - valor o Qual de uma consulta de acompanhamento com o cardiologista ?
+      - Qual é o valor de uma consulta de monitoramento com o cardiologista?
+      - Vocês podem me dizer quanto custa uma consulta Longe de emergência?
+      - Vocês podem me dizer quanto custa uma consulta emergência?
+      - Vocês podem me dizer quanto cesta ima consulta de emergência?
+      - Vocês podem me dizer quanto custa uma consulta de crescimento?
+      - emergência? com Vocês podem me dizer quanto custa uma consulta
+      - Vocês podem me dizer quanto custa uma consulta de emergência?
+      - me podem Vocês dizer quanto custa uma consulta de emergência ?
+      - Você pode me dizer quanto custa uma consulta de emergência?
+      - Quanto sai uma Terra consulta com o pneumologista?
+      - Quanto sai uma consulta com o
+      - Quinto sam uma consulta com o pneumologista?
+      - Quanto sai uma consulta com o pneumologista?
+      - uma sai Quanto consulta com o pneumologista ?
+      - Quanto é lançado uma consulta com o plunsonologista?
       - qual sao os precos das consultas
       - quanto ta a consulta com o [psicólogo](especialista)
       - preco da consulta com a [psiquiatra](especialista)

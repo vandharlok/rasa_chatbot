@@ -6,17 +6,6 @@ stories:
 #POSITIVO 
 #marcando consultas
 
-
-- story: iniciar_fluxo_marcacao
-  steps:
-  - intent: marcar_consulta
-  - action: utter_marcar_consulta
-  - intent: concordancia
-  - action: utter_verifica_cadastro
-  - intent: concordancia
-  - checkpoint: consulta_iniciada
-
-
 - story: nao marcando consulta
   steps:
   - intent: marcar_consulta
@@ -26,232 +15,60 @@ stories:
   - action: action_reset_all
 
 
+#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
+#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
+#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
 
-- story: marcando consulta dps de perguntar algo
-  steps:
-  - checkpoint: consulta_iniciada
-  - action: event_form
-  - active_loop: null
-  - slot_was_set:
-    - form_completed: True
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_add_event
-  - slot_was_set:
-    - event_completed: True
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
 
-- story: marcar consulta ja cadastrado
-  steps:
-  - checkpoint: consulta_iniciada
-  - action: event_form
-  - active_loop: null
-  - slot_was_set:
-    - form_completed: True
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_add_event
-  - slot_was_set:
-    - event_completed: True
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
 
-- story: marcar consulta sem cadastrado
+- story: Alterar o dia de uma consulta dps de perguntar algo (Happy path)
   steps:
-  - intent: marcar_consulta
-  - action: utter_marcar_consulta
+  - intent: saudações
+  - action: utter_saudações
+  - action: utter_show_options
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
   - intent: concordancia
-  - action: utter_verifica_cadastro
-  - intent: negacao
-  - action: utter_inform_form
-  - action: cadastro_form
-  - active_loop: null
-  - action: action_salvar_cadastro
-  - slot_was_set:
-    - login_sucess: True 
-  - action: utter_success_sign
-  - action: event_form
-  - active_loop: null
+  - action: modify_event_form
+  - active_loop: modify_event_form
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
+  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
-  - action: action_add_event
+  - action: action_modify_event_form
   - slot_was_set:
-    - event_completed: True
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-  
+    - event_modify_completed: True
+  - action: utter_terminar_conversa #conversa terminada por outra storie
 
-- story: falando o dia que quer e marcando horario
+
+
+
+###  PATH TO REMARCANDO CONSULTA
+- story: Falando o dia que quer e remarcando horario 
   steps:
-  - action: event_form
-  - active_loop: null
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+  - intent: concordancia
+  - action: modify_event_form
+  - active_loop: modify_event_form
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - active_loop: modify_event_form
   - slot_was_set:
     - form_completed: True
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_add_event
-  - slot_was_set:
-    - event_completed: True
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
-
-
-
-- story: perguntar dias livres e marcar consulta
-  steps:
-  - action: event_form
-  - active_loop: event_form
-  - intent: perguntar_dias_livres
-  - action: action_find_free_slots
-  - active_loop: event_form
-  - slot_was_set:
-    - form_completed: true
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_add_event
-  - slot_was_set:
-    - event_completed: true
-  - action: utter_terminar_conversa
-
-
-
-- story: depois de marcar o evento
-  steps:
-  - action: action_add_event
-  - slot_was_set:
-    - event_completed: true
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-
-#CADASTARNADO //////////////////////////////////////////////////////////////////////////////////////////////
-#POSITIVO 
-
-#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-#REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-- story: alterar o dia de uma consulta dps de perguntar algo
-  steps:
-  - checkpoint: alterando_data
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_modify_event_form
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-
-
-- story: nao alterar o dia de uma consulta dps de perguntar algo
-  steps:
-  - checkpoint: alterando_data
-  - action: utter_confirm_appointment
-  - intent: negacao
-  - action: utter_show_options
-  - action: action_reset_all
-
-
-- story: alterando dia da consulta checkpoint
-  steps:
-  - intent: remarcar_consulta
-  - action: utter_remarcar_consulta
-  - intent: concordancia
-  - action: modify_event_form
-  - active_loop: modify_event_form
-  - slot_was_set:
-    - form_completed: true
-  - checkpoint: alterando_data
-
-- story: alterar o dia de uma consulta
-  steps:
-  - checkpoint: alterando_data
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_modify_event_form
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-  
-- story: falando o dia que quer e marcando horario 2
-  steps:
-  - intent: remarcar_consulta
-  - action: utter_remarcar_consulta
-  - intent: concordancia
-  - action: modify_event_form
-  - active_loop: modify_event_form
-  - intent: perguntar_dias_livres
-  - action: action_find_free_slots
-  - active_loop: modify_event_form
-  - slot_was_set:
-    - form_completed: true
+    - requested_slot: null
+  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
   - slot_was_set:
-    - event_modify_completed: true
-  - action: utter_terminar_conversa
+    - event_modify_completed: True
+  - action: utter_terminar_conversa #conversa terminada por outra storie
 
 
-
-- story: depois de marcar o evento
-  steps:
-  - action: action_modify_event_form
-  - slot_was_set:
-    - event_modify_completed: true
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-
-- story: nao remarcando consulta
+- story: Nao remarcando consulta (SAD PATH)
   steps:
   - intent: remarcar_consulta
   - action: utter_remarcar_consulta
@@ -266,20 +83,6 @@ stories:
 #CANCELANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
-- story: depois de marcar o evento
-  steps:
-  - action: action_delete_event_form
-  - slot_was_set:
-    - event_delete_completed: true
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
 
 - story: cancelando o cancelamento
   steps:
@@ -290,23 +93,21 @@ stories:
   - action: action_reset_all
 
  
-- story: cancelar o dia de uma consulta
-  steps:
-  - intent: cancelar_consulta
-  - action: utter_cancelar_consulta
-  - intent: concordancia
-  - action: delete_event_form
-  - active_loop: delete_event_form
-  - action: action_delete_event_form
-  - slot_was_set:
-    - event_delete_completed: true
-  - action: utter_terminar_conversa
-  - intent: negacao
-  - action: utter_final
-  - intent: provide_feedback
-    entities:
-      - feedback: 5
-  - action: action_store_feedback
- 
-  
+#### terminado conversa
 
+- story: Terminating Conversation with Feedback
+  steps:
+    - action: utter_terminar_conversa
+    - intent: negacao
+    - action: utter_final
+    - intent: provide_feedback
+      entities:
+        - feedback
+    - action: action_store_feedback
+
+
+- story: User Continues Conversation
+  steps:
+    - action: utter_terminar_conversa
+    - intent: concordancia
+    - action: utter_show_options

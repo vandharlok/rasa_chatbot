@@ -1,29 +1,29 @@
 version: "3.1"
 
 actions:
-  - action_custom_fallback
-  - action_default_fallback
-  - action_show_buttons
-  - action_salvar_cadastro
-  - action_add_event
-  - action_find_free_slots
-  - action_find_slots_for_specific_date
-  - action_modify_event_form
-  - action_delete_event_form
-  - validate_event_form
-  - validate_delete_event_form
-  - validate_modify_event_form
-  - validate_cadastro_form
-  - action_reset_all
-  - action_store_feedback
-  - action_transferir_atendente
-  - action_provide_price_and_reset_slot
-  - action_out_of_scope
-  - action_handle_deny
-  - action_handle_affirm
-  - action_ask_event_form_especialista
-  - action_ask_event_form_profissional
-  - action_reset_slot_time
+- action_custom_fallback
+- action_default_fallback
+- action_show_buttons
+- action_salvar_cadastro
+- action_add_event
+- action_find_free_slots
+- action_find_slots_for_specific_date
+- action_modify_event_form
+- action_delete_event_form
+- validate_event_form
+- validate_delete_event_form
+- validate_modify_event_form
+- validate_cadastro_form
+- action_reset_all
+- action_store_feedback
+- action_transferir_atendente
+- action_provide_price_and_reset_slot
+- action_out_of_scope
+- action_handle_deny
+- action_handle_affirm
+- action_ask_event_form_especialista
+- action_ask_event_form_profissional
+- action_reset_slot_time
 
 
 entities:
@@ -84,7 +84,6 @@ slots:
     influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: True
       max_value: 5.0
       min_value: 0.0
   time:
@@ -93,14 +92,11 @@ slots:
     mappings:
       - type: from_entity
         entity: time
-      - type: from_entity
-        entity: time
         conditions:    
         - active_loop: event_form
           requested_slot: time    
         - active_loop:  modify_event_form
           requested_slot: time    
-        auto_fill: True
 
   nome:   
     type: text
@@ -110,7 +106,6 @@ slots:
       conditions:
        - active_loop: cadastro_form
          requested_slot: nome
-      auto_fill: False
 
   cpf:
     type: text
@@ -132,7 +127,6 @@ slots:
       conditions:
         - active_loop: delete_event_form
           requested_slot: cpf
-      auto_fill: False
   email:
     type: text
     influence_conversation: False
@@ -141,7 +135,6 @@ slots:
       conditions:
        - active_loop: cadastro_form
          requested_slot: email
-      auto_fill: False
   telefone:
     type: text
     influence_conversation: False
@@ -150,83 +143,81 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: telefone
-      auto_fill: False
   free_slots:
     type: list
     influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: False
   event_id:
     type: text
     influence_conversation: False
     mappings:
     - type: custom
-      auto_fill: False
+
   fallback_count:
     type: float
     influence_conversation: False 
     initial_value: 0.0
     mappings:
     - type: custom
-      auto_fill: False
+
   event_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+      
+      
   event_modify_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+
   event_delete_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+
   form_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+
   login_sucess:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+
   cpf_validate:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      auto_fill: False
+
   especialista:
     type: text
-    influence_conversation: True 
+    influence_conversation: False 
     mappings:
       - type: from_text
         conditions:
           - active_loop: event_form
             requested_slot: especialista
-        auto_fill: False
       - type: from_entity
         entity: especialista
-        auto_fill: True
+  
   profissional:
     type: text
-    influence_conversation: True 
+    influence_conversation: False 
     mappings:
       - type: from_text
         conditions:
@@ -241,6 +232,7 @@ forms:
     - cpf
     - email
     - telefone
+    ignored_intents: []
   event_form:
     required_slots:
     - cpf
@@ -363,6 +355,7 @@ responses:
       
     - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
 
+
   utter_marcar_consulta: 
     - condition:
         - type: slot
@@ -374,6 +367,21 @@ responses:
           name: especialista
           value: psicólogo
       text: Deseja agendar uma consulta com nosso psicólogo?
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicologo
+      text: Deseja agendar uma consulta com nosso psicólogo?
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicologa
+      text: Deseja agendar uma consulta com nossa psicóloga?
+    - condition:
+        - type: slot
+          name: especialista
+          value: psicóloga
+      text: Deseja agendar uma consulta com nossa psicóloga?
     - text: Deseja agendar uma consulta conosco?
     
   utter_cancelar_consulta:

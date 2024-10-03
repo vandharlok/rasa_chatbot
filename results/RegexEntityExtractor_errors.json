@@ -1,0 +1,2948 @@
+[
+  {
+    "text": "a consulta com o especialista? com Devo ir a qual endereço",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 17,
+        "end": 29,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Minha nota é 2",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9968929290771484,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha nota é 3",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9937747716903687,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Classifico como 3",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9938015341758728,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Classifico como 5",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9149488806724548,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avaliação: 2",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9973528385162354,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Atribuo nota 3",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9941338896751404,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "2 de 5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9965558648109436,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9088411927223206,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "3 de 5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9931623339653015,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9084329605102539,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sapato quanto ta a consulta com o psiquiatra",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 34,
+        "end": 44,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o é Qual custo para uma consulta com um especialista ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 40,
+        "end": 52,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "a está Quanto consulta para acompanhamento com o psiquiatra ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 49,
+        "end": 59,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o psicologo com marcar consulta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 2,
+        "end": 11,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Você tem um psicólogo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.9228598475456238,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 12,
+        "end": 21,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avalio como 4",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9933650493621826,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nota 2",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9981016516685486,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou 4",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.993682861328125,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avaliação: 3",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9959781169891357,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Meu feedback é 5",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.9155570268630981,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou uma nota de 1",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9948570728302002,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Atribuo nota 2",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9980377554893494,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "1 de 5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9952775835990906,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.8592493534088135,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quanto custa o serviço com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 30,
+        "end": 42,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quanto encontra-se a consulta para acompanhamento com o psiquiatra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 56,
+        "end": 66,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "marcar consulta com o Cruel psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 28,
+        "end": 37,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "marcsr consulta aom o psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 22,
+        "end": 31,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Que psiquiatra tem",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 4,
+        "end": 14,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha nota é 1",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9973994493484497,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha nota é 4",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9949730634689331,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou nota 5",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.8745309710502625,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha avaliação é 2",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.99854975938797,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avaliação: 5",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.8827738761901855,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fico com 1",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9969910383224487,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fico com 5",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.8402051329612732,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Atribuo nota 4",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9954580068588257,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quanto ta a consulta com o Roupa psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 33,
+        "end": 42,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "quanto ta a com o psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 18,
+        "end": 27,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Qual é o custo para uma consulta com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 40,
+        "end": 52,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quanto está a consulta para acompanhamento o psiquiatra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 45,
+        "end": 55,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "acompanhamento com o psiquiatra? com Quanto está a consulta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 21,
+        "end": 31,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o psicólogo? com Vocês podem me informar o valor da consulta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 2,
+        "end": 11,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quanto custa o atendimento com um especialista psiquiatra?",
+    "entities": [
+      {
+        "start": 47,
+        "end": 57,
+        "value": "psiquiatra",
+        "entity": "especialista"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 47,
+        "end": 57,
+        "confidence_entity": 0.8985726833343506,
+        "value": "psiquiatra",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 34,
+        "end": 46,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      },
+      {
+        "entity": "especialista",
+        "start": 47,
+        "end": 57,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "com consulta marcar o psicologoma consulta com o psicólogo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 49,
+        "end": 58,
+        "confidence_entity": 0.9349476099014282,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 49,
+        "end": 58,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Devo a qual endereço para a consulta com o especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 43,
+        "end": 55,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Devo ir a qual endereço para a consulta com o especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 46,
+        "end": 58,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Devo ir para qual endereço para a consulta com o especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 49,
+        "end": 61,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Posso praticar meu planta de bem-estar para consultoria com psicólogo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 60,
+        "end": 69,
+        "confidence_entity": 0.6712451577186584,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 60,
+        "end": 69,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "medico psiquiatra tem",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 0,
+        "end": 17,
+        "value": "medico psiquiatra",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Dou nota 4",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9940727353096008,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avalio como 3",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9963512420654297,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "4 estrelas",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9945917129516602,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nota 1",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9972846508026123,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nota 5",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9126998782157898,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Classifico como 2",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9984135627746582,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou 5",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9031058549880981,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou uma nota de 4",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9840185046195984,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quanto é a consulta com o psiquiatra",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.614303708076477,
+        "value": "psiquiatra",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 36,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quanto Chave custa o atendimento com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 40,
+        "end": 52,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "o custa Quanto atendimento com um especialista ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 34,
+        "end": 46,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "marque uma consulta com o psicólogo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9965433478355408,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 35,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9981648325920105,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9440827965736389,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou nota 1",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9982714653015137,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nota 1",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9984287619590759,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avalio como 5",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.8789995908737183,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha avaliação é 3",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9970609545707703,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Meu feedback é 1",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.9981843829154968,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Atribuo nota 5",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.8913908004760742,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quanto ta a consulta com o psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 27,
+        "end": 36,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "quanto é a consulta com o psicólogo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.8217805027961731,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 26,
+        "end": 35,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quanto ta a consulta com psiquiatra",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.8638949394226074,
+        "value": "psiquiatra",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 25,
+        "end": 35,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Quanto a consulta deve acompanhar o psiquiatra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 36,
+        "end": 46,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dia Voces tem psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 14,
+        "end": 23,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Minha nota é 5",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.8608169555664062,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nota 3",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9964109063148499,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha avaliação é 4",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9919151067733765,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou 1",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9972472786903381,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou 2",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9983073472976685,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou 3",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9962025284767151,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Meu feedback é 2",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.9981367588043213,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "5 de 5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.7082762718200684,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.716776430606842,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Devo ir a qual endereço sara a consulta cym o especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 46,
+        "end": 58,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Qjal mjdico psiquiatra tem",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 12,
+        "end": 22,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "2",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9986799359321594,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou nota 3",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9951967597007751,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nota 5",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.8577245473861694,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "2 estrelas",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.99839848279953,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nota 3",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9958815574645996,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avaliação: 4",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9934147596359253,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Meu feedback é 4",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.9920956492424011,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou uma nota de 3",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9868090152740479,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "o psiquiatra com quanto ta a consulta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 2,
+        "end": 12,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual é custo para uma consulta com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 38,
+        "end": 50,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quav é o custo para uva consulta com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 40,
+        "end": 52,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quanto custa o atendimento com especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 31,
+        "end": 43,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quatto está a cohsulta para acompanhamento com o psiquiatra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 49,
+        "end": 59,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "me podem Vocês informar o valor da consulta com o psicólogo ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 50,
+        "end": 59,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "delimitar consulta com o psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 25,
+        "end": 34,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Devo ir a qual Computador endereço para a consulta com o especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 57,
+        "end": 69,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Voces tem psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 10,
+        "end": 19,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Qual medico Forte psiquiatra tem",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 18,
+        "end": 28,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou nota 2",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9989426732063293,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nota 4",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9966241121292114,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avalio como 2",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9987441301345825,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "1 estrela",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9982420802116394,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "5 estrelas",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9245664477348328,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fico com 2",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9985246062278748,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Meu feedback é 3",
+    "entities": [
+      {
+        "start": 15,
+        "end": 16,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.9974225759506226,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou uma nota de 2",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9966835379600525,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "uma consulta com um especialista? com Qual é o custo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 20,
+        "end": 32,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Qual é o custo de uma consulta com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 38,
+        "end": 50,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quanto custa o atendimenpo com ud especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 34,
+        "end": 46,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "um especialista? com Quanto custa o atendimento",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 3,
+        "end": 15,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Quanto está a consulta para acompanhamento com Chave o psiquiatra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 55,
+        "end": 65,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Vocês podem me informar valor da consulta com o psicólogo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 48,
+        "end": 57,
+        "confidence_entity": 0.5500717759132385,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 48,
+        "end": 57,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "a ir Devo qual endereço para a consulta com o especialista ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 46,
+        "end": 58,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Voccs tez psicologo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 10,
+        "end": 19,
+        "value": "psicologo",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "3 estrelas",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9967013001441956,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha avaliação é 5",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.7934450507164001,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nota 4",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9944466352462769,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Classifico como 4",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.9926753640174866,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fico com 3",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "3",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9936408400535583,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fico com 4",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.9904357194900513,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Dou uma nota de 5",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "5",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Atribuo nota 1",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9976511597633362,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "luanto ta a consulta wom o psiquiatra",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 27,
+        "end": 37,
+        "confidence_entity": 0.5106569528579712,
+        "value": "psiquiatra",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 27,
+        "end": 37,
+        "value": "psiquiatra",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Vocês Encontrar podem me informar o valor da consulta com o psicólogo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 60,
+        "end": 69,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Vocês podem me informar o valor da consulta com o psicólogo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 50,
+        "end": 59,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual medico psiquiatra tem",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 5,
+        "end": 22,
+        "value": "medico psiquiatra",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "1",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9976971745491028,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "4",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9962924122810364,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nota 2",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "2",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9983546137809753,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avalio como 1",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9960779547691345,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Minha avaliação é 1",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9960365891456604,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Classifico como 1",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.996070146560669,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Avaliação: 1",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "1",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9971062541007996,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "4 de 5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "4",
+        "entity": "feedback"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "feedback",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9894107580184937,
+        "value": "4",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "feedback",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.8290950655937195,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Qual é o custo Perder para uma consulta com um especialista?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 47,
+        "end": 59,
+        "value": "especialista",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Você pode me dizer o valor da consulta com o psicólogo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "especialista",
+        "start": 45,
+        "end": 54,
+        "confidence_entity": 0.6239833235740662,
+        "value": "psicólogo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "especialista",
+        "start": 45,
+        "end": 54,
+        "value": "psicólogo",
+        "extractor": "RegexEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

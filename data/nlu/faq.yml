@@ -8,6 +8,721 @@ nlu:
 
   - intent: saber_local_de_atendimento
     examples: |
+      - Onde fica Triste a clínica?
+      - Onde a clínica?
+      - Onde fira a clínica?
+      - Onde fica a hospital?
+      - Onde fica a clínica?
+      - a fica Onde clínica ?
+      - Qual o endereço Andar da clínica?
+      - o endereço da clínica?
+      - Qaal o endereço da clíneca?
+      - Desta maneira o endereço da hospital?
+      - clínica? com Qual o endereço
+      - Qual o endereço da clínica?
+      - endereço o Qual da clínica ?
+      - Qual é o endereço da clínica?
+      - Como Sem querer faço para chegar na clínica?
+      - Como faço chegar na clínica?
+      - Como faco para chegar nq clínica?
+      - Como faço para decidir na hospital?
+      - chegar na clínica? com Como faço
+      - Como faço para chegar na clínica?
+      - para faço Como chegar na clínica ?
+      - Como faço para chegar à clínica?
+      - Qual o local da clínica? Viajar
+      - Qual o local da
+      - Qual o hocal da clínica?
+      - Enquanto o posição da hospital?
+      - clínica? com Qual o local
+      - Qual o local da clínica?
+      - local o Qual da clínica ?
+      - Qual é o lugar da clínica?
+      - Onde está Ajudar localizada a clínica?
+      - Onde localizada a clínica?
+      - xnde está xocalizada a clínica?
+      - Onde está localizada a hospital?
+      - Onde está localizada a clínica?
+      - Onde encontra-se localizada a clínica?
+      - localizada está Onde a clínica ?
+      - Qual é o endereço Consertar para a consulta?
+      - é o endereço para a consulta?
+      - Qual é o endereço paja a conxulta?
+      - Quão é o endereço para a consulta?
+      - a consulta? com Qual é o endereço
+      - Qual é o endereço para a consulta?
+      - o é Qual endereço para a consulta ?
+      - A clínica Consertar fica onde?
+      - A clínica onde?
+      - A clíngca fica otde?
+      - A hospital fica onde?
+      - A clínica fica onde?
+      - fica clínica A onde ?
+      - Você pode me passar Ajudar o endereço da clínica?
+      - Você pode passar o endereço da clínica?
+      - Você pone me pabsar o endereço da clínica?
+      - Você pode me espalhar o endereço da hospital?
+      - clínica? com Você pode me passar o endereço
+      - Você pode me passar o endereço da clínica?
+      - me pode Você passar o endereço da clínica ?
+      - Você pode me dar o endereço da clínica?
+      - Qual o endereço completo da Telefone clínica?
+      - o endereço completo da clínica?
+      - Qaal o encereço completo da clínica?
+      - Desta maneira o endereço integral da hospital?
+      - clínica? com Qual o endereço completo
+      - Qual o endereço completo da clínica?
+      - endereço o Qual completo da clínica ?
+      - Qual é o endereço completo da clínica?
+      - Relógio Onde devo ir para a consulta?
+      - Onde devo ir a consulta?
+      - Onde devo gr tara a consulta?
+      - Onde devo viajar para a consulta?
+      - a consulta? com Onde devo ir
+      - Onde devo ir para a consulta?
+      - ir devo Onde para a consulta ?
+      - Pode me informar o endereço Interessante da clínica?
+      - Pode me o endereço da clínica?
+      - Podu me informar o endereço da clíiica?
+      - Pode me familiarizar o endereço da hospital?
+      - clínica? com Pode me informar o endereço
+      - Pode me informar o endereço da clínica?
+      - informar me Pode o endereço da clínica ?
+      - Você pode me informar sobre o endereço da clínica?
+      - Onde fica a clínica para minha consulta? Sorrir
+      - fica a clínica para minha consulta?
+      - Onde fica a clínica paoa miyha consulta?
+      - Onde fica a hospital para minha consulta?
+      - minha consulta? com Onde fica a clínica
+      - Onde fica a clínica para minha consulta?
+      - a fica Onde clínica para minha consulta ?
+      - Onde está a clínica para minha consulta?
+      - Qual o endereço da clínica para minha consulta? Certamente
+      - o endereço da clínica para minha consulta?
+      - Qual o endereço ea clunica para minha consulta?
+      - Ingualmente o endereço da hospital para minha consulta?
+      - minha consulta? com Qual o endereço da clínica
+      - Qual o endereço da clínica para minha consulta?
+      - endereço o Qual da clínica para minha consulta ?
+      - Qual é o endereço da clínica para minha consulta?
+      - Como faço Perder para chegar à clínica?
+      - Como faço para chegar à
+      - Como fauo pora chegar à clínica?
+      - Como faço para decidir à hospital?
+      - chegar à clínica? com Como faço
+      - para faço Como chegar à clínica ?
+      - Preciso saber onde Rir fica a clínica.
+      - Preciso saber onde fica clínica.
+      - Preciso saber onde figa a clínkca.
+      - Perfeito base de conhecimento onde fica a hospital.
+      - Preciso saber onde fica a clínica.
+      - onde saber Preciso fica a clínica .
+      - Eu preciso saber onde está a clínica.
+      - Onde está Computador localizada a clínica para meu atendimento?
+      - está localizada a clínica para meu atendimento?
+      - Onde está locaeizada a clínica para heu atendimento?
+      - Onde está localizada a hospital para meu atendimento?
+      - meu atendimento? com Onde está localizada a clínica
+      - Onde encontra-se localizada a clínica para meu atendimento?
+      - localizada está Onde a clínica para meu atendimento ?
+      - Onde está a clínica para o meu serviço?
+      - Qual o endereço De repente da clínica onde farei a consulta?
+      - Qual o endereço da clínica onde a consulta?
+      - iual o endereço da clíeica onde farei a consulta?
+      - De acordo de o endereço da hospital onde farei a consulta?
+      - clínica onde farei a consulta? com Qual o endereço
+      - Qual o endereço da clínica onde farei a consulta?
+      - endereço o Qual da clínica onde farei a consulta ?
+      - Qual é o endereço da clínica onde vou consultar?
+      - Como posso encontrar o local Perto da clínica?
+      - Como posso encontrar o local clínica?
+      - Como posso encontrar o local dg clírica?
+      - Como posso descobrir o lugar da hospital?
+      - clínica? com Como posso encontrar o local
+      - Como posso encontrar o local da clínica?
+      - encontrar posso Como o local da clínica ?
+      - Como posso encontrar o site da clínica?
+      - Foto Onde é o local da clínica?
+      - Onde é o local clínica?
+      - Onde é o locgl da clínicak
+      - Onde é o lugar da hospital?
+      - clínica? com Onde é o local
+      - Onde é o local da clínica?
+      - o é Onde local da clínica ?
+      - Onde fica o local da clínica?
+      - Você pode me informar o endereço Pagar da clínica?
+      - Você pode me informar endereço da clínica?
+      - Você pzde me informar o endereço da clínica?
+      - Você pode me advertir o endereço da hospital?
+      - clínica? com Você pode me informar o endereço
+      - Você pode me informar o endereço da clínica?
+      - me pode Você informar o endereço da clínica ?
+      - Onde fica o consultório para a minha Acima consulta?
+      - Onde fica o consultório para a consulta?
+      - Okde fida o consultório para a minha consulta?
+      - Onde fica o consultório para a minha consulta?
+      - a minha consulta? com Onde fica o consultório
+      - o fica Onde consultório para a minha consulta ?
+      - Onde está o escritório para minha consulta?
+      - Qual o endereço do Telefone consultório onde farei a consulta?
+      - Qual o endereço do consultório onde farei a
+      - Qual o endereço do consulcório rnde farei a consulta?
+      - Ídem o endereço do consultório onde farei a consulta?
+      - consultório onde farei a consulta? com Qual o endereço
+      - Qual o endereço do consultório onde farei a consulta?
+      - endereço o Qual do consultório onde farei a consulta ?
+      - Qual é o endereço do escritório onde vou consultar?
+      - Como faço para ir Sem dúvida até a clínica?
+      - Como faço para ir até a
+      - Como fqço para ir atd a clínica?
+      - Como faço para apressar até a hospital?
+      - ir até a clínica? com Como faço
+      - Como faço para ir até a clínica?
+      - para faço Como ir até a clínica ?
+      - Como faço para ir à clínica?
+      - Onde está a clínica Ler localizada?
+      - Onde está a clínica
+      - Onde esdá a clínica localizadg?
+      - Onde está a hospital localizada?
+      - Onde está a clínica localizada?
+      - Onde encontra-se a clínica localizada?
+      - Pode Ônibus me passar a localização da clínica?
+      - Pode me passar a da clínica?
+      - Pode mb passar a localização fa clínica?
+      - Pode me dar a posição da hospital?
+      - clínica? com Pode me passar a localização
+      - Pode me passar a localização da clínica?
+      - passar me Pode a localização da clínica ?
+      - Você pode me dar a localização da clínica?
+      - Feio Onde devo ir para o atendimento?
+      - Onde devo para o atendimento?
+      - Onde devp ir pcra o atendimento?
+      - Onde devo apressar para o atendimento?
+      - o atendimento? com Onde devo ir
+      - Onde devo ir para o atendimento?
+      - ir devo Onde para o atendimento ?
+      - Onde devo ir ao serviço?
+      - Preciso saber o Ensinar endereço da clínica.
+      - Preciso saber endereço da clínica.
+      - Precisa saber o endereço da clinica.
+      - Certo Base de conhecimento o endereço da hospital.
+      - clínica. com Preciso saber o endereço
+      - Preciso saber o endereço da clínica.
+      - o saber Preciso endereço da clínica .
+      - Eu preciso conhecer o endereço da clínica.
+      - Qual a localização da Claramente clínica?
+      - a localização da clínica?
+      - Qual a loczlização da clínicm?
+      - Na qualidade de a lugar da hospital?
+      - clínica? com Qual a localização
+      - Qual a localização da clínica?
+      - localização a Qual da clínica ?
+      - Qual é a localização da clínica?
+      - Onde Novo posso encontrar a clínica para minha consulta?
+      - Onde posso encontrar a clínica para minha
+      - Otde posso encontrar a clínica bara minha consulta?
+      - Onde posso achar a hospital para minha consulta?
+      - minha consulta? com Onde posso encontrar a clínica
+      - Onde posso encontrar a clínica para minha consulta?
+      - encontrar posso Onde a clínica para minha consulta ?
+      - Como Papel posso chegar à clínica para minha consulta?
+      - Como posso chegar à clínica minha consulta?
+      - Como posso chegar à alínica para minha cpnsulta?
+      - Como posso decidir à hospital para minha consulta?
+      - minha consulta? com Como posso chegar à clínica
+      - Como posso chegar à clínica para minha consulta?
+      - chegar posso Como à clínica para minha consulta ?
+      - Qual o endereço da clínica onde estou Doce agendado?
+      - Qual o endereço da onde estou agendado?
+      - Qual o endereço dz clínwca onde estou agendado?
+      - Daquela maneira o endereço da hospital onde estou agendado?
+      - clínica onde estou agendado? com Qual o endereço
+      - Qual o endereço da clínica onde estou agendado?
+      - endereço o Qual da clínica onde estou agendado ?
+      - Qual é o endereço da clínica onde estou agendado?
+      - Onde fica a Provavelmente clínica onde vou ser atendido?
+      - Onde a clínica onde vou ser atendido?
+      - Onde fica a clínicd onde voc ser atendido?
+      - Onde fica a hospital onde vou organismo atendido?
+      - Onde fica a clínica onde vou ser atendido?
+      - a fica Onde clínica onde vou ser atendido ?
+      - Onde está a clínica onde serei atendido?
+      - Pode me Lua dar o endereço completo da clínica?
+      - Pode me dar o endereço completo da
+      - Pode me mar o endereço completo da clínida?
+      - Pode me permitir o endereço totalizado da hospital?
+      - clínica? com Pode me dar o endereço completo
+      - Pode me dar o endereço completo da clínica?
+      - dar me Pode o endereço completo da clínica ?
+      - Você pode me dar o endereço completo da clínica?
+      - Onde devo comparecer para Céu minha consulta?
+      - Onde devo comparecer para consulta?
+      - lnde deve comparecer para minha consulta?
+      - Onde devo comparecer para minha consulta?
+      - minha consulta? com Onde devo comparecer
+      - comparecer devo Onde para minha consulta ?
+      - Onde devo participar da minha consulta?
+      - Qual o local Às vezes exato da clínica?
+      - Qunl o local exato da clínica?
+      - Tão o lugar certo da hospital?
+      - clínica? com Qual o local exato
+      - Qual o local exato da clínica?
+      - local o Qual exato da clínica ?
+      - Qual é a localização exata da clínica?
+      - Você pode me dizer onde fica Claro a clínica?
+      - Você pode me dizer onde fica a
+      - Você pode me dizer pnde fica a cjínica?
+      - Você pode me dizer onde fica a hospital?
+      - Você pode me dizer onde fica a clínica?
+      - me pode Você dizer onde fica a clínica ?
+      - Você pode me dizer onde está a clínica?
+      - Como posso localizar a clínica? Mesa
+      - Como posso localizar clínica?
+      - Como possb localizar a clíniua?
+      - Como posso descobrir a hospital?
+      - Como posso localizar a clínica?
+      - localizar posso Como a clínica ?
+      - Qual a localização exata da clínica? Escola
+      - Qual a exata da clínica?
+      - Qual a localqzação exaca da clínica?
+      - Segundo a colocação exata da hospital?
+      - clínica? com Qual a localização exata
+      - Qual a localização exata da clínica?
+      - localização a Qual exata da clínica ?
+      - Onde fica o consultório da Roupa clínica?
+      - Onde o consultório da clínica?
+      - Onde fica o consultório dn mlínica?
+      - Onde fica o consultório da hospital?
+      - clínica? com Onde fica o consultório
+      - Onde fica o consultório da clínica?
+      - o fica Onde consultório da clínica ?
+      - Onde fica o escritório da clínica?
+      - Pode Sorrir me enviar o endereço da clínica?
+      - Pode mw enviar o endereço dd clínica?
+      - Pode me postar o endereço da hospital?
+      - clínica? com Pode me enviar o endereço
+      - Pode me enviar o endereço da clínica?
+      - enviar me Pode o endereço da clínica ?
+      - Você pode me enviar o endereço da clínica?
+      - Flor Preciso do endereço da clínica para a consulta.
+      - Preciso do endereço da clínica a consulta.
+      - Preciso ho endereço dk clínica para a consulta.
+      - Precisa do endereço da hospital para a consulta.
+      - a consulta. com Preciso do endereço da clínica
+      - Preciso do endereço da clínica para a consulta.
+      - endereço do Preciso da clínica para a consulta .
+      - Eu preciso do endereço da clínica para a consulta.
+      - Novo Onde está localizada a clínica onde marquei a consulta?
+      - Onde está localizada clínica onde marquei a consulta?
+      - Oide está lncalizada a clínica onde marquei a consulta?
+      - Onde está localizada a hospital onde marquei a consulta?
+      - Onde está localizada a clínica onde marquei a consulta?
+      - Onde encontra-se localizada a clínica onde marquei a consulta?
+      - localizada está Onde a clínica onde marquei a consulta ?
+      - Onde fica a clínica onde eu marquei a consulta?
+      - Onde Brincar devo ir para a consulta na clínica?
+      - devo ir para a consulta na clínica?
+      - Onde devo ir para a conxulta na clínina?
+      - Onde devo retirar-se para a consulta na hospital?
+      - a consulta na clínica? com Onde devo ir
+      - Onde devo ir para a consulta na clínica?
+      - ir devo Onde para a consulta na clínica ?
+      - Onde devo ir para a consulta da clínica?
+      - Pode me confirmar Noite o endereço da clínica?
+      - me confirmar o endereço da clínica?
+      - Poue me confirmar o endereço dv clínica?
+      - Pode me provar o endereço da hospital?
+      - clínica? com Pode me confirmar o endereço
+      - Pode me confirmar o endereço da clínica?
+      - confirmar me Pode o endereço da clínica ?
+      - Você pode confirmar o endereço da clínica?
+      - Onde fica o consultório para a consulta de amanhã? Novo
+      - Onde fica o consultório para a consulta amanhã?
+      - xnde fnca o consultório para a consulta de amanhã?
+      - Onde fica o consultório para a consulta de manhã?
+      - amanhã? com Onde fica o consultório para a consulta
+      - Onde fica o consultório para a consulta de amanhã?
+      - o fica Onde consultório para a consulta de amanhã ?
+      - Onde está o escritório para a consulta de amanhã?
+      - Como Fraco posso chegar ao consultório da clínica?
+      - Como posso chegar ao consultório clínica?
+      - Como posso ahegar ao consultório da clíndca?
+      - Como posso obter ao consultório da hospital?
+      - clínica? com Como posso chegar ao consultório
+      - Como posso chegar ao consultório da clínica?
+      - chegar posso Como ao consultório da clínica ?
+      - Como posso chegar ao escritório da clínica?
+      - Você pode me passar a Dançar localização da clínica?
+      - Você pode me passar localização da clínica?
+      - Você pode mg passar a localização dh clínica?
+      - Você pode me traspassar a lugar da hospital?
+      - clínica? com Você pode me passar a localização
+      - Você pode me passar a localização da clínica?
+      - me pode Você passar a localização da clínica ?
+      - Qual o endereço onde a clínica está Feio situada?
+      - Qual endereço onde a clínica está situada?
+      - Qual o endzreço inde a clínica está situada?
+      - Pois que o endereço onde a hospital está situada?
+      - Qual o endereço onde a clínica está situada?
+      - Qual o endereço onde a clínica encontra-se situada?
+      - endereço o Qual onde a clínica está situada ?
+      - Qual é o endereço em que a clínica está localizada?
+      - Preciso do endereço da clínica para minha consulta marcada. Estudar
+      - Preciso do endereço da para minha consulta marcada.
+      - Preciso do endereço dd clíniua para minha consulta marcada.
+      - Afinado do endereço da hospital para minha consulta marcada.
+      - minha consulta marcada. com Preciso do endereço da clínica
+      - Preciso do endereço da clínica para minha consulta marcada.
+      - endereço do Preciso da clínica para minha consulta marcada .
+      - Eu preciso do endereço da clínica para minha consulta.
+      - Em qual local será realizada a consulta? Ajudar
+      - Em qual local será a consulta?
+      - Em qual lgcal será realizada a consplta?
+      - Em quão lugar será realizada a consulta?
+      - Em qual local será realizada a consulta?
+      - local qual Em será realizada a consulta ?
+      - Em qual lugar a consulta será realizada?
+      - Raramente Preciso do endereço para a consulta de amanhã.
+      - Preciso do endereço a consulta de amanhã.
+      - Preciso do eedereço para a consulta ds amanhã.
+      - Exato do endereço para a consulta de futuro.
+      - amanhã. com Preciso do endereço para a consulta
+      - Preciso do endereço para a consulta de amanhã.
+      - endereço do Preciso para a consulta de amanhã .
+      - A consulta será em qual Estudar clínica?
+      - A consulta será em clínica?
+      - A consugta será em qual clínjca?
+      - A consulta será em de que modo hospital?
+      - A consulta será em qual clínica?
+      - será consulta A em qual clínica ?
+      - A consulta estará em qual clínica?
+      - Você pode me informar o local Ajudar do atendimento?
+      - Você pode me informar o local atendimento?
+      - kocê pode me informfr o local do atendimento?
+      - Você pode me contar o posição do atendimento?
+      - atendimento? com Você pode me informar o local
+      - Você pode me informar o local do atendimento?
+      - me pode Você informar o local do atendimento ?
+      - Você pode me dizer o site de serviço?
+      - Onde fica Cozinhar o consultório para minha consulta?
+      - Onde fica o consultório minha consulta?
+      - Odde ficm o consultório para minha consulta?
+      - Onde fica o consultório para minha consulta?
+      - minha consulta? com Onde fica o consultório
+      - o fica Onde consultório para minha consulta ?
+      - Qual Cidade é o endereço da consulta marcada para hoje?
+      - Qual é o endereço da consulta para hoje?
+      - Qual é o endereço da consulta maacada para hoje?
+      - Tão é o endereço da consulta marcada para actualidade?
+      - hoje? com Qual é o endereço da consulta marcada
+      - Qual é o endereço da consulta marcada para hoje?
+      - o é Qual endereço da consulta marcada para hoje ?
+      - Qual é o endereço da consulta agendada para hoje?
+      - Como posso chegar ao local de atendimento? Devagar
+      - posso chegar ao local de atendimento?
+      - Como posso chegar ao locxl di atendimento?
+      - Como posso decidir ao lugar de atendimento?
+      - atendimento? com Como posso chegar ao local
+      - Como posso chegar ao local de atendimento?
+      - chegar posso Como ao local de atendimento ?
+      - Como posso chegar ao local de serviço?
+      - Preciso do endereço Computador exato da clínica.
+      - Preciso do endereço exato da
+      - Preciso do enzereço exato ga clínica.
+      - Preciso do endereço perfeito da hospital.
+      - endereço exato da clínica. com Preciso
+      - Preciso do endereço exato da clínica.
+      - endereço do Preciso exato da clínica .
+      - Eu preciso do endereço exato da clínica.
+      - Gostaria de saber o Claro endereço do hospital onde ocorrerá minha consulta.
+      - Gostaria de o endereço do hospital onde ocorrerá minha consulta.
+      - Gostaria de sabbr o endereço do hospital onde ocomrerá minha consulta.
+      - Gostaria de entender o endereço do Hospital onde ocorrerá minha consulta.
+      - saber o endereço do hospital onde ocorrerá minha consulta. com Gostaria
+      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta.
+      - saber de Gostaria o endereço do hospital onde ocorrerá minha consulta .
+      - Gostaria de saber o endereço do hospital onde minha consulta ocorrerá.
+      - Para qual local Quente devo me dirigir para procedimentos?
+      - Para qual local me dirigir para procedimentos?
+      - Para qual local devo ms dirigir paqa procedimentos?
+      - Para pois que lugar devo me gerir para procedimentos?
+      - procedimentos? com Para qual local devo me dirigir
+      - Para qual local devo me dirigir para procedimentos?
+      - local qual Para devo me dirigir para procedimentos ?
+      - Para que lugar devo dirigir para procedimentos?
+      - Qual é o endereço para a consulta? Sorrir
+      - Qual é endereço para a consulta?
+      - yual é o eydereço para a consulta?
+      - De que modo é o endereço para a consulta?
+      - Devo ir a qual Computador endereço para a consulta com o especialista?
+      - Devo a qual endereço para a consulta com o especialista?
+      - Devo ir a qual endereço sara a consulta cym o especialista?
+      - Devo vagar a ao longo de endereço para a consulta com o perito?
+      - a consulta com o especialista? com Devo ir a qual endereço
+      - Devo ir a qual endereço para a consulta com o especialista?
+      - a ir Devo qual endereço para a consulta com o especialista ?
+      - Devo ir para qual endereço para a consulta com o especialista?
+      - Frequentemente Pode confirmar o endereço do atendimento agendado para amanhã?
+      - confirmar o endereço do atendimento agendado para amanhã?
+      - Pode confirmar o endereço do atendimelto agendado para amanhãa
+      - Pode sustentar o endereço do atendimento agendado para futuro?
+      - amanhã? com Pode confirmar o endereço do atendimento agendado
+      - Pode confirmar o endereço do atendimento agendado para amanhã?
+      - o confirmar Pode endereço do atendimento agendado para amanhã ?
+      - Você pode confirmar o endereço do serviço programado para amanhã?
+      - Qual Beber é o endereço da clínica para minha consulta de amanhã?
+      - Qual o endereço da clínica para minha consulta de amanhã?
+      - Qual é o endereço da clínica para minha consultr me amanhã?
+      - Relativamente a é o endereço da hospital para minha consulta de manhã?
+      - amanhã? com Qual é o endereço da clínica para minha consulta
+      - Qual é o endereço da clínica para minha consulta de amanhã?
+      - o é Qual endereço da clínica para minha consulta de amanhã ?
+      - Qual é o endereço da clínica para minha consulta amanhã?
+      - A consulta será realizada em qual Amanhã local?
+      - consulta será realizada em qual local?
+      - A consulta strá realieada em qual local?
+      - A consulta será realizada em quão posição?
+      - A consulta será realizada em qual local?
+      - será consulta A realizada em qual local ?
+      - Qual Ver é o centro de atendimento?
+      - é o centro de atendimento?
+      - Qual é o centre de atzndimento?
+      - Ao longo de é o ponto médio de atendimento?
+      - atendimento? com Qual é o centro
+      - Qual é o centro de atendimento?
+      - o é Qual centro de atendimento ?
+      - Qual é o centro de serviço?
+      - Acima Preciso saber o endereço exato.
+      - saber o endereço exato.
+      - Pzeciso saber o endereço exatog
+      - Bem acabado consciência o endereço afinado.
+      - Preciso saber o endereço exato.
+      - o saber Preciso endereço exato .
+      - Eu preciso saber o endereço exato.
+      - Qual Perto é o consultório onde estou agendado?
+      - Qual é consultório onde estou agendado?
+      - Qual é o consultório onwe estow agendado?
+      - Desta maneira é o consultório onde estou agendado?
+      - Qual é o consultório onde estou agendado?
+      - o é Qual consultório onde estou agendado ?
+      - Qual é o escritório onde estou programado?
+      - Gostaria de saber o endereço do hospital Aprender para minha consulta.
+      - Gostaria de saber endereço do hospital para minha consulta.
+      - Gostaria df saber o endvreço do hospital para minha consulta.
+      - Gostaria de conhecimento o endereço do Hospital para minha consulta.
+      - saber o endereço do hospital para minha consulta. com Gostaria
+      - Gostaria de saber o endereço do hospital para minha consulta.
+      - saber de Gostaria o endereço do hospital para minha consulta .
+      - Eu gostaria de saber o endereço do hospital para minha consulta.
+      - Amanhã Você pode me enviar a localização do consultório?
+      - Você pode me enviar localização do consultório?
+      - Você pode mo enviar a localização do consultórlo?
+      - Você pode me expedir a situação do consultório?
+      - consultório? com Você pode me enviar a localização
+      - Você pode me enviar a localização do consultório?
+      - me pode Você enviar a localização do consultório ?
+      - Você pode me enviar o local do escritório?
+      - Para onde devo ir para a consulta marcada? Ganhar
+      - Para onde devo ir para a marcada?
+      - Para onde dbvo ir para a zonsulta marcada?
+      - Para onde devo vir para a consulta marcada?
+      - a consulta marcada? com Para onde devo ir
+      - Para onde devo ir para a consulta marcada?
+      - devo onde Para ir para a consulta marcada ?
+      - Pode Perder me confirmar o local da minha consulta agendada para amanhã?
+      - Pode me confirmar o local da minha consulta agendada para
+      - Plde me confirmar o local da minha consulta amendada para amanhã?
+      - Pode me constatar o posição da minha consulta agendada para manhã?
+      - amanhã? com Pode me confirmar o local da minha consulta agendada
+      - Pode me confirmar o local da minha consulta agendada para amanhã?
+      - confirmar me Pode o local da minha consulta agendada para amanhã ?
+      - Você pode confirmar o local da minha consulta programada para amanhã?
+      - Qual é o Fora endereço da clínica?
+      - é o endereço da clínica?
+      - Qual é o endereço ds clhnica?
+      - Desta maneira é o endereço da hospital?
+      - clínica? com Qual é o endereço
+      - o é Qual endereço da clínica ?
+      - Em que clínica será Gato realizada a consulta?
+      - Em que clínica será realizada a
+      - fm que ccínica será realizada a consulta?
+      - Em que hospital será realizada a consulta?
+      - Em que clínica será realizada a consulta?
+      - clínica que Em será realizada a consulta ?
+      - Que clínica a consulta será realizada?
+      - Preciso saber o endereço da clínica para Claro minha consulta.
+      - Preciso saber o endereço da clínica para consulta.
+      - Preciso saber o endfreço da clínica para dinha consulta.
+      - Acurado Base de conhecimento o endereço da hospital para minha consulta.
+      - minha consulta. com Preciso saber o endereço da clínica
+      - Preciso saber o endereço da clínica para minha consulta.
+      - o saber Preciso endereço da clínica para minha consulta .
+      - Preciso conhecer o endereço da clínica para minha consulta.
+      - Onde posso encontrar o consultório Café para minha consulta?
+      - Onde posso encontrar consultório para minha consulta?
+      - Onde posso encontrar o consultório para mnnha consultaq
+      - Onde posso achar o consultório para minha consulta?
+      - minha consulta? com Onde posso encontrar o consultório
+      - Onde posso encontrar o consultório para minha consulta?
+      - encontrar posso Onde o consultório para minha consulta ?
+      - Onde posso encontrar o escritório para minha consulta?
+      - Você pode me dizer o endereço da Terra clínica?
+      - pode me dizer o endereço da clínica?
+      - Você pode me dizer o endereço va clíniqa?
+      - Você pode me dizer o endereço da hospital?
+      - clínica? com Você pode me dizer o endereço
+      - Você pode me dizer o endereço da clínica?
+      - me pode Você dizer o endereço da clínica ?
+      - Preciso saber onde fica o Café consultório.
+      - Preciso saber onde fica consultório.
+      - Pregiso vaber onde fica o consultório.
+      - Justo sentimento de si onde fica o consultório.
+      - Preciso saber onde fica o consultório.
+      - onde saber Preciso fica o consultório .
+      - Eu preciso saber onde está o escritório.
+      - Qual é o endereço do hospital para minha consulta? Neve
+      - Qual é o endereço do hospital para minha
+      - Qual é o endereço do lospital para minha confulta?
+      - Pois que é o endereço do Hospitais para minha consulta?
+      - minha consulta? com Qual é o endereço do hospital
+      - Qual é o endereço do hospital para minha consulta?
+      - o é Qual endereço do hospital para minha consulta ?
+      - A consulta de amanhã será realizada em qual Lua local?
+      - A consulta de amanhã realizada em qual local?
+      - A consulta de amanhã será rfalizada em qual iocal?
+      - A consulta de futuro será realizada em de que modo posição?
+      - amanhã será realizada em qual local? com A consulta
+      - A consulta de amanhã será realizada em qual local?
+      - de consulta A amanhã será realizada em qual local ?
+      - Qual será a consulta de amanhã em qual local?
+      - Como posso chegar ao endereço Devagar da minha consulta?
+      - Como posso chegar endereço da minha consulta?
+      - Como posso cheggr ao endereço oa minha consulta?
+      - Como posso concluir ao endereço da minha consulta?
+      - minha consulta? com Como posso chegar ao endereço
+      - Como posso chegar ao endereço da minha consulta?
+      - chegar posso Como ao endereço da minha consulta ?
+      - Onde fica o local Dentro de atendimento?
+      - fica o local de atendimento?
+      - Onde fica o local dw atsndimento?
+      - Onde fica o situação de atendimento?
+      - atendimento? com Onde fica o local
+      - Onde fica o local de atendimento?
+      - o fica Onde local de atendimento ?
+      - Onde está o local de serviço?
+      - Qual é o Dançar endereço da clínica onde tenho consulta amanhã?
+      - Qual é o endereço da clínica onde tenho amanhã?
+      - Qudl é o endereço da clínica onde tenho cofsulta amanhã?
+      - Quão é o endereço da hospital onde tenho consulta futuro?
+      - clínica onde tenho consulta amanhã? com Qual é o endereço
+      - Qual é o endereço da clínica onde tenho consulta amanhã?
+      - o é Qual endereço da clínica onde tenho consulta amanhã ?
+      - Em que Lento local ocorrerá o atendimento?
+      - Em que local ocorrerá atendimento?
+      - Em que local ocoqrerá o utendimento?
+      - Em que situação ocorrerá o atendimento?
+      - Em que local ocorrerá o atendimento?
+      - local que Em ocorrerá o atendimento ?
+      - Onde o serviço ocorrerá?
+      - Qual Cozinhar é o consultório onde será a consulta?
+      - Qual é o consultório onde a consulta?
+      - Qual é o consultório onde selá a consulea?
+      - Quão é o consultório onde será a consulta?
+      - Qual é o consultório onde será a consulta?
+      - o é Qual consultório onde será a consulta ?
+      - Qual é o escritório onde será a consulta?
+      - Preciso Rio saber o local exato da minha consulta amanhã.
+      - Preciso saber o local exato da minha consulta
+      - Preiiso saber o local exato da minha consdlta amanhã.
+      - Exacto sentimento de si o lugar perfeito da minha consulta manhã.
+      - minha consulta amanhã. com Preciso saber o local exato
+      - Preciso saber o local exato da minha consulta amanhã.
+      - o saber Preciso local exato da minha consulta amanhã .
+      - Preciso saber o lugar exato da minha consulta amanhã.
+      - Brinquedo A consulta de amanhã será em qual endereço?
+      - A de amanhã será em qual endereço?
+      - A cofsulta de amathã será em qual endereço?
+      - A consulta de manhã será em na qualidade de endereço?
+      - amanhã será em qual endereço? com A consulta
+      - A consulta de amanhã será em qual endereço?
+      - de consulta A amanhã será em qual endereço ?
+      - Qual será a nomeação de amanhã em qual endereço?
+      - Para onde devo Carro me dirigir para o atendimento de amanhã?
+      - Para onde devo dirigir para o atendimento de amanhã?
+      - Para onde devo me dirigir rara o atendcmento de amanhã?
+      - Para onde devo me esterçar para o atendimento de manhã?
+      - amanhã? com Para onde devo me dirigir para o atendimento
+      - Para onde devo me dirigir para o atendimento de amanhã?
+      - devo onde Para me dirigir para o atendimento de amanhã ?
+      - Onde devo dirigir para o serviço de amanhã?
+      - Preciso confirmar o endereço do Montanha local de atendimento.
+      - Preciso confirmar o endereço do local de
+      - Preciso conxirmar o undereço do local de atendimento.
+      - Exato constatar o endereço do situação de atendimento.
+      - atendimento. com Preciso confirmar o endereço do local
+      - Preciso confirmar o endereço do local de atendimento.
+      - o confirmar Preciso endereço do local de atendimento .
+      - Preciso confirmar o endereço do local de serviço.
+      - Como posso descobrir o endereço da clínica? Praia
+      - Como posso o endereço da clínica?
+      - vomo posso descobrir o endereço dr clínica?
+      - Como posso ver o endereço da hospital?
+      - clínica? com Como posso descobrir o endereço
+      - Como posso descobrir o endereço da clínica?
+      - descobrir posso Como o endereço da clínica ?
+      - Qual Ajudar é o endereço do consultório?
+      - Qual é o endereço consultório?
+      - Qual é o enderedo do consultórxo?
+      - Tão é o endereço do consultório?
+      - consultório? com Qual é o endereço
+      - Qual é o endereço do consultório?
+      - o é Qual endereço do consultório ?
+      - Qual é o endereço do escritório?
+      - Para onde devo ir Acordar para o atendimento?
+      - Para onde devo ir o atendimento?
+      - Pcra onde devo ir para o vtendimento?
+      - Para onde devo viagem para o atendimento?
+      - o atendimento? com Para onde devo ir
+      - Para onde devo ir para o atendimento?
+      - devo onde Para ir para o atendimento ?
+      - Como posso Doce chegar ao local da consulta?
+      - Como posso chegar local da consulta?
+      - Covo posso chegar ao local da consultt?
+      - Como posso deduzir ao lugar da consulta?
+      - consulta? com Como posso chegar ao local
+      - Como posso chegar ao local da consulta?
+      - chegar posso Como ao local da consulta ?
+      - Como posso chegar ao site de consulta?
+      - Onde Estrela fica o consultório da consulta de amanhã?
+      - Onde fica o consultório da de amanhã?
+      - Onde fifa o yonsultório da consulta de amanhã?
+      - Onde fica o consultório da consulta de manhã?
+      - amanhã? com Onde fica o consultório da consulta
+      - Onde fica o consultório da consulta de amanhã?
+      - o fica Onde consultório da consulta de amanhã ?
+      - Onde está o escritório de consulta do amanhã?
+      - Em qual local será realizada a consulta de Dentro amanhã?
+      - Em qual local será realizada consulta de amanhã?
+      - Em qual local será realizada a consulta ge amanhc?
+      - Em ídem lugar será realizada a consulta de manhã?
+      - amanhã? com Em qual local será realizada a consulta
+      - Em qual local será realizada a consulta de amanhã?
+      - local qual Em será realizada a consulta de amanhã ?
+      - Qual lugar será realizado amanhã?
+      - Telefone Qual é o endereço exato da consulta?
+      - Qual é o endereço da consulta?
+      - Qual é o endereço axato da consulta?
+      - Relativamente a é o endereço preciso da consulta?
+      - consulta? com Qual é o endereço exato
+      - Qual é o endereço exato da consulta?
+      - o é Qual endereço exato da consulta ?
+      - Onde Computador será o atendimento amanhã?
+      - Onde o atendimento amanhã?
+      - cnde será o atendimento azanhã?
+      - Onde será o atendimento futuro?
+      - Onde será o atendimento amanhã?
+      - o será Onde atendimento amanhã ?
+      - Onde estará o serviço amanhã?
       - Onde fica a clínica?
       - Qual o endereço da clínica?
       - Como faço para chegar na clínica?
@@ -108,6 +823,643 @@ nlu:
 
   - intent: verificar_plano_de_saude
     examples: |
+      - Quais planos de saúde são válidos nesta clínica? Claro
+      - Quais de saúde são válidos nesta clínica?
+      - Quuis planos de saúde szo válidos nesta clínica?
+      - Quais intenção de eudemonismo salubre válidos nesta hospital?
+      - saúde são válidos nesta clínica? com Quais planos
+      - Quais planos de saúde são válidos nesta clínica?
+      - de planos Quais saúde são válidos nesta clínica ?
+      - Vocês aceitam Correr todos os tipos de convênio médico?
+      - Vocês aceitam todos os tipos de convênio
+      - Vomês aceitam todos os tbpos de convênio médico?
+      - Vocês aceitam todos os tipos de tratado doutor?
+      - convênio médico? com Vocês aceitam todos os tipos
+      - Vocês aceitam todos os tipos de convênio médico?
+      - todos aceitam Vocês os tipos de convênio médico ?
+      - Você aceita todos os tipos de acordo médico?
+      - Meu plano Às vezes de saúde cobre consultas especializadas?
+      - plano de saúde cobre consultas especializadas?
+      - Meu plaho de saúdk cobre consultas especializadas?
+      - Meu ordem do dia de eudemonismo Dinheiro consultoria especializadas?
+      - saúde cobre consultas especializadas? com Meu plano
+      - Meu plano de saúde cobre consultas especializadas?
+      - de plano Meu saúde cobre consultas especializadas ?
+      - Meu plano de saúde abrange consultas especializadas?
+      - Quais Estudar são os planos que vocês aceitam para procedimentos?
+      - Quais são os planos vocês aceitam para procedimentos?
+      - Quaix são os planos que vocês aceitam nara procedimentos?
+      - Quais sadio os intenção que vocês aceitam para procedimentos?
+      - procedimentos? com Quais são os planos que vocês aceitam
+      - Quais são os planos que vocês aceitam para procedimentos?
+      - os são Quais planos que vocês aceitam para procedimentos ?
+      - Que planos você aceita para procedimentos?
+      - Posso usar meu seguro de saúde para Separadamente consultas de rotina aqui?
+      - Posso usar seguro de saúde para consultas de rotina aqui?
+      - Posso usar meu seguro de saúae para consultas de qotina aqui?
+      - Posso vestir meu inevitável de bem-estar para consultoria de ramerrão cá?
+      - consultas de rotina aqui? com Posso usar meu seguro de saúde
+      - Posso usar meu seguro de saúde para consultas de rotina aqui?
+      - meu usar Posso seguro de saúde para consultas de rotina aqui ?
+      - Vocês aceitam planos de Trem saúde para exames?
+      - Vocês aceitam planos saúde para exames?
+      - Vocês aceifam planos de saúde bara exames?
+      - Vocês aceitam táctica de bem-estar para exames?
+      - saúde para exames? com Vocês aceitam planos
+      - Vocês aceitam planos de saúde para exames?
+      - planos aceitam Vocês de saúde para exames ?
+      - Você aceita planos de saúde para exames?
+      - O meu De repente convênio médico é aceito para consultas de urgência?
+      - O meu convênio médico é aceito para consultas urgência?
+      - O mdu convênio médico é xceito para consultas de urgência?
+      - O meu tratados (legislação) doutor é reconhecido para consultoria de emergência?
+      - urgência? com O meu convênio médico é aceito para consultas
+      - O meu convênio médico é aceito para consultas de urgência?
+      - convênio meu O médico é aceito para consultas de urgência ?
+      - Meu acordo médico é aceito para consultas de emergência?
+      - Como faço para confirmar se meu plano Cantar de saúde é aceito?
+      - Como faço para confirmar meu plano de saúde é aceito?
+      - Como naço para confirmar se meu plano de saúde é aceito?
+      - Como faço para constatar abster meu traçado de bem-estar é reconhecido?
+      - saúde é aceito? com Como faço para confirmar se meu plano
+      - Como faço para confirmar se meu plano de saúde é aceito?
+      - para faço Como confirmar se meu plano de saúde é aceito ?
+      - Como confirmo se meu seguro de saúde é aceito?
+      - Assistir Vocês têm parceria com quais operadoras de saúde?
+      - Vocês têm parceria com quais de saúde?
+      - Vocês tpm parceria com quaif operadoras de saúde?
+      - Vocês têm parceria com quais operadoras de bem-estar?
+      - saúde? com Vocês têm parceria com quais operadoras
+      - Vocês têm parceria com quais operadoras de saúde?
+      - parceria têm Vocês com quais operadoras de saúde ?
+      - Quais operadores de saúde você fez parceria?
+      - Meu plano cobre consultas Escrever de especialidade médica?
+      - Meu plano consultas de especialidade médica?
+      - Meu plano cobrr consultas de especialidade ménica?
+      - Meu concepção divisa consultoria de especializado médica?
+      - especialidade médica? com Meu plano cobre consultas
+      - Meu plano cobre consultas de especialidade médica?
+      - cobre plano Meu consultas de especialidade médica ?
+      - Meu plano abrange consultas de especialidade médica?
+      - Quais convênios médicos são Árvore aceitos para tratamentos específicos?
+      - Quais convênios médicos são aceitos para tratamentos
+      - Qukis convênios médicos sxo aceitos para tratamentos específicos?
+      - Quais convênios médicos mentalmente sadio aceitos para tratamentos específicos?
+      - tratamentos específicos? com Quais convênios médicos são aceitos
+      - Quais convênios médicos são aceitos para tratamentos específicos?
+      - médicos convênios Quais são aceitos para tratamentos específicos ?
+      - Quais acordos médicos são aceitos para tratamentos específicos?
+      - Como posso verificar se Amargo meu convênio cobre os serviços da clínica?
+      - Como posso verificar meu convênio cobre os serviços da clínica?
+      - fomo posso verificar se men convênio cobre os serviços da clínica?
+      - Como posso provar privar meu tratados Cobre os serviços da hospital?
+      - clínica? com Como posso verificar se meu convênio cobre os serviços
+      - Como posso verificar se meu convênio cobre os serviços da clínica?
+      - verificar posso Como se meu convênio cobre os serviços da clínica ?
+      - Como posso verificar se meu contrato abrange serviços de clínica?
+      - O plano Novo de saúde que possuo cobre procedimentos médicos aqui?
+      - O plano de saúde que possuo cobre procedimentos médicos
+      - O plano de saúde que possuo cobrf pnocedimentos médicos aqui?
+      - O ordem do dia de bem-estar que possuo dinheiro procedimentos médicos cá?
+      - saúde que possuo cobre procedimentos médicos aqui? com O plano
+      - O plano de saúde que possuo cobre procedimentos médicos aqui?
+      - de plano O saúde que possuo cobre procedimentos médicos aqui ?
+      - O plano de saúde que tenho abrange procedimentos médicos aqui?
+      - Vocês aceitam convênios para consultas de emergência? Rapidamente
+      - Vocês aceitam convênios para de emergência?
+      - aocês aceitam convênios para consultas db emergência?
+      - Vocês aceitam convênios para consultoria de urgência?
+      - emergência? com Vocês aceitam convênios para consultas
+      - Vocês aceitam convênios para consultas de emergência?
+      - convênios aceitam Vocês para consultas de emergência ?
+      - Você aceita acordos para consultas de emergência?
+      - Meu plano cobre consultas e Construir exames nesta clínica?
+      - Meu plano cobre consultas e exames clínica?
+      - Meu plano cobre consultas e exames nesza clínicy?
+      - Meu imagem dinheiro consultoria e exames nesta hospital?
+      - exames nesta clínica? e Meu plano cobre consultas
+      - cobre plano Meu consultas e exames nesta clínica ?
+      - Meu plano abrange consultas e exames nesta clínica?
+      - Calmo Vocês confirmam a cobertura do plano antes de realizar o atendimento?
+      - Vocês confirmam a cobertura plano antes de realizar o atendimento?
+      - Vocês confitmam a cobertura do plano antec de realizar o atendimento?
+      - Vocês confirmam a embalagens do planos antes de provocar o atendimento?
+      - realizar o atendimento? com Vocês confirmam a cobertura do plano antes
+      - Vocês confirmam a cobertura do plano antes de realizar o atendimento?
+      - a confirmam Vocês cobertura do plano antes de realizar o atendimento ?
+      - Você confirma a cobertura do plano antes de fornecer o serviço?
+      - Quais convênios aceitam para consultas com especialistas? Dançar
+      - convênios aceitam para consultas com especialistas?
+      - Quais convênios acektam pars consultas com especialistas?
+      - Quais convênios aceitam para consultoria com especialistas?
+      - consultas com especialistas? com Quais convênios aceitam
+      - Quais convênios aceitam para consultas com especialistas?
+      - aceitam convênios Quais para consultas com especialistas ?
+      - Quais acordos aceitam as consultas com especialistas?
+      - Posso usar meu convênio para consultas e Feio procedimentos?
+      - Posso usar convênio para consultas e procedimentos?
+      - Posso usar meu convfnio parq consultas e procedimentos?
+      - Posso trazer meu acordo para consultoria e procedimentos?
+      - procedimentos? e Posso usar meu convênio para consultas
+      - meu usar Posso convênio para consultas e procedimentos ?
+      - Posso usar meu acordo para consultas e procedimentos?
+      - Vocês Simpático trabalham com o plano de saúde da Unimed?
+      - Vocês trabalham com plano de saúde da Unimed?
+      - Vocês trabalham com o plano de sahde da znimed?
+      - Vocês trabalham com o horário de bem-estar da Unimed?
+      - saúde da Unimed? com Vocês trabalham com o plano
+      - Vocês trabalham com o plano de saúde da Unimed?
+      - com trabalham Vocês o plano de saúde da Unimed ?
+      - Você trabalha com o seguro de saúde da Unimed?
+      - O meu seguro cobre Sem querer exames laboratoriais?
+      - O meu seguro exames laboratoriais?
+      - O mhu seguro cobre exames laborasoriais?
+      - O meu inevitável divisa exames laboratoriais?
+      - O meu seguro cobre exames laboratoriais?
+      - seguro meu O cobre exames laboratoriais ?
+      - Meu seguro cobre os testes de laboratório?
+      - Vocês aceitam Rápido qualquer plano de saúde para consultas?
+      - Vocês aceitam qualquer plano de para consultas?
+      - Vocês aceitam qzalquer plano de saúme para consultas?
+      - Vocês aceitam qualquer planta de bem-estar para consultoria?
+      - saúde para consultas? com Vocês aceitam qualquer plano
+      - Vocês aceitam qualquer plano de saúde para consultas?
+      - qualquer aceitam Vocês plano de saúde para consultas ?
+      - Você aceita algum seguro de saúde para consultas?
+      - Como posso verificar se meu Sorrir convênio cobre os exames que preciso?
+      - Como posso verificar se meu convênio cobre os exames que
+      - Comd posso verificar se meu convênio cobre ow exames que preciso?
+      - Como posso provar abster-se meu tratados (legislação) divisa os exames que bem acabado?
+      - Como posso verificar se meu convênio cobre os exames que preciso?
+      - verificar posso Como se meu convênio cobre os exames que preciso ?
+      - Como posso verificar se meu contrato cobre os exames de que preciso?
+      - Meu Sutileza plano cobre consultas de retorno?
+      - Meu plano cobre consultas de
+      - teu plano cobre consultas de retouno?
+      - Meu programação Dinheiro consultoria de regresso?
+      - retorno? com Meu plano cobre consultas
+      - Meu plano cobre consultas de retorno?
+      - cobre plano Meu consultas de retorno ?
+      - Meu plano abrange as consultas de retorno?
+      - Quais operadoras de saúde vocês têm acordo? Andar
+      - Quais operadoras de vocês têm acordo?
+      - Quais operadoras de sarde vocês têd acordo?
+      - Quais operadoras de bem-estar vocês têm tratado?
+      - saúde vocês têm acordo? com Quais operadoras
+      - Quais operadoras de saúde vocês têm acordo?
+      - de operadoras Quais saúde vocês têm acordo ?
+      - Quais operadores de saúde você tem acordo?
+      - Longe Vocês aceitam convênios médicos para todos os tipos de consulta?
+      - Vocês aceitam convênios médicos para os tipos de consulta?
+      - Vocês aceitam convênios médicos para todos oe tipos qe consulta?
+      - Vocês aceitam convênios médicos para todos os tipos de consulta?
+      - consulta? com Vocês aceitam convênios médicos para todos os tipos
+      - convênios aceitam Vocês médicos para todos os tipos de consulta ?
+      - Você aceita acordos médicos para todos os tipos de consulta?
+      - Posso utilizar meu plano de Gentil saúde para consultas com psicólogos?
+      - Posso utilizar plano de saúde para consultas com psicólogos?
+      - Posso utilizar meu pljno de saúde para consultas col psicólogos?
+      - Posso praticar meu planta de bem-estar para consultoria com psicólogo?
+      - saúde para consultas com psicólogos? com Posso utilizar meu plano
+      - Posso utilizar meu plano de saúde para consultas com psicólogos?
+      - meu utilizar Posso plano de saúde para consultas com psicólogos ?
+      - Posso usar meu plano de saúde para consultas com psicólogos?
+      - Vocês aceitam planos Dormir de saúde para procedimentos cirúrgicos?
+      - Vocês planos de saúde para procedimentos cirúrgicos?
+      - Vocês aceitam pllnos de saúde para procedimeptos cirúrgicos?
+      - Vocês aceitam estratégia de eudemonismo para procedimentos cirúrgicos?
+      - saúde para procedimentos cirúrgicos? com Vocês aceitam planos
+      - Vocês aceitam planos de saúde para procedimentos cirúrgicos?
+      - planos aceitam Vocês de saúde para procedimentos cirúrgicos ?
+      - Você aceita planos de saúde para procedimentos cirúrgicos?
+      - Como confirmar se meu Jogo seguro de saúde cobre consultas especializadas?
+      - Como confirmar se meu seguro de saúde consultas especializadas?
+      - Como confirmar se meu seguro de saúbe cobre consultas especiahizadas?
+      - Como sustentar privar meu contrato de seguro de bem-estar Cobre consultoria especializadas?
+      - saúde cobre consultas especializadas? com Como confirmar se meu seguro
+      - Como confirmar se meu seguro de saúde cobre consultas especializadas?
+      - se confirmar Como meu seguro de saúde cobre consultas especializadas ?
+      - Como confirmar se meu seguro de saúde abrange consultas especializadas?
+      - Quais seguros de saúde são aceitos Rapidamente para exames de imagem?
+      - Quais seguros de são aceitos para exames de imagem?
+      - Quais seguros de saúde são acyitos para exames dj imagem?
+      - Quais seguro de eudemonismo saudável aceitos para exames de ficheiro gráfico?
+      - exames de imagem? com Quais seguros de saúde são aceitos
+      - Quais seguros de saúde são aceitos para exames de imagem?
+      - de seguros Quais saúde são aceitos para exames de imagem ?
+      - Perder Meu plano de saúde é aceito para consultas de rotina?
+      - Meu plano de saúde é aceito para consultas de
+      - Meu plano be saúde é aceito para consultas se rotina?
+      - Meu esquema de bem-estar é aceitado para consultoria de ramerrão?
+      - consultas de rotina? com Meu plano de saúde é aceito
+      - Meu plano de saúde é aceito para consultas de rotina?
+      - de plano Meu saúde é aceito para consultas de rotina ?
+      - Longe Vocês têm acordo com planos de saúde internacionais?
+      - Vocês têm com planos de saúde internacionais?
+      - Vocês têm acordo com planos de sapde internacionais?
+      - Vocês têm contrato com traçado de bem-estar internacionais?
+      - saúde internacionais? com Vocês têm acordo com planos
+      - Vocês têm acordo com planos de saúde internacionais?
+      - acordo têm Vocês com planos de saúde internacionais ?
+      - Você tem um acordo com os planos internacionais de saúde?
+      - Doce Meu convênio médico cobre consultas com dermatologistas?
+      - convênio médico cobre consultas com dermatologistas?
+      - neu convênio médico cobre consultws com dermatologistas?
+      - Meu tratados (legislação) doutor moeda consultoria com dermatologistas?
+      - dermatologistas? com Meu convênio médico cobre consultas
+      - médico convênio Meu cobre consultas com dermatologistas ?
+      - Meu acordo médico abrange consultas com dermatologistas?
+      - O seguro cobre o Certamente custo de consultas de urgência?
+      - O seguro cobre o custo de consultas urgência?
+      - O seguro cobce o custo de consultas de urgênciam
+      - O firme Cobre o despesa de consultoria de emergência?
+      - O seguro cobre o custo de consultas de urgência?
+      - cobre seguro O o custo de consultas de urgência ?
+      - O seguro cobre o custo das consultas de emergência?
+      - Vocês aceitam o convênio da Amil para Inteligente consultas médicas?
+      - Vocês aceitam o convênio da Amil para médicas?
+      - Vocês aciitam o convênio da Amil para consuluas médicas?
+      - Vocês aceitam o tratado da Amil para consultoria médicas?
+      - consultas médicas? com Vocês aceitam o convênio da Amil
+      - Vocês aceitam o convênio da Amil para consultas médicas?
+      - o aceitam Vocês convênio da Amil para consultas médicas ?
+      - Você aceita o acordo de Amil para consultas médicas?
+      - Meu plano de saúde cobre Beber procedimentos ambulatoriais aqui?
+      - Meu plano de saúde cobre procedimentos aqui?
+      - Meu plano de saúle cobre procedimentos ambubatoriais aqui?
+      - Meu Diagrama de bem-estar Dinheiro procedimentos ambulatoriais cá?
+      - saúde cobre procedimentos ambulatoriais aqui? com Meu plano
+      - Meu plano de saúde cobre procedimentos ambulatoriais aqui?
+      - de plano Meu saúde cobre procedimentos ambulatoriais aqui ?
+      - Meu plano de saúde abrange procedimentos ambulatoriais aqui?
+      - Posso usar Falar meu seguro de saúde para marcar uma consulta de rotina?
+      - usar meu seguro de saúde para marcar uma consulta de rotina?
+      - Posso usaa meu seguqo de saúde para marcar uma consulta de rotina?
+      - Posso vestir meu seguros de bem-estar para indicar uma consulta de ramerrão?
+      - marcar uma consulta de rotina? com Posso usar meu seguro de saúde
+      - Posso usar meu seguro de saúde para marcar uma consulta de rotina?
+      - meu usar Posso seguro de saúde para marcar uma consulta de rotina ?
+      - Quais seguradoras são aceitas para Acordar tratamentos médicos?
+      - seguradoras são aceitas para tratamentos médicos?
+      - Quais seguvadoras spo aceitas para tratamentos médicos?
+      - Quais seguradoras sã aceitas para tratamentos médicos?
+      - tratamentos médicos? com Quais seguradoras são aceitas
+      - Quais seguradoras são aceitas para tratamentos médicos?
+      - são seguradoras Quais aceitas para tratamentos médicos ?
+      - Vocês aceitam planos de saúde para Flor consultas com cardiologistas?
+      - Vocês planos de saúde para consultas com cardiologistas?
+      - Vocês aceitam planos de saúde paka codsultas com cardiologistas?
+      - Vocês aceitam projecto de eudemonismo para consultoria com cardiologistas?
+      - saúde para consultas com cardiologistas? com Vocês aceitam planos
+      - Vocês aceitam planos de saúde para consultas com cardiologistas?
+      - planos aceitam Vocês de saúde para consultas com cardiologistas ?
+      - Você aceita planos de saúde para consultas com cardiologistas?
+      - O Pagar meu plano cobre exames e consultas de rotina?
+      - O meu plano cobre exames e de rotina?
+      - O meu plano cobre exhmes e consultah de rotina?
+      - O meu esquema divisa exames e consultoria de ramerrão?
+      - rotina? com O meu plano cobre exames e consultas
+      - O meu plano cobre exames e consultas de rotina?
+      - plano meu O cobre exames e consultas de rotina ?
+      - Meu plano abrange exames e consultas de rotina?
+      - Como verificar se o Trem plano cobre os serviços da clínica?
+      - verificar se o plano cobre os serviços da clínica?
+      - Cpmo verificar se o plano cobre os serviços da clínick?
+      - Como provar abster-se o intenção moeda os serviços da hospital?
+      - clínica? com Como verificar se o plano cobre os serviços
+      - Como verificar se o plano cobre os serviços da clínica?
+      - se verificar Como o plano cobre os serviços da clínica ?
+      - Como verificar se o plano abrange serviços de clínica?
+      - Vocês trabalham com todos os Abaixo tipos de convênio médico?
+      - Vocês trabalham com todos os tipos de convênio
+      - Vocês trabalhem com todos ok tipos de convênio médico?
+      - Vocês trabalham com todos os tipos de pacto doutor?
+      - convênio médico? com Vocês trabalham com todos os tipos
+      - Vocês trabalham com todos os tipos de convênio médico?
+      - com trabalham Vocês todos os tipos de convênio médico ?
+      - Você trabalha com todos os tipos de acordo médico?
+      - Meu Claramente plano cobre atendimento de emergência?
+      - Meu cobre atendimento de emergência?
+      - Meu plano gobre atendimento ye emergência?
+      - Meu concepção moeda atendimento de urgência?
+      - emergência? com Meu plano cobre atendimento
+      - Meu plano cobre atendimento de emergência?
+      - cobre plano Meu atendimento de emergência ?
+      - Meu plano cobre cuidados de emergência?
+      - Vocês Noite aceitam planos de saúde para exames de laboratório?
+      - Vocês aceitam planos de saúde para exames de
+      - Vocês aceitam planas de saúde para exames ae laboratório?
+      - Vocês aceitam programação de eudemonismo para exames de locais de trabalho?
+      - exames de laboratório? com Vocês aceitam planos de saúde
+      - Vocês aceitam planos de saúde para exames de laboratório?
+      - planos aceitam Vocês de saúde para exames de laboratório ?
+      - Você aceita planos de saúde para testes de laboratório?
+      - Como posso saber se meu plano de saúde é aceito na clínica? Obviamente
+      - Como posso saber se meu plano de é aceito na clínica?
+      - Como posso saber se meu plano dd saúde é aceitz na clínica?
+      - Como posso Base de conhecimento privar meu diagrama de bem-estar é reconhecido na hospital?
+      - saúde é aceito na clínica? com Como posso saber se meu plano
+      - Como posso saber se meu plano de saúde é aceito na clínica?
+      - saber posso Como se meu plano de saúde é aceito na clínica ?
+      - Como posso saber se meu seguro de saúde é aceito na clínica?
+      - Claro O seguro cobre os custos de consultas com pediatras?
+      - O seguro cobre os de consultas com pediatras?
+      - O seguyo cobre oz custos de consultas com pediatras?
+      - O inevitável dinheiro os gastos de consultoria com pediatras?
+      - consultas com pediatras? com O seguro cobre os custos
+      - O seguro cobre os custos de consultas com pediatras?
+      - cobre seguro O os custos de consultas com pediatras ?
+      - O seguro cobre os custos de consulta com pediatras?
+      - Lá Meu convênio cobre todos os procedimentos médicos nesta clínica?
+      - Meu convênio cobre todos os procedimentos médicos clínica?
+      - yeu convênio cobre toqos os procedimentos médicos nesta clínica?
+      - Meu tratados Dinheiro todos os procedimentos médicos nesta hospital?
+      - Meu convênio cobre todos os procedimentos médicos nesta clínica?
+      - cobre convênio Meu todos os procedimentos médicos nesta clínica ?
+      - Meu acordo cobre todos os procedimentos médicos nesta clínica?
+      - Terra Vocês aceitam convênios para consultas e exames?
+      - Vocês aceitam convênios para consultas e
+      - Vocêp aceitam conrênios para consultas e exames?
+      - Vocês aceitam convênios para consultoria e exames?
+      - exames? e Vocês aceitam convênios para consultas
+      - convênios aceitam Vocês para consultas e exames ?
+      - Você aceita acordos para consultas e exames?
+      - Quais são os convênios aceitos Forte para atendimento de urgência?
+      - Quais são os convênios aceitos para atendimento urgência?
+      - Qsais fão os convênios aceitos para atendimento de urgência?
+      - Quais mentalmente são os convênios aceitos para atendimento de emergência?
+      - urgência? com Quais são os convênios aceitos para atendimento
+      - Quais são os convênios aceitos para atendimento de urgência?
+      - os são Quais convênios aceitos para atendimento de urgência ?
+      - Quais são os acordos aceitos para atendimento de emergência?
+      - Consertar Posso utilizar meu plano de saúde para consultas psiquiátricas?
+      - Posso utilizar meu plano saúde para consultas psiquiátricas?
+      - eosso utilizar meu plano de saúdr para consultas psiquiátricas?
+      - Posso aplicar meu planta de eudemonismo para consultoria psiquiátricas?
+      - saúde para consultas psiquiátricas? com Posso utilizar meu plano
+      - Posso utilizar meu plano de saúde para consultas psiquiátricas?
+      - meu utilizar Posso plano de saúde para consultas psiquiátricas ?
+      - Posso usar meu plano de saúde para consultas psiquiátricas?
+      - Voces aceitam o plano Dia de saude?
+      - aceitam o plano de saude?
+      - Voces wceitam o plano dr saude?
+      - Voces aceitam o cronograma de saude?
+      - saude? com Voces aceitam o plano
+      - Voces aceitam o plano de saude?
+      - o aceitam Voces plano de saude ?
+      - Você aceita o plano de saúde?
+      - Meu plano de saúde cobre consulta Construir ?
+      - Meu plano de saúde consulta ?
+      - Meu plano de saúde cokre consulte ?
+      - Meu traçado de eudemonismo Dinheiro consulta?
+      - saúde cobre consulta ? com Meu plano
+      - Meu plano de saúde cobre consulta ?
+      - Meu plano de saúde cobre a consulta?
+      - Voces trabalham com o plano Sem querer ?
+      - Voces trabalham com plano ?
+      - Voces trabalham aom o plant ?
+      - Voces trabalham com o programação?
+      - o plano ? com Voces trabalham
+      - Você trabalha com o plano?
+      - Céu Esse serviço é coberto pelo meu lano de saúde?
+      - Esse serviço é pelo meu lano de saúde?
+      - Esse serviço é coberto jelo meu lano dk saúde?
+      - Esse ofício é coberto pelo meu lano de bem-estar?
+      - saúde? com Esse serviço é coberto pelo meu lano
+      - Esse serviço é coberto pelo meu lano de saúde?
+      - é serviço Esse coberto pelo meu lano de saúde ?
+      - Este serviço é coberto pelo meu plano de saúde?
+      - Quais planos de saúde são Triste aceitos aí?
+      - Quais planos de saúde aceitos aí?
+      - Quais planos ge saúde sfo aceitos aí?
+      - Quais traçado de eudemonismo saudável aceitos aí?
+      - saúde são aceitos aí? com Quais planos
+      - Quais planos de saúde são aceitos aí?
+      - de planos Quais saúde são aceitos aí ?
+      - Quais planos de saúde são aceitos lá?
+      - O plano que Feliz eu tenho é válido para consulta com voces?
+      - O plano que eu tenho é para consulta com voces?
+      - O plano que eu teaho é válido para consulta cow voces?
+      - O concepção que eu tenho é válido para consulta com voces?
+      - consulta com voces? com O plano que eu tenho é válido
+      - O plano que eu tenho é válido para consulta com voces?
+      - que plano O eu tenho é válido para consulta com voces ?
+      - O plano que tenho válido para consulta com você?
+      - Meu plano de saúde inclui esse tipo de tratamento? Sutileza
+      - Meu plano de saúde esse tipo de tratamento?
+      - Meu plano de saúde inclui esse tnpo de tratamento?
+      - Meu planta de bem-estar inclui esse raça de Assistência médica?
+      - Meu plano de saúde inclui esse tipo de tratamento?
+      - de plano Meu saúde inclui esse tipo de tratamento ?
+      - Voces aceitam planos de Construir saúde
+      - Voces aceitam planos saúde
+      - koces aceitam planos de saúde
+      - Voces aceitam concepção de eudemonismo
+      - saúde com Voces aceitam planos
+      - Voces aceitam planos de saúde
+      - Você aceita planos de saúde
+      - Como posso verificar se meu Sutileza plano é aceito?
+      - Como posso verificar se plano é aceito?
+      - Comi posso verificar se meu plzno é aceito?
+      - Como posso provar abster meu esquema é reconhecido?
+      - Como posso verificar se meu plano é aceito?
+      - verificar posso Como se meu plano é aceito ?
+      - Posso usar meu plano de saúde para Escuro todos os serviços?
+      - Posso usar meu plano de para todos os serviços?
+      - Posso usar meu plano ee saúde bara todos os serviços?
+      - Posso vestir meu ilustração de eudemonismo para todos os serviços?
+      - saúde para todos os serviços? com Posso usar meu plano
+      - Posso usar meu plano de saúde para todos os serviços?
+      - meu usar Posso plano de saúde para todos os serviços ?
+      - Quais Frio planos voces aceitam
+      - Quais voces aceitam
+      - Quais planoy vozes aceitam
+      - Quais táctica voces aceitam
+      - Quais planos voces aceitam
+      - Quais planos você aceita
+      - Chuva Meu plano de saude
+      - plano de saude
+      - Mea plano de sgude
+      - Meu Diagramas de saude
+      - saude com Meu plano
+      - Meu plano de saude
+      - Meu plano de saúde
+      - Possivelmente É necessário autorização do plano para consulta ?
+      - É necessário autorização do plano consulta ?
+      - É necessário autorizbção do plano paka consulta ?
+      - É essencial sanção do programa para consulta?
+      - consulta ? com É necessário autorização do plano
+      - É necessário autorização do plano para consulta ?
+      - É necessário autorizar o plano de consulta?
+      - Voces confirmam cobertura com o Lento plano de saude
+      - Voces confirmam cobertura com o plano saude
+      - Voces confirmam cobertuna com o plano dp saude
+      - Voces confirmam capa com o ideia de saude
+      - saude com Voces confirmam cobertura com o plano
+      - Voces confirmam cobertura com o plano de saude
+      - Você confirma a cobertura com o plano de saúde
+      - Meu plano cobre consulta de emergencia? Rapidamente
+      - plano cobre consulta de emergencia?
+      - seu plano cobre conuulta de emergencia?
+      - Meu figura Dinheiro consulta de emergencia?
+      - emergencia? com Meu plano cobre consulta
+      - Meu plano cobre consulta de emergencia?
+      - cobre plano Meu consulta de emergencia ?
+      - Meu plano cobre a consulta de emergência?
+      - Quais Pensar seguros de saude voces aceitam?
+      - Quais seguros de saude aceitam?
+      - Qunis seguros de sause voces aceitam?
+      - Quais seguro de saude voces aceitam?
+      - saude voces aceitam? com Quais seguros
+      - Quais seguros de saude voces aceitam?
+      - de seguros Quais saude voces aceitam ?
+      - Que seguro de saúde você aceita?
+      - Este tratamento pode ser coberto pelo meu seguro de saude? Relógio
+      - Este pode ser coberto pelo meu seguro de saude?
+      - Este tratamento pode ser coberto pelo meu seguro dn saude?
+      - Este cuidados de saúde pode estar coberto pelo meu certo de saude?
+      - saude? com Este tratamento pode ser coberto pelo meu seguro
+      - Este tratamento pode ser coberto pelo meu seguro de saude?
+      - pode tratamento Este ser coberto pelo meu seguro de saude ?
+      - Este tratamento pode ser coberto pelo meu seguro de saúde?
+      - convenio médico Cachorro
+      - médico
+      - convenfo médizo
+      - convenio doutor
+      - médico convenio
+      - Contrato médico
+      - Com quais convenios médicos voces tem parceria? Entediante
+      - Com quais convenios médicos voces tem
+      - Com xuais convenios mrdicos voces tem parceria?
+      - Com quais convenios médicos voces tem parceria?
+      - convenios quais Com médicos voces tem parceria ?
+      - Com quais conveniências médicas você tem parceria?
+      - Posso usar meu plano de assistencia médica para Caneta serviços aqui?
+      - Posso usar meu plano de assistencia médica para aqui?
+      - Posso ucar meu plano de assistencia médica para serviços aqui?
+      - Posso trazer meu diagrama de assistencia médica para serviços cá?
+      - assistencia médica para serviços aqui? com Posso usar meu plano
+      - Posso usar meu plano de assistencia médica para serviços aqui?
+      - meu usar Posso plano de assistencia médica para serviços aqui ?
+      - Posso usar meu plano de assistência médica para serviços aqui?
+      - Como Triste faço para saber se voces aceitam meu plano de saude?
+      - Como faço saber se voces aceitam meu plano de saude?
+      - Como faço para saber se vocks aceitam meu plano de saudz?
+      - Como faço para Base de conhecimento abster-se voces aceitam meu horário de saude?
+      - saude? com Como faço para saber se voces aceitam meu plano
+      - Como faço para saber se voces aceitam meu plano de saude?
+      - para faço Como saber se voces aceitam meu plano de saude ?
+      - Como sei se você aceita meu plano de saúde?
+      - Meu seguro cobre consultas nessa clínica? Avião
+      - seguro cobre consultas nessa clínica?
+      - Meu sehuro cobre consultas nejsa clínica?
+      - Meu firme divisa consultoria nessa hospital?
+      - Meu seguro cobre consultas nessa clínica?
+      - cobre seguro Meu consultas nessa clínica ?
+      - Meu seguro abrange consultas nesta clínica?
+      - Voces tem acordo com planos de saude para procedimentos Alto especiais?
+      - Voces tem acordo com planos de saude para procedimentos
+      - Voces ter acordo com planos de saude pare procedimentos especiais?
+      - Voces tem pacto com traçado de saude para procedimentos especiais?
+      - saude para procedimentos especiais? com Voces tem acordo com planos
+      - Voces tem acordo com planos de saude para procedimentos especiais?
+      - acordo tem Voces com planos de saude para procedimentos especiais ?
+      - Você concorda com os planos de saúde para procedimentos especiais?
+      - É possível utilizar meu seguro Inteligente de saude internacional nesta clínica?
+      - É possível utilizar meu seguro de saude internacional nesta
+      - É possível utiqizar meu seguro dz saude internacional nesta clínica?
+      - É factível praticar meu seguros de saude externo nesta hospital?
+      - saude internacional nesta clínica? com É possível utilizar meu seguro
+      - É possível utilizar meu seguro de saude internacional nesta clínica?
+      - utilizar possível É meu seguro de saude internacional nesta clínica ?
+      - É possível usar meu seguro de saúde internacional nesta clínica?
+      - Quais são os planos Separadamente de saude aceitos ?
+      - Quais são os de saude aceitos ?
+      - Quaio suo os planos de saude aceitos ?
+      - Quais mentalmente são os estratégia de saude aceitos?
+      - saude aceitos ? com Quais são os planos
+      - Quais são os planos de saude aceitos ?
+      - Quais são os planos de saúde aceitos?
+      - Meu plano de saude é compatível com Ajudar os serviços que voces oferecem?
+      - Meu plano de saude é compatível com os serviços que oferecem?
+      - Meu plano de saude é compatível com ou serviços que voces dferecem?
+      - Meu projeto de saude é compatível com os serviços que voces oferecem?
+      - saude é compatível com os serviços que voces oferecem? com Meu plano
+      - Meu plano de saude é compatível com os serviços que voces oferecem?
+      - de plano Meu saude é compatível com os serviços que voces oferecem ?
+      - Meu plano de saúde é compatível com os serviços que você oferece?
+      - Voces confirmam o plano de saude antes de Noite marcar uma consulta?
+      - Voces confirmam o plano de saude de marcar uma consulta?
+      - Voces confirmam o plano de saude anter de mtrcar uma consulta?
+      - Voces confirmam o imagem de saude antes de delimitar uma consulta?
+      - Voces confirmam o plano de saude antes de marcar uma consulta?
+      - o confirmam Voces plano de saude antes de marcar uma consulta ?
+      - Você confirma o plano de saúde antes de marcar uma consulta?
+      - Como verificar se meu plano de saude está aceito por Pássaro voces?
+      - Como verificar se plano de saude está aceito por voces?
+      - Como varificar se meu plano de saude está aceito por eoces?
+      - Como provar privar meu cronograma de saude está aceitado por voces?
+      - saude está aceito por voces? com Como verificar se meu plano
+      - Como verificar se meu plano de saude encontra-se aceito por voces?
+      - se verificar Como meu plano de saude está aceito por voces ?
+      - Como verificar se meu plano de saúde é aceito por você?
+      - Meu seguro de saude cobre os custos de Encontrar uma emergencia aqui?
+      - Meu seguro de saude cobre os custos de uma aqui?
+      - Meu seguro do saude cobre os custos de uma emergendia aqui?
+      - Meu inevitável de saude moeda os gastos de uma emergencia cá?
+      - Meu seguro de saude cobre os custos de uma emergencia aqui?
+      - de seguro Meu saude cobre os custos de uma emergencia aqui ?
+      - Meu seguro de saúde cobre os custos de uma emergência aqui?
+      - Quais Navio seguradoras são aceitas nesta clínica?
+      - Quais seguradoras aceitas nesta clínica?
+      - Quais seguradoras svo aclitas nesta clínica?
+      - Quais seguradoras mentalmente sadio aceitas nesta hospital?
+      - Quais seguradoras são aceitas nesta clínica?
+      - são seguradoras Quais aceitas nesta clínica ?
+      - Posso consultar aqui com Árvore meu plano de saude atual?
+      - Posso consultar com meu plano de saude atual?
+      - Pgsso consultar aqui com meu plano de saude atkal?
+      - Posso fazer referência cá com meu ideia de saude até a data?
+      - saude atual? com Posso consultar aqui com meu plano
+      - Posso consultar aqui com meu plano de saude atual?
+      - aqui consultar Posso com meu plano de saude atual ?
+      - Posso consultar aqui com meu plano de saúde atual?
+      - plano de Escola saude
+      - plano saude
+      - rlano di saude
+      - planos de saude
+      - saude com plano
+      - plano de saúde
+      - Correr convenio medico
+      - convenio
+      - vonvenio mpdico
+      - convenio medico
+      - qual Sempre convenio medico voces aceitam
+      - qual medico voces aceitam
+      - qual convenio mcdico qoces aceitam
+      - tão convenio medico voces aceitam
+      - qual convenio medico voces aceitam
+      - Qual contrato médico você aceita
+      - qual Telefone plano de saude e aceito?
+      - qual de saude e aceito?
+      - qual plrno de saude e acexto?
+      - quão diagrama de saude e reconhecido?
+      - saude e aceito? com qual plano
+      - qual plano de saude e aceito?
+      - de plano qual saude e aceito ?
+      - Que plano de saúde e aceitar?
+      - Como Ônibus posso verificar se meu Plano é aceito?
+      - Como posso se meu Plano é aceito?
+      - zomo wosso verificar se meu Plano é aceito?
+      - Como posso provar abster-se meu Intenção é reconhecido?
+      - Como posso verificar se meu Plano é aceito?
+      - verificar posso Como se meu Plano é aceito ?
+      - Como Estudar posso provar se meu plano é aceito?
+      - posso provar se meu plano é aceito?
+      - Ccmo posso provar se leu plano é aceito?
+      - Como posso confirmar abster-se meu figura é aceitado?
+      - Como posso provar se meu plano é aceito?
+      - provar posso Como se meu plano é aceito ?
       - Quais planos de saúde são válidos nesta clínica?
       - Vocês aceitam todos os tipos de convênio médico?
       - Meu plano de saúde cobre consultas especializadas?
@@ -198,6 +1550,612 @@ nlu:
 
   - intent: informacoes_sobre_servico
     examples: |
+      - Poderia detalhar Bicicleta quais servicos voces fornecem?
+      - Poderia quais servicos voces fornecem?
+      - Podejia detalhar quais sercicos voces fornecem?
+      - Poderia pormenorizar quais servicos voces fornecem?
+      - Poderia detalhar quais servicos voces fornecem?
+      - quais detalhar Poderia servicos voces fornecem ?
+      - Você poderia detalhar quais serviços você fornece?
+      - Gostaria de uma descrição dos Frio servicos que voces disponibilizam.
+      - Gostaria de uma descrição servicos que voces disponibilizam.
+      - Gostaria de uma descrição dos seevicos que voces disponibilizam.
+      - Gostaria de uma Descrição dos servicos que voces disponibilizam.
+      - uma descrição dos servicos que voces disponibilizam. com Gostaria
+      - Gostaria de uma descrição dos servicos que voces disponibilizam.
+      - uma de Gostaria descrição dos servicos que voces disponibilizam .
+      - Eu gostaria de uma descrição dos serviços que você disponibilizar.
+      - Que servicos sua clínica oferece Construir aos pacientes?
+      - Que servicos sua clínica aos pacientes?
+      - Quo servicos sua xlínica oferece aos pacientes?
+      - Que servicos sua hospital oferece aos pacientes?
+      - Que servicos sua clínica oferece aos pacientes?
+      - sua servicos Que clínica oferece aos pacientes ?
+      - Quais serviços sua clínica oferece aos pacientes?
+      - Quais são os servicos mais populares De repente que voces oferecem?
+      - Quais são servicos mais populares que voces oferecem?
+      - Qzais são os servicos myis populares que voces oferecem?
+      - Quais sã os servicos ademais populares que voces oferecem?
+      - Quais são os servicos mais populares que voces oferecem?
+      - os são Quais servicos mais populares que voces oferecem ?
+      - Quais são os serviços mais populares que você oferece?
+      - Estou Livro curioso sobre os servicos, voce pode explicar?
+      - Estou curioso sobre os voce pode explicar?
+      - Estou curioso sobre os servicos, vwce pede explicar?
+      - Estou único sobre os servicos,voce pode clarificar?
+      - Estou curioso sobre os servicos, voce pode explicar?
+      - sobre curioso Estou os servicos , voce pode explicar ?
+      - Estou curioso sobre os serviços, você pode explicar?
+      - Pode listar os servicos de saúde que Antipático voces disponibilizam?
+      - Pode listar servicos de saúde que voces disponibilizam?
+      - Pode listar os servscos de saúde qur voces disponibilizam?
+      - Pode listar os servicos de bem-estar que voces disponibilizam?
+      - saúde que voces disponibilizam? com Pode listar os servicos
+      - Pode listar os servicos de saúde que voces disponibilizam?
+      - os listar Pode servicos de saúde que voces disponibilizam ?
+      - Você pode listar os serviços de saúde que você disponibiliza?
+      - Gostaria de saber mais sobre os servicos que voces oferecem. Construir
+      - Gostaria de saber mais sobre os servicos voces oferecem.
+      - Gostaria dr saber mais sybre os servicos que voces oferecem.
+      - Gostaria de consciência em continuação sobre os servicos que voces oferecem.
+      - saber mais sobre os servicos  que voces oferecem. com Gostaria
+      - Gostaria de saber mais sobre os servicos  que voces oferecem.
+      - saber de Gostaria mais sobre os servicos   que voces oferecem .
+      - Eu gostaria de saber mais sobre os serviços que você oferece.
+      - Poderia me fornecer uma visão geral dos Cruel seus servicos médicos?
+      - Poderia me fornecer uma visão geral seus servicos médicos?
+      - Poderia me fornecer uma visão geral dys seus servicos zédicos?
+      - Poderia me proporcionar uma percepção visual usual dos seus servicos médicos?
+      - Poderia me fornecer uma visão geral dos seus servicos médicos?
+      - fornecer me Poderia uma visão geral dos seus servicos médicos ?
+      - Você poderia me fornecer uma visão geral de seus serviços médicos?
+      - Pode me explicar os diferentes tipos de consultas que Computador voces oferecem?
+      - Pode me explicar os diferentes tipos consultas que voces oferecem?
+      - hode me explicar os diferentes tipos de consuttas que voces oferecem?
+      - Pode me esclarecer os diferentes tipos de consultoria que voces oferecem?
+      - consultas que voces oferecem? com Pode me explicar os diferentes tipos
+      - Pode me explicar os diferentes tipos de consultas que voces oferecem?
+      - explicar me Pode os diferentes tipos de consultas que voces oferecem ?
+      - Você pode me explicar os diferentes tipos de consultas que você oferece?
+      - Que tipos de serviços de saúde voces Frequentemente prestam?
+      - Que de serviços de saúde voces prestam?
+      - Qua tipos de serjiços de saúde voces prestam?
+      - Que tipos de serviços de eudemonismo voces prestam?
+      - Que tipos de serviços de saúde voces prestam?
+      - de tipos Que serviços de saúde voces prestam ?
+      - Que tipos de serviços de saúde você fornece?
+      - Quais tratamentos específicos Vender voces disponibilizam
+      - Quais tratamentos específicos disponibilizam
+      - Qoais trttamentos específicos voces disponibilizam
+      - Quais tratamentos específicos voces disponibilizam
+      - Que tratamentos específicos você disponibiliza
+      - Eu gostaria de saber Ver mais sobre os programas de que voces conduzem.
+      - Eu gostaria de saber sobre os programas de que voces conduzem.
+      - Eu gostaria de saber mais sobre os programas dw que vochs conduzem.
+      - Eu gostaria de sentimento de si demais sobre os Programa de Computador de que voces conduzem.
+      - Eu gostaria de saber mais sobre os programas de que voces conduzem.
+      - de gostaria Eu saber mais sobre os programas de que voces conduzem .
+      - Eu gostaria de saber mais sobre os programas que você dirige.
+      - Poderia listar Ontem todos os serviços médicos que voces oferecem?
+      - Poderia listar todos os serviços que voces oferecem?
+      - Poderia listsr todos os serviços médicos que vocer oferecem?
+      - Poderia listar todos os serviços médicos que voces oferecem?
+      - todos listar Poderia os serviços médicos que voces oferecem ?
+      - Você poderia listar todos os serviços médicos que você oferece?
+      - Como Lápis funciona a clinica
+      - Como funciona a
+      - Como fugciona a cljnica
+      - Como funciona a clinica
+      - Como funciona a clínica
+      - Ensinar Me fale mais sobre as especialidades da clínica.
+      - Me fale mais as especialidades da clínica.
+      - Me fale mais sobre as especivlidades dk clínica.
+      - Me fale demais sobre as especialidades da hospital.
+      - clínica. com Me fale mais sobre as especialidades
+      - Me fale mais sobre as especialidades da clínica.
+      - mais fale Me sobre as especialidades da clínica .
+      - Conte -me mais sobre as especialidades da clínica.
+      - Gostaria de uma descrição Cruel dos serviços que voces disponibilizam.
+      - Gostaria de uma descrição dos serviços que voces
+      - Gostaria de zma descrição dos serviços qje voces disponibilizam.
+      - Gostaria de uma ilustração dos serviços que voces disponibilizam.
+      - uma descrição dos serviços que voces disponibilizam. com Gostaria
+      - Gostaria de uma descrição dos serviços que voces disponibilizam.
+      - uma de Gostaria descrição dos serviços que voces disponibilizam .
+      - Avião Quero saber quais são os procedimentos disponíveis.
+      - Quero quais são os procedimentos disponíveis.
+      - Quero saber quais são oa procedimentos dispoeíveis.
+      - Quero base de conhecimento quais sã os procedimentos disponíveis.
+      - Quero saber quais são os procedimentos disponíveis.
+      - quais saber Quero são os procedimentos disponíveis .
+      - Eu quero saber quais procedimentos estão disponíveis.
+      - Que serviços sua Interessante clínica oferece aos pacientes?
+      - serviços sua clínica oferece aos pacientes?
+      - Que serviçfs sua clínica oferece ass pacientes?
+      - Que serviços sua hospital oferece aos pacientes?
+      - Que serviços sua clínica oferece aos pacientes?
+      - sua serviços Que clínica oferece aos pacientes ?
+      - Quais são os serviços mais populares que voces Terra oferecem?
+      - Quais são os serviços mais que voces oferecem?
+      - ouais são op serviços mais populares que voces oferecem?
+      - Quais salubre os serviços mais adiante populares que voces oferecem?
+      - Quais são os serviços mais populares que voces oferecem?
+      - os são Quais serviços mais populares que voces oferecem ?
+      - Estou curioso Computador sobre os serviços, voce pode explicar?
+      - Estou sobre os serviços, voce pode explicar?
+      - Estou curioso sobre os serviços, voce pkde explicar?
+      - Estou singular sobre os serviços,voce pode explanar?
+      - Estou curioso sobre os serviços, voce pode explicar?
+      - sobre curioso Estou os serviços , voce pode explicar ?
+      - Quais tratamentos voces oferecem para condições Roupa específicas?
+      - Quais tratamentos oferecem para condições específicas?
+      - Quais tratamentos votes oferecem pada condições específicas?
+      - Quais tratamentos voces oferecem para condições específicas?
+      - condições específicas? com Quais tratamentos voces oferecem
+      - voces tratamentos Quais oferecem para condições específicas ?
+      - Que tratamentos você oferece para condições específicas?
+      - Pode listar Amargo os serviços de saúde que voces disponibilizam?
+      - Pode listar os serviços saúde que voces disponibilizam?
+      - yode listar os serviços de saúde que voces disponibilczam?
+      - Pode listar os serviços de bem-estar que voces disponibilizam?
+      - saúde que voces disponibilizam? com Pode listar os serviços
+      - Pode listar os serviços de saúde que voces disponibilizam?
+      - os listar Pode serviços de saúde que voces disponibilizam ?
+      - Que tipo de consultas voces Mercado proporcionam?
+      - Que tipo de consultas proporcionam?
+      - Quu tipo de consultas voces proporcionum?
+      - Que faça de consultoria voces proporcionam?
+      - consultas voces proporcionam? com Que tipo
+      - Que tipo de consultas voces proporcionam?
+      - de tipo Que consultas voces proporcionam ?
+      - Que tipo de consulta você fornece?
+      - Brincar Poderia me fornecer uma visão geral dos seus serviços médicos?
+      - Poderia me fornecer visão geral dos seus serviços médicos?
+      - Poderia me fornecer uma visão geral dos seus serviçob jédicos?
+      - Poderia me dar uma Percepção Visual costumeiro dos seus serviços médicos?
+      - Poderia me fornecer uma visão geral dos seus serviços médicos?
+      - fornecer me Poderia uma visão geral dos seus serviços médicos ?
+      - Estou interessado sobre Andar os serviços que voces disponibilizam.
+      - Estou interessado sobre os serviços que voces
+      - Estou interessado sobre os serviçof que veces disponibilizam.
+      - Estou interessado sobre os serviços que voces disponibilizam.
+      - sobre interessado Estou os serviços que voces disponibilizam .
+      - Estou interessado nos serviços que você disponibiliza.
+      - Estou Claramente interessado nos serviços terapeuticos disponíveis
+      - Estou interessado nos terapeuticos disponíveis
+      - Estou interessado nos servjços teraphuticos disponíveis
+      - Estou interessado nos serviços terapeuticos disponíveis
+      - Estou interessado nos serviços terapêuticos disponíveis
+      - Pode descrever as várias opções Aprender de serviço que sua clínica possui?
+      - descrever as várias opções de serviço que sua clínica possui?
+      - Podd descrever as várias opções dw serviço que sua clínica possui?
+      - Pode relatar as várias opções de ofício que sua hospital possui?
+      - serviço que sua clínica possui? com Pode descrever as várias opções
+      - Pode descrever as várias opções de serviço que sua clínica possui?
+      - as descrever Pode várias opções de serviço que sua clínica possui ?
+      - Você pode descrever as várias opções de serviço que sua clínica possui?
+      - Gostaria de Ônibus conhecer os serviços que voces oferecem, como funcionam?
+      - Gostaria de os serviços que voces oferecem, como funcionam?
+      - Gostaria de conhecer oe serviços que voces ofejecem, como funcionam?
+      - Gostaria de entender os serviços que voces oferecem,como funcionam?
+      - conhecer os serviços que voces oferecem, como funcionam? com Gostaria
+      - Gostaria de conhecer os serviços que voces oferecem, como funcionam?
+      - conhecer de Gostaria os serviços que voces oferecem , como funcionam ?
+      - Você gostaria de saber os serviços que você oferece, como eles funcionam?
+      - Pode me Acordar dar uma visão geral das consultas especializadas que voces tem?
+      - Pode me dar uma visão geral das consultas especializadas que voces
+      - Pode me dar umf visão geral das consultas especializadas que voces tgm?
+      - Pode me provocar uma percepção visual genérico das consultoria especializadas que voces tem?
+      - Pode me dar uma visão geral das consultas especializadas que voces tem?
+      - dar me Pode uma visão geral das consultas especializadas que voces tem ?
+      - Você pode me dar uma visão geral das consultas especializadas que você tem?
+      - Quais são Escrever as suas principais ofertas de serviços de saúde mental?
+      - Quais são suas principais ofertas de serviços de saúde mental?
+      - Quais são as suas principais ofermas de aerviços de saúde mental?
+      - Quais mentalmente sadio as suas principais ofertas de serviços de bem-estar mental?
+      - Quais são as suas principais ofertas de serviços de saúde mental?
+      - as são Quais suas principais ofertas de serviços de saúde mental ?
+      - Quero informações detalhadas sobre os serviços de diagnóstico que Ensinar voces tem.
+      - informações detalhadas sobre os serviços de diagnóstico que voces tem.
+      - Quero informações fetalhadas sobre op serviços de diagnóstico que voces tem.
+      - Quero informações detalhadas sobre os serviços de diagnose que voces tem.
+      - diagnóstico que voces tem. com Quero informações detalhadas sobre os serviços
+      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem.
+      - detalhadas informações Quero sobre os serviços de diagnóstico que voces tem .
+      - Quero informações detalhadas sobre os serviços de diagnóstico que você possui.
+      - Como funciona a Montanha clínica?
+      - funciona a clínica?
+      - Como funciona a cwínica?
+      - Como funciona a hospital?
+      - Como funciona a clínica?
+      - a funciona Como clínica ?
+      - Que Rápido profissionais voces tem na clínica?
+      - Que profissionais voces tem clínica?
+      - Que profissionais voces yem na clínisa?
+      - Que profissionais voces tem na hospital?
+      - Que profissionais voces tem na clínica?
+      - voces profissionais Que tem na clínica ?
+      - Quais profissionais você tem na clínica?
+      - Que tipo de consulta tem na Falar clínica?
+      - Que tipo consulta tem na clínica?
+      - Que tipo de consulta tem nc clínisa?
+      - Que categoria de consulta tem na hospital?
+      - consulta tem na clínica? com Que tipo
+      - Que tipo de consulta tem na clínica?
+      - de tipo Que consulta tem na clínica ?
+      - Dia Voces tem psicologo
+      - Voces tem
+      - Voccs tez psicologo
+      - Voces tem psicologo
+      - Você tem um psicólogo
+      - Lá Voces tem qual medico
+      - Voces tem qual
+      - Voces kem qual medick
+      - Voces tem quão medico
+      - Voces tem qual medico
+      - Você tem qual médico
+      - Voces tem quais Ouvir psicologos
+      - Voces quais psicologos
+      - Voces tem quaia psicolosos
+      - Voces tem quais psicologos
+      - Você tem quais psicólogos
+      - Qual medico Forte psiquiatra tem
+      - medico psiquiatra tem
+      - Qjal mjdico psiquiatra tem
+      - Quão medico encolhimento tem
+      - Qual medico psiquiatra tem
+      - Que psiquiatra tem
+      - Quais serviços médicos vocês oferecem na clínica? Ver
+      - Quais serviços médicos vocês na clínica?
+      - Qufis serviços médicos vocês ofjrecem na clínica?
+      - Quais serviços médicos vocês oferecem na hospital?
+      - Quais serviços médicos vocês oferecem na clínica?
+      - médicos serviços Quais vocês oferecem na clínica ?
+      - Que serviços médicos você oferece na clínica?
+      - Gostaria de saber quais tipos de serviços estão disponíveis. Janela
+      - de saber quais tipos de serviços estão disponíveis.
+      - Gostaria de saber quaik tupos de serviços estão disponíveis.
+      - Gostaria de conhecer quais tipos de serviços estão disponíveis.
+      - Gostaria de saber quais tipos de serviços estão disponíveis.
+      - saber de Gostaria quais tipos de serviços estão disponíveis .
+      - Eu gostaria de saber que tipos de serviços estão disponíveis.
+      - Fora Que tratamentos a clínica disponibiliza?
+      - Que tratamentos clínica disponibiliza?
+      - Que trakamentos a clínicb disponibiliza?
+      - Que tratamentos a hospital disponibiliza?
+      - Que tratamentos a clínica disponibiliza?
+      - a tratamentos Que clínica disponibiliza ?
+      - Que tratamentos a clínica fornece?
+      - Quais são os serviços que a clínica oferece Café aos pacientes?
+      - Quais são os serviços que a clínica oferece pacientes?
+      - Quais são os serviços que a clínwca oferece aos pacientks?
+      - Quais mentalmente são os serviços que a hospital oferece aos pacientes?
+      - Quais são os serviços que a clínica oferece aos pacientes?
+      - os são Quais serviços que a clínica oferece aos pacientes ?
+      - Quais serviços a clínica oferece aos pacientes?
+      - Vocês podem me dizer quais são Perto os serviços de saúde disponíveis?
+      - Vocês podem me dizer quais os serviços de saúde disponíveis?
+      - Vocês prdem me dizer quais são on serviços de saúde disponíveis?
+      - Vocês podem me dizer quais sã os serviços de bem-estar disponíveis?
+      - saúde disponíveis? com Vocês podem me dizer quais são os serviços
+      - Vocês podem me dizer quais são os serviços de saúde disponíveis?
+      - me podem Vocês dizer quais são os serviços de saúde disponíveis ?
+      - Você pode me dizer quais serviços de saúde estão disponíveis?
+      - Lento Quais especialidades médicas estão disponíveis na clínica?
+      - especialidades médicas estão disponíveis na clínica?
+      - Quais especialidades médicas estko disponíveis na crínica?
+      - Quais especialidades médicas estão disponíveis na hospital?
+      - Quais especialidades médicas estão disponíveis na clínica?
+      - médicas especialidades Quais estão disponíveis na clínica ?
+      - O Claro que a clínica oferece em termos de serviços médicos?
+      - O que a clínica oferece em termos de serviços
+      - O que a clinica oferece em termos de herviços médicos?
+      - O que a hospital oferece em termos de serviços médicos?
+      - serviços médicos? com O que a clínica oferece em termos
+      - O que a clínica oferece em termos de serviços médicos?
+      - a que O clínica oferece em termos de serviços médicos ?
+      - Quais são Antipático os principais serviços de saúde da clínica?
+      - Quais são principais serviços de saúde da clínica?
+      - Quais sko os priniipais serviços de saúde da clínica?
+      - Quais mentalmente são os principais serviços de bem-estar da hospital?
+      - saúde da clínica? com Quais são os principais serviços
+      - Quais são os principais serviços de saúde da clínica?
+      - os são Quais principais serviços de saúde da clínica ?
+      - Quais tratamentos posso encontrar na clínica? De repente
+      - tratamentos posso encontrar na clínica?
+      - Quais tratamentos poxso encontrar nw clínica?
+      - Quais tratamentos posso acertar na hospital?
+      - Quais tratamentos posso encontrar na clínica?
+      - posso tratamentos Quais encontrar na clínica ?
+      - Que tratamentos posso encontrar na clínica?
+      - Gostaria de saber mais De repente sobre os serviços da clínica.
+      - Gostaria de saber mais sobre serviços da clínica.
+      - Gostaria de saber mais sobee os serviços da clmnica.
+      - Gostaria de consciência em continuação sobre os serviços da hospital.
+      - saber mais sobre os serviços da clínica. com Gostaria
+      - Gostaria de saber mais sobre os serviços da clínica.
+      - saber de Gostaria mais sobre os serviços da clínica .
+      - Eu gostaria de saber mais sobre os serviços da clínica.
+      - Que tipo de atendimento Gradualmente vocês prestam na clínica?
+      - Que tipo de vocês prestam na clínica?
+      - Que tipo de ateedimento vocês prestam na clínicat
+      - Que género de atendimento vocês prestam na hospital?
+      - atendimento vocês prestam na clínica? com Que tipo
+      - Que tipo de atendimento vocês prestam na clínica?
+      - de tipo Que atendimento vocês prestam na clínica ?
+      - Que tipo de serviço você fornece na clínica?
+      - Vocês oferecem serviços Correr de saúde mental?
+      - Vocês oferecem serviços de saúde
+      - Vocêy oferecem serviços de saúde meltal?
+      - Vocês oferecem serviços de bem-estar mental?
+      - saúde mental? com Vocês oferecem serviços
+      - Vocês oferecem serviços de saúde mental?
+      - serviços oferecem Vocês de saúde mental ?
+      - Você oferece serviços de saúde mental?
+      - Quais são os serviços especializados Telefone oferecidos pela clínica?
+      - Quais são os serviços especializados pela clínica?
+      - Quais são os serviçoo especializados oferecidos pelp clínica?
+      - Quais sã os serviços especializados oferecidos pela hospital?
+      - Quais são os serviços especializados oferecidos pela clínica?
+      - os são Quais serviços especializados oferecidos pela clínica ?
+      - Que serviços médicos estão Separadamente à disposição dos pacientes?
+      - Que serviços médicos estão à disposição pacientes?
+      - Que serviços médicos cstão à dispoaição dos pacientes?
+      - Que serviços médicos estão à Boa vontade dos pacientes?
+      - Que serviços médicos estão à disposição dos pacientes?
+      - médicos serviços Que estão à disposição dos pacientes ?
+      - Quais serviços médicos estão disponíveis para os pacientes?
+      - Quais são os procedimentos médicos disponíveis Pássaro na clínica?
+      - Quais são os procedimentos médicos na clínica?
+      - Quais são os procedimentos mévicos disponíveis na clínica?
+      - Quais sã os procedimentos médicos disponíveis na hospital?
+      - Quais são os procedimentos médicos disponíveis na clínica?
+      - os são Quais procedimentos médicos disponíveis na clínica ?
+      - Quais serviços são oferecidos para consultas Estrela médicas?
+      - Quais são oferecidos para consultas médicas?
+      - Quais serviços sãh oferecidos para consultas médicns?
+      - Quais serviços mentalmente sadio oferecidos para consultoria médicas?
+      - consultas médicas? com Quais serviços são oferecidos
+      - Quais serviços são oferecidos para consultas médicas?
+      - são serviços Quais oferecidos para consultas médicas ?
+      - Amanhã Posso saber quais tipos de consulta a clínica oferece?
+      - Posso saber quais tipos de consulta a oferece?
+      - Posso saber quais dipos de consulta a clínica oferece?
+      - Posso Base de conhecimento quais tipos de consulta a hospital oferece?
+      - consulta a clínica oferece? com Posso saber quais tipos
+      - Posso saber quais tipos de consulta a clínica oferece?
+      - quais saber Posso tipos de consulta a clínica oferece ?
+      - Posso saber que tipos de consulta a clínica oferece?
+      - Quais tratamentos e Café exames são oferecidos pela clínica?
+      - Quais tratamentos e exames são oferecidos clínica?
+      - Quais tratamentos e exames uão oferecidos pela clívica?
+      - Quais tratamentos e exames mentalmente sadio oferecidos pela hospital?
+      - exames são oferecidos pela clínica? e Quais tratamentos
+      - e tratamentos Quais exames são oferecidos pela clínica ?
+      - Vocês têm algum serviço especializado em Baixo saúde feminina?
+      - Vocês têm algum serviço especializado saúde feminina?
+      - Vocês têm algum serviço esperializado em sasde feminina?
+      - Vocês têm algum Serviço conhecimento em bem-estar feminino?
+      - Vocês têm algum serviço especializado em saúde feminina?
+      - algum têm Vocês serviço especializado em saúde feminina ?
+      - Você tem algum serviço especializado na saúde das mulheres?
+      - Que tipos de Simpático serviços clínicos estão disponíveis?
+      - Que tipos de serviços clínicos estão
+      - Que tqpos de serviçog clínicos estão disponíveis?
+      - Que tipos de serviços clínicos estão disponíveis?
+      - serviços clínicos estão disponíveis? com Que tipos
+      - de tipos Que serviços clínicos estão disponíveis ?
+      - Quais tratamentos a Dia clínica tem para oferecer?
+      - Quais tratamentos a clínica tem oferecer?
+      - Quais tratamentos a clonica tem pata oferecer?
+      - Quais tratamentos a hospital tem para regalar?
+      - oferecer? com Quais tratamentos a clínica tem
+      - Quais tratamentos a clínica tem para oferecer?
+      - a tratamentos Quais clínica tem para oferecer ?
+      - Que tratamentos a clínica tem a oferecer?
+      - Vocês podem me dar detalhes sobre os serviços prestados? Juntos
+      - Vocês podem me dar detalhes sobre serviços prestados?
+      - Vocês podem mu dar detalhes sobre os sbrviços prestados?
+      - Vocês podem me submeter-se detalhes sobre os serviços prestados?
+      - Vocês podem me dar detalhes sobre os serviços prestados?
+      - me podem Vocês dar detalhes sobre os serviços prestados ?
+      - Você pode me dar detalhes sobre os serviços prestados?
+      - Fogo Quais especialidades médicas posso encontrar na clínica?
+      - Quais médicas posso encontrar na clínica?
+      - xuais especialidades médicas posso encontrar na clíniza?
+      - Quais especialidades médicas posso dar no alvo na hospital?
+      - Quais especialidades médicas posso encontrar na clínica?
+      - médicas especialidades Quais posso encontrar na clínica ?
+      - Que especialidades médicas posso encontrar na clínica?
+      - A clínica oferece Pagar serviços de fisioterapia?
+      - A oferece serviços de fisioterapia?
+      - A clínica oferepe serviços de tisioterapia?
+      - A hospital oferece serviços de Fisioterapia?
+      - fisioterapia? com A clínica oferece serviços
+      - A clínica oferece serviços de fisioterapia?
+      - oferece clínica A serviços de fisioterapia ?
+      - Quais são os serviços Devagar mais procurados da clínica?
+      - Quais são os serviços mais procurados da
+      - Quais yão ov serviços mais procurados da clínica?
+      - Quais saudável os serviços além disso procurados da hospital?
+      - clínica? com Quais são os serviços mais procurados
+      - Quais são os serviços mais procurados da clínica?
+      - os são Quais serviços mais procurados da clínica ?
+      - Quais são os serviços mais procurados na clínica?
+      - O que a clínica disponibiliza em Gato termos de consultas?
+      - O a clínica disponibiliza em termos de consultas?
+      - O que a flínica disponibiliza em tehmos de consultas?
+      - O que a hospital disponibiliza em termos de consultoria?
+      - consultas? com O que a clínica disponibiliza em termos
+      - O que a clínica disponibiliza em termos de consultas?
+      - a que O clínica disponibiliza em termos de consultas ?
+      - O que a clínica está disponível em termos de consultas?
+      - Quais tipos de consultas médicas vocês fazem? Ajudar
+      - Quais tipos de consultas vocês fazem?
+      - Quaos tipos df consultas médicas vocês fazem?
+      - Quais tipos de consultoria médicas vocês fazem?
+      - consultas médicas vocês fazem? com Quais tipos
+      - Quais tipos de consultas médicas vocês fazem?
+      - de tipos Quais consultas médicas vocês fazem ?
+      - Que tipos de compromissos médicos você faz?
+      - Vocês Possivelmente têm serviços de diagnóstico por imagem?
+      - Vocês têm de diagnóstico por imagem?
+      - Vocês têm serviços de diagnóstico pos imagvm?
+      - Vocês têm serviços de diagnose por Ícone?
+      - diagnóstico por imagem? com Vocês têm serviços
+      - Vocês têm serviços de diagnóstico por imagem?
+      - serviços têm Vocês de diagnóstico por imagem ?
+      - Você tem serviços de diagnóstico de imagem?
+      - Quais são os serviços médicos mais comuns na Foto clínica?
+      - Quais são os médicos mais comuns na clínica?
+      - Quais são os serviços médicog mais comuns nq clínica?
+      - Quais mentalmente são os serviços médicos demais comuns na hospital?
+      - Quais são os serviços médicos mais comuns na clínica?
+      - os são Quais serviços médicos mais comuns na clínica ?
+      - Gostaria de saber mais sobre os procedimentos Pensar médicos disponíveis.
+      - Gostaria saber mais sobre os procedimentos médicos disponíveis.
+      - Gostaria de saber mais sobre gs proeedimentos médicos disponíveis.
+      - Gostaria de conhecer mais adiante sobre os procedimentos médicos disponíveis.
+      - saber mais sobre os procedimentos médicos disponíveis. com Gostaria
+      - Gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - saber de Gostaria mais sobre os procedimentos médicos disponíveis .
+      - Eu gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - Quais tratamentos Estudar para dor a clínica oferece?
+      - tratamentos para dor a clínica oferece?
+      - Quais tratwmentos para dor a clíndca oferece?
+      - Quais tratamentos para temor a hospital oferece?
+      - dor a clínica oferece? com Quais tratamentos
+      - Quais tratamentos para dor a clínica oferece?
+      - para tratamentos Quais dor a clínica oferece ?
+      - Que tratamento de dor a clínica oferece?
+      - Construir A clínica oferece serviços de nutrição?
+      - A clínica oferece serviços de
+      - A clínica oferece serviços dc nutriçdo?
+      - A hospital oferece serviços de nutrientes?
+      - nutrição? com A clínica oferece serviços
+      - A clínica oferece serviços de nutrição?
+      - oferece clínica A serviços de nutrição ?
+      - Vocês têm Doce serviços de odontologia?
+      - Vocês têm de odontologia?
+      - Vocês têb serviços oe odontologia?
+      - Vocês têm serviços de Odontologia?
+      - odontologia? com Vocês têm serviços
+      - Vocês têm serviços de odontologia?
+      - serviços têm Vocês de odontologia ?
+      - Você tem serviços de odontologia?
+      - Quais são os serviços de apoio à Consertar saúde mental na clínica?
+      - Quais são serviços de apoio à saúde mental na clínica?
+      - puais são os servisos de apoio à saúde mental na clínica?
+      - Quais salubre os serviços de encosto à eudemonismo mental na hospital?
+      - apoio à saúde mental na clínica? com Quais são os serviços
+      - Quais são os serviços de apoio à saúde mental na clínica?
+      - os são Quais serviços de apoio à saúde mental na clínica ?
+      - O que são serviços de apoio à saúde mental na clínica?
+      - Vocês fazem exames laboratoriais na clínica? Roupa
+      - Vocês fazem laboratoriais na clínica?
+      - zocês gazem exames laboratoriais na clínica?
+      - Vocês fazem exames laboratoriais na hospital?
+      - Vocês fazem exames laboratoriais na clínica?
+      - exames fazem Vocês laboratoriais na clínica ?
+      - Você faz testes de laboratório na clínica?
+      - Posso saber quais serviços clínicos vocês Procurar prestam?
+      - Posso saber serviços clínicos vocês prestam?
+      - Posso snber quais serviçox clínicos vocês prestam?
+      - Posso conhecer quais serviços clínicos vocês prestam?
+      - Posso saber quais serviços clínicos vocês prestam?
+      - quais saber Posso serviços clínicos vocês prestam ?
+      - Posso saber quais serviços clínicos você fornece?
+      - Quais são os serviços médicos disponíveis Ver para atendimento?
+      - Quais os serviços médicos disponíveis para atendimento?
+      - Quais são js serviços médicos disponíveis pfra atendimento?
+      - Quais mentalmente sadio os serviços médicos disponíveis para atendimento?
+      - atendimento? com Quais são os serviços médicos disponíveis
+      - Quais são os serviços médicos disponíveis para atendimento?
+      - os são Quais serviços médicos disponíveis para atendimento ?
+      - Vocês fazem exames de rotina na Lento clínica?
+      - Vocês fazem de rotina na clínica?
+      - Vosês fazem exames de rotina oa clínica?
+      - Vocês fazem exames de ramerrão na hospital?
+      - rotina na clínica? com Vocês fazem exames
+      - Vocês fazem exames de rotina na clínica?
+      - exames fazem Vocês de rotina na clínica ?
+      - Você faz exames de rotina na clínica?
+      - Que tipos de especialidades médicas estão disponíveis Roupa para consultas?
+      - Que tipos de médicas estão disponíveis para consultas?
+      - Que tipgs de especialidades mhdicas estão disponíveis para consultas?
+      - Que tipos de especialidades médicas estão disponíveis para consultoria?
+      - especialidades médicas estão disponíveis para consultas? com Que tipos
+      - Que tipos de especialidades médicas estão disponíveis para consultas?
+      - de tipos Que especialidades médicas estão disponíveis para consultas ?
+      - Vocês oferecem consultas com especialistas Baixo em cardiologia?
+      - oferecem consultas com especialistas em cardiologia?
+      - Vocês oferecem consultas com especialistas km cdrdiologia?
+      - Vocês oferecem consultoria com especialistas em cardiologia?
+      - especialistas em cardiologia? com Vocês oferecem consultas
+      - consultas oferecem Vocês com especialistas em cardiologia ?
+      - Você oferece consultas com especialistas em cardiologia?
+      - A clínica tem serviços de pediatria? Relógio
+      - A clínica serviços de pediatria?
+      - A clínica tem servivos dd pediatria?
+      - A hospital tem serviços de pedologia?
+      - pediatria? com A clínica tem serviços
+      - A clínica tem serviços de pediatria?
+      - tem clínica A serviços de pediatria ?
+      - A clínica tem serviços pediátricos?
+      - Quais serviços vocês disponibilizam para pacientes Sutileza em tratamento?
+      - Quais serviços disponibilizam para pacientes em tratamento?
+      - Quais srrviços vocês disponibilizam para pacicntes em tratamento?
+      - Quais serviços vocês disponibilizam para pacientes em cuidado?
+      - pacientes em tratamento? com Quais serviços vocês disponibilizam
+      - Quais serviços vocês disponibilizam para pacientes em tratamento?
+      - vocês serviços Quais disponibilizam para pacientes em tratamento ?
+      - Quais serviços você disponibiliza aos pacientes no tratamento?
+      - Vento Quais tratamentos médicos são feitos na clínica?
+      - Quais médicos são feitos na clínica?
+      - Quals tratamentos méeicos são feitos na clínica?
+      - Quais tratamentos médicos saudável feitos na hospital?
+      - Quais tratamentos médicos são feitos na clínica?
+      - médicos tratamentos Quais são feitos na clínica ?
+      - Sorrir Vocês oferecem algum serviço de emergência médica?
+      - Vocês oferecem algum serviço de emergência
+      - Vorês ofnrecem algum serviço de emergência médica?
+      - Vocês oferecem algum instalação de urgência médica?
+      - emergência médica? com Vocês oferecem algum serviço
+      - Vocês oferecem algum serviço de emergência médica?
+      - algum oferecem Vocês serviço de emergência médica ?
+      - Você oferece um serviço médico de emergência?
+      - Mesa Quais são os procedimentos médicos oferecidos na clínica?
+      - Quais são os procedimentos oferecidos na clínica?
+      - Quais são os procedimentos modicos oferecidos xa clínica?
+      - Quais mentalmente sadio os procedimentos médicos oferecidos na hospital?
+      - Quais são os procedimentos médicos oferecidos na clínica?
+      - os são Quais procedimentos médicos oferecidos na clínica ?
+      - Quais serviços de prevenção Sempre e cuidados de saúde vocês oferecem?
+      - Quais serviços de prevenção e cuidados de saúde oferecem?
+      - Quais serviços de prevanção e cuidados dt saúde vocês oferecem?
+      - Quais serviços de prevenção e cuidados de bem-estar vocês oferecem?
+      - cuidados de saúde vocês oferecem? e Quais serviços de prevenção
+      - de serviços Quais prevenção e cuidados de saúde vocês oferecem ?
+      - Que serviços de prevenção e saúde você oferece?
+      - Cachorro A clínica oferece consultas com especialistas?
+      - A clínica consultas com especialistas?
+      - A clínkca oferece consulhas com especialistas?
+      - A hospital oferece consultoria com especialistas?
+      - especialistas? com A clínica oferece consultas
+      - oferece clínica A consultas com especialistas ?
+      - Vocês têm algum serviço especializado Bobo em ortopedia?
+      - Vocês têm algum serviço especializado em
+      - Vocês tbm algum serviço especualizado em ortopedia?
+      - Vocês têm algum ocupação perícia em ortopedia?
+      - Vocês têm algum serviço especializado em ortopedia?
+      - algum têm Vocês serviço especializado em ortopedia ?
+      - Você tem algum serviço de ortopedia especializado?
+      - Gato Quais exames podem ser realizados na clínica?
+      - Quais podem ser realizados na clínica?
+      - Quais exames pcdem ser realizados na clínica?
+      - Quais exames podem criatura realizados na hospital?
+      - Quais exames podem ser realizados na clínica?
+      - podem exames Quais ser realizados na clínica ?
       - Poderia detalhar quais servicos voces fornecem?
       - Gostaria de uma descrição dos servicos que voces disponibilizam.
       - Que servicos sua clínica oferece aos pacientes?

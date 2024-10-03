@@ -2,52 +2,43 @@ version: "3.1"
 
 rules:
 
-
+## inicia o event form, responsavel por marcar a consulta
 - rule: event
   steps:
   - action: event_form
   - active_loop: event_form
 
+### encerra o event form e adiciona a consulta
 - rule: Completar event_form e confirmar
   condition:
-  - active_loop: event_form
-  - slot_was_set:
-      - requested_slot: null
-      - form_completed: True
+    - active_loop: event_form
+    - slot_was_set:
+        - requested_slot: null ## all slots have been filled
+        - form_completed: True
   steps:
-  - action: utter_confirm_appointment
-  - intent: concordancia
-  - action: action_add_event 
-  - slot_was_set:
-    - event_completed: True 
-  - action: utter_terminar_conversa
+    - action: event_form      # Include this to process the final form actions
+    - active_loop: null       # Deactivate the form
+    - action: utter_confirm_appointment
+    - intent: concordancia
+    - action: action_add_event 
+    - slot_was_set:
+        - event_completed: True 
+    - action: utter_terminar_conversa
   wait_for_user_input: False
 
 
 
 - rule: finaliza o forms e chama a action delete
   condition:
-  - active_loop: delete_event_form
+    - active_loop: delete_event_form
+    - slot_was_set:
+        - requested_slot: null ##all slots were set
   steps:
   - action: delete_event_form
-  - active_loop: delete_event_form
-  - slot_was_set:
-      - requested_slot: null
+  - active_loop: null ## deactive the form
+  - action: action_delete_event_form
   wait_for_user_input: False
 
-
-
-- rule: finaliza o forms e chama a action  modify
-  condition:
-  - active_loop: modify_event_form
-  - slot_was_set:
-        - requested_slot: null
-  steps:
-  - action: modify_event_form
-  - active_loop: modify_event_form
-  - slot_was_set:
-      - requested_slot: null
-  wait_for_user_input: False
 
 
 - rule: Completar modify_event_form e confirmar
@@ -58,6 +49,8 @@ rules:
       - form_completed: True
       - cpf_validate: True
   steps:
+  - action: modify_event_form
+  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
@@ -71,6 +64,8 @@ rules:
 - rule: finaliza o forms e chama a action salvar user (100% correto)
   condition:
   - active_loop: cadastro_form
+  - slot_was_set:
+    - requested_slot: null
   steps:
   - action: cadastro_form
   - active_loop: null 
@@ -83,6 +78,8 @@ rules:
 - rule: Finaliza cadastro e inicia agendamento (sucesso)
   condition:
   - active_loop: cadastro_form
+  - slot_was_set:
+    - requested_slot: null
   steps:
   - action: cadastro_form
   - active_loop: null
@@ -93,7 +90,7 @@ rules:
   - action: event_form
   - active_loop: event_form
   - slot_was_set:
-    - form_completed: true
+    - form_completed: True
   wait_for_user_input: False
 
 

@@ -18,6 +18,7 @@ rules:
   steps:
   - intent: perguntar_dias_livres
   - action: action_find_free_slots
+  wait_for_user_input: False
   
 
 - rule: informando sobre precos baseado em entidades ou nao

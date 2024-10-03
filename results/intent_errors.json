@@ -1,298 +1,482 @@
 [
   {
-    "text": "Como posso desfazer a reserva da minha consulta",
+    "text": "creciso tizar minha consulta",
     "intent": "cancelar_consulta",
     "intent_prediction": {
       "name": "remarcar_consulta",
-      "confidence": 0.5788775086402893
+      "confidence": 1.0
     }
   },
   {
-    "text": "Ola",
+    "text": "Correcto puxar minha consulta",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tudk bemm",
     "intent": "saudações",
     "intent_prediction": {
-      "name": "concordancia",
-      "confidence": 0.3957245945930481
+      "name": "agradecimento",
+      "confidence": 0.7529964447021484
     }
   },
   {
-    "text": "Como funcionam os pagamentos para serviços",
-    "intent": "metodo_de_pagamento",
+    "text": "Custou",
+    "intent": "agradecimento",
     "intent_prediction": {
-      "name": "informacoes_sobre_servico",
-      "confidence": 0.9981826543807983
+      "name": "preco_consulta",
+      "confidence": 1.0
     }
   },
   {
-    "text": "isso mesmo",
-    "intent": "concordancia",
+    "text": "Navio Brigadíssima",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.812333345413208
+    }
+  },
+  {
+    "text": "Fogo oobgg",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "solicitar_receita",
+      "confidence": 0.6402955651283264
+    }
+  },
+  {
+    "text": "Fslou",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9705972671508789
+    }
+  },
+  {
+    "text": "ios vemts",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9943253397941589
+    }
+  },
+  {
+    "text": "Até após,tenha um boa período",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "solicitar_atestado",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Faloul tudo we bom",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.980168342590332
+    }
+  },
+  {
+    "text": "Vejo você, obrigado",
+    "intent": "tchau",
     "intent_prediction": {
       "name": "negacao",
-      "confidence": 0.6650020480155945
+      "confidence": 0.8023927807807922
     }
   },
   {
-    "text": "Sim, quero cancelar a consulta agendada.",
+    "text": "Ao longo de é o ponto médio de atendimento?",
+    "intent": "saber_local_de_atendimento",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Vocês têm algum ocupação perícia em ortopedia?",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "Schutz-Staffel",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.7710391879081726
+    }
+  },
+  {
+    "text": "Sol Ótimo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.6560338735580444
+    }
+  },
+  {
+    "text": "preciso remarcar a consulta.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Shm, quero cancelar a consulta ahendada.",
     "intent": "concordancia",
     "intent_prediction": {
       "name": "cancelar_consulta",
-      "confidence": 0.571465253829956
+      "confidence": 0.9998912811279297
     }
   },
   {
-    "text": "Qual o processo para agendar uma consulta com vocês?",
+    "text": "Sam, pode marcar uma consulta nra mim.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "fão quero marcar uma consulta agorat",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 0.8109846711158752
+    }
+  },
+  {
+    "text": "Desta maneira é a fundos da Mês?",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "para de estar jegue",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.8358492255210876
+    }
+  },
+  {
+    "text": "aaj",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.9999531507492065
+    }
+  },
+  {
+    "text": "momo e o pacamento",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.7245050668716431
+    }
+  },
+  {
+    "text": "marcar consulta",
     "intent": "marcar_consulta",
     "intent_prediction": {
       "name": "remarcar_consulta",
-      "confidence": 0.5301071405410767
+      "confidence": 0.9999904632568359
     }
   },
   {
-    "text": "O que a clínica disponibiliza em termos de consultas?",
-    "intent": "informacoes_sobre_servico",
+    "text": "kodem agendar umd consulta para mim",
+    "intent": "marcar_consulta",
     "intent_prediction": {
-      "name": "saber_local_de_atendimento",
-      "confidence": 0.6316987872123718
+      "name": "cancelar_consulta",
+      "confidence": 0.9999992847442627
     }
   },
   {
-    "text": "Gostaria de saber o preço de uma consulta?",
-    "intent": "preco_consulta",
+    "text": "Como faço para receber uma consulta que não posso comparecer?",
+    "intent": "cancelar_consulta",
     "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.3369542360305786
+      "name": "negacao",
+      "confidence": 0.9176056981086731
     }
   },
   {
-    "text": "Vocês podem me informar o custo de uma consulta médica?",
-    "intent": "preco_consulta",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.28231295943260193
-    }
-  },
-  {
-    "text": "Vocês poderiam informar o custo de uma consulta de rotina?",
-    "intent": "preco_consulta",
+    "text": "necessito todas as minhas consultas agendadas",
+    "intent": "cancelar_consulta",
     "intent_prediction": {
       "name": "remarcar_consulta",
-      "confidence": 0.5821566581726074
+      "confidence": 1.0
     }
   },
   {
-    "text": "remarcar uma consulta",
+    "text": "Queria rescindir uma consulta agendada",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.5835784077644348
+    }
+  },
+  {
+    "text": "voa tawde",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.5303277373313904
+    }
+  },
+  {
+    "text": "pelo suporte",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 0.9999973773956299
+    }
+  },
+  {
+    "text": "Você tem um psicólogo",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "exatomente",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9999926090240479
+    }
+  },
+  {
+    "text": "uou",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.9998461008071899
+    }
+  },
+  {
+    "text": "Cllro",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9490819573402405
+    }
+  },
+  {
+    "text": "Podt seg",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.9776567816734314
+    }
+  },
+  {
+    "text": "Cqncordo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "verificar_plano_de_saude",
+      "confidence": 0.5687084197998047
+    }
+  },
+  {
+    "text": "Cpm cegteza",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.6151901483535767
+    }
+  },
+  {
+    "text": "Quais horários posso especificar para indicar uma consulta?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ao longo de é o plano de consulta utilizável ademais a seguir?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "verificar_plano_de_saude",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "De forma alguma",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Pode toque uma eufonia para mim?",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Rio dksdk",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9390731453895569
+    }
+  },
+  {
+    "text": "quantos cwrros preciso para pr a lua",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9763862490653992
+    }
+  },
+  {
+    "text": "Como posso ter certeza um cronograma para consulta?",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Como possw adkar a consulta agendada",
     "intent": "remarcar_consulta",
     "intent_prediction": {
       "name": "marcar_consulta",
-      "confidence": 0.30655813217163086
+      "confidence": 0.924701988697052
+    }
+  },
+  {
+    "text": "E ad,",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9149277806282043
+    }
+  },
+  {
+    "text": "isoo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.4035272002220154
+    }
+  },
+  {
+    "text": "desejo marcar uma consulta.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nbo sku",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.8912366628646851
+    }
+  },
+  {
+    "text": "651221 Mercado",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9064183235168457
+    }
+  },
+  {
+    "text": "como e o",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.8983830809593201
+    }
+  },
+  {
+    "text": "mencionar consulta",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.6108962297439575
+    }
+  },
+  {
+    "text": "Oli",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9948908090591431
+    }
+  },
+  {
+    "text": "Adsus",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.9959169030189514
+    }
+  },
+  {
+    "text": "Awé lygo",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9523075819015503
+    }
+  },
+  {
+    "text": "O seguyo cobre oz custos de consultas com pediatras?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.7546011209487915
+    }
+  },
+  {
+    "text": "Meu firme divisa consultoria nessa hospital?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9999948740005493
+    }
+  },
+  {
+    "text": "Como fugciona a cljnica",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.9836671352386475
     }
   },
   {
     "text": "isso",
     "intent": "concordancia",
     "intent_prediction": {
-      "name": "cancelar_consulta",
-      "confidence": 0.5223650336265564
-    }
-  },
-  {
-    "text": "sou",
-    "intent": "concordancia",
-    "intent_prediction": {
-      "name": "cancelar_consulta",
-      "confidence": 0.3350343108177185
-    }
-  },
-  {
-    "text": "Tem algum horário disponível para marcar uma consulta?",
-    "intent": "marcar_consulta",
-    "intent_prediction": {
-      "name": "perguntar_dias_livres",
-      "confidence": 0.6498342752456665
-    }
-  },
-  {
-    "text": "Qual é o centro de atendimento?",
-    "intent": "saber_local_de_atendimento",
-    "intent_prediction": {
-      "name": "transferir_atendente",
-      "confidence": 0.23920829594135284
-    }
-  },
-  {
-    "text": "Preciso tirar minha consulta",
-    "intent": "cancelar_consulta",
-    "intent_prediction": {
-      "name": "remarcar_consulta",
-      "confidence": 0.558089017868042
-    }
-  },
-  {
-    "text": "necessito cancelar todas as minhas consultas agendadas",
-    "intent": "cancelar_consulta",
-    "intent_prediction": {
-      "name": "remarcar_consulta",
-      "confidence": 0.5029648542404175
-    }
-  },
-  {
-    "text": "Concordo",
-    "intent": "concordancia",
-    "intent_prediction": {
       "name": "negacao",
-      "confidence": 0.734613299369812
+      "confidence": 0.9946208000183105
     }
   },
   {
-    "text": "Sim, quero marcar uma consulta.",
+    "text": "gss",
     "intent": "concordancia",
     "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.5315774083137512
-    }
-  },
-  {
-    "text": "Preciso agendar uma consulta o mais rápido possível.",
-    "intent": "marcar_consulta",
-    "intent_prediction": {
-      "name": "perguntar_dias_livres",
-      "confidence": 0.8641032576560974
-    }
-  },
-  {
-    "text": "Qual medico psiquiatra tem",
-    "intent": "informacoes_sobre_servico",
-    "intent_prediction": {
-      "name": "preco_consulta",
-      "confidence": 0.7157576680183411
-    }
-  },
-  {
-    "text": "e o preço",
-    "intent": "preco_consulta",
-    "intent_prediction": {
-      "name": "negacao",
-      "confidence": 0.3337726593017578
-    }
-  },
-  {
-    "text": "Meu plano de saude é compatível com os serviços que voces oferecem?",
-    "intent": "verificar_plano_de_saude",
-    "intent_prediction": {
-      "name": "informacoes_sobre_servico",
-      "confidence": 0.5877276062965393
-    }
-  },
-  {
-    "text": "Nao desejo cancelar a consulta.",
-    "intent": "negacao",
-    "intent_prediction": {
-      "name": "cancelar_consulta",
-      "confidence": 0.894098162651062
-    }
-  },
-  {
-    "text": "Nao preciso agendar uma nova consulta.",
-    "intent": "negacao",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.7637284994125366
-    }
-  },
-  {
-    "text": "Nao desejo marcar uma consulta agora.",
-    "intent": "negacao",
-    "intent_prediction": {
-      "name": "concordancia",
-      "confidence": 0.3490867614746094
-    }
-  },
-  {
-    "text": "Necessito caecelar todas as minhas consulsas agendadas.",
-    "intent": "cancelar_consulta",
-    "intent_prediction": {
-      "name": "remarcar_consulta",
-      "confidence": 0.9835414290428162
-    }
-  },
-  {
-    "text": "Gostaria de saber quando posso agendar uma consulta.",
-    "intent": "perguntar_dias_livres",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.8180099129676819
-    }
-  },
-  {
-    "text": "Quando há disponibilidade para marcar uma consulta médica?",
-    "intent": "perguntar_dias_livres",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.5564282536506653
-    }
-  },
-  {
-    "text": "Quais horários posso escolher para marcar uma consulta?",
-    "intent": "perguntar_dias_livres",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.4664665460586548
-    }
-  },
-  {
-    "text": "exatamente",
-    "intent": "concordancia",
-    "intent_prediction": {
-      "name": "transferir_atendente",
-      "confidence": 0.5435146689414978
-    }
-  },
-  {
-    "text": "Absolutamente",
-    "intent": "concordancia",
-    "intent_prediction": {
-      "name": "metodo_de_pagamento",
-      "confidence": 0.5264797210693359
-    }
-  },
-  {
-    "text": "É possível marcar um atendimento?",
-    "intent": "marcar_consulta",
-    "intent_prediction": {
-      "name": "cancelar_consulta",
-      "confidence": 0.3212687075138092
-    }
-  },
-  {
-    "text": "Quero saber como posso agendar uma consulta para a próxima semana.",
-    "intent": "marcar_consulta",
-    "intent_prediction": {
-      "name": "perguntar_dias_livres",
-      "confidence": 0.9276494979858398
-    }
-  },
-  {
-    "text": "Jamais",
-    "intent": "negacao",
-    "intent_prediction": {
-      "name": "concordancia",
-      "confidence": 0.429212361574173
-    }
-  },
-  {
-    "text": "Quais são as opções de datas disponíveis para consulta?",
-    "intent": "perguntar_dias_livres",
-    "intent_prediction": {
-      "name": "metodo_de_pagamento",
-      "confidence": 0.5560078024864197
-    }
-  },
-  {
-    "text": "Tem algum horário de consulta para essa semana?",
-    "intent": "perguntar_dias_livres",
-    "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.6679370999336243
+      "name": "fora_do_scope",
+      "confidence": 0.8735268712043762
     }
   },
   {
@@ -300,39 +484,895 @@
     "intent": "concordancia",
     "intent_prediction": {
       "name": "saudações",
-      "confidence": 0.30111145973205566
+      "confidence": 0.9701588749885559
     }
   },
   {
-    "text": "Melhor ainda",
+    "text": "Sum, cparo",
     "intent": "concordancia",
     "intent_prediction": {
-      "name": "marcar_consulta",
-      "confidence": 0.6205297708511353
+      "name": "saudações",
+      "confidence": 0.4342043697834015
     }
   },
   {
-    "text": "Sim, pode remarcar a data da consulta.",
+    "text": "Mulhor minda",
     "intent": "concordancia",
     "intent_prediction": {
       "name": "remarcar_consulta",
-      "confidence": 0.6808207035064697
+      "confidence": 1.0
     }
   },
   {
-    "text": "Pode fornecer os preços para as consultas disponíveis?",
+    "text": "Pode cancelar minha consulta",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Gostaria de entender momento posso programar uma consulta.",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "preciso marcar agora.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tenho cadastro ainda, obrigado.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9828659892082214
+    }
+  },
+  {
+    "text": "ssmente irso",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "toa nbite",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.3581649363040924
+    }
+  },
+  {
+    "text": "Gratg",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9110262989997864
+    }
+  },
+  {
+    "text": "Eu entendi",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.6967297196388245
+    }
+  },
+  {
+    "text": "Atw a fróxima",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.9867900013923645
+    }
+  },
+  {
+    "text": "bté msis",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.35891327261924744
+    }
+  },
+  {
+    "text": "Meu programação Dinheiro consultoria de regresso?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Pode me usar em batida com uma personalidade?",
+    "intent": "transferir_atendente",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9985456466674805
+    }
+  },
+  {
+    "text": "Praia sou",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.8312873840332031
+    }
+  },
+  {
+    "text": "Concocdo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.8475099802017212
+    }
+  },
+  {
+    "text": "jj ssm",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.6239562630653381
+    }
+  },
+  {
+    "text": "posso agendar a consulta mais cedo possível?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Noo conyordo",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.6749666333198547
+    }
+  },
+  {
+    "text": "sdfdfg Sem querer",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.9998192191123962
+    }
+  },
+  {
+    "text": "aaa Separadamente",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.9999969005584717
+    }
+  },
+  {
+    "text": "Quão o custos para efectuar um teste de Ícone?",
     "intent": "preco_consulta",
     "intent_prediction": {
-      "name": "perguntar_dias_livres",
-      "confidence": 0.6296471953392029
+      "name": "solicitar_atestado",
+      "confidence": 0.999861478805542
     }
   },
   {
-    "text": "Com quais convenios médicos voces tem parceria?",
+    "text": "Qual é o para uma consulta de urgência?",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "verificar_plano_de_saude",
+      "confidence": 0.7746720314025879
+    }
+  },
+  {
+    "text": "uma consulta",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Como posso pôr no lugar de a dia da minha consulta",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ji",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.3001422882080078
+    }
+  },
+  {
+    "text": "E",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.5143384337425232
+    }
+  },
+  {
+    "text": "Fasou",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9937451481819153
+    }
+  },
+  {
+    "text": "Nps femos",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Meu imagem dinheiro consultoria e exames nesta hospital?",
     "intent": "verificar_plano_de_saude",
     "intent_prediction": {
       "name": "informacoes_sobre_servico",
-      "confidence": 0.7004708051681519
+      "confidence": 0.9978354573249817
+    }
+  },
+  {
+    "text": "médico",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.6006017327308655
+    }
+  },
+  {
+    "text": "qual medico voces aceitam",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9996733665466309
+    }
+  },
+  {
+    "text": "Daquela maneira é a dia além disso próxima para programar uma consulta?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Tem algum agenda de consulta para essa semana?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Qual é a próxima vez disponível para marcar uma consulta?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "naw",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.5134005546569824
+    }
+  },
+  {
+    "text": "quantos carros perfeito para continuar a satélites",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9922198057174683
+    }
+  },
+  {
+    "text": "Neve L123456",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.8829431533813477
+    }
+  },
+  {
+    "text": "vayor",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.938838541507721
+    }
+  },
+  {
+    "text": "bom dga",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "tchau",
+      "confidence": 0.48128175735473633
+    }
+  },
+  {
+    "text": "Vmleu kesmo",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.9999951124191284
+    }
+  },
+  {
+    "text": "tbrigado wor tudo",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.8514460921287537
+    }
+  },
+  {
+    "text": "entendix obrigxdo",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 0.9999681711196899
+    }
+  },
+  {
+    "text": "Como faço para apressar até a hospital?",
+    "intent": "saber_local_de_atendimento",
+    "intent_prediction": {
+      "name": "tchau",
+      "confidence": 0.5233957171440125
+    }
+  },
+  {
+    "text": "Voces kem qual medick",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.31311991810798645
+    }
+  },
+  {
+    "text": "quiro six",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 0.9999914169311523
+    }
+  },
+  {
+    "text": "sym",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.7566065192222595
+    }
+  },
+  {
+    "text": "Pgde spm",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.7515248656272888
+    }
+  },
+  {
+    "text": "ainda",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.81903475522995
+    }
+  },
+  {
+    "text": "Com certeza, quero reagendar.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.5007104873657227
+    }
+  },
+  {
+    "text": "Que dio tem disponíver?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.5415915250778198
+    }
+  },
+  {
+    "text": "quero remarcar.",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9999746084213257
+    }
+  },
+  {
+    "text": "De comportamento nenhuma pessoa",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vfce e petsimo",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.942326009273529
+    }
+  },
+  {
+    "text": "fsg Obviamente",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9956074357032776
+    }
+  },
+  {
+    "text": "o quq devo vesttr hoje",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tipos ne pagrmento estão disponíveis?",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9120948314666748
+    }
+  },
+  {
+    "text": "Preciso carcar uja consulta.",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.9999990463256836
+    }
+  },
+  {
+    "text": "Gostaria de conhecimento como destruir um agendamento de consulta",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.8480046391487122
+    }
+  },
+  {
+    "text": "desfigurar o jornada",
+    "intent": "remarcar_consulta",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ox",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.3875947594642639
+    }
+  },
+  {
+    "text": "Tfmo jinto",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Turvar",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.8725149035453796
+    }
+  },
+  {
+    "text": "Atl a próxima consumta",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.731870710849762
+    }
+  },
+  {
+    "text": "Disse, tudo de bom",
+    "intent": "tchau",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.6706745624542236
+    }
+  },
+  {
+    "text": "Vocês aceitam programação de eudemonismo para exames de locais de trabalho?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "pide sxm",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.704873263835907
+    }
+  },
+  {
+    "text": "isso Esperar mesmo",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.6119712591171265
+    }
+  },
+  {
+    "text": "por favor",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "agradecimento",
+      "confidence": 0.9059354662895203
+    }
+  },
+  {
+    "text": "Pode qancelar minha consulta nim.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "cancelar_consulta",
+      "confidence": 0.8058687448501587
+    }
+  },
+  {
+    "text": "Absolptamente wão",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9910998940467834
+    }
+  },
+  {
+    "text": "vinte",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.8500537872314453
+    }
+  },
+  {
+    "text": "O que devo usar hoje",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Quais formas de estão disponíveis?",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "perguntar_dias_livres",
+      "confidence": 0.5787288546562195
+    }
+  },
+  {
+    "text": "Quais opções de voces oferecem?",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9966596364974976
+    }
+  },
+  {
+    "text": "acditam six",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.968332827091217
+    }
+  },
+  {
+    "text": "Eu preciso aceitar minha consulta",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "como posso cassar uma consulta marcada",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Como posso qancelar minha conwulta",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9940494298934937
+    }
+  },
+  {
+    "text": "Preciso a consulta.",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9092524647712708
+    }
+  },
+  {
+    "text": "oeá",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9800278544425964
+    }
+  },
+  {
+    "text": "Oiv belcza?",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Valev",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "tchau",
+      "confidence": 0.8836915493011475
+    }
+  },
+  {
+    "text": "Você faz testes de laboratório na clínica?",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.994631290435791
+    }
+  },
+  {
+    "text": "Quais podem ser realizados na clínica?",
+    "intent": "informacoes_sobre_servico",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "Pode me entregar para um forma de vida homem?",
+    "intent": "transferir_atendente",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 0.9995580315589905
+    }
+  },
+  {
+    "text": "quwro szm",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "soy wim",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "remarcar_consulta",
+      "confidence": 0.9571041464805603
+    }
+  },
+  {
+    "text": "Melhor ainda Carro",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.9312278032302856
+    }
+  },
+  {
+    "text": "quero agendar a consulta.",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Jnmais",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.8603633642196655
+    }
+  },
+  {
+    "text": "Jaeais",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 0.8440575003623962
+    }
+  },
+  {
+    "text": "rc",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.9993634819984436
+    }
+  },
+  {
+    "text": "voces",
+    "intent": "metodo_de_pagamento",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.9997976422309875
+    }
+  },
+  {
+    "text": "Precido re uma consulta",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9806520938873291
+    }
+  },
+  {
+    "text": "Pode me ajudar a abendar uma consulqa?",
+    "intent": "marcar_consulta",
+    "intent_prediction": {
+      "name": "transferir_atendente",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Como posso umd consulta marcada?",
+    "intent": "cancelar_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.9999744892120361
+    }
+  },
+  {
+    "text": "fla, como vaia",
+    "intent": "saudações",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 0.9977055191993713
+    }
+  },
+  {
+    "text": "Apreciativo",
+    "intent": "agradecimento",
+    "intent_prediction": {
+      "name": "preco_consulta",
+      "confidence": 0.9809846878051758
+    }
+  },
+  {
+    "text": "Quais voces aceitam",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Meu figura Dinheiro consulta de emergencia?",
+    "intent": "verificar_plano_de_saude",
+    "intent_prediction": {
+      "name": "metodo_de_pagamento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "clarg que sit",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "saudações",
+      "confidence": 0.5585044026374817
+    }
+  },
+  {
+    "text": "cvm centeza",
+    "intent": "concordancia",
+    "intent_prediction": {
+      "name": "fora_do_scope",
+      "confidence": 0.45293065905570984
+    }
+  },
+  {
+    "text": "Segundo faz acessibilidade para delimitar uma consulta médica?",
+    "intent": "perguntar_dias_livres",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Em tempo algum",
+    "intent": "negacao",
+    "intent_prediction": {
+      "name": "tchau",
+      "confidence": 0.5158721208572388
+    }
+  },
+  {
+    "text": "Claro desenhe uma imagem",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "concordancia",
+      "confidence": 0.8619354963302612
+    }
+  },
+  {
+    "text": "Marc",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.7711021304130554
+    }
+  },
+  {
+    "text": "aaa",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "negacao",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "o que devo roupa formal actualmente",
+    "intent": "fora_do_scope",
+    "intent_prediction": {
+      "name": "saber_local_de_atendimento",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Pode proporcionar os custo para as consultoria disponíveis?",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "informacoes_sobre_servico",
+      "confidence": 0.999420166015625
+    }
+  },
+  {
+    "text": "preyo",
+    "intent": "preco_consulta",
+    "intent_prediction": {
+      "name": "marcar_consulta",
+      "confidence": 0.9999997615814209
     }
   }
 ]

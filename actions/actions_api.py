@@ -83,7 +83,8 @@ class ValidateAndAddEvent(Action):
                 "cpfUser": cpf_user,
                 "nomeUser": "vands",
                 "dataInicial": start_time,
-                "dataFinal": new_end_time_str
+                "dataFinal": new_end_time_str,
+                "medicoId" : 1
             }
             response = requests.post(url, json=data)
             if 200 <= response.status_code < 300:

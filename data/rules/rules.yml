@@ -44,6 +44,7 @@ rules:
   - action: utter_verificar_plano_de_saude
 
 
+
 - rule: Informando sobre os servicos da clinica
   steps:
   - intent: informacoes_sobre_servico
@@ -56,3 +57,17 @@ rules:
   - action: utter_metodo_de_pagamento
 
 
+- rule: Continue Conversation After Affirmation
+  steps:
+  - action: utter_terminar_conversa
+  - intent: concordancia
+  - action: utter_show_options
+
+
+  
+- rule: Nao confirmando a consulta
+  steps:
+  - action: utter_confirm_appointment
+  - intent: negacao
+  - action: utter_show_options
+  - action: action_reset_all

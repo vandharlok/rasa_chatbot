@@ -148,7 +148,7 @@ class ValidateCPFActionEvent(FormValidationAction):
         domain: DomainDict,     
         ) -> Dict[Text,Any]:
         
-        names=['psicóloga','psiquiatra']
+        names=['psicóloga','psiquiatra','psicologo','psicologa','psicólogo']
         if slot_value.lower() in names:
             return {"especialista": slot_value.lower()}
         else:

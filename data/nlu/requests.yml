@@ -4,6 +4,767 @@ nlu:
 
   - intent: solicitar_atestado
     examples: |
+      - Preciso de Longe um atestado médico para o trabalho, como faço?
+      - Preciso de um atestado médico para trabalho, como faço?
+      - Preciso de um atesaado médico para o trabalho, coms faço?
+      - Justo de um instrumento doutor para o Trabalho,como faço?
+      - um atestado médico para o trabalho, como faço? com Preciso
+      - Preciso de um atestado médico para o trabalho, como faço?
+      - um de Preciso atestado médico para o trabalho , como faço ?
+      - Aprender Como posso solicitar um atestado médico para justificar minha ausência?
+      - Como posso solicitar um atestado para justificar minha ausência?
+      - Como posso solicitar um atestado médico rara justificar minsa ausência?
+      - Como posso requerer um escritura doutor para justificar minha falta?
+      - justificar minha ausência? com Como posso solicitar um atestado médico
+      - Como posso solicitar um atestado médico para justificar minha ausência?
+      - solicitar posso Como um atestado médico para justificar minha ausência ?
+      - Como posso solicitar um certificado médico para justificar minha ausência?
+      - Gostaria de pedir um atestado Dia médico para a escola.
+      - Gostaria de pedir um atestado médico a escola.
+      - Gostaria te pedir uf atestado médico para a escola.
+      - Gostaria de reservar um Certificado doutor para a universidade.
+      - pedir um atestado médico para a escola. com Gostaria
+      - Gostaria de pedir um atestado médico para a escola.
+      - pedir de Gostaria um atestado médico para a escola .
+      - Eu gostaria de pedir um atestado médico para a escola.
+      - Preciso de um atestado para justificar Baixo minha ausência no trabalho.
+      - Preciso de um atestado para justificar minha ausência no
+      - Preuiso de um atestado para justificar linha ausência no trabalho.
+      - Afinado de um escritura para justificar minha falta no serviço.
+      - um atestado para justificar minha ausência no trabalho. com Preciso
+      - Preciso de um atestado para justificar minha ausência no trabalho.
+      - um de Preciso atestado para justificar minha ausência no trabalho .
+      - Preciso de um certificado para justificar minha ausência no trabalho.
+      - Vocês podem me fornecer um atestado Café médico para a faculdade?
+      - podem me fornecer um atestado médico para a faculdade?
+      - Vouês podem me fornecer um atestado médico parl a faculdade?
+      - Vocês podem me ministrar um instrumento doutor para a IES?
+      - a faculdade? com Vocês podem me fornecer um atestado médico
+      - Vocês podem me fornecer um atestado médico para a faculdade?
+      - me podem Vocês fornecer um atestado médico para a faculdade ?
+      - Você pode me fornecer um atestado médico para a faculdade?
+      - Preciso Agitado de um atestado médico para minha ausência de ontem.
+      - Preciso de um atestado médico para minha ausência ontem.
+      - Prejiso de um atestado dédico para minha ausência de ontem.
+      - Preciso de um instrumento doutor para minha escassez de de ontem.
+      - minha ausência de ontem. com Preciso de um atestado médico
+      - Preciso de um atestado médico para minha ausência de ontem.
+      - um de Preciso atestado médico para minha ausência de ontem .
+      - Como consigo Procurar um atestado médico após a consulta?
+      - Como um atestado médico após a consulta?
+      - Como consigo ub atastado médico após a consulta?
+      - Como consigo um instrumento doutor após a consulta?
+      - Como consigo um atestado médico após a consulta?
+      - um consigo Como atestado médico após a consulta ?
+      - Como faço para obter um certificado médico após a consulta?
+      - Quero um atestado médico para justificar minha Amigo ausência por motivo de saúde.
+      - Quero um atestado médico para justificar minha ausência por motivo saúde.
+      - Querw um atestado médico para justificar rinha ausência por motivo de saúde.
+      - Quero um instrumento doutor para justificar minha deficiência por causa de bem-estar.
+      - saúde. com Quero um atestado médico para justificar minha ausência por motivo
+      - Quero um atestado médico para justificar minha ausência por motivo de saúde.
+      - atestado um Quero médico para justificar minha ausência por motivo de saúde .
+      - Quero um atestado médico para justificar minha ausência por razões de saúde.
+      - Vocês emitem atestados médicos Comprar para consultas?
+      - Vocês emitem atestados para consultas?
+      - Vohês emitem atestados médicos para cmnsultas?
+      - Vocês emitem atestados médicos para consultoria?
+      - consultas? com Vocês emitem atestados médicos
+      - Vocês emitem atestados médicos para consultas?
+      - atestados emitem Vocês médicos para consultas ?
+      - Você emite certificados médicos para consultas?
+      - Preciso Lápis de um atestado médico urgente, como proceder?
+      - Preciso de um atestado médico urgente, como
+      - Preciso xe hm atestado médico urgente, como proceder?
+      - Bem acabado de um escritura doutor insistente,como proceder?
+      - um atestado médico urgente, como proceder? com Preciso
+      - Preciso de um atestado médico urgente, como proceder?
+      - um de Preciso atestado médico urgente , como proceder ?
+      - Eu preciso de um certificado médico urgente, como proceder?
+      - Como faço Estrela para solicitar um atestado de saúde?
+      - Como faço para solicitar atestado de saúde?
+      - Como faço parv solicrtar um atestado de saúde?
+      - Como faço para pedir um instrumento de bem-estar?
+      - saúde? com Como faço para solicitar um atestado
+      - Como faço para solicitar um atestado de saúde?
+      - para faço Como solicitar um atestado de saúde ?
+      - Como solicito um certificado de saúde?
+      - Preciso de um atestado Avião médico para justificar minha ausência na reunião.
+      - Preciso de um atestado médico para minha ausência na reunião.
+      - Preciso de um atestado médico para bustificar minha ausênciq na reunião.
+      - Exato de um instrumento doutor para justificar minha carência na cáfila.
+      - um atestado médico para justificar minha ausência na reunião. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência na reunião.
+      - um de Preciso atestado médico para justificar minha ausência na reunião .
+      - Como posso obter um atestado médico após a Ônibus consulta?
+      - posso obter um atestado médico após a consulta?
+      - Como posso obter ym atestado médcco após a consulta?
+      - Como posso ganhar um Certificado doutor após a consulta?
+      - Como posso obter um atestado médico após a consulta?
+      - obter posso Como um atestado médico após a consulta ?
+      - Como posso obter um certificado médico após a consulta?
+      - Vocês emitem atestados médicos Perto para justificar ausências?
+      - emitem atestados médicos para justificar ausências?
+      - Vocês emitem atestadov médicos psra justificar ausências?
+      - Vocês emitem atestados médicos para justificar ausências?
+      - justificar ausências? com Vocês emitem atestados médicos
+      - atestados emitem Vocês médicos para justificar ausências ?
+      - Você emite certificados médicos para justificar ausências?
+      - Preciso de um atestado para apresentar ao meu empregador. Feliz
+      - Preciso de atestado para apresentar ao meu empregador.
+      - Preciso te um afestado para apresentar ao meu empregador.
+      - Precisa de um escritura para levantar ao meu patrão.
+      - um atestado para apresentar ao meu empregador. com Preciso
+      - Preciso de um atestado para apresentar ao meu empregador.
+      - um de Preciso atestado para apresentar ao meu empregador .
+      - Preciso de um certificado para apresentar ao meu empregador.
+      - Gostaria de solicitar um atestado para minha ausência Encontrar no trabalho.
+      - Gostaria solicitar um atestado para minha ausência no trabalho.
+      - Gostarza de solicitar um atestado para minha ausência no trabalhz.
+      - Gostaria de pedir um instrumento para minha falta no Trabalho.
+      - solicitar um atestado para minha ausência no trabalho. com Gostaria
+      - Gostaria de solicitar um atestado para minha ausência no trabalho.
+      - solicitar de Gostaria um atestado para minha ausência no trabalho .
+      - Gostaria de solicitar um certificado para minha ausência no trabalho.
+      - Preciso Noite de um atestado para justificar uma ausência por doença.
+      - Preciso de um atestado justificar uma ausência por doença.
+      - Preciso de um atestado para justifzcar uma ausência eor doença.
+      - Certo de um instrumento para justificar uma deficiência por nausea.
+      - um atestado para justificar uma ausência por doença. com Preciso
+      - Preciso de um atestado para justificar uma ausência por doença.
+      - um de Preciso atestado para justificar uma ausência por doença .
+      - Preciso de um certificado para justificar uma ausência de doença.
+      - É Andar possível solicitar um atestado médico online?
+      - É solicitar um atestado médico online?
+      - É possível solicztar us atestado médico online?
+      - É potencial exigir um Certificado doutor ligado?
+      - É possível solicitar um atestado médico online?
+      - solicitar possível É um atestado médico online ?
+      - É possível solicitar um certificado médico on -line?
+      - Gostaria de um atestado médico Separadamente para justificar minha falta no serviço.
+      - Gostaria de atestado médico para justificar minha falta no serviço.
+      - Gostaria de um atestado médico para justiqicar minha falta no servibo.
+      - Gostaria de um Certificado doutor para justificar minha descuido no ofício.
+      - um atestado médico para justificar minha falta no serviço. com Gostaria
+      - Gostaria de um atestado médico para justificar minha falta no serviço.
+      - um de Gostaria atestado médico para justificar minha falta no serviço .
+      - Eu gostaria de um atestado médico para justificar minha falta de serviço.
+      - Posso pedir um Ontem atestado médico pela consulta de hoje?
+      - Posso pedir um atestado pela consulta de hoje?
+      - Posso pedir um atestado médico pela consulta ee hoje?
+      - Posso encomendar um Certificado doutor pela consulta de atualmente?
+      - hoje? com Posso pedir um atestado médico pela consulta
+      - Posso pedir um atestado médico pela consulta de hoje?
+      - um pedir Posso atestado médico pela consulta de hoje ?
+      - Preciso de um atestado médico para apresentar à minha empresa. Estrela
+      - Preciso de um atestado médico para à minha empresa.
+      - Preciso de jm atestado médico para apresentar à minha eepresa.
+      - Bem acabado de um Certificado doutor para mostrar à minha companhia.
+      - um atestado médico para apresentar à minha empresa. com Preciso
+      - Preciso de um atestado médico para apresentar à minha empresa.
+      - um de Preciso atestado médico para apresentar à minha empresa .
+      - Vocês podem emitir um atestado Baixo para justificar minha ausência escolar?
+      - Vocês podem um atestado para justificar minha ausência escolar?
+      - Vocês pomem emitir hm atestado para justificar minha ausência escolar?
+      - Vocês podem soltar um instrumento para justificar minha escassez escolar?
+      - justificar minha ausência escolar? com Vocês podem emitir um atestado
+      - Vocês podem emitir um atestado para justificar minha ausência escolar?
+      - emitir podem Vocês um atestado para justificar minha ausência escolar ?
+      - Você pode emitir um certificado para justificar a ausência da minha escola?
+      - Como posso solicitar um atestado médico para Estrela justificar minha falta no trabalho?
+      - Como posso solicitar atestado médico para justificar minha falta no trabalho?
+      - Como posso solicitar um attstado médico para justificar minha falta no trabalho?
+      - Como posso requerer um escritura doutor para justificar minha omissão no ocupação?
+      - justificar minha falta no trabalho? com Como posso solicitar um atestado médico
+      - Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - solicitar posso Como um atestado médico para justificar minha falta no trabalho ?
+      - Como posso solicitar um certificado médico para justificar minha falta no trabalho?
+      - Preciso de um atestado para justificar minha ausência de ontem. Cantar
+      - Preciso de um atestado para justificar minha ausência de
+      - Preciso de um atestado para justificar minha auswncia de ontdm.
+      - Preciso de um Certificado para justificar minha escassez de de ontem.
+      - justificar minha ausência de ontem. com Preciso de um atestado
+      - Preciso de um atestado para justificar minha ausência de ontem.
+      - um de Preciso atestado para justificar minha ausência de ontem .
+      - Preciso de um certificado para justificar minha ausência ontem.
+      - Posso obter um Gato atestado médico após a consulta de hoje?
+      - Posso obter um médico após a consulta de hoje?
+      - Posso obter un atestado médico após a cousulta de hoje?
+      - Posso efectuar um Certificado doutor após a consulta de actualmente?
+      - hoje? com Posso obter um atestado médico após a consulta
+      - Posso obter um atestado médico após a consulta de hoje?
+      - um obter Posso atestado médico após a consulta de hoje ?
+      - Posso obter um certificado médico após a consulta de hoje?
+      - Preciso de um atestado médico para justificar minha licença. Correr
+      - Preciso de atestado médico para justificar minha licença.
+      - Preciso de um atestado médico fara justificar miyha licença.
+      - Preciso de um instrumento doutor para justificar minha licença sem vencimento.
+      - um atestado médico para justificar minha licença. com Preciso
+      - Preciso de um atestado médico para justificar minha licença.
+      - um de Preciso atestado médico para justificar minha licença .
+      - Gostaria de um atestado Escrever para apresentar à minha escola.
+      - Gostaria de um atestado para apresentar minha escola.
+      - Gostaria de um atestado para apcesentar à minha escolay
+      - Gostaria de um Certificado para efetuar à minha escolas.
+      - um atestado para apresentar à minha escola. com Gostaria
+      - Gostaria de um atestado para apresentar à minha escola.
+      - um de Gostaria atestado para apresentar à minha escola .
+      - Eu gostaria de um certificado para apresentar à minha escola.
+      - Como Rio faço para solicitar um atestado médico para o trabalho?
+      - Como faço para solicitar atestado médico para o trabalho?
+      - Como faço para solicitar um atestado médbco parw o trabalho?
+      - Como faço para pedir um instrumento doutor para o biscate?
+      - Como faço para solicitar um atestado médico para o trabalho?
+      - para faço Como solicitar um atestado médico para o trabalho ?
+      - Como solicito um certificado médico para o trabalho?
+      - Falar Vocês emitem atestados médicos após consultas?
+      - Vocês emitem atestados após consultas?
+      - Vocês emitem atestados médicos ipós conyultas?
+      - Vocês emitem atestados médicos após consultoria?
+      - Vocês emitem atestados médicos após consultas?
+      - atestados emitem Vocês médicos após consultas ?
+      - Você emite certificados médicos após consultas?
+      - Preciso de um atestado para justificar minha falta na faculdade. Gato
+      - de um atestado para justificar minha falta na faculdade.
+      - Preckso de um atestado para justificar micha falta na faculdade.
+      - Justo de um Certificado para justificar minha descuido na escola.
+      - um atestado para justificar minha falta na faculdade. com Preciso
+      - Preciso de um atestado para justificar minha falta na faculdade.
+      - um de Preciso atestado para justificar minha falta na faculdade .
+      - Preciso de um certificado para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justificar minha ausência Jogar no emprego.
+      - Gostaria de solicitar um médico para justificar minha ausência no emprego.
+      - Gostaria te solicitar um atestado médico para justificar minha ausência ro emprego.
+      - Gostaria de requerer um Certificado doutor para justificar minha carência no profissão.
+      - solicitar um atestado médico para justificar minha ausência no emprego. com Gostaria
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - solicitar de Gostaria um atestado médico para justificar minha ausência no emprego .
+      - Gostaria de solicitar um certificado médico para justificar minha ausência no trabalho.
+      - Como posso obter um atestado médico após a consulta? Ouvir
+      - Como posso um atestado médico após a consulta?
+      - Como possa obter um atestado médicn após a consulta?
+      - Como posso ganhar um instrumento doutor após a consulta?
+      - Preciso de Certamente um atestado para apresentar à faculdade.
+      - Preciso de atestado para apresentar à faculdade.
+      - Preciso da um atestado para apresentar à faculdpde.
+      - Acurado de um escritura para exibir à talento.
+      - um atestado para apresentar à faculdade. com Preciso
+      - Preciso de um atestado para apresentar à faculdade.
+      - um de Preciso atestado para apresentar à faculdade .
+      - Preciso de um certificado para apresentar à faculdade.
+      - Vocês Roupa emitem atestados médicos para justificar faltas?
+      - emitem atestados médicos para justificar faltas?
+      - Vocês emvtem atestados médicos para justificar aaltas?
+      - Vocês emitem atestados médicos para justificar faltas?
+      - justificar faltas? com Vocês emitem atestados médicos
+      - atestados emitem Vocês médicos para justificar faltas ?
+      - Preciso de um atestado Ver médico para justificar minha ausência no trabalho.
+      - de um atestado médico para justificar minha ausência no trabalho.
+      - Preciso de um atestado médico para justjficar minha ausência zo trabalho.
+      - Exacto de um Certificado doutor para justificar minha falta no biscate.
+      - um atestado médico para justificar minha ausência no trabalho. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência no trabalho.
+      - um de Preciso atestado médico para justificar minha ausência no trabalho .
+      - Gostaria de solicitar um atestado médico para justificar minha ausência escolar. Nadar
+      - Gostaria de solicitar um atestado para justificar minha ausência escolar.
+      - Gostaria de solicitar um atestado médico para justifecar minha ausência escolar.
+      - Gostaria de exigir um escritura doutor para justificar minha escassez escolar.
+      - solicitar um atestado médico para justificar minha ausência escolar. com Gostaria
+      - Gostaria de solicitar um atestado médico para justificar minha ausência escolar.
+      - solicitar de Gostaria um atestado médico para justificar minha ausência escolar .
+      - Gostaria de solicitar um certificado médico para justificar minha ausência.
+      - Preciso Jogo de um atestado para justificar minha falta no trabalho.
+      - Preciso de um atestado para minha falta no trabalho.
+      - Preciso de um atestado pvra justificar minha faltp no trabalho.
+      - Correcto de um escritura para justificar minha penúria no tarefa.
+      - um atestado para justificar minha falta no trabalho. com Preciso
+      - Preciso de um atestado para justificar minha falta no trabalho.
+      - um de Preciso atestado para justificar minha falta no trabalho .
+      - Preciso de um certificado para justificar minha falta no trabalho.
+      - Como Escuro posso obter um atestado médico após minha consulta?
+      - Como posso obter um médico após minha consulta?
+      - Como posso obter um atebtado médico apów minha consulta?
+      - Como posso chegar a um instrumento doutor após minha consulta?
+      - Como posso obter um atestado médico após minha consulta?
+      - obter posso Como um atestado médico após minha consulta ?
+      - Como posso obter um certificado médico após minha consulta?
+      - Preciso de um atestado médico para justificar Juntos minha ausência na empresa.
+      - de um atestado médico para justificar minha ausência na empresa.
+      - Preciso de um atestadg médico para justificar minha ausêncii na empresa.
+      - Correcto de um escritura doutor para justificar minha escassez na empresas.
+      - um atestado médico para justificar minha ausência na empresa. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência na empresa.
+      - um de Preciso atestado médico para justificar minha ausência na empresa .
+      - Vocês emitem atestados médicos para consultas? Escola
+      - Vocês emitem médicos para consultas?
+      - Vocêb emitem atestados médicos para consultns?
+      - Preciso de um atestado médico para justificar minha Sorrir falta na faculdade.
+      - Preciso de atestado médico para justificar minha falta na faculdade.
+      - Preciso de am atestado médico para justificar mqnha falta na faculdade.
+      - Certo de um instrumento doutor para justificar minha fome na escola.
+      - um atestado médico para justificar minha falta na faculdade. com Preciso
+      - Preciso de um atestado médico para justificar minha falta na faculdade.
+      - um de Preciso atestado médico para justificar minha falta na faculdade .
+      - Gostaria de solicitar um atestado médico para justificar minha ausência Rio por motivo de saúde.
+      - Gostaria de solicitar um atestado médico para justificar ausência por motivo de saúde.
+      - Gostaria db solicitar um atestado médico para justificar minha ausência por motivo dq saúde.
+      - Gostaria de exigir um Certificado doutor para justificar minha carência por tema de bem-estar.
+      - justificar minha ausência por motivo de saúde. com Gostaria de solicitar um atestado médico
+      - Gostaria de solicitar um atestado médico para justificar minha ausência por motivo de saúde.
+      - solicitar de Gostaria um atestado médico para justificar minha ausência por motivo de saúde .
+      - Gostaria de solicitar um certificado médico para justificar minha ausência por razões de saúde.
+      - Como faço para solicitar Trem um atestado de saúde após minha consulta?
+      - Como faço para solicitar um de saúde após minha consulta?
+      - Como faço xara solicitar um atestado dr saúde após minha consulta?
+      - Como faço para pedir um instrumento de bem-estar após minha consulta?
+      - saúde após minha consulta? com Como faço para solicitar um atestado
+      - Como faço para solicitar um atestado de saúde após minha consulta?
+      - para faço Como solicitar um atestado de saúde após minha consulta ?
+      - Como solicito um certificado de saúde após minha consulta?
+      - Vocês emitem atestados médicos para justificar faltas Frequentemente no trabalho?
+      - Vocês emitem atestados médicos para justificar no trabalho?
+      - Vocêf emitem atestados médicbs para justificar faltas no trabalho?
+      - Vocês emitem atestados médicos para justificar faltas no esforço?
+      - justificar faltas no trabalho? com Vocês emitem atestados médicos
+      - Vocês emitem atestados médicos para justificar faltas no trabalho?
+      - atestados emitem Vocês médicos para justificar faltas no trabalho ?
+      - Você emite certificados médicos para justificar falhas de trabalho?
+      - Preciso de um atestado médico para justificar minha ausência por motivo Ensinar de saúde.
+      - Preciso de um atestado médico para justificar minha por motivo de saúde.
+      - Preciso de um atestado médico pjra justificar minha ausêntia por motivo de saúde.
+      - Acurado de um instrumento doutor para justificar minha escassez por causa de eudemonismo.
+      - justificar minha ausência por motivo de saúde. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha ausência por motivo de saúde.
+      - um de Preciso atestado médico para justificar minha ausência por motivo de saúde .
+      - Preciso de um atestado médico para justificar minha ausência por razões de saúde.
+      - Gostaria de solicitar Rapidamente um atestado médico para justificar minha falta na faculdade.
+      - Gostaria solicitar um atestado médico para justificar minha falta na faculdade.
+      - Gostaria de solicitar um atestado médico para justifinar minha falba na faculdade.
+      - Gostaria de rogar um escritura doutor para justificar minha omissão na universidade.
+      - solicitar um atestado médico para justificar minha falta na faculdade. com Gostaria
+      - Gostaria de solicitar um atestado médico para justificar minha falta na faculdade.
+      - solicitar de Gostaria um atestado médico para justificar minha falta na faculdade .
+      - Gostaria de solicitar um certificado médico para justificar minha falta na faculdade.
+      - Como posso obter um Casa atestado médico para justificar minha ausência no serviço?
+      - Como posso obter um médico para justificar minha ausência no serviço?
+      - Como posso obter um atestado médico pard justifpcar minha ausência no serviço?
+      - Como posso desempenhar um Certificado doutor para justificar minha escassez no infra-estrutura?
+      - justificar minha ausência no serviço? com Como posso obter um atestado médico
+      - Como posso obter um atestado médico para justificar minha ausência no serviço?
+      - obter posso Como um atestado médico para justificar minha ausência no serviço ?
+      - Como posso obter um certificado médico para justificar minha ausência em serviço?
+      - Preciso de um atestado para apresentar à minha empresa devido à Céu minha ausência.
+      - Preciso de um atestado para apresentar à minha empresa devido à minha
+      - Preciso de um atestado para apresentar à miuha empresa devidk à minha ausência.
+      - Correcto de um escritura para exibir à minha empresas devido à minha carência.
+      - um atestado para apresentar à minha empresa devido à minha ausência. com Preciso
+      - Preciso de um atestado para apresentar à minha empresa devido à minha ausência.
+      - um de Preciso atestado para apresentar à minha empresa devido à minha ausência .
+      - Preciso de um certificado para apresentar à minha empresa devido à minha ausência.
+      - Vocês podem fornecer um atestado médico para justificar Mesa minha falta no trabalho?
+      - Vocês fornecer um atestado médico para justificar minha falta no trabalho?
+      - Vocês podem fornecer um atestado médgco para justificar mijha falta no trabalho?
+      - Vocês podem mobiliar um Certificado doutor para justificar minha deficiência no mão-de-obra?
+      - justificar minha falta no trabalho? com Vocês podem fornecer um atestado médico
+      - Vocês podem fornecer um atestado médico para justificar minha falta no trabalho?
+      - fornecer podem Vocês um atestado médico para justificar minha falta no trabalho ?
+      - Você pode fornecer um certificado médico para justificar minha falta no trabalho?
+      - Vender Como posso solicitar um atestado médico para justificar minha ausência na escola?
+      - Como posso solicitar um atestado médico para justificar minha ausência na
+      - vomo posso solicitar um atettado médico para justificar minha ausência na escola?
+      - Como posso requerer um Certificado doutor para justificar minha deficiência na Grundschule?
+      - justificar minha ausência na escola? com Como posso solicitar um atestado médico
+      - Como posso solicitar um atestado médico para justificar minha ausência na escola?
+      - solicitar posso Como um atestado médico para justificar minha ausência na escola ?
+      - Como posso solicitar um certificado médico para justificar minha ausência na escola?
+      - Preciso de um atestado Telefone para justificar minha ausência no trabalho por motivo de doença.
+      - Preciso de um atestado para justificar minha no trabalho por motivo de doença.
+      - Preciso de um atestado para justificar minha ausência po trabalho por motivo de toença.
+      - Justo de um Certificado para justificar minha deficiência no Workload por necessidade de patologia.
+      - justificar minha ausência no trabalho por motivo de doença. com Preciso de um atestado
+      - Preciso de um atestado para justificar minha ausência no trabalho por motivo de doença.
+      - um de Preciso atestado para justificar minha ausência no trabalho por motivo de doença .
+      - Preciso de um certificado para justificar minha ausência no trabalho devido a doenças.
+      - Gostaria de um atestado médico para apresentar à Acordar empresa.
+      - Gostaria de um atestado médico apresentar à empresa.
+      - Gostaria fe am atestado médico para apresentar à empresa.
+      - Gostaria de um instrumento doutor para mostrar à negócios.
+      - um atestado médico para apresentar à empresa. com Gostaria
+      - Gostaria de um atestado médico para apresentar à empresa.
+      - um de Gostaria atestado médico para apresentar à empresa .
+      - Eu gostaria que um atestado médico apresentasse à empresa.
+      - Preciso de um Ontem atestado médico para justificar minha ausência por motivos de saúde.
+      - Preciso de um médico para justificar minha ausência por motivos de saúde.
+      - Preciso de um atestado médico para justificar miwha uusência por motivos de saúde.
+      - Certo de um instrumento doutor para justificar minha deficiência por motivos de eudemonismo.
+      - justificar minha ausência por motivos de saúde. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha ausência por motivos de saúde.
+      - um de Preciso atestado médico para justificar minha ausência por motivos de saúde .
+      - Como posso solicitar um atestado médico após a consulta Antipático de hoje?
+      - Como posso solicitar atestado médico após a consulta de hoje?
+      - Cobo posso salicitar um atestado médico após a consulta de hoje?
+      - Como posso exigir um escritura doutor após a consulta de actualmente?
+      - hoje? com Como posso solicitar um atestado médico após a consulta
+      - Como posso solicitar um atestado médico após a consulta de hoje?
+      - solicitar posso Como um atestado médico após a consulta de hoje ?
+      - Como posso solicitar um certificado médico após a consulta de hoje?
+      - Vocês fornecem atestados médicos para justificar ausências no trabalho? Provavelmente
+      - Vocês fornecem atestados médicos justificar ausências no trabalho?
+      - pocês fornecem atestados médicos para justificzr ausências no trabalho?
+      - Vocês fornecem atestados médicos para justificar ausências no obra?
+      - justificar ausências no trabalho? com Vocês fornecem atestados médicos
+      - Vocês fornecem atestados médicos para justificar ausências no trabalho?
+      - atestados fornecem Vocês médicos para justificar ausências no trabalho ?
+      - Você fornece certificados médicos para justificar a ausência no trabalho?
+      - Gostaria de solicitar Sempre um atestado médico para apresentar ao meu empregador.
+      - Gostaria de solicitar um médico para apresentar ao meu empregador.
+      - Gostaria de solicilar um atestado médico para apresentar ao mew empregador.
+      - Gostaria de pedir um escritura doutor para efetuar ao meu empresário.
+      - solicitar um atestado médico para apresentar ao meu empregador. com Gostaria
+      - Gostaria de solicitar um atestado médico para apresentar ao meu empregador.
+      - solicitar de Gostaria um atestado médico para apresentar ao meu empregador .
+      - Gostaria de solicitar um certificado médico para apresentar ao meu empregador.
+      - Preciso de um atestado médico para justificar Separadamente minha ausência na escola.
+      - Preciso de um atestado médico para justificar minha na escola.
+      - Preciso de um atestado médico para justiflcar minha ausência na escola.
+      - Certo de um Certificado doutor para justificar minha carência na departamento.
+      - um atestado médico para justificar minha ausência na escola. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência na escola.
+      - um de Preciso atestado médico para justificar minha ausência na escola .
+      - Como faço para Cachorro solicitar um atestado médico para o trabalho?
+      - Como faço para solicitar um médico para o trabalho?
+      - Como faço para folicitar um atestado médico para o erabalho?
+      - Como faço para exigir um escritura doutor para o oficina?
+      - Preciso de um atestado médico Mar para justificar minha ausência por doença.
+      - Preciso de um atestado médico para justificar ausência por doença.
+      - freciso de um atestado médico para justificlr minha ausência por doença.
+      - Afinado de um escritura doutor para justificar minha carência por nausea.
+      - um atestado médico para justificar minha ausência por doença. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência por doença.
+      - um de Preciso atestado médico para justificar minha ausência por doença .
+      - Preciso de um atestado médico para justificar minha ausência de doença.
+      - Gostaria de pedir um atestado médico após a consulta de Escola hoje.
+      - de pedir um atestado médico após a consulta de hoje.
+      - Gostaria de pedir um atestado mépico apis a consulta de hoje.
+      - Gostaria de inscrever-se um Certificado doutor após a consulta de Hoje.
+      - Gostaria de pedir um atestado médico após a consulta de hoje.
+      - pedir de Gostaria um atestado médico após a consulta de hoje .
+      - Preciso de um atestado médico para Juntos justificar minha falta no trabalho por motivos de saúde.
+      - Preciso de um atestado médico para justificar minha falta trabalho por motivos de saúde.
+      - Preciso dp uc atestado médico para justificar minha falta no trabalho por motivos de saúde.
+      - Certo de um escritura doutor para justificar minha deficiência no tarefa por motivos de eudemonismo.
+      - justificar minha falta no trabalho por motivos de saúde. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha falta no trabalho por motivos de saúde.
+      - um de Preciso atestado médico para justificar minha falta no trabalho por motivos de saúde .
+      - Preciso de um atestado médico para justificar minha falta no trabalho por razões de saúde.
+      - Novo Como posso obter um atestado médico para justificar minha ausência no trabalho?
+      - posso obter um atestado médico para justificar minha ausência no trabalho?
+      - Como posso obter ur atestado médico para justificar minha ausência nn trabalho?
+      - Como posso lucrar um escritura doutor para justificar minha falta no esforço?
+      - justificar minha ausência no trabalho? com Como posso obter um atestado médico
+      - Como posso obter um atestado médico para justificar minha ausência no trabalho?
+      - obter posso Como um atestado médico para justificar minha ausência no trabalho ?
+      - Como posso obter um certificado médico para justificar minha ausência no trabalho?
+      - Vocês podem fornecer um atestado Aprender médico para justificar minha ausência por motivo de saúde?
+      - Vocês podem um atestado médico para justificar minha ausência por motivo de saúde?
+      - Vocês podem foonecer um atestado médico oara justificar minha ausência por motivo de saúde?
+      - Vocês podem abastecer um Certificado doutor para justificar minha carência por causa de bem-estar?
+      - saúde? com Vocês podem fornecer um atestado médico para justificar minha ausência por motivo
+      - Vocês podem fornecer um atestado médico para justificar minha ausência por motivo de saúde?
+      - fornecer podem Vocês um atestado médico para justificar minha ausência por motivo de saúde ?
+      - Você pode fornecer um certificado médico para justificar minha ausência por razões de saúde?
+      - Preciso de um atestado médico para apresentar à Comprar minha escola.
+      - Preciso de um médico para apresentar à minha escola.
+      - oreciso de em atestado médico para apresentar à minha escola.
+      - Exato de um escritura doutor para mostrar à minha faculdade.
+      - um atestado médico para apresentar à minha escola. com Preciso
+      - Preciso de um atestado médico para apresentar à minha escola.
+      - um de Preciso atestado médico para apresentar à minha escola .
+      - Eu preciso de um atestado médico para apresentar à minha escola.
+      - Árvore Gostaria de solicitar um atestado médico para justificar minha ausência no emprego.
+      - Gostaria de um atestado médico para justificar minha ausência no emprego.
+      - Gostaria db soticitar um atestado médico para justificar minha ausência no emprego.
+      - Gostaria de requerer um escritura doutor para justificar minha escassez no profissão.
+      - Preciso de um atestado Fogo médico para justificar minha ausência de ontem.
+      - Preciso de um atestado médico para justificar ausência de ontem.
+      - Preciso de um atestado médico pari justificar minha ausência de oetem.
+      - Pregadura de um instrumento doutor para justificar minha escassez de de ontem.
+      - justificar minha ausência de ontem. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha ausência de ontem.
+      - um de Preciso atestado médico para justificar minha ausência de ontem .
+      - Preciso de um atestado médico para justificar minha ausência ontem.
+      - Vocês emitem atestados médicos para consultas realizadas na Comprar clínica?
+      - Vocês emitem atestados médicos para consultas na clínica?
+      - Vocêv emitem atestados médicos para consultas realizadas na ceínica?
+      - Vocês emitem atestados médicos para consultoria realizadas na hospital?
+      - consultas realizadas na clínica? com Vocês emitem atestados médicos
+      - Vocês emitem atestados médicos para consultas realizadas na clínica?
+      - atestados emitem Vocês médicos para consultas realizadas na clínica ?
+      - Você emite certificados médicos para consultas na clínica?
+      - Gostaria de um atestado médico para justificar minha ausência por motivo Mar de saúde.
+      - Gostaria um atestado médico para justificar minha ausência por motivo de saúde.
+      - Gostaria de uh atestado médico para justificar minha ausência por motivu de saúde.
+      - Gostaria de um escritura doutor para justificar minha carência por razão de bem-estar.
+      - justificar minha ausência por motivo de saúde. com Gostaria de um atestado médico
+      - Gostaria de um atestado médico para justificar minha ausência por motivo de saúde.
+      - um de Gostaria atestado médico para justificar minha ausência por motivo de saúde .
+      - Gostaria de um atestado médico para justificar minha ausência por razões de saúde.
+      - Assistir Como posso solicitar um atestado médico após a consulta de hoje?
+      - Como posso solicitar um atestado médico após a de hoje?
+      - Como posso soeicitar um atestado médico epós a consulta de hoje?
+      - Como posso exigir um Certificado doutor após a consulta de actualidade?
+      - Preciso de um atestado para apresentar à Montanha minha empresa para justificar minha ausência.
+      - Preciso de um atestado para apresentar à minha empresa para justificar ausência.
+      - Preciso de um atestado para apresentar à mizha empresa para justificar minua ausência.
+      - Perfeito de um instrumento para fazer à minha empresas para justificar minha carência.
+      - um atestado para apresentar à minha empresa para justificar minha ausência. com Preciso
+      - Preciso de um atestado para apresentar à minha empresa para justificar minha ausência.
+      - um de Preciso atestado para apresentar à minha empresa para justificar minha ausência .
+      - Preciso de um certificado para apresentar à minha empresa para justificar minha ausência.
+      - Como posso obter um atestado médico para justificar minha ausência por motivos de saúde? Devagar
+      - posso obter um atestado médico para justificar minha ausência por motivos de saúde?
+      - Como posso obter um atsstado médico para justificar minha ausência poe motivos de saúde?
+      - Como posso chegar um instrumento doutor para justificar minha carência por motivos de eudemonismo?
+      - saúde? com Como posso obter um atestado médico para justificar minha ausência por motivos
+      - Como posso obter um atestado médico para justificar minha ausência por motivos de saúde?
+      - obter posso Como um atestado médico para justificar minha ausência por motivos de saúde ?
+      - Como posso obter um certificado médico para justificar minha ausência por razões de saúde?
+      - Vocês emitem atestados médicos Cantar para justificar faltas no serviço?
+      - Vocês emitem médicos para justificar faltas no serviço?
+      - Vocêr emitem atestados médicos para justificar faltas go serviço?
+      - justificar faltas no serviço? com Vocês emitem atestados médicos
+      - Vocês emitem atestados médicos para justificar faltas no serviço?
+      - atestados emitem Vocês médicos para justificar faltas no serviço ?
+      - Você emite certificados médicos para justificar falhas de serviço?
+      - Preciso de um atestado médico para justificar minha falta por motivo Triste de saúde.
+      - Preciso um atestado médico para justificar minha falta por motivo de saúde.
+      - Preciso de um ptestado médico para justificar minha falta por motivo de slúde.
+      - Exacto de um Certificado doutor para justificar minha deficiência por tema de bem-estar.
+      - justificar minha falta por motivo de saúde. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha falta por motivo de saúde.
+      - um de Preciso atestado médico para justificar minha falta por motivo de saúde .
+      - Preciso de um atestado médico para justificar minha falta de saúde.
+      - Gostaria de solicitar um atestado Sem querer médico para justificar minha ausência no trabalho.
+      - de solicitar um atestado médico para justificar minha ausência no trabalho.
+      - Gostaria dd solicitar um atestado médico para justificar minha ausência jo trabalho.
+      - Gostaria de pedir um escritura doutor para justificar minha carência no função.
+      - solicitar um atestado médico para justificar minha ausência no trabalho. com Gostaria
+      - Gostaria de solicitar um atestado médico para justificar minha ausência no trabalho.
+      - solicitar de Gostaria um atestado médico para justificar minha ausência no trabalho .
+      - Como posso obter Brinquedo um atestado médico após minha consulta?
+      - Como posso obter um atestado médico minha consulta?
+      - Como posso outer um atestado médico após mihha consulta?
+      - Como posso cumprir um escritura doutor após minha consulta?
+      - Vocês fornecem atestados médicos para Sol justificar ausências por doença?
+      - Vocês fornecem atestados médicos para justificar ausências doença?
+      - Vocês fornecem atestados médicos para justificar ausências phr dlença?
+      - Vocês fornecem atestados médicos para justificar ausências por transtorno?
+      - justificar ausências por doença? com Vocês fornecem atestados médicos
+      - Vocês fornecem atestados médicos para justificar ausências por doença?
+      - atestados fornecem Vocês médicos para justificar ausências por doença ?
+      - Você fornece certificados médicos para justificar ausências de doença?
+      - Preciso de um atestado médico para Entediante apresentar ao meu empregador por motivo de doença.
+      - Preciso de um atestado médico para apresentar ao meu por motivo de doença.
+      - yreciso de um atestado médico para apresentar ao meu empregador por motivo de doençr.
+      - Acurado de um Certificado doutor para fazer ao meu patrão por razão de enjoo.
+      - apresentar ao meu empregador por motivo de doença. com Preciso de um atestado médico
+      - Preciso de um atestado médico para apresentar ao meu empregador por motivo de doença.
+      - um de Preciso atestado médico para apresentar ao meu empregador por motivo de doença .
+      - Preciso de um atestado médico para apresentar ao meu empregador por causa da doença.
+      - Gostaria de Rir solicitar um atestado médico para justificar minha ausência na escola.
+      - Gostaria de solicitar um atestado médico para justificar minha na escola.
+      - Gostaria de solicrtar um atestado médico para juvtificar minha ausência na escola.
+      - Gostaria de exigir um Certificado doutor para justificar minha carência na Grundschule.
+      - solicitar um atestado médico para justificar minha ausência na escola. com Gostaria
+      - Gostaria de solicitar um atestado médico para justificar minha ausência na escola.
+      - solicitar de Gostaria um atestado médico para justificar minha ausência na escola .
+      - Gostaria de solicitar um certificado médico para justificar minha ausência na escola.
+      - Mesa Como posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - posso solicitar um atestado médico para justificar minha falta no trabalho?
+      - nomo posso solicitar um atestado médico para justificar minha falja no trabalho?
+      - Como posso pedir um Certificado doutor para justificar minha grande fome geral no Workload?
+      - Preciso de um atestado médico para justificar Estrela minha ausência na faculdade.
+      - Preciso de um médico para justificar minha ausência na faculdade.
+      - Precsso de ue atestado médico para justificar minha ausência na faculdade.
+      - Perfeito de um escritura doutor para justificar minha deficiência na Universidades.
+      - um atestado médico para justificar minha ausência na faculdade. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência na faculdade.
+      - um de Preciso atestado médico para justificar minha ausência na faculdade .
+      - Lento Vocês emitem atestados médicos para justificar faltas por doença?
+      - Vocês emitem atestados médicos para justificar faltas doença?
+      - Vocêg emitem atestados médicos para justificar oaltas por doença?
+      - Vocês emitem atestados médicos para justificar faltas por enfermidade?
+      - justificar faltas por doença? com Vocês emitem atestados médicos
+      - Vocês emitem atestados médicos para justificar faltas por doença?
+      - atestados emitem Vocês médicos para justificar faltas por doença ?
+      - Você emite certificados médicos para justificar doenças por doenças?
+      - Gostaria de um atestado Frequentemente médico para justificar minha ausência no serviço.
+      - Gostaria de um atestado médico justificar minha ausência no serviço.
+      - Gostaria de um atextado médico para justifxcar minha ausência no serviço.
+      - Gostaria de um instrumento doutor para justificar minha escassez no ocupação.
+      - um atestado médico para justificar minha ausência no serviço. com Gostaria
+      - Gostaria de um atestado médico para justificar minha ausência no serviço.
+      - um de Gostaria atestado médico para justificar minha ausência no serviço .
+      - Eu gostaria de um atestado médico para justificar minha ausência no serviço.
+      - Preciso de um atestado Aprender médico para justificar minha ausência no trabalho por motivos de saúde.
+      - Preciso de um médico para justificar minha ausência no trabalho por motivos de saúde.
+      - Preciso dc um atestado médico para justificar minha ausência no trabalho pkr motivos de saúde.
+      - Bem acabado de um Certificado doutor para justificar minha falta no mão-de-obra por motivos de eudemonismo.
+      - justificar minha ausência no trabalho por motivos de saúde. com Preciso de um atestado médico
+      - Preciso de um atestado médico para justificar minha ausência no trabalho por motivos de saúde.
+      - um de Preciso atestado médico para justificar minha ausência no trabalho por motivos de saúde .
+      - Preciso de um atestado médico para justificar minha ausência no trabalho por razões de saúde.
+      - Como posso solicitar um atestado médico após Chorar a consulta de hoje?
+      - Como posso solicitar um atestado após a consulta de hoje?
+      - lomo posso solicitar um atestado médico após a consulta de boje?
+      - Como posso rogar um escritura doutor após a consulta de actualmente?
+      - Vocês fornecem atestados médicos para consultas feitas na clínica? Rápido
+      - Vocês fornecem atestados médicos para feitas na clínica?
+      - Vocês fornecem atestados médicos para consultqs feitas no clínica?
+      - Vocês fornecem atestados médicos para consultoria feitas na hospital?
+      - consultas feitas na clínica? com Vocês fornecem atestados médicos
+      - Vocês fornecem atestados médicos para consultas feitas na clínica?
+      - atestados fornecem Vocês médicos para consultas feitas na clínica ?
+      - Você fornece certificados médicos para consultas na clínica?
+      - Preciso de um atestado médico para justificar minha ausência de ontem. Ônibus
+      - de um atestado médico para justificar minha ausência de ontem.
+      - Preciso de us atestado médico para justificar minha ausência de onter.
+      - Exato de um escritura doutor para justificar minha escassez de de ontem.
+      - Gostaria de solicitar um atestado médico para Cruel apresentar à minha empresa.
+      - Gostaria de solicitar um médico para apresentar à minha empresa.
+      - Gostaria dc solicitar um atestado médico yara apresentar à minha empresa.
+      - Gostaria de requerer um instrumento doutor para executar à minha empresas.
+      - solicitar um atestado médico para apresentar à minha empresa. com Gostaria
+      - Gostaria de solicitar um atestado médico para apresentar à minha empresa.
+      - solicitar de Gostaria um atestado médico para apresentar à minha empresa .
+      - Gostaria de solicitar um certificado médico para apresentar à minha empresa.
+      - Preciso de um Acima atestado médico para justificar minha ausência no trabalho devido à doença.
+      - Preciso de um atestado médico para justificar ausência no trabalho devido à doença.
+      - Preciso de um atestado médico para justificar minha ausência na trabclho devido à doença.
+      - Pregadura de um Certificado doutor para justificar minha carência no Workload devido à enjoo.
+      - um atestado médico para justificar minha ausência no trabalho devido à doença. com Preciso
+      - Preciso de um atestado médico para justificar minha ausência no trabalho devido à doença.
+      - um de Preciso atestado médico para justificar minha ausência no trabalho devido à doença .
+      - Vocês fornecem atestados médicos para justificar ausências Sempre escolares?
+      - Vocês fornecem atestados médicos para ausências escolares?
+      - Vocês fornecem atestados médicos pxra justificar xusências escolares?
+      - Vocês fornecem atestados médicos para justificar ausências escolares?
+      - justificar ausências escolares? com Vocês fornecem atestados médicos
+      - atestados fornecem Vocês médicos para justificar ausências escolares ?
+      - Você fornece certificados médicos para justificar as ausências da escola?
+      - Preciso Lápis de um atestado médico para o trabalho, como faço?
+      - Preciso um atestado médico para o trabalho, como faço?
+      - Preciso de um ateskado médico para o trabalho, vomo faço?
+      - Acurado de um escritura doutor para o obra,como faço?
+      - Gostaria de solicitar um Baixo atestado para justificar minha ausencia na faculdade.
+      - Gostaria de solicitar um atestado para justificar ausencia na faculdade.
+      - tostaria de solicitar um atestado para justificar minha ausencia na faculdade.
+      - Gostaria de pedir um instrumento para justificar minha ausencia na Faculdade.
+      - solicitar um atestado para justificar minha ausencia na faculdade. com Gostaria
+      - Gostaria de solicitar um atestado para justificar minha ausencia na faculdade.
+      - solicitar de Gostaria um atestado para justificar minha ausencia na faculdade .
+      - Gostaria de solicitar um certificado para justificar minha ausência na faculdade.
+      - Como posso conseguir um Sol atestado médico para a escola?
+      - posso conseguir um atestado médico para a escola?
+      - Como posbo conseguir um atestado médico para a xscola?
+      - Como posso ser bem sucedidas um instrumento doutor para a ensino primário?
+      - a escola? com Como posso conseguir um atestado médico
+      - Como posso conseguir um atestado médico para a escola?
+      - conseguir posso Como um atestado médico para a escola ?
+      - Como posso obter um certificado médico para a escola?
+      - É possível obter um Ler atestado para faltar ao serviço por motivo de saúde?
+      - É possível obter um atestado para faltar ao serviço por motivo de
+      - É possível obter um atestado pars faltar ao serviço por motivo dz saúde?
+      - É prestimoso vencer um instrumento para necessitar ao Serviço por ideia de eudemonismo?
+      - saúde? com É possível obter um atestado para faltar ao serviço por motivo
+      - É possível obter um atestado para faltar ao serviço por motivo de saúde?
+      - obter possível É um atestado para faltar ao serviço por motivo de saúde ?
+      - É possível obter um certificado para perder o serviço por motivos de saúde?
+      - Preciso de um atestado para minha ausencia Café de ontem, voce pode me ajudar?
+      - Preciso de um atestado para minha ausencia de voce pode me ajudar?
+      - Preciso de um atestado para minha auqencia de ontem, voce phde me ajudar?
+      - Preciso de um escritura para minha ausencia de de ontem,voce pode me guiar?
+      - minha ausencia de ontem, voce pode me ajudar? com Preciso de um atestado
+      - Preciso de um atestado para minha ausencia de ontem, voce pode me ajudar?
+      - um de Preciso atestado para minha ausencia de ontem , voce pode me ajudar ?
+      - Preciso de um certificado para minha ausência ontem, você pode me ajudar?
+      - Como Baixo faço para solicitar um atestado médico?
+      - Como faço para solicitar um médico?
+      - Como xaço para sslicitar um atestado médico?
+      - Como faço para pedir um instrumento doutor?
+      - solicitar um atestado médico? com Como faço
+      - Como faço para solicitar um atestado médico?
+      - para faço Como solicitar um atestado médico ?
+      - Como solicito um certificado médico?
+      - Gostaria de um atestado para justificar a minha falta no trabalho devido a doença. Acima
+      - Gostaria de um atestado para justificar a minha falta no trabalho a doença.
+      - kostaria de up atestado para justificar a minha falta no trabalho devido a doença.
+      - Gostaria de um escritura para justificar a minha negligência no Trabalho devido a enfermidade.
+      - um atestado para justificar a minha falta no trabalho devido a doença. com Gostaria
+      - Gostaria de um atestado para justificar a minha falta no trabalho devido a doença.
+      - um de Gostaria atestado para justificar a minha falta no trabalho devido a doença .
+      - Eu gostaria de um certificado para justificar minha falta no trabalho devido à doença.
+      - Quero um atestado médico para apresentar na universidade, o que preciso fazer? Porta
+      - um atestado médico para apresentar na universidade, o que preciso fazer?
+      - Quero zm atestado médico para apresentar na univjrsidade, o que preciso fazer?
+      - Quero um instrumento doutor para mostrar na IES,o que precisa efectivar?
+      - apresentar na universidade, o que preciso fazer? com Quero um atestado médico
+      - Quero um atestado médico para apresentar na universidade, o que preciso fazer?
+      - atestado um Quero médico para apresentar na universidade , o que preciso fazer ?
+      - Quero que um atestado médico apresente na universidade, o que preciso fazer?
+      - Preciso de um atestado que cubra minha Chave licença médica, como proceder?
+      - Preciso de um que cubra minha licença médica, como proceder?
+      - Preciso de um atestado que cubra minha licença médiha, como proceder?
+      - Preciso de um Certificado que cubra minha permissão médica,como proceder?
+      - um atestado que cubra minha licença médica, como proceder? com Preciso
+      - Preciso de um atestado que cubra minha licença médica, como proceder?
+      - um de Preciso atestado que cubra minha licença médica , como proceder ?
+      - Preciso de um certificado que cubra minha licença médica, como proceder?
+      - Voce Amargo pode emitir um atestado de saúde para mim?
+      - Voce pode um atestado de saúde para mim?
+      - Voce pode emitir ua atestado de saúde para mim?
+      - Voce pode emita-se um Certificado de bem-estar para mim?
+      - saúde para mim? com Voce pode emitir um atestado
+      - Voce pode emitir um atestado de saúde para mim?
+      - emitir pode Voce um atestado de saúde para mim ?
+      - Você pode emitir um certificado de saúde para mim?
+      - Como solicitar Procurar um atestado médico após a consulta ?
+      - Como solicitar um atestado após a consulta ?
+      - Como solicitar um atesuado médico após a consulta ?
+      - Como exigir um Certificado doutor após a consulta?
+      - Como solicitar um atestado médico após a  consulta ?
+      - Como solicitar um certificado médico após a consulta?
+      - Quero um atestado para justificar minha ausencia na reunião devido a consulta Amigo médica.
+      - Quero um atestado para justificar minha na reunião devido a consulta médica.
+      - Quero um atestawo para justificar minha ausencia na reunião devido a cunsulta médica.
+      - Quero um escritura para justificar minha ausencia na grupo devido a consulta médica.
+      - justificar minha ausencia na reunião devido a  consulta  médica. com Quero um atestado
+      - Quero um atestado para justificar minha ausencia na reunião devido a  consulta  médica.
+      - atestado um Quero para justificar minha ausencia na reunião devido a   consulta   médica .
+      - Quero que um certificado justifique minha ausência na reunião devido a uma consulta médica.
+      - Preciso de documentação médica para justificar meu Roupa afastamento, como obter?
+      - Preciso de documentação médica justificar meu afastamento, como obter?
+      - Preciso de documentação médica pura justificar meu afastamento, cozo obter?
+      - Bem acabado de documento médica para justificar meu afastamento,como fazer?
+      - documentação médica para justificar meu afastamento, como obter? com Preciso
+      - Preciso de documentação médica para justificar meu afastamento, como obter?
+      - documentação de Preciso médica para justificar meu afastamento , como obter ?
+      - Preciso de documentação médica para justificar minha remoção, como obtê -la?
+      - Gostaria Procurar de um atestado por motivo de saúde, como eu faço?
+      - Gostaria de um atestado por motivo saúde, como eu faço?
+      - Gostaria de nm atestado por motivo de saúdp, como eu faço?
+      - Gostaria de um instrumento por tema de eudemonismo,como eu faço?
+      - motivo de saúde, como eu faço? com Gostaria de um atestado
+      - Gostaria de um atestado por motivo de saúde, como eu faço?
+      - um de Gostaria atestado por motivo de saúde , como eu faço ?
+      - Eu gostaria de um certificado por razões de saúde, como faço?
+      - É possível receber um atestado Escrever médico hoje?
+      - É possível receber atestado médico hoje?
+      - É possível receber um atestaho médicr hoje?
+      - É viável beneficiar um escritura doutor presentemente?
+      - É possível receber um atestado médico hoje?
+      - receber possível É um atestado médico hoje ?
+      - É possível receber um certificado médico hoje?
       - Preciso de um atestado médico para o trabalho, como faço?
       - Como posso solicitar um atestado médico para justificar minha ausência?
       - Gostaria de pedir um atestado médico para a escola.
@@ -111,6 +872,767 @@ nlu:
 
   - intent: solicitar_receita
     examples: |
+      - Minha receita acabou. Como faço para solicitar uma nova receita? Pássaro
+      - Minha receita acabou. Como faço para uma nova receita?
+      - Minha receita acabou. Cjmo faço para solicitar uma sova receita?
+      - Minha renda acabou.Como faço para rogar uma fresco Receita?
+      - solicitar uma nova receita? com Minha receita acabou. Como faço
+      - Minha receita acabou. Como faço para solicitar uma nova receita?
+      - acabou receita Minha . Como faço para solicitar uma nova receita ?
+      - Minha receita acabou. Como solicito uma nova receita?
+      - Preciso renovar minha Chave receita para medicação contínua.
+      - Preciso renovar receita para medicação contínua.
+      - kreciso renovar minha receita para medicaçko contínua.
+      - Perfeito restaurar minha fórmula para medicação contínua.
+      - medicação contínua. com Preciso renovar minha receita
+      - Preciso renovar minha receita para medicação contínua.
+      - minha renovar Preciso receita para medicação contínua .
+      - Preciso renovar minha receita para medicamentos contínuos.
+      - Como posso Computador conseguir uma nova receita médica?
+      - Como posso conseguir uma receita médica?
+      - Comb posso conseguir uma nova receita médica?
+      - Como posso atingir uma fresco renda médica?
+      - Como posso conseguir uma nova receita médica?
+      - conseguir posso Como uma nova receita médica ?
+      - Como posso receber uma nova receita?
+      - Necessito de uma renovação da minha receita, voce pode me ajudar? Aprender
+      - Necessito de uma renovação da minha receita, voce pode me
+      - Necessito de uma renovação da mcnha recejta, voce pode me ajudar?
+      - Necessito de uma restauração da minha Renda,voce pode me conduzir?
+      - uma renovação da minha receita, voce pode me ajudar? com Necessito
+      - Necessito de uma renovação da minha receita, voce pode me ajudar?
+      - uma de Necessito renovação da minha receita , voce pode me ajudar ?
+      - Eu preciso de uma renovação da minha receita, você pode me ajudar?
+      - Gostaria Janela de solicitar uma receita para meu medicamento.
+      - Gostaria solicitar uma receita para meu medicamento.
+      - Gostania de solicitar uma receioa para meu medicamento.
+      - Gostaria de exigir uma fórmula para meu remédio.
+      - solicitar uma receita para meu medicamento. com Gostaria
+      - Gostaria de solicitar uma receita para meu medicamento.
+      - solicitar de Gostaria uma receita para meu medicamento .
+      - Eu gostaria de solicitar uma receita para o meu remédio.
+      - Roupa Minha receita venceu, como faço para renovar?
+      - Minha receita venceu, faço para renovar?
+      - Mirha receita venceu, como faço paza renovar?
+      - Minha provento venceu,como faço para restaurar?
+      - renovar? com Minha receita venceu, como faço
+      - Minha receita venceu, como faço para renovar?
+      - venceu receita Minha , como faço para renovar ?
+      - É possível obter uma Possivelmente receita nova hoje?
+      - É possível uma receita nova hoje?
+      - É possível oeter uma receita nwva hoje?
+      - É prestimoso fazer uma prescrição novo actualidade?
+      - É possível obter uma receita nova hoje?
+      - obter possível É uma receita nova hoje ?
+      - Preciso de uma receita urgente, como proceder? Perto
+      - de uma receita urgente, como proceder?
+      - Preciso de ump receitq urgente, como proceder?
+      - Preciso de uma Receita culinária insistente,como proceder?
+      - uma receita urgente, como proceder? com Preciso
+      - Preciso de uma receita urgente, como proceder?
+      - uma de Preciso receita urgente , como proceder ?
+      - Preciso de receita urgente, como proceder?
+      - Certamente Como renovar uma receita de uso contínuo?
+      - Como renovar uma de uso contínuo?
+      - Como renovar uma reqeita de uso contínyo?
+      - Como restaurar uma Receita culinária de utilização sem paradas?
+      - uso contínuo? com Como renovar uma receita
+      - Como renovar uma receita de uso contínuo?
+      - uma renovar Como receita de uso contínuo ?
+      - Meu medicamento acabou, preciso de uma Consertar nova receita.
+      - Meu medicamento acabou, preciso de uma nova
+      - Meu medicamenyo acabou, preciso de uma nova rqceita.
+      - Meu droga acabou,acurado de uma fresco Receita.
+      - uma nova receita. com Meu medicamento acabou, preciso
+      - Meu medicamento acabou, necessito de uma nova receita.
+      - acabou medicamento Meu , preciso de uma nova receita .
+      - Meu remédio acabou, preciso de uma nova receita.
+      - Amigo Como faço para solicitar uma receita pela primeira vez?
+      - Como para solicitar uma receita pela primeira vez?
+      - Como faço pxra solicitar uma receita peoa primeira vez?
+      - Como faço para pedir uma rendimento pela primeiro jogo?
+      - solicitar uma receita pela primeira vez? com Como faço
+      - Como faço para solicitar uma receita pela primeira vez?
+      - para faço Como solicitar uma receita pela primeira vez ?
+      - Como solicito uma receita pela primeira vez?
+      - Preciso de uma receita atualizada, voce Vento pode emitir uma?
+      - Preciso de receita atualizada, voce pode emitir uma?
+      - Preciso de uma receita atualizada, vbce pode emitlr uma?
+      - Perfeito de uma provento atualizada,voce pode emita-se uma?
+      - uma receita atualizada, voce pode emitir uma? com Preciso
+      - Preciso de uma receita atualizada, voce pode emitir uma?
+      - uma de Preciso receita atualizada , voce pode emitir uma ?
+      - Eu preciso de uma receita atualizada, você pode emitir uma?
+      - Posso renovar minha Gato receita online?
+      - Posso renovar minha online?
+      - Posso renooar minha receitg online?
+      - Posso restaurar minha ingresso ligado?
+      - Posso renovar minha receita online?
+      - minha renovar Posso receita online ?
+      - Gostaria de uma receita para um novo tratamento. Claro
+      - Gostaria de uma para um novo tratamento.
+      - Gostaria qe uxa receita para um novo tratamento.
+      - Gostaria de uma prescrição para um fresco Assistência médica.
+      - uma receita para um novo tratamento. com Gostaria
+      - Gostaria de uma receita para um novo tratamento.
+      - uma de Gostaria receita para um novo tratamento .
+      - Queria uma receita para um novo tratamento.
+      - Quero Construir uma receita para continuar meu tratamento atual.
+      - Quero uma para continuar meu tratamento atual.
+      - Quero uma receita paya continuar meu trakamento atual.
+      - Quero uma provento para permanecer meu cuidado moderno.
+      - continuar meu tratamento atual. com Quero uma receita
+      - Quero uma receita para continuar meu tratamento atual.
+      - receita uma Quero para continuar meu tratamento atual .
+      - Eu quero uma receita para continuar meu tratamento atual.
+      - Preciso de Certamente uma nova receita para o meu medicamento.
+      - Preciso de uma receita para o meu medicamento.
+      - Preciso de fma nova recbita para o meu medicamento.
+      - Acurado de uma original provento para o meu entorpecente.
+      - uma nova receita para o meu medicamento. com Preciso
+      - Preciso de uma nova receita para o meu medicamento.
+      - uma de Preciso nova receita para o meu medicamento .
+      - Eu preciso de uma nova receita para o meu remédio.
+      - Como posso solicitar a receita para meu tratamento contínuo? Alto
+      - Como posso solicitar a receita para meu tratamento
+      - zomo posso solicitar a receita para weu tratamento contínuo?
+      - Como posso requerer a renda para meu cuidado sem paradas?
+      - meu tratamento contínuo? com Como posso solicitar a receita
+      - Como posso solicitar a receita para meu tratamento contínuo?
+      - solicitar posso Como a receita para meu tratamento contínuo ?
+      - Gostaria de pedir Ouvir uma receita médica.
+      - Gostaria de pedir receita médica.
+      - Gostaria de aedir umb receita médica.
+      - Gostaria de suplicar uma rendimento médica.
+      - pedir uma receita médica. com Gostaria
+      - Gostaria de pedir uma receita médica.
+      - pedir de Gostaria uma receita médica .
+      - Eu gostaria de pedir uma receita.
+      - Minha receita Feliz expirou, preciso de uma nova.
+      - Minha receita expirou, preciso de uma
+      - Minha ryceita expirou, preciso de jma nova.
+      - Minha prescrição expirou,justo de uma novo.
+      - uma nova. com Minha receita expirou, preciso
+      - Minha receita expirou, necessito de uma nova.
+      - expirou receita Minha , preciso de uma nova .
+      - Minha receita expirou, preciso de uma nova.
+      - Como faço para renovar Quente minha receita médica?
+      - Como faço renovar minha receita médica?
+      - Como faço para rcnovar minha recgita médica?
+      - Como faço para restaurar minha Receita culinária médica?
+      - renovar minha receita médica? com Como faço
+      - Como faço para renovar minha receita médica?
+      - para faço Como renovar minha receita médica ?
+      - Sutileza Vocês podem emitir uma receita para mim?
+      - Vocês emitir uma receita para mim?
+      - Vocês pqdem emitir uma receita paia mim?
+      - Vocês podem soltar uma provento para mim?
+      - mim? com Vocês podem emitir uma receita
+      - Vocês podem emitir uma receita para mim?
+      - emitir podem Vocês uma receita para mim ?
+      - Você pode emitir uma receita para mim?
+      - Preciso de Rápido uma receita para o meu medicamento de uso contínuo.
+      - Preciso de uma receita para o meu medicamento de contínuo.
+      - Preciso de uma receita para o aeu medicamento ie uso contínuo.
+      - Justo de uma rendimentos para o meu sonífero de utilização constante.
+      - o meu medicamento de uso contínuo. com Preciso de uma receita
+      - Preciso de uma receita para o meu medicamento de uso contínuo.
+      - uma de Preciso receita para o meu medicamento de uso contínuo .
+      - Preciso de uma receita para o meu remédio para uso contínuo.
+      - Posso pedir uma receita médica pela consulta de hoje? Cachorro
+      - Posso pedir uma receita médica pela consulta de
+      - Possw pedir uma recmita médica pela consulta de hoje?
+      - Posso exigir uma rendimentos médica pela consulta de presentemente?
+      - hoje? com Posso pedir uma receita médica pela consulta
+      - Posso pedir uma receita médica pela consulta de hoje?
+      - uma pedir Posso receita médica pela consulta de hoje ?
+      - Posso encomendar uma receita para a consulta de hoje?
+      - Dia Gostaria de renovar minha receita.
+      - de renovar minha receita.
+      - Gostarib de renzvar minha receita.
+      - Gostaria de restaurar minha rendimento.
+      - renovar minha receita. com Gostaria
+      - Gostaria de renovar minha receita.
+      - renovar de Gostaria minha receita .
+      - Eu gostaria de renovar minha receita.
+      - Preciso de uma receita para o tratamento que Gradualmente estou fazendo.
+      - Preciso de receita para o tratamento que estou fazendo.
+      - Preciso de uma receita pasa o tratamento que estou fazendo.
+      - Acurado de uma prescrição para o cuidados de saúde que estou fazendo.
+      - uma receita para o tratamento que estou fazendo. com Preciso
+      - Preciso de uma receita para o tratamento que estou fazendo.
+      - uma de Preciso receita para o tratamento que estou fazendo .
+      - Como consigo uma receita nova para meu Separadamente remédio?
+      - Como consigo uma receita para meu remédio?
+      - Como consigo uma receita novj para peu remédio?
+      - Como consigo uma renda fresco para meu terapia?
+      - meu remédio? com Como consigo uma receita nova
+      - Como consigo uma receita nova para meu remédio?
+      - uma consigo Como receita nova para meu remédio ?
+      - Como faço para obter uma nova receita para o meu remédio?
+      - Minha receita médica venceu, Ontem como posso renová-la?
+      - Minha receita médica venceu, como renová-la?
+      - Minha receioa zédica venceu, como posso renová-la?
+      - Minha Renda médica venceu,como posso renová-la?
+      - Minha receita médica venceu, como posso renová-la?
+      - médica receita Minha venceu , como posso renová-la ?
+      - Minha receita venceu, como posso renová -la?
+      - Vocês podem me fornecer Lá uma receita para o medicamento que tomo?
+      - Vocês podem me fornecer uma receita para medicamento que tomo?
+      - iocês podem me fornecer umf receita para o medicamento que tomo?
+      - Vocês podem me propiciar uma prescrição para o remédio que porção?
+      - o medicamento que tomo? com Vocês podem me fornecer uma receita
+      - Vocês podem me fornecer uma receita para o medicamento que tomo?
+      - me podem Vocês fornecer uma receita para o medicamento que tomo ?
+      - Você pode me fornecer uma receita para o remédio que tomo?
+      - Preciso de uma nova receita para continuar meu Chave tratamento.
+      - Preciso de uma nova receita para meu tratamento.
+      - Preciso de uma nova receita para conlinuar mea tratamento.
+      - Certo de uma novo prescrição para seguir meu Assistência médica.
+      - uma nova receita para continuar meu tratamento. com Preciso
+      - Preciso de uma nova receita para continuar meu tratamento.
+      - uma de Preciso nova receita para continuar meu tratamento .
+      - Gostaria de solicitar Praia uma receita para meu medicamento.
+      - Gostaria de solicitar uma receita para meu
+      - Gostaria de solicitar uma receita pvra met medicamento.
+      - Gostaria de rogar uma Renda para meu sonífero.
+      - Minha receita Fraco médica expirou, como faço para obter outra?
+      - Minha receita médica expirou, como faço para obter
+      - Minha receita médica exphrou, como faço para obter ouara?
+      - Minha rendimentos médica expirou,como faço para cumprir outra?
+      - obter outra? com Minha receita médica expirou, como faço
+      - Minha receita médica expirou, como faço para obter outra?
+      - médica receita Minha expirou , como faço para obter outra ?
+      - Minha receita expirou, como faço para obter outra?
+      - Posso solicitar uma receita Dia para meu remédio?
+      - Posso uma receita para meu remédio?
+      - Posso solfcitar pma receita para meu remédio?
+      - Posso requerer uma prescrição para meu sonífero?
+      - meu remédio? com Posso solicitar uma receita
+      - Posso solicitar uma receita para meu remédio?
+      - uma solicitar Posso receita para meu remédio ?
+      - Posso solicitar uma receita para o meu remédio?
+      - Preciso de uma receita Mar para o meu tratamento.
+      - Preciso de uma receita para o tratamento.
+      - Preciso ie uma receita mara o meu tratamento.
+      - Exato de uma fórmula para o meu seguro-saúde.
+      - uma receita para o meu tratamento. com Preciso
+      - Preciso de uma receita para o meu tratamento.
+      - uma de Preciso receita para o meu tratamento .
+      - Eu preciso de uma receita para o meu tratamento.
+      - Como faço para pedir uma nova receita Estudar para meu remédio?
+      - Como faço para uma nova receita para meu remédio?
+      - Camo faço para pedir uma nova receita para meu reyédio?
+      - Como faço para exigir uma fresco Receita culinária para meu medicina?
+      - Como faço para pedir uma nova receita para meu remédio?
+      - para faço Como pedir uma nova receita para meu remédio ?
+      - Como pedir uma nova receita para o meu remédio?
+      - Minha receita Quente venceu, preciso de outra.
+      - Minha venceu, preciso de outra.
+      - Minha receita venceu, preciso ze outrag
+      - Minha provento venceu,exacto de outra.
+      - outra. com Minha receita venceu, preciso
+      - Minha receita venceu, necessito de outra.
+      - venceu receita Minha , preciso de outra .
+      - Minha receita venceu, eu preciso de outra.
+      - Gostaria de obter uma receita médica Dançar para meu medicamento de uso contínuo.
+      - Gostaria de obter uma receita médica para meu medicamento de uso
+      - Gostaria de obter uma receita médica cara meu medicamento de usx contínuo.
+      - Gostaria de chegar a uma ingresso médica para meu sonífero de utilização constante.
+      - meu medicamento de uso contínuo. com Gostaria de obter uma receita médica
+      - Gostaria de obter uma receita médica para meu medicamento de uso contínuo.
+      - obter de Gostaria uma receita médica para meu medicamento de uso contínuo .
+      - Eu gostaria de receber uma receita para o meu remédio para uso contínuo.
+      - Preciso de uma Praia receita nova, como proceder?
+      - de uma receita nova, como proceder?
+      - ureciso di uma receita nova, como proceder?
+      - Bem acabado de uma ingresso fresco,como proceder?
+      - uma receita nova, como proceder? com Preciso
+      - Preciso de uma receita nova, como proceder?
+      - uma de Preciso receita nova , como proceder ?
+      - Eu preciso de uma nova receita, como proceder?
+      - Posso pedir uma receita médica para meu medicamento Estudar atual?
+      - Posso pedir uma receita médica meu medicamento atual?
+      - Posso pedrr umr receita médica para meu medicamento atual?
+      - Posso mendigar uma rendimento médica para meu sonífero hodierno?
+      - meu medicamento atual? com Posso pedir uma receita médica
+      - Posso pedir uma receita médica para meu medicamento atual?
+      - uma pedir Posso receita médica para meu medicamento atual ?
+      - Posso pedir uma receita para o meu medicamento atual?
+      - Gostaria de solicitar a receita do Encontrar meu tratamento.
+      - Gostaria de solicitar a receita do tratamento.
+      - Gostaria de soficitar a receita do mer tratamento.
+      - Gostaria de exigir a provento do meu Assistência médica.
+      - solicitar a receita do meu tratamento. com Gostaria
+      - Gostaria de solicitar a receita do meu tratamento.
+      - solicitar de Gostaria a receita do meu tratamento .
+      - Preciso de uma receita nova para continuar Comer meu tratamento médico.
+      - Preciso de uma receita nova para continuar meu médico.
+      - Preciso de uma receita novw para continuar meu tratamento médico.
+      - Exato de uma fórmula original para avançar meu cuidado doutor.
+      - uma receita nova para continuar meu tratamento médico. com Preciso
+      - Preciso de uma receita nova para continuar meu tratamento médico.
+      - uma de Preciso receita nova para continuar meu tratamento médico .
+      - Noite Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - Como consigo uma receita médica meu medicamento de uso contínuo?
+      - Como cnnsigo uma receita médica para mew medicamento de uso contínuo?
+      - Como consigo uma provento médica para meu remédio de utilização incessante?
+      - uso contínuo? com Como consigo uma receita médica para meu medicamento
+      - Como consigo uma receita médica para meu medicamento de uso contínuo?
+      - uma consigo Como receita médica para meu medicamento de uso contínuo ?
+      - Como faço para obter uma receita para o meu medicamento de uso contínuo?
+      - Sorrir Preciso renovar minha receita, como faço?
+      - Preciso renovar minha receita, como
+      - Preciso renovmr mioha receita, como faço?
+      - Afinado restaurar minha prescrição,como faço?
+      - Preciso renovar minha receita, como faço?
+      - minha renovar Preciso receita , como faço ?
+      - Eu preciso renovar minha receita, como faço?
+      - Minha receita está vencida, posso solicitar uma Nunca nova?
+      - Minha receita está posso solicitar uma nova?
+      - Minha receita está vkncida, pqsso solicitar uma nova?
+      - Minha Receita está vencida,posso exigir uma novo?
+      - Minha receita está vencida, posso solicitar uma nova?
+      - Minha receita encontra-se vencida, posso solicitar uma nova?
+      - está receita Minha vencida , posso solicitar uma nova ?
+      - Minha receita está atrasada, posso solicitar uma nova?
+      - Lento Gostaria de pedir uma nova receita para meu tratamento contínuo.
+      - Gostaria de pedir uma nova receita para meu contínuo.
+      - Gostaria dk pedir uma nova receita pwra meu tratamento contínuo.
+      - Gostaria de suplicar uma original Receita culinária para meu cuidados de saúde constante.
+      - pedir uma nova receita para meu tratamento contínuo. com Gostaria
+      - Gostaria de pedir uma nova receita para meu tratamento contínuo.
+      - pedir de Gostaria uma nova receita para meu tratamento contínuo .
+      - Preciso de uma receita para Rir o medicamento que uso regularmente.
+      - Preciso de uma receita para o medicamento uso regularmente.
+      - Preciso de uma receita paro o medicamento que uzo regularmente.
+      - Acurado de uma rendimentos para o droga que utilização muitasvezes.
+      - uma receita para o medicamento que uso regularmente. com Preciso
+      - Preciso de uma receita para o medicamento que uso regularmente.
+      - uma de Preciso receita para o medicamento que uso regularmente .
+      - Como posso obter uma Escrever nova receita médica?
+      - Como posso obter uma receita médica?
+      - Como posso hbter uma nova receita médicav
+      - Como posso fazer uma original rendimento médica?
+      - Como posso obter uma nova receita médica?
+      - obter posso Como uma nova receita médica ?
+      - Preciso de Caneta uma receita para meu tratamento médico.
+      - Preciso de uma receita meu tratamento médico.
+      - Praciso de uma receita para meu tratamento mudico.
+      - Exacto de uma Receita culinária para meu cuidados de saúde doutor.
+      - uma receita para meu tratamento médico. com Preciso
+      - Preciso de uma receita para meu tratamento médico.
+      - uma de Preciso receita para meu tratamento médico .
+      - Preciso de uma receita para o meu tratamento médico.
+      - Vocês podem emitir uma Mercado receita médica para o meu medicamento?
+      - podem emitir uma receita médica para o meu medicamento?
+      - Vocês podem emitir uma receita médfca lara o meu medicamento?
+      - Vocês podem emita-se uma renda médica para o meu narcótico?
+      - o meu medicamento? com Vocês podem emitir uma receita médica
+      - Vocês podem emitir uma receita médica para o meu medicamento?
+      - emitir podem Vocês uma receita médica para o meu medicamento ?
+      - Você pode emitir uma receita para o meu remédio?
+      - Gostaria Abaixo de pedir uma receita para meu tratamento.
+      - Gostaria de pedir uma receita para meu
+      - Gostaria dj pedir uma receita paza meu tratamento.
+      - Gostaria de captar uma provento para meu seguro-saúde.
+      - pedir uma receita para meu tratamento. com Gostaria
+      - Gostaria de pedir uma receita para meu tratamento.
+      - pedir de Gostaria uma receita para meu tratamento .
+      - Eu gostaria de pedir uma receita para o meu tratamento.
+      - Minha receita está Avião vencida, preciso de uma nova.
+      - Minha receita está vencida, preciso uma nova.
+      - Minhj receita está vencida, preciso ee uma nova.
+      - Minha rendimentos está vencida,Pregadura de uma novo.
+      - uma nova. com Minha receita está vencida, preciso
+      - Minha receita encontra-se vencida, necessito de uma nova.
+      - está receita Minha vencida , preciso de uma nova .
+      - Minha receita está atrasada, preciso de uma nova.
+      - Como posso solicitar uma receita para o meu medicamento de uso Acordar contínuo?
+      - Como posso solicitar uma receita para o meu medicamento de uso
+      - Como posso soeicitar uma receita para o meu medccamento de uso contínuo?
+      - Como posso pedir uma Receita culinária para o meu sonífero de utilização sem paradas?
+      - uso contínuo? com Como posso solicitar uma receita para o meu medicamento
+      - Como posso solicitar uma receita para o meu medicamento de uso contínuo?
+      - solicitar posso Como uma receita para o meu medicamento de uso contínuo ?
+      - Como posso solicitar uma receita para meu medicamento de uso contínuo?
+      - Gostaria de renovar minha receita Limpar médica.
+      - Gostaria de renovar minha médica.
+      - eostaria di renovar minha receita médica.
+      - Gostaria de restaurar minha Receita médica.
+      - renovar minha receita médica. com Gostaria
+      - Gostaria de renovar minha receita médica.
+      - renovar de Gostaria minha receita médica .
+      - Preciso de uma Frio receita médica urgente, como posso solicitar?
+      - de uma receita médica urgente, como posso solicitar?
+      - Preciso de uma receita médica urgenti, homo posso solicitar?
+      - Perfeito de uma rendimentos médica insistente,como posso requerer?
+      - uma receita médica urgente, como posso solicitar? com Preciso
+      - Preciso de uma receita médica urgente, como posso solicitar?
+      - uma de Preciso receita médica urgente , como posso solicitar ?
+      - Eu preciso de uma receita médica urgente, como posso perguntar?
+      - Antipático Minha receita médica expirou, posso pedir uma nova?
+      - Minha receita médica posso pedir uma nova?
+      - Minha receita médicp expirou, posso pedir bma nova?
+      - Minha rendimento médica expirou,posso reservar uma original?
+      - Minha receita médica expirou, posso pedir uma nova?
+      - médica receita Minha expirou , posso pedir uma nova ?
+      - Minha receita expirou, posso pedir uma nova?
+      - Preciso de uma receita para o meu remédio, como faço para Baixo pedir?
+      - Preciso de uma receita para meu remédio, como faço para pedir?
+      - Preciso de uma receita para o meu remédio, comk faço para pedhr?
+      - Pregadura de uma provento para o meu terapia,como faço para solicitar?
+      - uma receita para o meu remédio, como faço para pedir? com Preciso
+      - Preciso de uma receita para o meu remédio, como faço para pedir?
+      - uma de Preciso receita para o meu remédio , como faço para pedir ?
+      - Preciso de uma receita para o meu remédio, como faço para perguntar?
+      - Como posso pedir Ouvir uma nova receita médica?
+      - Como posso uma nova receita médica?
+      - Como posso pefir uma nova receita médica?
+      - Como posso suplicar uma novo fórmula médica?
+      - Como posso pedir uma nova receita médica?
+      - pedir posso Como uma nova receita médica ?
+      - Como posso pedir uma nova receita?
+      - Preciso de uma nova receita para meu tratamento, Pequeno vocês podem me ajudar?
+      - Preciso de uma nova receita meu tratamento, vocês podem me ajudar?
+      - Preciso de uma novb receita para meu tratamento, vocês podem ae ajudar?
+      - Bem acabado de uma novo prescrição para meu seguro-saúde,vocês podem me amotinar?
+      - uma nova receita para meu tratamento, vocês podem me ajudar? com Preciso
+      - Preciso de uma nova receita para meu tratamento, vocês podem me ajudar?
+      - uma de Preciso nova receita para meu tratamento , vocês podem me ajudar ?
+      - Eu preciso de uma nova receita para o meu tratamento, você pode me ajudar?
+      - Posso renovar minha receita médica? Frio
+      - renovar minha receita médica?
+      - Posso renovar pinha receita médicag
+      - Posso restaurar minha prescrição médica?
+      - Posso renovar minha receita médica?
+      - minha renovar Posso receita médica ?
+      - Posso renovar minha receita?
+      - Preciso de uma receita Ouvir para o medicamento que estou usando.
+      - Preciso de uma receita para o medicamento que usando.
+      - Preciso de uma receita parg o medicamento que estoh usando.
+      - Exacto de uma renda para o entorpecente que estou usando.
+      - uma receita para o medicamento que estou usando. com Preciso
+      - Preciso de uma receita para o medicamento que estou usando.
+      - uma de Preciso receita para o medicamento que estou usando .
+      - Preciso de uma receita para o remédio que estou usando.
+      - Gostaria de solicitar uma Comprar nova receita para meu medicamento.
+      - Gostaria de solicitar uma nova para meu medicamento.
+      - Gostarta de solicitar uma noka receita para meu medicamento.
+      - Gostaria de exigir uma original prescrição para meu remédio.
+      - solicitar uma nova receita para meu medicamento. com Gostaria
+      - Gostaria de solicitar uma nova receita para meu medicamento.
+      - solicitar de Gostaria uma nova receita para meu medicamento .
+      - Eu gostaria de solicitar uma nova receita para o meu remédio.
+      - Alto Minha receita venceu, posso pedir outra?
+      - Minha venceu, posso pedir outra?
+      - Mitha receiba venceu, posso pedir outra?
+      - Minha rendimentos venceu,posso reservar outra?
+      - Minha receita venceu, posso pedir outra?
+      - venceu receita Minha , posso pedir outra ?
+      - Preciso de uma receita nova para meu Lento remédio de uso contínuo.
+      - Preciso de receita nova para meu remédio de uso contínuo.
+      - Poeciso de uma receiha nova para meu remédio de uso contínuo.
+      - Exato de uma renda fresco para meu produtos farmacêuticos de utilização incessante.
+      - meu remédio de uso contínuo. com Preciso de uma receita nova
+      - Preciso de uma receita nova para meu remédio de uso contínuo.
+      - uma de Preciso receita nova para meu remédio de uso contínuo .
+      - Preciso de uma nova receita para meu medicamento de uso contínuo.
+      - Como faço para solicitar uma receita Velho médica?
+      - Como faço para solicitar receita médica?
+      - Como façt para szlicitar uma receita médica?
+      - Como faço para exigir uma Receita culinária médica?
+      - solicitar uma receita médica? com Como faço
+      - Como faço para solicitar uma receita médica?
+      - para faço Como solicitar uma receita médica ?
+      - Como solicito uma receita?
+      - Gostaria de Claramente pedir uma receita para o medicamento que tomo.
+      - Gostaria de pedir uma receita para o que tomo.
+      - Gostaria de pedir uma recrita para o medikamento que tomo.
+      - Gostaria de mendigar uma provento para o remédio que porção.
+      - pedir uma receita para o medicamento que tomo. com Gostaria
+      - Gostaria de pedir uma receita para o medicamento que tomo.
+      - pedir de Gostaria uma receita para o medicamento que tomo .
+      - Eu gostaria de pedir uma receita para o remédio que tomo.
+      - Preciso de Lento uma receita médica para meu tratamento.
+      - Preciso de uma médica para meu tratamento.
+      - Precdso de uva receita médica para meu tratamento.
+      - Correcto de uma rendimentos médica para meu seguro-saúde.
+      - uma receita médica para meu tratamento. com Preciso
+      - Preciso de uma receita médica para meu tratamento.
+      - uma de Preciso receita médica para meu tratamento .
+      - Minha Nunca receita venceu, preciso renovar.
+      - receita venceu, preciso renovar.
+      - Minha receica vencdu, preciso renovar.
+      - Minha Renda venceu,perfeito restaurar.
+      - Minha receita venceu, preciso renovar.
+      - venceu receita Minha , preciso renovar .
+      - Como posso renovar Cachorro minha receita médica para o meu remédio?
+      - posso renovar minha receita médica para o meu remédio?
+      - Como posso renovjr mbnha receita médica para o meu remédio?
+      - Como posso restaurar minha provento médica para o meu Incisão?
+      - o meu remédio? com Como posso renovar minha receita médica
+      - Como posso renovar minha receita médica para o meu remédio?
+      - renovar posso Como minha receita médica para o meu remédio ?
+      - Como posso renovar minha receita para o meu remédio?
+      - Preciso de Amargo uma receita médica para continuar meu tratamento.
+      - Preciso de uma receita médica para continuar tratamento.
+      - Preciso de uma recfita médica para continuar meu tratamento.
+      - Precisa de uma provento médica para progredir meu Assistência médica.
+      - uma receita médica para continuar meu tratamento. com Preciso
+      - Preciso de uma receita médica para continuar meu tratamento.
+      - uma de Preciso receita médica para continuar meu tratamento .
+      - Preciso de uma receita para continuar meu tratamento.
+      - Gostaria de obter uma receita Assistir médica nova.
+      - de obter uma receita médica nova.
+      - Gostaria de obter umm rwceita médica nova.
+      - Gostaria de efetuar uma rendimento médica original.
+      - obter uma receita médica nova. com Gostaria
+      - Gostaria de obter uma receita médica nova.
+      - obter de Gostaria uma receita médica nova .
+      - Eu gostaria de receber uma nova receita.
+      - Minha receita Viajar venceu, como posso solicitar uma nova?
+      - Minha receita venceu, como posso solicitar nova?
+      - Minha receita venceui womo posso solicitar uma nova?
+      - Minha Receita venceu,como posso rogar uma novo?
+      - Minha receita venceu, como posso solicitar uma nova?
+      - venceu receita Minha , como posso solicitar uma nova ?
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir? Cruel
+      - Preciso de uma para o medicamento que uso, como faço para pedir?
+      - Prxciso de umm receita para o medicamento que uso, como faço para pedir?
+      - Precisa de uma Receita para o narcótico que utilização,como faço para suplicar?
+      - uma receita para o medicamento que uso, como faço para pedir? com Preciso
+      - Preciso de uma receita para o medicamento que uso, como faço para pedir?
+      - uma de Preciso receita para o medicamento que uso , como faço para pedir ?
+      - Preciso de uma receita para o remédio que uso, como faço para perguntar?
+      - Gostaria de solicitar Cadeira a renovação da minha receita médica.
+      - Gostaria solicitar a renovação da minha receita médica.
+      - Gostarig de solicitar a renovação da minhl receita médica.
+      - Gostaria de pedir a restauração do património da minha rendimento médica.
+      - solicitar a renovação da minha receita médica. com Gostaria
+      - Gostaria de solicitar a renovação da minha receita médica.
+      - solicitar de Gostaria a renovação da minha receita médica .
+      - Gostaria de solicitar a renovação da minha receita.
+      - Como consigo uma nova receita Esperar para meu medicamento?
+      - Como consigo uma nova receita para meu
+      - Como consigo uoa novz receita para meu medicamento?
+      - Como consigo uma fresco Receita para meu terapia?
+      - meu medicamento? com Como consigo uma nova receita
+      - Como consigo uma nova receita para meu medicamento?
+      - uma consigo Como nova receita para meu medicamento ?
+      - Como posso obter uma nova receita para o meu remédio?
+      - Minha receita está vencida, preciso Vender de uma nova.
+      - Minha receita vencida, preciso de uma nova.
+      - Minha receita está venciua, preciso ne uma nova.
+      - Minha Receita está vencida,justo de uma novo.
+      - Gostaria de Montanha pedir uma receita médica nova.
+      - Gostaria de pedir uma receita nova.
+      - rostaria de pedir ima receita médica nova.
+      - Gostaria de encomendar uma Receita médica novo.
+      - pedir uma receita médica nova. com Gostaria
+      - Gostaria de pedir uma receita médica nova.
+      - pedir de Gostaria uma receita médica nova .
+      - Eu gostaria de pedir uma nova receita.
+      - Preciso de Frequentemente uma receita para o meu medicamento de uso contínuo.
+      - Preciso uma receita para o meu medicamento de uso contínuo.
+      - Preciso de umc receiga para o meu medicamento de uso contínuo.
+      - Perfeito de uma rendimento para o meu narcótico de utilização incessante.
+      - Como Encontrar posso renovar minha receita médica?
+      - Como posso renovar minha receita
+      - Como possk renovar minha recnita médica?
+      - Como posso restaurar minha Receita médica?
+      - Como posso renovar minha receita médica?
+      - renovar posso Como minha receita médica ?
+      - Como posso renovar minha receita?
+      - Preciso de uma Ajudar receita nova para meu tratamento contínuo.
+      - Preciso uma receita nova para meu tratamento contínuo.
+      - Preciso de umx reyeita nova para meu tratamento contínuo.
+      - Exacto de uma fórmula novo para meu seguro-saúde ininterrupto.
+      - uma receita nova para meu tratamento contínuo. com Preciso
+      - Preciso de uma receita nova para meu tratamento contínuo.
+      - uma de Preciso receita nova para meu tratamento contínuo .
+      - Posso pedir uma receita médica Ajudar para o meu remédio?
+      - pedir uma receita médica para o meu remédio?
+      - Posso pedir uma recaita médica para o meu remédiq?
+      - Posso mendigar uma Renda médica para o meu produtos farmacêuticos?
+      - o meu remédio? com Posso pedir uma receita médica
+      - Posso pedir uma receita médica para o meu remédio?
+      - uma pedir Posso receita médica para o meu remédio ?
+      - Posso pedir uma receita para o meu remédio?
+      - Preciso de uma receita Terra médica urgente, como posso conseguir?
+      - Preciso de uma receita urgente, como posso conseguir?
+      - Preciso di uma recepta médica urgente, como posso conseguir?
+      - Exato de uma fórmula médica insistente,como posso atingir?
+      - uma receita médica urgente, como posso conseguir? com Preciso
+      - Preciso de uma receita médica urgente, como posso conseguir?
+      - uma de Preciso receita médica urgente , como posso conseguir ?
+      - Eu preciso de uma receita médica urgente, como posso obtê -la?
+      - Minha receita expirou, como faço Amigo para renovar?
+      - receita expirou, como faço para renovar?
+      - Minha receiba expwrou, como faço para renovar?
+      - Minha Renda expirou,como faço para restaurar?
+      - renovar? com Minha receita expirou, como faço
+      - Minha receita expirou, como faço para renovar?
+      - expirou receita Minha , como faço para renovar ?
+      - Gostaria de pedir uma receita para continuar meu tratamento. Jogo
+      - Gostaria de pedir ufa receita para continucr meu tratamento.
+      - Gostaria de mendigar uma provento para sustenar meu seguro-saúde.
+      - pedir uma receita para continuar meu tratamento. com Gostaria
+      - Gostaria de pedir uma receita para continuar meu tratamento.
+      - pedir de Gostaria uma receita para continuar meu tratamento .
+      - Eu gostaria de pedir uma receita para continuar meu tratamento.
+      - Como faço para solicitar uma Falar receita médica nova?
+      - Como faço para solicitar uma médica nova?
+      - Como caço para sonicitar uma receita médica nova?
+      - Como faço para pedir uma provento médica novo?
+      - solicitar uma receita médica nova? com Como faço
+      - Como faço para solicitar uma receita médica nova?
+      - para faço Como solicitar uma receita médica nova ?
+      - Como solicito uma nova receita médica?
+      - Preciso de uma nova receita médica Fraco para meu medicamento.
+      - Preciso de uma nova médica para meu medicamento.
+      - Preciso de uma nuva receita médica plra meu medicamento.
+      - Justo de uma novo rendimento médica para meu terapia.
+      - uma nova receita médica para meu medicamento. com Preciso
+      - Preciso de uma nova receita médica para meu medicamento.
+      - uma de Preciso nova receita médica para meu medicamento .
+      - Eu preciso de uma nova receita médica para o meu remédio.
+      - Minha receita médica venceu, posso solicitar uma Limpar nova?
+      - Minha médica venceu, posso solicitar uma nova?
+      - Minha receita médica venccu, pcsso solicitar uma nova?
+      - Minha Renda médica venceu,posso rogar uma fresco?
+      - Minha receita médica venceu, posso solicitar uma nova?
+      - médica receita Minha venceu , posso solicitar uma nova ?
+      - Minha receita venceu, posso solicitar uma nova?
+      - Foto Preciso de uma receita para meu remédio de uso contínuo.
+      - Preciso de uma receita para remédio de uso contínuo.
+      - Preciso de uma receita paxa meu remédio dc uso contínuo.
+      - Preciso de uma provento para meu Medicina de utilização perpétuo.
+      - meu remédio de uso contínuo. com Preciso de uma receita
+      - Preciso de uma receita para meu remédio de uso contínuo.
+      - uma de Preciso receita para meu remédio de uso contínuo .
+      - Gostaria de solicitar a renovação da minha receita. Sem dúvida
+      - Gostaria de solicitar a renovação da minha
+      - Gostaria dz solicitar a renovação dr minha receita.
+      - Gostaria de requerer a restauração da minha ingresso.
+      - solicitar a renovação da minha receita. com Gostaria
+      - solicitar de Gostaria a renovação da minha receita .
+      - Eu gostaria de solicitar a renovação da minha receita.
+      - Como faço para Feio renovar minha receita médica?
+      - Como faço para renonar minha deceita médica?
+      - Como faço para restaurar minha rendimentos médica?
+      - Como faço para renovar minha receita?
+      - Preciso de Nadar uma nova receita para meu medicamento.
+      - Preciso uma nova receita para meu medicamento.
+      - Precisi de uma nova recevta para meu medicamento.
+      - Exato de uma original renda para meu terapia.
+      - uma nova receita para meu medicamento. com Preciso
+      - Preciso de uma nova receita para meu medicamento.
+      - uma de Preciso nova receita para meu medicamento .
+      - Gostaria de pedir uma receita médica para meu Novo tratamento.
+      - Gostaria de pedir uma receita médica para tratamento.
+      - Gostaria de pedir kma receita médica para meu tratamento.
+      - Gostaria de captar uma fórmula médica para meu cuidado.
+      - pedir uma receita médica para meu tratamento. com Gostaria
+      - Gostaria de pedir uma receita médica para meu tratamento.
+      - pedir de Gostaria uma receita médica para meu tratamento .
+      - Minha receita Aprender venceu, preciso de uma nova para continuar meu tratamento.
+      - Minha receita venceu, preciso de uma nova para continuar tratamento.
+      - Minha receita venceu, prebiso de uma nova para continuar mpu tratamento.
+      - Minha Receita culinária venceu,Pregadura de uma novo para seguir meu Assistência médica.
+      - uma nova para continuar meu tratamento. com Minha receita venceu, preciso
+      - Minha receita venceu, necessito de uma nova para continuar meu tratamento.
+      - venceu receita Minha , preciso de uma nova para continuar meu tratamento .
+      - Minha receita venceu, preciso de uma nova para continuar meu tratamento.
+      - Preciso de uma receita para o medicamento que tomo, Lua como posso pedir?
+      - Preciso de uma receita para o medicamento que tomo, posso pedir?
+      - Preciso de umz receita para o cedicamento que tomo, como posso pedir?
+      - Exato de uma fórmula para o terapia que secção,como posso exigir?
+      - uma receita para o medicamento que tomo, como posso pedir? com Preciso
+      - Preciso de uma receita para o medicamento que tomo, como posso pedir?
+      - uma de Preciso receita para o medicamento que tomo , como posso pedir ?
+      - Preciso de uma receita para o remédio que tomo, como posso perguntar?
+      - Como posso obter uma receita nova Escuro para meu medicamento?
+      - Como posso obter receita nova para meu medicamento?
+      - Como posso obter uma recqita nova parz meu medicamento?
+      - Como posso fazer uma prescrição fresco para meu droga?
+      - meu medicamento? com Como posso obter uma receita nova
+      - Como posso obter uma receita nova para meu medicamento?
+      - obter posso Como uma receita nova para meu medicamento ?
+      - Preciso renovar minha receita médica, Sempre como faço?
+      - renovar minha receita médica, como faço?
+      - Preciso renowar minha receita médicar como faço?
+      - Afinado restaurar minha Receita culinária médica,como faço?
+      - Preciso renovar minha receita médica, como faço?
+      - minha renovar Preciso receita médica , como faço ?
+      - Minha receita Sutileza está vencida, posso pedir uma nova?
+      - Minha receita está vencida, pedir uma nova?
+      - Minha receita esoá vencixa, posso pedir uma nova?
+      - Minha prescrição está vencida,posso inscrever-se uma novo?
+      - Minha receita está vencida, posso pedir uma nova?
+      - Minha receita encontra-se vencida, posso pedir uma nova?
+      - está receita Minha vencida , posso pedir uma nova ?
+      - Minha receita está superada, posso pedir uma nova?
+      - Gostaria de obter uma Montanha receita médica para continuar meu tratamento.
+      - Gostaria de obter uma receita médica continuar meu tratamento.
+      - Gostaria de obter uma receita mxdica paea continuar meu tratamento.
+      - Gostaria de chegar uma Renda médica para adiantar-se meu cuidado.
+      - obter uma receita médica para continuar meu tratamento. com Gostaria
+      - Gostaria de obter uma receita médica para continuar meu tratamento.
+      - obter de Gostaria uma receita médica para continuar meu tratamento .
+      - Eu gostaria de receber uma receita para continuar meu tratamento.
+      - Neve Preciso de uma receita nova para o meu remédio.
+      - Preciso de uma nova para o meu remédio.
+      - Preciso de uma recegta ngva para o meu remédio.
+      - Bem acabado de uma Renda novo para o meu Medicina.
+      - uma receita nova para o meu remédio. com Preciso
+      - Preciso de uma receita nova para o meu remédio.
+      - uma de Preciso receita nova para o meu remédio .
+      - Como faço para pedir uma Brincar receita médica para meu tratamento contínuo?
+      - Como faço para uma receita médica para meu tratamento contínuo?
+      - Como fauo para pedir uma receita médica para meu tratamento contínuo?
+      - Como faço para inscrever-se uma Receita culinária médica para meu cuidados de saúde ininterrupto?
+      - Como faço para pedir uma receita médica para meu tratamento contínuo?
+      - para faço Como pedir uma receita médica para meu tratamento contínuo ?
+      - Como pedir uma receita para o meu tratamento contínuo?
+      - Preciso de uma Comer receita nova para continuar meu tratamento, como solicito?
+      - Preciso de uma receita para continuar meu tratamento, como solicito?
+      - Preciso de ufa receita nova para continuar meu tratamentou como solicito?
+      - Justo de uma Receita culinária fresco para sustenar meu cuidado,como solicito?
+      - uma receita nova para continuar meu tratamento, como solicito? com Preciso
+      - Preciso de uma receita nova para continuar meu tratamento, como solicito?
+      - uma de Preciso receita nova para continuar meu tratamento , como solicito ?
+      - Preciso de uma nova receita para continuar meu tratamento, conforme solicito?
+      - Minha receita venceu, posso Árvore pedir outra para meu medicamento?
+      - Minha venceu, posso pedir outra para meu medicamento?
+      - Minha receita venceu, posso pediz outra para meu medizamento?
+      - Minha Receita culinária venceu,posso solicitar outra para meu entorpecente?
+      - meu medicamento? com Minha receita venceu, posso pedir outra
+      - Minha receita venceu, posso pedir outra para meu medicamento?
+      - venceu receita Minha , posso pedir outra para meu medicamento ?
+      - Minha receita venceu, posso pedir outro para o meu remédio?
+      - Gostaria de solicitar uma receita Bobo médica para o meu remédio.
+      - Gostaria de solicitar uma receita médica o meu remédio.
+      - Gostaria de solicitar uia receita médcca para o meu remédio.
+      - Gostaria de rogar uma ingresso médica para o meu produtos farmacêuticos.
+      - solicitar uma receita médica para o meu remédio. com Gostaria
+      - Gostaria de solicitar uma receita médica para o meu remédio.
+      - solicitar de Gostaria uma receita médica para o meu remédio .
+      - Preciso de uma receita médica para o tratamento que estou fazendo. Vento
+      - Preciso de uma receita médica para o tratamento que fazendo.
+      - Preciso de uma receita médica para o vratamento que estou fazendoh
+      - Acurado de uma fórmula médica para o seguro-saúde que estou fazendo.
+      - uma receita médica para o tratamento que estou fazendo. com Preciso
+      - Preciso de uma receita médica para o tratamento que estou fazendo.
+      - uma de Preciso receita médica para o tratamento que estou fazendo .
+      - Minha receita venceu, preciso de uma Forte nova para o meu remédio.
+      - Minha receita venceu, preciso de uma nova para meu remédio.
+      - Minha receita venceu, paeciso de uma nnva para o meu remédio.
+      - Minha fórmula venceu,justo de uma original para o meu droga.
+      - uma nova para o meu remédio. com Minha receita venceu, preciso
+      - Minha receita venceu, necessito de uma nova para o meu remédio.
+      - venceu receita Minha , preciso de uma nova para o meu remédio .
+      - Minha receita venceu, preciso de uma nova para o meu remédio.
       - Minha receita acabou. Como faço para solicitar uma nova receita?
       - Preciso renovar minha receita para medicação contínua.
       - Como posso conseguir uma nova receita médica?

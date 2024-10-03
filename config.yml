@@ -8,24 +8,32 @@ language: pt
 
 pipeline:
 #review this pipeline
-- name: WhitespaceTokenizer
+- name: SpacyNLP
+  model: pt_core_news_md
+  case_sensitive: False
+- name: SpacyTokenizer
 - name: RegexFeaturizer
   case_sensitive: False
+- name: SpacyFeaturizer
+- name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
-  analyzer: word
+  analyzer: "word"
 - name: CountVectorsFeaturizer
-  analyzer: char_wb
+  analyzer: "char_wb"
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
   epochs: 60
-  learning_rate: 0.00005  # Increased learning rate
+  number_of_transformer_layers: 2
+  number_of_attention_heads: 4
+  learning_rate: 0.0001 
   regularization_constant: 0.0005
-  batch_size: 64
+  batch_size: 32
   early_stopping_patience: 5
-  evaluate_on_number_of_examples: 200
-  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 900
+  evaluate_every_number_of_epochs: 15
   constrain_similarities: True
+  random_seed: 42
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
 - name: RegexEntityExtractor
@@ -33,8 +41,8 @@ pipeline:
   use_lookup_tables: True
 - name: EntitySynonymMapper
 - name: FallbackClassifier
-  threshold: 0.7
-  ambiguity_threshold: 0.2
+  threshold: 0.5
+  ambiguity_threshold: 0.05
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
   url: http://localhost:8000
@@ -44,7 +52,7 @@ pipeline:
 
 policies:
 - name: RulePolicy
-  core_fallback_threshold: 0.8
+  core_fallback_threshold: 0.5
   core_fallback_action_name: "action_custom_fallback"
   enable_fallback_prediction: True
   check_for_contradictions: True
@@ -57,19 +65,15 @@ policies:
   loss_type: cross_entropy
   constrain_similarities: true
   check_for_contradictions: true
-  batch_size: 
-  - 8
-  - 16
+  batch_size: 16
   early_stopping_patience: 10
   learning_rate: 0.0007
-  regularization_constant: 0.0011 
+  regularization_constant: 0.0015
   dropout_rate: 0.25
-  use_gpu: True
-  evaluate_every_number_of_epochs: 3
-  evaluate_on_number_of_examples: 200
+  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 150
   model_confidence: "softmax"
-  random_seed: 1
-  core_fallback_threshold: 0.8
+  random_seed: 42
   tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
 

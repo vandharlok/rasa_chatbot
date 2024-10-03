@@ -260,7 +260,7 @@ class ActionCustomFallback(Action):
 
 
 
-class AskForSlotAction(Action):
+class AskForSlotActionEspecialista(Action):
     def name(self) -> Text:
         return "action_ask_event_form_especialista"
 
@@ -280,25 +280,38 @@ class AskForSlotAction(Action):
     def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
+        list_syn_psicologos = ['psicologo', 'psicologa', 'psicólogo', 'psicóloga']
         especialista = tracker.get_slot('especialista')
         buttons = []
-        if especialista.lower() == 'psiquiatra':    
-            buttons.append({"title": 'Psiquiatra Dr. João', "payload": 'joao'})
-            buttons.append({"title": 'Psiquiatra Dr. Pedro', "payload": 'pedro'})
-            buttons.append({"title": 'Não quero agendar com psiquiatra', "payload": 'nenhum'})
 
-            dispatcher.utter_message(text="Qual psiquiatra você tem preferência de consultar?", buttons=buttons)
-        elif especialista.lower() == 'psicóloga':
-            buttons.append({"title": 'Psicóloga Maria', "payload": 'maria'})
-            buttons.append({"title": 'Psicóloga Ana', "payload": 'ana'})
-            buttons.append({"title": 'Não quero agendar com psicólogo', "payload": 'nenhum'})
+        if especialista:
+            especialista = especialista.lower()
+            if especialista == 'psiquiatra':    
+                buttons.append({"title": 'Psiquiatra Dr. João', "payload": 'joao'})
+                buttons.append({"title": 'Psiquiatra Dr. Pedro', "payload": 'pedro'})
+                buttons.append({"title": 'Não quero agendar com psiquiatra', "payload": 'nenhum'})
 
-            dispatcher.utter_message(text="Qual psicológo você tem preferência de consultar?", buttons=buttons)
+                dispatcher.utter_message(
+                    text="Qual psiquiatra você tem preferência de consultar?", 
+                    buttons=buttons
+                )
+            elif especialista in list_syn_psicologos:
+                buttons.append({"title": 'Psicóloga Maria', "payload": 'maria'})
+                buttons.append({"title": 'Psicóloga Ana', "payload": 'ana'})
+                buttons.append({"title": 'Não quero agendar com psicólogo', "payload": 'nenhum'})
 
+                dispatcher.utter_message(
+                    text="Qual psicólogo você tem preferência de consultar?", 
+                    buttons=buttons
+                )
+            else:
+                dispatcher.utter_message(
+                    text="Desculpe, não entendi o especialista escolhido. Por favor, selecione corretamente."
+                )
         else:
-            dispatcher.utter_message(text="Desculpe, não entendi o especialista escolhido.")
-            return []
+            dispatcher.utter_message(
+                text="Desculpe, não recebi o especialista desejado. Por favor, escolha corretamente."
+            )
 
-        
         return []
 
