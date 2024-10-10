@@ -56,45 +56,14 @@ stories:
   - action: action_provide_price_and_reset_slot
 
 
-- story: informando sobre precos baseado em entidades ou nao
-  steps:
-  - intent: preco_consulta
-  - action: action_provide_price_and_reset_slot
-
-
-- story: Inicia conversa e quer saber o local de atendimento 
-  steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
-  - intent: saber_local_de_atendimento
-  - action: utter_saber_local_de_atendimento
-
-
-- story: Inicia conversa e quer saber os planos de saude aceito pela clinica
-  steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
-  - intent: verificar_plano_de_saude
-  - action: utter_verificar_plano_de_saude
-
-
-- story: Inicia conversa e quer saber os servicos da clinica
-  steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
-  - intent: informacoes_sobre_servico
-  - action: utter_informacoes_sobre_servico
-
 - story: Inicia conversa e quer saber os metodos de pagamento
   steps:
   - intent: saudações
   - action: utter_saudações
   - action: utter_show_options
-  - intent: metodo_de_pagamento
-  - action: utter_metodo_de_pagamento
+  - intent: faq
+  - action: utter_faq
+
 
 - story: Inicia conversa e tem duvidas
   steps:
@@ -111,28 +80,8 @@ stories:
   - action: utter_show_options
   - intent: duvida
   - action: utter_duvida
-  - intent: saber_local_de_atendimento
-  - action: utter_saber_local_de_atendimento
-
-- story: Inicia conversa e quer saber os servicos
-  steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
-  - intent: duvida
-  - action: utter_duvida
-  - intent: informacoes_sobre_servico
-  - action: utter_informacoes_sobre_servico
-
-- story: Inicia conversa e quer saber os metodos de pagamento
-  steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
-  - intent: duvida
-  - action: utter_duvida
-  - intent: metodo_de_pagamento
-  - action: utter_metodo_de_pagamento
+  - intent: faq
+  - action: utter_faq
 
 - story: Inicia conversa e quer saber os precos da clinica
   steps:
@@ -153,13 +102,3 @@ stories:
   - action: utter_duvida
   - intent: transferir_atendente
   - action: action_transferir_atendente
-
-
-
-
-
-
-
-
-
-

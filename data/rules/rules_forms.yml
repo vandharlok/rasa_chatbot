@@ -98,3 +98,24 @@ rules:
   steps:
   - action: cadastro_form
   - active_loop: cadastro_form
+  
+
+- rule: feedback
+  steps:
+  - action: feedback_form
+  - active_loop: feedback_form
+
+
+
+
+- rule: covalidando feedback
+  condition:
+  - active_loop: feedback_form
+  steps:
+  - action: feedback_form
+  - active_loop: null
+  - slot_was_set:
+      - requested_slot: null
+  - slot_was_set:
+    - feedback
+  - action: action_store_feedback

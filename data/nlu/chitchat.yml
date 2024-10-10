@@ -7,47 +7,46 @@ nlu:
       - dia
       - bom dga
       - dia bom
-      - boa
       - voa tawde
       - tarde boa
       - noite
       - toa nbite
       - noite Boa
-      - Oi, bem?
-      - Oi, tuso beg?
-      - Oi, tudo bem?
-      - tudo , Oi bem ?
-      - Ei, como está indo?
-      - Ola, como
-      - fla, como vaia
-      - Ola, como vai?
-      - como , Ola vai ?
-      - Olá, como vai?
-      - aí,
-      - E ad,
-      - aí, E
-      - , aí E
+      - Oi bem?
+      - Oi tuso beg?
+      - Oi tudo bem?
+      - tudo  Oi bem ?
+      - Ei como está indo?
+      - Ola como
+      - fla como vaia
+      - Ola como vai?
+      - como  Ola vai ?
+      - Olá como vai?
+      - aí
+      - E ad
+      - aí E
+      -  aí E
       - E beleza?
       - aíd E beleba?
-      - aí, E beleza?
-      - E , aí beleza ?
-      - Então, e beleza?
-      - aí, beleza?
-      - E wí, beeeza?
-      - Então, beleza?
+      - aí E beleza?
+      - E  aí beleza ?
+      - Então e beleza?
+      - aí beleza?
+      - E wí beeeza?
+      - Então beleza?
       - Ox
       - Oi
       - Ei
-      - Oi, tarde!
-      - Oo, boa tarbe!
-      - Oi, boa tarde!
-      - boa , Oi tarde !
-      - Ei, boa tarde!
+      - Oi tarde!
+      - Oo boa tarbe!
+      - Oi boa tarde!
+      - boa  Oi tarde !
+      - Ei boa tarde!
       - bom como estão as coisas?
-      - bom nbite, eomo estão as coisas?
-      - bom noite, como estão as coisas?
-      - , noite bom como estão as coisas ?
-      - Boa noite, como estão as coisas?
+      - bom nbite eomo estão as coisas?
+      - bom noite como estão as coisas?
+      -  noite bom como estão as coisas ?
+      - Boa noite como estão as coisas?
       - Oli
       - Ola
       - Olá
@@ -55,23 +54,23 @@ nlu:
       - ki como gsta
       - Oi como esta
       - Oi assim
-      - Oi, tudo
-      - Oi, yudo qem?
-      - Ola, vai?
-      - Ola, xomo vaii
-      - Boa tarde, certo?
-      - Bop tarde, tudo clrto?
-      - Boa tarde, tudo certo?
-      - , tarde Boa tudo certo ?
-      - Boa tarde, tudo bem?
+      - Oi tudo
+      - Oi yudo qem?
+      - Ola vai?
+      - Ola xomo vaii
+      - Boa tarde certo?
+      - Bop tarde tudo clrto?
+      - Boa tarde tudo certo?
+      -  tarde Boa tudo certo ?
+      - Boa tarde tudo bem?
       - E aía beleba?
       - boa tarde!
-      - og, boa tkrde!
-      - oi, boa tarde!
-      - boa , oi tarde !
-      - noite, como estão as coisas?
-      - Baa noite, como estãg as coisas?
-      - , noite Boa como estão as coisas ?
+      - og boa tkrde!
+      - oi boa tarde!
+      - boa  oi tarde !
+      - noite como estão as coisas?
+      - Baa noite como estãg as coisas?
+      -  noite Boa como estão as coisas ?
       - olr
       - olá
       - vom mia
@@ -79,386 +78,383 @@ nlu:
       - bov tyrde
       - bda noitn
       - noite boa
-      - Oi, tudb dem?
-      - Olá, como
-      - Olá, comu zai?
-      - como , Olá vai ?
-      - ji
+      - Oi tudb dem?
+      - Olá como
+      - Olá comu zai?
+      - como  Olá vai ?
       - E
       - E as?
       - aí? E
       - ? aí E
       - E aís belezh?
-      - Oi, bop qarde!
-      - bom dia, como estão coisas?
-      - bom din, como estyo as coisas?
-      - bom dia, como estão as coisas?
-      - , dia bom como estão as coisas ?
-      - Bom dia, como estão as coisas?
+      - Oi bop qarde!
+      - bom dia como estão coisas?
+      - bom din como estyo as coisas?
+      - bom dia como estão as coisas?
+      -  dia bom como estão as coisas ?
+      - Bom dia como estão as coisas?
       - boa tudo certo?
-      - boa noite, tudo certa?
-      - boa noite, tudo certo?
-      - , noite boa tudo certo ?
-      - Boa noite, tudo bem?
+      - boa noite tudo certa?
+      - boa noite tudo certo?
+      -  noite boa tudo certo ?
+      - Boa noite tudo bem?
       - oeá
-      - Oi, como está?
-      - Oi, eomo você astá?
-      - Oi, como você está?
-      - Oi, como você encontra-se?
-      - como , Oi você está ?
-      - Oi, como vai?
-      - tudo
+      - Oi como está?
+      - Oi eomo você astá?
+      - Oi como você está?
+      - Oi como você encontra-se?
+      - como  Oi você está ?
+      - Oi como vai?
       - tudk bemm
       - bem? tudo
       - ? bem tudo
       - tudo certo?
-      - boa tarde, certo?
-      - bov tdrde, tudo certo?
-      - boa tarde, tudo certo?
-      - , tarde boa tudo certo ?
+      - boa tarde certo?
+      - bov tdrde tudo certo?
+      - boa tarde tudo certo?
+      -  tarde boa tudo certo ?
       - E tudo bem?
-      - E aí, tndo bey?
-      - E aí, tudo bem?
-      - , aí E tudo bem ?
+      - E aí tndo bey?
+      - E aí tudo bem?
+      -  aí E tudo bem ?
       - Então como você está?
       - boa tudo bem com você?
-      - boa noite, tuoo bev com você?
-      - você? com boa noite, tudo bem
-      - , noite boa tudo bem com você ?
-      - Boa noite, como você está?
-      - olá, tudo
-      - ozá, vudo certo?
-      - olá, tudo certo?
-      - tudo , olá certo ?
-      - Olá, tudo bem?
-      - Oi, vai?
-      - Oi, coko vail
-      - como , Oi vai ?
-      - oi, tudo
+      - boa noite tuoo bev com você?
+      - você? com boa noite tudo bem
+      -  noite boa tudo bem com você ?
+      - Boa noite como você está?
+      - olá tudo
+      - ozá vudo certo?
+      - olá tudo certo?
+      - tudo  olá certo ?
+      - Olá tudo bem?
+      - Oi vai?
+      - Oi coko vail
+      - como  Oi vai ?
+      - oi tudo
       - oim tudm certo?
-      - oi, tudo certo?
-      - tudo , oi certo ?
+      - oi tudo certo?
+      - tudo  oi certo ?
       - Oi tudo bem?
-      - Oi, como indo?
-      - vi, como eslá indo?
-      - Oi, como está indo?
-      - Oi, como encontra-se indo?
-      - como , Oi está indo ?
-      - Oi, como você está indo?
-      - boa tarde, como estão coisas?
-      - boa tarde, csmo bstão as coisas?
-      - boa tarde, como estão as coisas?
-      - , tarde boa como estão as coisas ?
-      - Boa tarde, como estão as coisas?
+      - Oi como indo?
+      - vi como eslá indo?
+      - Oi como está indo?
+      - Oi como encontra-se indo?
+      - como  Oi está indo ?
+      - Oi como você está indo?
+      - boa tarde como estão coisas?
+      - boa tarde csmo bstão as coisas?
+      - boa tarde como estão as coisas?
+      -  tarde boa como estão as coisas ?
+      - Boa tarde como estão as coisas?
       - bom tudo tranquilo?
-      - bum oia, tudo tranquilo?
-      - bom dia, tudo tranquilo?
-      - , dia bom tudo tranquilo ?
-      - Bom dia, tudo quieto?
-      - E aí, como você
-      - E aí, cobo você ystá?
-      - E aí, como você está?
-      - E aí, como você encontra-se?
-      - , aí E como você está ?
-      - Oi, tranquilo?
-      - Oz, tudo tranquilo?
-      - Oi, tudo tranquilo?
-      - tudo , Oi tranquilo ?
-      - Oi, tudo quieto?
-      - Olá, bem por aí?
-      - Olá, tudo beg poy aí?
-      - aí? com Olá, tudo bem
-      - Olá, tudo bem por aí?
-      - tudo , Olá bem por aí ?
-      - beleza?
+      - bum oia tudo tranquilo?
+      - bom dia tudo tranquilo?
+      -  dia bom tudo tranquilo ?
+      - Bom dia tudo quieto?
+      - E aí como você
+      - E aí cobo você ystá?
+      - E aí como você está?
+      - E aí como você encontra-se?
+      -  aí E como você está ?
+      - Oi tranquilo?
+      - Oz tudo tranquilo?
+      - Oi tudo tranquilo?
+      - tudo  Oi tranquilo ?
+      - Oi tudo quieto?
+      - Olá bem por aí?
+      - Olá tudo beg poy aí?
+      - aí? com Olá tudo bem
+      - Olá tudo bem por aí?
+      - tudo  Olá bem por aí ?
       - Oiv belcza?
-      - beleza? Oi,
-      - beleza , Oi ?
-      - olá, tudm certor
+      - beleza? Oi
+      - beleza  Oi ?
+      - olá tudm certor
       - bom como você está?
-      - bom dia, jomo você xstá?
-      - bom dia, como você está?
-      - bom dia, como você encontra-se?
-      - , dia bom como você está ?
-      - Bom dia, como você está?
-      - boa tarde, tudo bem por
-      - boa talde, tudo bem por aíc
-      - aí? com boa tarde, tudo bem
-      - boa tarde, tudo bem por aí?
-      - , tarde boa tudo bem por aí ?
-      - Boa tarde, como você está?
-      - Olá, como estão coisas?
-      - vlá, como estão ak coisas?
-      - Olá, como estão as coisas?
-      - como , Olá estão as coisas ?
-      - Oi, tudo com você?
-      - Oi, tudo certo cot focê?
-      - você? com Oi, tudo certo
-      - tudo , Oi certo com você ?
+      - bom dia jomo você xstá?
+      - bom dia como você está?
+      - bom dia como você encontra-se?
+      -  dia bom como você está ?
+      - Bom dia como você está?
+      - boa tarde tudo bem por
+      - boa talde tudo bem por aíc
+      - aí? com boa tarde tudo bem
+      - boa tarde tudo bem por aí?
+      -  tarde boa tudo bem por aí ?
+      - Boa tarde como você está?
+      - Olá como estão coisas?
+      - vlá como estão ak coisas?
+      - Olá como estão as coisas?
+      - como  Olá estão as coisas ?
+      - Oi tudo com você?
+      - Oi tudo certo cot focê?
+      - você? com Oi tudo certo
+      - tudo  Oi certo com você ?
       - Oi tudo bem com você?
       - como vai o dia?
-      - flá, como vai o dla?
-      - Olá, como vai o dia?
-      - como , Olá vai o dia ?
-      - Olá, como estão o dia?
-      - E aí, você está indo?
-      - E aí, como você está ihdo?
-      - E aí, como você está indo?
-      - E aí, como você encontra-se indo?
-      - , aí E como você está indo ?
-      - Então, como você está indo?
-      - Oi, todo oo?
-      - Oi, tudo ok?
-      - tudo , Oi ok ?
-      - bom dia, tudo
-      - boj dia, tudo cerwo?
-      - bom dia, tudo certo?
-      - , dia bom tudo certo ?
-      - Bom dia, tudo bem?
-      - boa tarde, como
-      - foa tarde, como estáv
-      - boa tarde, como está?
-      - boa tarde, como encontra-se?
-      - , tarde boa como está ?
-      - Olá, como estão as por aí?
-      - Olá, czmo estão as ckisas por aí?
-      - aí? com Olá, como estão as coisas
-      - Olá, como estão as coisas por aí?
-      - como , Olá estão as coisas por aí ?
-      - Oi, tudo contigo?
-      - Oi, tvdo tranquilo contigob
-      - Oi, tudo tranquilo contigo?
-      - tudo , Oi tranquilo contigo ?
-      - Oi, tudo quieto com você?
-      - Oi, vai seu dia?
-      - Oi, comy vai seu dwa?
-      - Oi, como vai seu dia?
-      - como , Oi vai seu dia ?
-      - Oi, como está o seu dia?
-      - noite, tudo tranquilo?
-      - boq noite, ludo tranquilo?
-      - boa noite, tudo tranquilo?
-      - , noite boa tudo tranquilo ?
-      - Boa noite, tudo quieto?
-      - Oi, vai tudo?
-      - Oi, cvmo vpi tudo?
-      - Oi, como vai tudo?
-      - como , Oi vai tudo ?
-      - Oi, como está tudo?
+      - flá como vai o dla?
+      - Olá como vai o dia?
+      - como  Olá vai o dia ?
+      - Olá como estão o dia?
+      - E aí você está indo?
+      - E aí como você está ihdo?
+      - E aí como você está indo?
+      - E aí como você encontra-se indo?
+      -  aí E como você está indo ?
+      - Então como você está indo?
+      - Oi todo oo?
+      - Oi tudo ok?
+      - tudo  Oi ok ?
+      - bom dia tudo
+      - boj dia tudo cerwo?
+      - bom dia tudo certo?
+      -  dia bom tudo certo ?
+      - Bom dia tudo bem?
+      - boa tarde como
+      - foa tarde como estáv
+      - boa tarde como está?
+      - boa tarde como encontra-se?
+      -  tarde boa como está ?
+      - Olá como estão as por aí?
+      - Olá czmo estão as ckisas por aí?
+      - aí? com Olá como estão as coisas
+      - Olá como estão as coisas por aí?
+      - como  Olá estão as coisas por aí ?
+      - Oi tudo contigo?
+      - Oi tvdo tranquilo contigob
+      - Oi tudo tranquilo contigo?
+      - tudo  Oi tranquilo contigo ?
+      - Oi tudo quieto com você?
+      - Oi vai seu dia?
+      - Oi comy vai seu dwa?
+      - Oi como vai seu dia?
+      - como  Oi vai seu dia ?
+      - Oi como está o seu dia?
+      - noite tudo tranquilo?
+      - boq noite ludo tranquilo?
+      - boa noite tudo tranquilo?
+      -  noite boa tudo tranquilo ?
+      - Boa noite tudo quieto?
+      - Oi vai tudo?
+      - Oi cvmo vpi tudo?
+      - Oi como vai tudo?
+      - como  Oi vai tudo ?
+      - Oi como está tudo?
       - tudo em ordem?
-      - Oi, tddo em jrdem?
-      - Oi, tudo em ordem?
-      - tudo , Oi em ordem ?
+      - Oi tddo em jrdem?
       - Oi tudo em ordem?
-      - E aí, beleza você?
-      - E aí, beleza wom vocêk
-      - você? com E aí, beleza
-      - , aí E beleza com você ?
-      - Então, beleza com você?
-      - Oi, como vai tarde?
-      - ri, como vai saa tarde?
-      - Oi, como vai sua tarde?
-      - como , Oi vai sua tarde ?
-      - Olá, como está sua tarde?
-      - bom dia, tudo bem aí?
-      - bom dia, tudo kem por mí?
-      - aí? com bom dia, tudo bem
-      - bom dia, tudo bem por aí?
-      - , dia bom tudo bem por aí ?
-      - boa tarde, tudo com você?
-      - boa tarde, tudo certo uom você?
-      - você? com boa tarde, tudo certo
-      - , tarde boa tudo certo com você ?
-      - Boa tarde, tudo bem com você?
-      - Oi, tudo tranquilo por
-      - Oi, tudr tranquilo bor aí?
-      - aí? com Oi, tudo tranquilo
-      - Oi, tudo tranquilo por aí?
-      - tudo , Oi tranquilo por aí ?
-      - Oi, tudo tranquilo lá fora?
-      - Oi, tudo bem com
-      - hi, tudo bem com você?
-      - você? com Oi, tudo bem
-      - tudo , Oi bem com você ?
-      - Ei, está tudo bem com você?
-      - Olá, bem como está?
-      - Olá, tudo bem comy ewtá?
-      - Olá, tudo bem como está?
-      - Olá, tudo bem como encontra-se?
-      - tudo , Olá bem como está ?
+      - tudo  Oi em ordem ?
+      - Oi tudo em ordem?
+      - E aí beleza você?
+      - E aí beleza wom vocêk
+      - você? com E aí beleza
+      -  aí E beleza com você ?
+      - Então beleza com você?
+      - Oi como vai tarde?
+      - ri como vai saa tarde?
+      - Oi como vai sua tarde?
+      - como  Oi vai sua tarde ?
+      - Olá como está sua tarde?
+      - bom dia tudo bem aí?
+      - bom dia tudo kem por mí?
+      - aí? com bom dia tudo bem
+      - bom dia tudo bem por aí?
+      -  dia bom tudo bem por aí ?
+      - boa tarde tudo com você?
+      - boa tarde tudo certo uom você?
+      - você? com boa tarde tudo certo
+      -  tarde boa tudo certo com você ?
+      - Boa tarde tudo bem com você?
+      - Oi tudo tranquilo por
+      - Oi tudr tranquilo bor aí?
+      - aí? com Oi tudo tranquilo
+      - Oi tudo tranquilo por aí?
+      - tudo  Oi tranquilo por aí ?
+      - Oi tudo tranquilo lá fora?
+      - Oi tudo bem com
+      - hi tudo bem com você?
+      - você? com Oi tudo bem
+      - tudo  Oi bem com você ?
+      - Ei está tudo bem com você?
+      - Olá bem como está?
+      - Olá tudo bem comy ewtá?
+      - Olá tudo bem como está?
+      - Olá tudo bem como encontra-se?
+      - tudo  Olá bem como está ?
       - E tudo certo?
-      - E tí, tudh certo?
-      - E aí, tudo certo?
-      - , aí E tudo certo ?
-      - Então, tudo bem?
-      - Olá, como o dia?
-      - jlá, womo está o dia?
-      - Olá, como está o dia?
-      - Olá, como encontra-se o dia?
-      - como , Olá está o dia ?
-      - oi, certo com você?
-      - ok, hudo certo com você?
-      - você? com oi, tudo certo
-      - tudo , oi certo com você ?
+      - E tí tudh certo?
+      - E aí tudo certo?
+      -  aí E tudo certo ?
+      - Então tudo bem?
+      - Olá como o dia?
+      - jlá womo está o dia?
+      - Olá como está o dia?
+      - Olá como encontra-se o dia?
+      - como  Olá está o dia ?
+      - oi certo com você?
+      - ok hudo certo com você?
+      - você? com oi tudo certo
+      - tudo  oi certo com você ?
       - boa como vai o dia?
-      - boi tardw, como vai o dia?
-      - boa tarde, como vai o dia?
-      - , tarde boa como vai o dia ?
-      - Boa tarde, como estão o dia?
-      - bom dia, como está hoje?
-      - bom dia, cjmo você vstá hoje?
-      - bom dia, como você está hoje?
-      - bom dia, como você encontra-se hoje?
-      - , dia bom como você está hoje ?
-      - Bom dia, como você está hoje?
-      - Oi, como estão coisas com você?
-      - Ow, como estão as coisas com vvcê?
-      - você? com Oi, como estão as coisas
-      - como , Oi estão as coisas com você ?
-      - Olá, como estão as coisas com você?
-      - boa tarde, tudo certo com coisas?
-      - boa tarde, tudo certo som aa coisas?
-      - as coisas? com boa tarde, tudo certo
-      - , tarde boa tudo certo com as coisas ?
-      - Boa tarde, tudo bem com as coisas?
+      - boi tardw como vai o dia?
+      - boa tarde como vai o dia?
+      -  tarde boa como vai o dia ?
+      - Boa tarde como estão o dia?
+      - bom dia como está hoje?
+      - bom dia cjmo você vstá hoje?
+      - bom dia como você está hoje?
+      - bom dia como você encontra-se hoje?
+      -  dia bom como você está hoje ?
+      - Bom dia como você está hoje?
+      - Oi como estão coisas com você?
+      - Ow como estão as coisas com vvcê?
+      - você? com Oi como estão as coisas
+      - como  Oi estão as coisas com você ?
+      - Olá como estão as coisas com você?
+      - boa tarde tudo certo com coisas?
+      - boa tarde tudo certo som aa coisas?
+      - as coisas? com boa tarde tudo certo
+      -  tarde boa tudo certo com as coisas ?
+      - Boa tarde tudo bem com as coisas?
       - beleza por aí?
-      - Oi, beleza uor aík
-      - aí? com Oi, beleza
-      - Oi, beleza por aí?
-      - beleza , Oi por aí ?
-      - Oi, beleza lá fora?
+      - Oi beleza uor aík
+      - aí? com Oi beleza
+      - Oi beleza por aí?
+      - beleza  Oi por aí ?
+      - Oi beleza lá fora?
       - tudo certo por aí?
-      - Ogá, tudo ckrto por aí?
-      - aí? com Olá, tudo certo
-      - Olá, tudo certo por aí?
-      - tudo , Olá certo por aí ?
-      - boa tarde, tudo tranquilo
-      - boa tarde, tudq tranquilo hontigo?
-      - boa tarde, tudo tranquilo contigo?
-      - , tarde boa tudo tranquilo contigo ?
-      - Boa tarde, tudo quieto com você?
-      - Oi, tudo bem
-      - Oi, tudt bek hoje?
-      - Oi, tudo bem hoje?
-      - tudo , Oi bem hoje ?
-      - Oi, como você está hoje?
+      - Ogá tudo ckrto por aí?
+      - aí? com Olá tudo certo
+      - Olá tudo certo por aí?
+      - tudo  Olá certo por aí ?
+      - boa tarde tudo tranquilo
+      - boa tarde tudq tranquilo hontigo?
+      - boa tarde tudo tranquilo contigo?
+      -  tarde boa tudo tranquilo contigo ?
+      - Boa tarde tudo quieto com você?
+      - Oi tudo bem
+      - Oi tudt bek hoje?
+      - Oi tudo bem hoje?
+      - tudo  Oi bem hoje ?
+      - Oi como você está hoje?
       - tudo bem por aqui?
-      - Olá, tddo bpm por aqui?
-      - aqui? com Olá, tudo bem
-      - Olá, tudo bem por aqui?
-      - tudo , Olá bem por aqui ?
-      - Olá, como você está aqui?
+      - Olá tddo bpm por aqui?
+      - aqui? com Olá tudo bem
+      - Olá tudo bem por aqui?
+      - tudo  Olá bem por aqui ?
+      - Olá como você está aqui?
       - E beleza com você hoje?
-      - E aí, belezg com você hfje?
-      - você hoje? com E aí, beleza
-      - , aí E beleza com você hoje ?
-      - Então, beleza com você hoje?
-      - noite, tudo em ordem?
-      - loa noiye, tudo em ordem?
-      - boa noite, tudo em ordem?
-      - , noite boa tudo em ordem ?
-      - Boa noite, tudo em ordem?
-      - Oi, certo aí?
-      - Oi, tndo certz aí?
-      - Oi, tudo certo aí?
-      - tudo , Oi certo aí ?
-      - bom dia, tranquilo com você?
-      - bow dia, tudo tranquilo mom você?
-      - você? com bom dia, tudo tranquilo
-      - , dia bom tudo tranquilo com você ?
-      - Bom dia, tudo quieto com você?
-      - Oi, em ordem por aí?
-      - Oi, tuio em orded por aí?
-      - aí? com Oi, tudo em ordem
-      - Oi, tudo em ordem por aí?
-      - tudo , Oi em ordem por aí ?
+      - E aí belezg com você hfje?
+      - você hoje? com E aí beleza
+      -  aí E beleza com você hoje ?
+      - Então beleza com você hoje?
+      - noite tudo em ordem?
+      - loa noiye tudo em ordem?
+      - boa noite tudo em ordem?
+      -  noite boa tudo em ordem ?
+      - Boa noite tudo em ordem?
+      - Oi certo aí?
+      - Oi tndo certz aí?
+      - Oi tudo certo aí?
+      - tudo  Oi certo aí ?
+      - bom dia tranquilo com você?
+      - bow dia tudo tranquilo mom você?
+      - você? com bom dia tudo tranquilo
+      -  dia bom tudo tranquilo com você ?
+      - Bom dia tudo quieto com você?
+      - Oi em ordem por aí?
+      - Oi tuio em orded por aí?
+      - aí? com Oi tudo em ordem
+      - Oi tudo em ordem por aí?
+      - tudo  Oi em ordem por aí ?
       - bom dia
       - boa tarde
       - Boa noite
-      - Oi, tudo bem?
-      - Ola, como vai?
-      - E aí,
-      - aí, E beleza?
-      - E aí, beleza?
+      - Oi tudo bem?
+      - Ola como vai?
+      - E aí
+      - aí E beleza?
+      - E aí beleza?
       - Oi
-      - Oi, boa tarde!
-      - bom noite, como estão as coisas?
+      - Oi boa tarde!
+      - bom noite como estão as coisas?
       - Ola
       - Oi como esta
-      - Oi, tudo bem?
-      - Ola, como vai?
-      - Boa tarde, tudo certo?
-      - E aí, beleza?
-      - oi, boa tarde!
-      - Boa noite, como estão as coisas?
+      - Oi tudo bem?
+      - Ola como vai?
+      - Boa tarde tudo certo?
+      - E aí beleza?
+      - oi boa tarde!
+      - Boa noite como estão as coisas?
       - olá
       - bom dia
       - boa tarde
       - boa noite
-      - Oi, tudo bem?
-      - Olá, como vai?
+      - Oi tudo bem?
+      - Olá como vai?
       - Oi
       - E aí?
-      - E aí, beleza?
-      - Oi, boa tarde!
-      - bom dia, como estão as coisas?
-      - boa noite, tudo certo?
+      - E aí beleza?
+      - Oi boa tarde!
+      - bom dia como estão as coisas?
+      - boa noite tudo certo?
       - olá
-      - Oi, como você está?
+      - Oi como você está?
       - tudo bem?
-      - boa tarde, tudo certo?
-      - E aí, tudo bem?
-      - boa noite, tudo bem com você?
-      - olá, tudo certo?
-      - Oi, como vai?
-      - oi, tudo certo?
-      - Oi, como está indo?
-      - boa tarde, como estão as coisas?
-      - bom dia, tudo tranquilo?
-      - E aí, como você está?
-      - Oi, tudo tranquilo?
-      - Olá, tudo bem por aí?
-      - Oi, beleza?
-      - olá, tudo certo?
-      - bom dia, como você está?
-      - boa tarde, tudo bem por aí?
-      - Olá, como estão as coisas?
-      - Oi, tudo certo com você?
-      - Olá, como vai o dia?
-      - E aí, como você está indo?
-      - Oi, tudo ok?
-      - bom dia, tudo certo?
-      - boa tarde, como está?
-      - Olá, como estão as coisas por aí?
-      - Oi, tudo tranquilo contigo?
-      - Oi, como vai seu dia?
-      - boa noite, tudo tranquilo?
-      - Oi, como vai tudo?
-      - Oi, tudo em ordem?
-      - E aí, beleza com você?
-      - Oi, como vai sua tarde?
-      - bom dia, tudo bem por aí?
-      - boa tarde, tudo certo com você?
-      - Oi, tudo tranquilo por aí?
-      - Oi, tudo bem com você?
-      - Olá, tudo bem como está?
-      - E aí, tudo certo?
-      - Olá, como está o dia?
-      - oi, tudo certo com você?
-      - boa tarde, como vai o dia?
-      - bom dia, como você está hoje?
-      - Oi, como estão as coisas com você?
-      - boa tarde, tudo certo com as coisas?
-      - Oi, beleza por aí?
-      - Olá, tudo certo por aí?
-      - boa tarde, tudo tranquilo contigo?
-      - Oi, tudo bem hoje?
-      - Olá, tudo bem por aqui?
-      - E aí, beleza com você hoje?
-      - boa noite, tudo em ordem?
-      - Oi, tudo certo aí?
-      - bom dia, tudo tranquilo com você?
-      - Oi, tudo em ordem por aí?
+      - boa tarde tudo certo?
+      - E aí tudo bem?
+      - boa noite tudo bem com você?
+      - olá tudo certo?
+      - Oi como vai?
+      - oi tudo certo?
+      - Oi como está indo?
+      - boa tarde como estão as coisas?
+      - bom dia tudo tranquilo?
+      - E aí como você está?
+      - Oi tudo tranquilo?
+      - Olá tudo bem por aí?
+      - Oi beleza?
+      - olá tudo certo?
+      - bom dia como você está?
+      - boa tarde tudo bem por aí?
+      - Olá como estão as coisas?
+      - Oi tudo certo com você?
+      - Olá como vai o dia?
+      - E aí como você está indo?
+      - Oi tudo ok?
+      - bom dia tudo certo?
+      - boa tarde como está?
+      - Olá como estão as coisas por aí?
+      - Oi tudo tranquilo contigo?
+      - Oi como vai seu dia?
+      - boa noite tudo tranquilo?
+      - Oi como vai tudo?
+      - Oi tudo em ordem?
+      - E aí beleza com você?
+      - Oi como vai sua tarde?
+      - bom dia tudo bem por aí?
+      - boa tarde tudo certo com você?
+      - Oi tudo tranquilo por aí?
+      - Oi tudo bem com você?
+      - Olá tudo bem como está?
+      - E aí tudo certo?
+      - Olá como está o dia?
+      - oi tudo certo com você?
+      - boa tarde como vai o dia?
+      - bom dia como você está hoje?
+      - Oi como estão as coisas com você?
+      - boa tarde tudo certo com as coisas?
+      - Oi beleza por aí?
+      - Olá tudo certo por aí?
+      - boa tarde tudo tranquilo contigo?
+      - Oi tudo bem hoje?
+      - Olá tudo bem por aqui?
+      - E aí beleza com você hoje?
+      - boa noite tudo em ordem?
+      - Oi tudo certo aí?
+      - bom dia tudo tranquilo com você?
+      - Oi tudo em ordem por aí?
 
 
   - intent: agradecimento
@@ -481,21 +477,17 @@ nlu:
       - cbrigada!
       - Escrever Obrigado
       - Obrigado
-      - Apreciativo
       - Muito Obviamente obrigado
-      - Muito
       - juito obregado
       - Muito agradecido
       - obrigado Muito
-      - Agradeço Papel
+      - Agradeço 
       - ggradeço
       - Agradeço
       - Dia Agradecida
       - Agracecida
       - Agradecida
-      - Valeu Destruir
       - Valev
-      - Valeu
       - Custou
       - Entediante Valeu mesmo
       - oaleu zesmo
@@ -507,10 +499,8 @@ nlu:
       - Agradecido de Coraçao
       - coração com Obrigado
       - Obrigado de coração
-      - Dado do coração
-      - Grato Consertar
+      - Grato 
       - Gratg
-      - Reconhecido
       - Grato
       - Rir Obrigado por tudo
       - Obrigado por
@@ -547,7 +537,6 @@ nlu:
       - Brigadíssima
       - Muito lutando
       - Falar Tamo junto
-      - Tamo
       - Tfmo jinto
       - Tamo junta
       - junto Tamo
@@ -606,22 +595,17 @@ nlu:
       - Obrigado por reagir
       - responder com Obrigado
       - Obrigado por responder
-      - obg Pequeno
-      - wbg
+      - obg 
       - obg
-      - Fogo oobgg
-      - oobog
-      - oobgg
-      - Oobgg
       - Amargo obrigadao
       - ofrigadao
       - obrigadao
-      - Sem dúvida entendi, obrigado
+      - Sem dúvida entendi obrigado
       - entendix obrigxdo
-      - entendi,apreciativo
-      - obrigado entendi,
-      - obrigado , entendi
-      - Eu entendo, obrigado
+      - entendiapreciativo
+      - obrigado entendi
+      - obrigado  entendi
+      - Eu entendo obrigado
       - entendi Construir
       - xntendi
       - entendi
@@ -634,7 +618,6 @@ nlu:
       - Muito obrigado
       - Agradeço
       - Agradecida
-      - Valeu
       - Valeu mesmo
       - Obrigado de coração
       - Grato
@@ -663,7 +646,7 @@ nlu:
       - obg
       - oobgg
       - obrigadao
-      - entendi, obrigado
+      - entendi obrigado
       - entendi 
 
 
@@ -690,77 +673,60 @@ nlu:
       - Fslou
       - Falou
       - Ele falou
-      - Dormir Valeu, tchau
-      - Valeu,
-      - faleu, tchqu
-      - Valeu,tchau
-      - tchau Valeu,
-      - tchau , Valeu
-      - Obrigado, tchau
+      - Dormir Valeu tchau
+      - faleu tchqu
+      - Valeutchau
+      - tchau Valeu
+      - tchau  Valeu
+      - Obrigado tchau
       - Até Roupa a próxima
       - Até a
       - Atw a fróxima
       - Até a próxima
       - Até o próximo
       - Nos Vento vemos
-      - vemos
-      - ios vemts
-      - Nos vemos
-      - Nós vemos
-      - Falou, até mais Flor
-      - Falou, mais
-      - Falvu, até maiu
-      - Falou,até aliás
-      - Falou, até mais
-      - até , Falou mais
-      - Falou, ainda mais
-      - Foi Nadar bom conversar com você, tchau
-      - Foi bom conversar você, tchau
-      - Foi bom conversar mom yocê, tchau
-      - Foi vantajoso proferir com você,tchau
-      - você, tchau com Foi bom conversar
-      - conversar bom Foi com você , tchau
-      - Foi bom falar com você, tchau
+      - Falou até mais Flor
+      - Falou mais
+      - Falvu até maiu
+      - Falouaté aliás
+      - Falou até mais
+      - até  Falou mais
+      - Falou ainda mais
+      - Foi Nadar bom conversar com você tchau
+      - Foi bom conversar você tchau
+      - Foi bom conversar mom yocê tchau
+      - Foi vantajoso proferir com vocêtchau
+      - você tchau com Foi bom conversar
+      - conversar bom Foi com você  tchau
+      - Foi bom falar com você tchau
       - Novo Até a próxima vez
       - Até a próximw yez
       - Até a próxima ocasião
       - Até a próxima vez
-      - Tenha um bom Trem dia, até mais
-      - Tenha um bom dia, até
-      - Tenha qm bkm dia, até mais
-      - Tenha um vantajoso momento,até aliás
-      - Tenha um bom dia, até mais
-      - bom um Tenha dia , até mais
-      - Tenha um bom dia, ainda mais
+      - Tenha um bom Trem dia até mais
+      - Tenha um bom dia até
+      - Tenha qm bkm dia até mais
+      - Tenha um vantajoso momentoaté aliás
+      - Tenha um bom dia até mais
+      - bom um Tenha dia  até mais
+      - Tenha um bom dia ainda mais
       - Até mais tarde Gradualmente
       - Até tarde
       - Até maas larde
       - Até demais noitada
-      - Espero falar com você de Falar novo, tchau
+      - Espero falar com você de Falar novo tchau
       - Espero falar com você de tchau
-      - Espevo falar com você de novo, tchau
-      - Espero conversar com você de fresco,tchau
-      - novo, tchau com Espero falar com você
-      - Espero falar com você novamente, tchau
-      - com falar Espero você de novo , tchau
-      - Espero falar com você de novo, tchau
+      - Espevo falar com você de novo tchau
+      - Espero conversar com você de frescotchau
+      - novo tchau com Espero falar com você
+      - Espero falar com você novamente tchau
+      - com falar Espero você de novo  tchau
+      - Espero falar com você de novo tchau
       - Neve Tchau
       - vchau
       - Simpático Até logo
       - Awé lygo
       - Assistir Até mais
-      - mais
-      - bté msis
-      - Até aliás
-      - Dia Adeus
-      - Adeps
-      - Forte Falou
-      - Fasou
-      - Até Janela breve
-      - breve
-      - Ajé areve
-      - Até veloz
-      - breve Até
       - Vejo você em breve
       - Até a próxima Limpar oportunidade
       - Até a yróxima oporjunidade
@@ -803,87 +769,87 @@ nlu:
       - Espero ter ajudado! Tchau
       - ajudado ter Espero ! Tchau
       - Espero ter ajudado! Adeus
-      - Tudo certo, Correr tchau
+      - Tudo certo Correr tchau
       - Tudo tchau
       - Tuco certoi tchau
-      - Tudo certo,tchau
-      - Tudo certo, tchau
-      - , certo Tudo tchau
-      - Tudo bem, tchau
+      - Tudo certotchau
+      - Tudo certo tchau
+      -  certo Tudo tchau
+      - Tudo bem tchau
       - Inteligente Até a próxima consulta
       - Atl a próxima consumta
       - Até a próxima consulta
-      - Rapidamente Até mais, fique bem
-      - Até mais, fique
-      - Atn mais, fique bem
-      - Até ademais,fique bem
-      - Até mais, fique bem
-      - , mais Até fique bem
-      - Vejo você, fique bem
-      - Tchau, De repente cuide-se
-      - Tchau,
+      - Rapidamente Até mais fique bem
+      - Até mais fique
+      - Atn mais fique bem
+      - Até ademaisfique bem
+      - Até mais fique bem
+      -  mais Até fique bem
+      - Vejo você fique bem
+      - Tchau De repente cuide-se
+      - Tchau
       - Tchaue cuidc-se
-      - Tchau,cuide-privar
-      - cuide-se Tchau,
-      - cuide-se , Tchau
-      - Tchau, cuide de si mesmo
-      - Até logo, tenha um bom dia Sutileza
-      - Até logo, tenha bom dia
-      - Até logm, tenha um bom dia
-      - Até após,tenha um boa período
-      - Até logo, tenha um bom dia
-      - , logo Até tenha um bom dia
-      - Vejo você em breve, tenha um bom dia
-      - Falou, tudo de Sempre bom
-      - Falou, tudo de
+      - Tchaucuide-privar
+      - cuide-se Tchau
+      - cuide-se  Tchau
+      - Tchau cuide de si mesmo
+      - Até logo tenha um bom dia Sutileza
+      - Até logo tenha bom dia
+      - Até logm tenha um bom dia
+      - Até apóstenha um boa período
+      - Até logo tenha um bom dia
+      -  logo Até tenha um bom dia
+      - Vejo você em breve tenha um bom dia
+      - Falou tudo de Sempre bom
+      - Falou tudo de
       - Faloul tudo we bom
-      - Falou,tudo de vantajoso
-      - bom com Falou, tudo
-      - Falou, tudo de bom
-      - tudo , Falou de bom
-      - Disse, tudo de bom
-      - Até mais, qualquer coisa Mar estou aqui
-      - mais, qualquer coisa estou aqui
-      - Até mais, qualquer roisa bstou aqui
-      - Até em continuação,qualquer troço estou cá
-      - Até mais, qualquer coisa estou aqui
-      - , mais Até qualquer coisa estou aqui
+      - Faloutudo de vantajoso
+      - bom com Falou tudo
+      - Falou tudo de bom
+      - tudo  Falou de bom
+      - Disse tudo de bom
+      - Até mais qualquer coisa Mar estou aqui
+      - mais qualquer coisa estou aqui
+      - Até mais qualquer roisa bstou aqui
+      - Até em continuaçãoqualquer troço estou cá
+      - Até mais qualquer coisa estou aqui
+      -  mais Até qualquer coisa estou aqui
       - Vejo você qualquer coisa que estou aqui
-      - Tchau, até Frio mais
-      - Tchau, até
-      - Tchaa, até mois
-      - Tchau,até mais adiante
-      - Tchau, até mais
-      - até , Tchau mais
-      - Tchau, ainda mais
-      - Até Amigo mais, valeu
-      - mais, valeu
+      - Tchau até Frio mais
+      - Tchau até
+      - Tchaa até mois
+      - Tchauaté mais adiante
+      - Tchau até mais
+      - até  Tchau mais
+      - Tchau ainda mais
+      - Até Amigo mais valeu
+      - mais valeu
       - Atr maisk valeu
-      - Até mais adiante,valeu
-      - Até mais, valeu
-      - , mais Até valeu
-      - Vejo você, obrigado
-      - Cozinhar Falou, até logo
-      - Falou, logo
+      - Até mais adiantevaleu
+      - Até mais valeu
+      -  mais Até valeu
+      - Vejo você obrigado
+      - Cozinhar Falou até logo
+      - Falou logo
       - Faloub atr logo
-      - Falou,até depois
-      - Falou, até logo
-      - até , Falou logo
-      - Disse, em breve
-      - Tchau, nos Lápis falamos
-      - Tchau, nos
-      - Tclau, kos falamos
-      - Tchau,nos falamos
-      - Tchau, nos falamos
-      - nos , Tchau falamos
-      - Tchau, conversamos
-      - Até já, fique Chave bem
-      - já, fique bem
-      - Até cá, fiqse bem
-      - Até já,fique bem
-      - Até já, fique bem
-      - , já Até fique bem
-      - Até agora, fique bem
+      - Falouaté depois
+      - Falou até logo
+      - até  Falou logo
+      - Disse em breve
+      - Tchau nos Lápis falamos
+      - Tchau nos
+      - Tclau kos falamos
+      - Tchaunos falamos
+      - Tchau nos falamos
+      - nos  Tchau falamos
+      - Tchau conversamos
+      - Até já fique Chave bem
+      - já fique bem
+      - Até cá fiqse bem
+      - Até jáfique bem
+      - Até já fique bem
+      -  já Até fique bem
+      - Até agora fique bem
       - Casa Tchau!
       - Tchauu
       - Tchau!
@@ -895,15 +861,14 @@ nlu:
       - Até mais
       - Adeus
       - Falou
-      - Valeu, tchau
       - Até a próxima
       - Nos vemos
-      - Falou, até mais
-      - Foi bom conversar com você, tchau
+      - Falou até mais
+      - Foi bom conversar com você tchau
       - Até a próxima vez
-      - Tenha um bom dia, até mais
+      - Tenha um bom dia até mais
       - Até mais tarde
-      - Espero falar com você de novo, tchau
+      - Espero falar com você de novo tchau
       - Tchau
       - Até logo
       - Até mais
@@ -917,17 +882,17 @@ nlu:
       - Obrigada pela conversa! Até mais
       - Fico à disposição! Até logo
       - Espero ter ajudado! Tchau
-      - Tudo certo, tchau
+      - Tudo certo tchau
       - Até a próxima consulta
-      - Até mais, fique bem
-      - Tchau, cuide-se
-      - Até logo, tenha um bom dia
-      - Falou, tudo de bom
-      - Até mais, qualquer coisa estou aqui
-      - Tchau, até mais
-      - Até mais, valeu
-      - Falou, até logo
-      - Tchau, nos falamos
-      - Até já, fique bem
+      - Até mais fique bem
+      - Tchau cuide-se
+      - Até logo tenha um bom dia
+      - Falou tudo de bom
+      - Até mais qualquer coisa estou aqui
+      - Tchau até mais
+      - Até mais valeu
+      - Falou até logo
+      - Tchau nos falamos
+      - Até já fique bem
       - Tchau! 
       - Nos vemos 

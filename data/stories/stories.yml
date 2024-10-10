@@ -14,6 +14,79 @@ stories:
   - action: utter_show_options
   - action: action_reset_all
 
+- story: confusao de intencoes marcando consulta
+  steps:
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: concordancia
+  - action: utter_verifica_cadastro
+  - intent: concordancia
+  - action: event_form
+  - active_loop: event_form
+
+
+- story: confusao de intencoes marcando consulta 2
+  steps:
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+  - intent: concordancia
+  - action: modify_event_form
+  - active_loop: modify_event_form
+
+
+- story: confusao de intencoes marcando consulta 3
+  steps:
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: concordancia
+  - action: utter_verifica_cadastro
+  - intent: concordancia
+  - action: event_form
+  - active_loop: event_form
+
+
+
+- story: confusao de intencoes marcando consulta 4
+  steps:
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+  - intent: concordancia
+  - action: modify_event_form
+  - active_loop: modify_event_form
+
+
+
+
+- story: confusao de intencoes marcando consulta 5
+  steps:
+  - intent: marcar_consulta
+  - action: utter_marcar_consulta
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: concordancia
+  - action: delete_event_form
+  - active_loop: delete_event_form
+
+- story: confusao de intencoes marcando consulta 6
+  steps:
+  - intent: remarcar_consulta
+  - action: utter_remarcar_consulta
+  - intent: cancelar_consulta
+  - action: utter_cancelar_consulta
+  - intent: concordancia
+  - action: delete_event_form
+  - active_loop: delete_event_form
+
+
+
 
 #REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
 #REMARCANDO CONSULTA//////////////////////////////////////////////////////////////////////////////////////////////
@@ -23,26 +96,26 @@ stories:
 
 - story: Alterar o dia de uma consulta dps de perguntar algo (Happy path)
   steps:
-  - intent: saudações
-  - action: utter_saudações
-  - action: utter_show_options
   - intent: remarcar_consulta
   - action: utter_remarcar_consulta
   - intent: concordancia
   - action: modify_event_form
   - active_loop: modify_event_form
   - slot_was_set:
-    - form_completed: True
+    - form_completed: true
     - requested_slot: null
   - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
   - slot_was_set:
-    - event_modify_completed: True
+    - event_modify_completed: true
   - action: utter_terminar_conversa #conversa terminada por outra storie
-
-
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
 
 
 ###  PATH TO REMARCANDO CONSULTA
@@ -55,6 +128,8 @@ stories:
   - active_loop: modify_event_form
   - intent: perguntar_dias_livres
   - action: action_find_free_slots
+  - slot_was_set: 
+    - free_slots
   - active_loop: modify_event_form
   - slot_was_set:
     - form_completed: True
@@ -65,7 +140,13 @@ stories:
   - action: action_modify_event_form
   - slot_was_set:
     - event_modify_completed: True
-  - action: utter_terminar_conversa #conversa terminada por outra storie
+  - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
+
 
 
 - story: Nao remarcando consulta (SAD PATH)
@@ -92,21 +173,18 @@ stories:
   - action: utter_show_options
   - action: action_reset_all
 
- 
-#### terminado conversa
-
 - story: Terminating Conversation with Feedback
   steps:
     - action: utter_terminar_conversa
     - intent: negacao
-    - action: utter_final
-    - intent: provide_feedback
-      entities:
-        - feedback
+    - action: feedback_form
+    - active_loop: feedback_form
+    - active_loop: null
     - action: action_store_feedback
 
 
-- story: User Continues Conversation
+
+- story: Querendo algo mais dps de terminar
   steps:
     - action: utter_terminar_conversa
     - intent: concordancia

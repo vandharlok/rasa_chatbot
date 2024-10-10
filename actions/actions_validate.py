@@ -171,3 +171,32 @@ class ValidateCPFActionEvent(FormValidationAction):
         else:
             dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
             return {"profissional": None}
+        
+class ValidateFeedbackForm(FormValidationAction):
+    def name(self) -> Text:
+        return "validate_feedback_form"
+
+    async def run(
+        self, 
+        slot_value: Any,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,     
+        ) -> Dict[Text,Any]:
+        
+        # Pega o valor atual do slot 'feedback'
+        feedback = tracker.get_slot('feedback')
+        
+        # Valida o valor do feedback
+        try:
+            feedback = float(feedback)
+        except ValueError:
+            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, insira uma nota entre 1 e 5.")
+            return {"feedback", None}
+        
+        # Verifica se o feedback está entre 1 e 5
+        if 1 <= feedback <= 5:
+            return {"feedback", feedback}
+        else:
+            dispatcher.utter_message(text="Por favor, insira uma nota válida entre 1 e 5.")
+            return {"feedback", None}

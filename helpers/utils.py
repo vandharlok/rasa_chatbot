@@ -42,19 +42,7 @@ def validate_cpf_value(slot_value: Any,
         dispatcher.utter_message(text="CPF deve conter 11 digitos")
         return {"cpf": None}
 
-    if slot_value == slot_value[0] * 11:
-        dispatcher.utter_message(text="CPF Inválido")
-        return {"cpf": None}
-
-    sum1 = sum(int(slot_value[i]) * (10 - i) for i in range(9))
-    first_digit = 11 - (sum1 % 11)
-    first_digit = 0 if first_digit >= 10 else first_digit
-
-    sum2 = sum(int(slot_value[i]) * (11 - i) for i in range(9)) + first_digit * 2
-    second_digit = 11 - (sum2 % 11)
-    second_digit = 0 if second_digit >= 10 else second_digit
-
-    if first_digit == int(slot_value[9]) and second_digit == int(slot_value[10]):
+    if(slot_value):
         return {"cpf": slot_value}
     else:
         dispatcher.utter_message(text="CPF Inválido")
@@ -279,6 +267,8 @@ def check_availability(
     else:
         logger.warning("Nenhum horário disponível encontrado após verificar múltiplos dias.")
         return False, []
+
+
 
 def find_next_free_slots(api_url: str, dispatcher: CollectingDispatcher, max_slots: int = MAX_SLOTS) -> List[str]:
     """

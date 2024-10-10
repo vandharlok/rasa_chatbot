@@ -5,54 +5,60 @@ recipe: default.v1
 # https://rasa.com/docs/rasa/nlu/components/
 language: pt
 
-
 pipeline:
-#review this pipeline
 - name: SpacyNLP
-  model: pt_core_news_md
+  model: pt_core_news_sm
   case_sensitive: False
 - name: SpacyTokenizer
-- name: RegexFeaturizer
   case_sensitive: False
 - name: SpacyFeaturizer
-- name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
-  analyzer: "word"
-- name: CountVectorsFeaturizer
-  analyzer: "char_wb"
-  min_ngram: 1
-  max_ngram: 4
 - name: DIETClassifier
   epochs: 60
+  unidirectional_encoder: False
+  transformer_size: 64
+  hidden_layers_sizes: 
+    text: [128, 64]
+    label: [64] 
+  drop_rate: 0.20
+  embedding_dimension: 64
   number_of_transformer_layers: 2
   number_of_attention_heads: 4
   learning_rate: 0.0001 
   regularization_constant: 0.0005
   batch_size: 32
   early_stopping_patience: 5
-  evaluate_on_number_of_examples: 900
-  evaluate_every_number_of_epochs: 15
+  evaluate_on_number_of_examples: 600
+  evaluate_every_number_of_epochs: 10
   constrain_similarities: True
-  random_seed: 42
+  loss_type: "cross_entropy" 
+  random_seed: 1
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
-- name: RegexEntityExtractor
-  case_sensitive: False
-  use_lookup_tables: True
-- name: EntitySynonymMapper
+- name: ResponseSelector
+  epochs: 50
+  retrieval_intent: faq
+  tensorboard_log_directory: "./tensorboard/faq"
+  tensorboard_log_level: epoch
+  learning_rate: 0.001
+  constrain_similarities: True
+  batch_size: 32  #quantidade de exemplos que sera processado de uma so vez em cada iteracao
+  early_stopping_patience: 5
+  evaluate_on_number_of_examples: 200
+  evaluate_every_number_of_epochs: 10 # Less frequent evaluation
 - name: FallbackClassifier
-  threshold: 0.5
-  ambiguity_threshold: 0.05
+  threshold: 0.7
+  ambiguity_threshold: 0.2
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
   url: http://localhost:8000
-  dimensions: ["time"]
-  locale: "pt_BR"
+  dimensions: ["time", "PhoneNumber"]
+  locale: pt_BR
   timezone: "America/Sao_Paulo"
 
 policies:
 - name: RulePolicy
-  core_fallback_threshold: 0.5
+  core_fallback_threshold: 0.2
   core_fallback_action_name: "action_custom_fallback"
   enable_fallback_prediction: True
   check_for_contradictions: True
@@ -60,20 +66,17 @@ policies:
   tensorboard_log_level: epoch
   restrict_rules: true 
 - name: TEDPolicy
-  max_history: 10
-  epochs: 40
-  loss_type: cross_entropy
-  constrain_similarities: true
-  check_for_contradictions: true
+  max_history: 12
+  epochs: 50
+  check_for_contradictions: True
   batch_size: 16
   early_stopping_patience: 10
-  learning_rate: 0.0007
+  learning_rate: 0.0005
   regularization_constant: 0.0015
-  dropout_rate: 0.25
+  dropout_rate: 0.15
   evaluate_every_number_of_epochs: 5
-  evaluate_on_number_of_examples: 150
+  evaluate_on_number_of_examples: 200
   model_confidence: "softmax"
-  random_seed: 42
   tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
 

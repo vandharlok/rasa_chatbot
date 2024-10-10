@@ -18,12 +18,16 @@ rules:
   steps:
   - intent: perguntar_dias_livres
   - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
   wait_for_user_input: False
-  
 
 - rule: informando sobre precos baseado em entidades ou nao
   steps:
   - intent: preco_consulta
   - action: action_provide_price_and_reset_slot
-
+  - slot_was_set:
+    - especialista: None
+  wait_for_user_input: False
+ 
 

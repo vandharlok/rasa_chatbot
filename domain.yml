@@ -1,11 +1,11 @@
-version: "3.1"
-
+version: '3.1'
 actions:
+- action_add_event
+- action_store_feedback
+- action_salvar_cadastro
 - action_custom_fallback
 - action_default_fallback
 - action_show_buttons
-- action_salvar_cadastro
-- action_add_event
 - action_find_free_slots
 - action_find_slots_for_specific_date
 - action_modify_event_form
@@ -15,7 +15,6 @@ actions:
 - validate_modify_event_form
 - validate_cadastro_form
 - action_reset_all
-- action_store_feedback
 - action_transferir_atendente
 - action_provide_price_and_reset_slot
 - action_out_of_scope
@@ -25,116 +24,101 @@ actions:
 - action_ask_event_form_profissional
 - action_reset_slot_time
 
-
 entities:
-  - time
-  - feedback
-  - especialista
-
+- time
+- especialista
 
 intents:
-  - saudações:  
-      use_entities: []
-  - marcar_consulta: 
-      use_entities: 
-        - especialista
-  - remarcar_consulta: 
-      use_entities: []
-  - concordancia: 
-      use_entities: []
-  - cancelar_consulta: 
-      use_entities: []
-  - saber_local_de_atendimento: 
-      use_entities: []
-  - verificar_plano_de_saude: 
-      use_entities: []
-  - preco_consulta: 
-      use_entities:
-        - especialista
-  - informacoes_sobre_servico: 
-      use_entities: []
-  - negacao: 
-      use_entities: []
-  - perguntar_dias_livres: 
-      use_entities:
-        - time
-  - metodo_de_pagamento: 
-      use_entities: []
-  - provide_feedback: 
-      use_entities:
-        - feedback
-  - transferir_atendente: 
-      use_entities: []
-  - duvida: 
-      use_entities: []
-  - tchau:
-      use_entities: []
-  - agradecimento:
-      use_entities: []
-  - fora_do_scope:
-      use_entities: []
-  - solicitar_receita:
-      use_entities: []
-  - solicitar_atestado:
-      use_entities: []
-
+- faq:
+    use_entities: []
+- agradecimento:
+    use_entities: []
+- cancelar_consulta:
+    use_entities: []
+- concordancia:
+    use_entities: []
+- duvida:
+    use_entities: []
+- fora_do_scope:
+    use_entities: []
+- marcar_consulta:
+    use_entities:
+    - especialista
+- negacao:
+    use_entities: []
+- perguntar_dias_livres:
+    use_entities: []
+- preco_consulta:
+    use_entities:
+    - especialista
+- remarcar_consulta:
+    use_entities: []
+- saudações:
+    use_entities: []
+- solicitar_atestado:
+    use_entities: []
+- solicitar_receita:
+    use_entities: []
+- tchau:
+    use_entities: []
+- transferir_atendente:
+    use_entities: []
 slots:
   feedback:
-    type: float
-    influence_conversation: False
-    mappings:
-    - type: custom
-      max_value: 5.0
-      min_value: 0.0
-  time:
-    type: text
-    influence_conversation: False
-    mappings:
-      - type: from_entity
-        entity: time
-        conditions:    
-        - active_loop: event_form
-          requested_slot: time    
-        - active_loop:  modify_event_form
-          requested_slot: time    
-
-  nome:   
     type: text
     influence_conversation: False
     mappings:
     - type: from_text
       conditions:
-       - active_loop: cadastro_form
-         requested_slot: nome
-
+      - active_loop: feedback_form
+        requested_slot: feedback
+  time:
+    type: text
+    influence_conversation: False
+    mappings:
+    - type: from_entity
+      entity: time
+      conditions:
+      - active_loop: event_form
+        requested_slot: time
+      - active_loop: modify_event_form
+        requested_slot: time
+  nome:
+    type: text
+    influence_conversation: False
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: cadastro_form
+        requested_slot: nome
   cpf:
     type: text
     influence_conversation: False
     mappings:
     - type: from_text
       conditions:
-        - active_loop: cadastro_form
-          requested_slot: cpf
+      - active_loop: cadastro_form
+        requested_slot: cpf
     - type: from_text
       conditions:
-        - active_loop: event_form
-          requested_slot: cpf
+      - active_loop: event_form
+        requested_slot: cpf
     - type: from_text
       conditions:
-        - active_loop: modify_event_form
-          requested_slot: cpf
+      - active_loop: modify_event_form
+        requested_slot: cpf
     - type: from_text
       conditions:
-        - active_loop: delete_event_form
-          requested_slot: cpf
+      - active_loop: delete_event_form
+        requested_slot: cpf
   email:
     type: text
     influence_conversation: False
     mappings:
     - type: from_text
       conditions:
-       - active_loop: cadastro_form
-         requested_slot: email
+      - active_loop: cadastro_form
+        requested_slot: email
   telefone:
     type: text
     influence_conversation: False
@@ -153,93 +137,82 @@ slots:
     influence_conversation: False
     mappings:
     - type: custom
-
   fallback_count:
     type: float
-    influence_conversation: False 
+    influence_conversation: False
     initial_value: 0.0
     mappings:
     - type: custom
-
   event_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-      
-      
   event_modify_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-
   event_delete_completed:
     type: bool
-    influence_conversation: True
+    influence_conversation:  True
     initial_value: False
     mappings:
     - type: custom
-
   form_completed:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-
   login_sucess:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-
   cpf_validate:
     type: bool
     influence_conversation: True
     initial_value: False
     mappings:
     - type: custom
-
   especialista:
     type: text
-    influence_conversation: False 
+    influence_conversation: False
     mappings:
-      - type: from_text
-        conditions:
-          - active_loop: event_form
-            requested_slot: especialista
-      - type: from_entity
-        entity: especialista
-  
+    - type: from_text
+      conditions:
+      - active_loop: event_form
+        requested_slot: especialista
+    - type: from_entity
+      entity: especialista
   profissional:
     type: text
-    influence_conversation: False 
+    influence_conversation: False
     mappings:
-      - type: from_text
-        conditions:
-          - active_loop: event_form
-            requested_slot: profissional
-      
-
+    - type: from_text
+      conditions:
+      - active_loop: event_form
+        requested_slot: profissional
 forms:
-  cadastro_form:
+  feedback_form:  
     required_slots:
-    - nome
-    - cpf
-    - email
-    - telefone
-    ignored_intents: []
+    - feedback
   event_form:
     required_slots:
     - cpf
     - especialista
     - profissional
     - time
-   
+  cadastro_form:
+    required_slots:
+    - nome
+    - cpf
+    - email
+    - telefone
   modify_event_form:
     required_slots:
     - cpf
@@ -247,169 +220,123 @@ forms:
   delete_event_form:
     required_slots:
     - cpf
-
 responses:
-  utter_metodo_de_pagamento:
-    - text: "Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros"
-
+  utter_out_of_scope:
+  - text: Desculpe, não posso lidar com isso..
+  utter_faq/metodo_de_pagamento:
+  - text: Aceitamos diversas formas de pagamento, incluindo pix, dinheiro, e cartões de débito e crédito, com possibilidade de parcelar em até 3 vezes sem juros
   utter_ask_delete_event_form_cpf:
-    - text: Você poderia me passar seu CPF para que possamos continuar?
-
+  - text: Você poderia me passar seu CPF para que possamos continuar?
   utter_ask_modify_event_form_cpf:
-    - text: Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema
- 
-
+  - text: Só para confirmar, você poderia digitar seu CPF? Preciso confirmar seu cadastro em nosso sistema
   utter_ask_modify_event_form_time:
-    - text: Para qual data você gostaria de remarcar?
-
+  - text: Para qual data você gostaria de remarcar?
   utter_ask_rephrase:
-    - text: Ops, acho que não entendi. Você poderia repetir? 😁
-
+  - text: Ops, acho que não entendi. Você poderia repetir? 😁
   utter_form_cancelled:
-    - text: "Entendi, o cadastro foi cancelado. Se precisar de mais alguma coisa, estou à disposição!"
-
-
+  - text: Entendi, o cadastro foi cancelado. Se precisar de mais alguma coisa, estou à disposição!
   utter_fail_sign:
-    - text: Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!
-  
-
+  - text: Desculpe não conseguimos te cadastrar em nosso sistema, parece que houve um erro. Tente novamente mais tarde!
   utter_success_sign:
-    - text: Tudo certo! Voce foi cadastrado com sucesso! 🥳
-
+  - text: Tudo certo! Voce foi cadastrado com sucesso! 🥳
   utter_tchau:
-    - text: Tchau! Tenha um ótimo dia. 😊
-
+  - text: Tchau! Tenha um ótimo dia. 😊
   utter_agradecimento:
-    - text: Obrigado 😊
-
-  utter_confirm_modification:
-    - text: Tudo certo! Sua consulta foi remarcada. Nos vemos no novo dia!
-    
+  - text: Obrigado 😊
   utter_ask_event_form_cpf:
-    - text: Poderia me passar seu CPF para te identificar em nosso sistema?
-
+  - text: Poderia me passar seu CPF para te identificar em nosso sistema?
   utter_confirm_appointment:
-    - text: Deseja agendar?
-
-  utter_default:
-    - text: Desculpe, não entendi o que deseja
-
+  - text: Deseja agendar?
   utter_ask_event_form_time:
-    - text:  Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis
-
+  - text: Qual dia e horário ficam melhores pra você? Se quiser, pode perguntar os próximos horários disponíveis, ou você escolhe um mês ou dia específico, que te mostro os horários disponíveis
   utter_show_options:
-    - text: No que posso te ajudar? 🤗
-      buttons:
-        - title: "Marcar uma consulta"
-          payload: "/marcar_consulta"
-        - title: "Remarcar uma consulta"
-          payload: "/remarcar_consulta"
-        - title: "Cancelar uma consulta"
-          payload: "/cancelar_consulta"
-        - title: "Tirar Dúvida"
-          payload: "/duvida"
-
+  - text: No que posso te ajudar? 🤗
+    buttons:
+    - title: Marcar uma consulta
+      payload: /marcar_consulta
+    - title: Remarcar uma consulta
+      payload: /remarcar_consulta
+    - title: Cancelar uma consulta
+      payload: /cancelar_consulta
+    - title: Tirar Dúvida
+      payload: /duvida
   utter_ask_cadastro_form_nome:
-    - text: Antes de tudo, me diga seu nome completo, por favor?
-
+  - text: Antes de tudo, me diga seu nome completo, por favor?
   utter_inform_form:
-    - text: Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente
-
+  - text: Para usar dos nossos serviços você deve fazer um pequeno cadastro com a gente
   utter_duvida:
-    - text: Que dúvida você tem sobre nossos serviços?
-      buttons:
-        - title: "Preços"
-          payload: "/preco_consulta"
-        - title: "Local de atendimento"
-          payload: "/saber_local_de_atendimento"
-        - title: "Planos de saúde"
-          payload: "/verificar_plano_de_saude"
-        - title: "Serviços oferecidos"
-          payload: "/informacoes_sobre_servico" 
-        - title: "Formas de pagamento"
-          payload: "/metodo_de_pagamento" 
-        - title: "Falar com atendente"
-          payload: "/transferir_atendente" 
-
+  - text: Que dúvida você tem sobre nossos serviços?
+    buttons:
+    - title: Preços
+      payload: /preco_consulta
+    - title: Local de atendimento
+      payload: /saber_local_de_atendimento
+    - title: Planos de saúde
+      payload: /verificar_plano_de_saude
+    - title: Serviços oferecidos
+      payload: /informacoes_sobre_servico
+    - title: Formas de pagamento
+      payload: /metodo_de_pagamento
+    - title: Falar com atendente
+      payload: /transferir_atendente
   utter_ask_cadastro_form_cpf:
-    - text: Prazer {nome}, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema
-
-  utter_informacoes_sobre_servico:
-    - text: "Aqui na clínica, temos diversos tipos de atendimento: desde terapia individual até sessões com psiquiatra, psicólogo, terapias comportamentais e até psicoterapia online"
-
+  - text: Prazer {nome}, pode me passar seu CPF? Precisamos dele para te identificar no nosso sistema
+  utter_faq/informacoes_sobre_servico:
+  - text: 'Aqui na clínica, temos diversos tipos de atendimento: desde terapia individual até sessões com psiquiatra, psicólogo, terapias comportamentais e até psicoterapia online'
   utter_ask_cadastro_form_email:
-    - text: Agora informe seu email
-
+  - text: Agora informe seu email
   utter_ask_cadastro_form_telefone:
-    - text: Por fim, informe seu telefone celular
-    
-  utter_verifica_cadastro: 
-    - text: Só pra checar, você já tem cadastro com a gente?
-
-  utter_submit:
-    - text: Muito obrigado, tenha um ótimo dia!
-
+  - text: Por fim, informe seu telefone celular
+  utter_verifica_cadastro:
+  - text: Só pra checar, você já tem cadastro com a gente?
   utter_saudações:
-    - text: "Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade"
-      channel: "socketio"
-      
-    - text: "Ao continuar, automaticamente você concorda com nossos Termos de Uso e Política de Privacidade"
-
-
-  utter_marcar_consulta: 
-    - condition:
-        - type: slot
-          name: especialista
-          value: psiquiatra
-      text: Deseja agendar uma consulta com nosso psiquiatra?
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicólogo
-      text: Deseja agendar uma consulta com nosso psicólogo?
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicologo
-      text: Deseja agendar uma consulta com nosso psicólogo?
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicologa
-      text: Deseja agendar uma consulta com nossa psicóloga?
-    - condition:
-        - type: slot
-          name: especialista
-          value: psicóloga
-      text: Deseja agendar uma consulta com nossa psicóloga?
-    - text: Deseja agendar uma consulta conosco?
-    
+  - text: Olá, bom dia! Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade
+    channel: socketio
+  utter_marcar_consulta:
+  - condition:
+    - type: slot
+      name: especialista
+      value: psiquiatra
+    text: Deseja agendar uma consulta com nosso psiquiatra?
+  - condition:
+    - type: slot
+      name: especialista
+      value: psicólogo
+    text: Deseja agendar uma consulta com nosso psicólogo?
+  - condition:
+    - type: slot
+      name: especialista
+      value: psicologo
+    text: Deseja agendar uma consulta com nosso psicólogo?
+  - condition:
+    - type: slot
+      name: especialista
+      value: psicologa
+    text: Deseja agendar uma consulta com nossa psicóloga?
+  - condition:
+    - type: slot
+      name: especialista
+      value: psicóloga
+    text: Deseja agendar uma consulta com nossa psicóloga?
+  - text: Deseja agendar uma consulta conosco?
   utter_cancelar_consulta:
-    - text: Voce deseja cancelar sua consulta agendada conosco?
-
+  - text: Voce deseja cancelar sua consulta agendada conosco?
   utter_remarcar_consulta:
-    - text: Deseja remarcar a data da consulta ?
-
+  - text: Deseja remarcar a data da consulta ?
   utter_terminar_conversa:
-    - text: Mais alguma coisa que posso fazer por você hoje? 😊
-
-  utter_final: 
-    - text: Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩
-   
-  utter_verificar_plano_de_saude:
-    - text: |
-        Nossa clínica aceita os seguintes planos de saúde:
-        Por favor, verifique se o seu plano está listado abaixo:
-        - AmePlan
-        - Ampla Saúde
-      
+  - text: Mais alguma coisa que posso fazer por você hoje? 😊
+  utter_ask_feedback_form_feedback:
+  - text: Obrigado pela preferência! Que tal dar uma nota de 1 a 5 para o nosso papo de hoje? 🤩
+  utter_faq/verificar_plano_de_saude:
+  - text: |
+      Nossa clínica aceita os seguintes planos de saúde:
+      Por favor, verifique se o seu plano está listado abaixo:
+      - AmePlan
+      - Ampla Saúde
   utter_desmarcar_consulta:
-    - text: Seu agendamento foi desmarcado!
-
-  utter_saber_local_de_atendimento:
-    - text: Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP
-
-
+  - text: Seu agendamento foi desmarcado!
+  utter_faq/saber_local_de_atendimento:
+  - text: Nossa clinica fica na Avenida das Torres n° 278, São Paulo-SP
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: False

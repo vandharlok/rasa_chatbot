@@ -1,4 +1,4 @@
-from rasa_sdk.events import AllSlotsReset,Restarted, SlotSet,UserUtteranceReverted,ConversationPaused, EventType
+from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction, SlotSet,UserUtteranceReverted,ConversationPaused, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
 from typing import Dict, Text, Any, List
@@ -13,72 +13,6 @@ import openai
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-
-class ActionOutOfScope(Action):
-    def name(self) -> Text:
-        return 'action_out_of_scope'
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        latest = tracker.latest_message
-        query = latest.get('text')  
-
-        text = "Desculpe, eu não entendi. Você quer que eu pesquise isso no Google?"
-
-        dispatcher.utter_message(text=text)
-        return [SlotSet('out_of_scope', query)]
-
-
-class ActionHandleAffirm(Action):
-    def name(self) -> Text:
-        return 'action_handle_affirm'
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        query = tracker.get_slot('out_of_scope')
-        print(f"Consulta para pesquisa: {query}") 
-
-        if query:
-            try:
-                text = "Aqui estão os principais resultados:"
-                dispatcher.utter_message(text=text)
-
-                urls = list(search(
-                    term=query,           
-                    num_results=1,        
-                    lang='pt',            
-                    sleep_interval=1      
-                ))
-
-                if urls:
-                    for url in urls:
-                        dispatcher.utter_message(text=url)
-                else:
-                    dispatcher.utter_message(text="Desculpe, não encontrei resultados para sua pesquisa.")
-
-            except Exception as e:
-                dispatcher.utter_message(text=f"Desculpe, não consegui completar a pesquisa.\n{str(e)}")
-                print(f'> ActionHandleAffirm [ERROR] {str(e)}')
-
-            return [SlotSet('out_of_scope', None)]
-        else:
-            dispatcher.utter_message(text="Desculpe, não tenho uma consulta para pesquisar.")
-            return []
-
-class ActionHandleDeny(Action):
-    def name(self) -> Text:
-        return 'action_handle_deny'
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Tudo bem.")
-        return [SlotSet('out_of_scope', None)]
 
 
 class ActionHandoverToHuman(Action):
@@ -207,31 +141,22 @@ class ActionStoreFeedback(Action):
     def name(self) -> Text:
         return "action_store_feedback"
 
-    def run(self,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        feedback_entity = next(tracker.get_latest_entity_values('feedback'), None)
+    async def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
         
-        if feedback_entity is None:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, avalie nossa conversa com uma nota de 1 a 5.")
-            return []
-
-        try:
-            feedback = float(feedback_entity)
-        except ValueError:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, use um número de 1 a 5 para avaliar.")
-            return []
-
-        if 1 <= feedback <= 5:
+        # Pegando o valor do slot 'feedback'
+        feedback = tracker.get_slot('feedback')
+        
+        # Verifica se o feedback está preenchido corretamente
+        if feedback:
             dispatcher.utter_message(text="Muito obrigado pelo seu feedback!")
-            logger.info(f"Feedback provided: {feedback}")
-            return [SlotSet("feedback", feedback)]
-        else:
-            dispatcher.utter_message(text="A nota deve ser entre 1 e 5. Por favor, tente novamente.")
+            # Aqui você pode armazenar o feedback em um banco de dados, se desejar
             return []
 
+        else:
+            dispatcher.utter_message(text="Não recebi um feedback válido.")
+            return []
 #Custom fallback, esse fallback faz com que se o fallback for gerado 3 vezes, chama o show_options e reseta a conversa
 class ActionCustomFallback(Action):
     def name(self) -> str:

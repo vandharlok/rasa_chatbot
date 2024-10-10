@@ -3,7 +3,7 @@ version: "3.1"
 rules:
 
 - rule: Sauda o usuario
-  conversation_start: False
+  conversation_start: false
   steps:
   - intent: saudações
   - action: utter_show_options
@@ -33,28 +33,41 @@ rules:
   - action: utter_duvida
 
 
-- rule: Informando sobre local de atendimento
+
+- rule: Informar que tem duvidas 
   steps:
-  - intent: saber_local_de_atendimento
-  - action: utter_saber_local_de_atendimento
-
-- rule: Informando sobre plano de saude da clinica
-  steps:
-  - intent: verificar_plano_de_saude
-  - action: utter_verificar_plano_de_saude
+  - intent: faq
+  - action: utter_faq
 
 
+#
 
-- rule: Informando sobre os servicos da clinica
-  steps:
-  - intent: informacoes_sobre_servico
-  - action: utter_informacoes_sobre_servico
+#- rule: Informando sobre local de atendimento
+#  steps:
+#  - intent: faq/saber_local_de_atendimento
+#  - action: utter_saber_local_de_atendimento
+#  wait_for_user_input: false
+
+#- rule: Informando sobre plano de saude da clinica
+#  steps:
+#  - intent: faq/verificar_plano_de_saude
+#  - action: utter_verificar_plano_de_saude
+#  wait_for_user_input: false
 
 
-- rule: informa os metodos de pagamento da clinica
-  steps:
-  - intent: metodo_de_pagamento
-  - action: utter_metodo_de_pagamento
+
+#- rule: Informando sobre os servicos da clinica
+#  steps:
+#  - intent: faq/informacoes_sobre_servico
+#  - action: utter_informacoes_sobre_servico
+#  wait_for_user_input: false
+
+
+#- rule: informa os metodos de pagamento da clinica
+#  steps:
+#  - intent: faq/metodo_de_pagamento
+#  - action: utter_metodo_de_pagamento
+#  wait_for_user_input: false
 
 
 - rule: Continue Conversation After Affirmation
@@ -71,3 +84,4 @@ rules:
   - intent: negacao
   - action: utter_show_options
   - action: action_reset_all
+

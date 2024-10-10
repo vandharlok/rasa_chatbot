@@ -13,6 +13,7 @@ stories:
   - action: utter_cancelar_consulta
   - intent: concordancia
   - action: delete_event_form
+  - active_loop: delete_event_form
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -21,6 +22,11 @@ stories:
     - event_delete_completed: True
     - requested_slot: null
   - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
 
 
 
@@ -33,6 +39,7 @@ stories:
   - action: utter_cancelar_consulta
   - intent: concordancia
   - action: delete_event_form
+  - active_loop: delete_event_form
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -40,8 +47,12 @@ stories:
   - slot_was_set:
     - event_delete_completed: True
   - action: utter_terminar_conversa ## conversa terminada pela rule
- 
- 
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
+
 
 #### STORIES MARCANDO CONSULTA
 #### STORIES MARCANDO CONSULTA
@@ -57,6 +68,7 @@ stories:
   - action: utter_verifica_cadastro
   - intent: concordancia
   - action: event_form
+  - active_loop: event_form
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
@@ -67,7 +79,11 @@ stories:
   - slot_was_set:
     - event_completed: True
   - action: utter_terminar_conversa
-
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
 
 - story: marcar consulta sem cadastrado
   steps:
@@ -81,6 +97,7 @@ stories:
   - intent: negacao
   - action: utter_inform_form
   - action: cadastro_form
+  - active_loop: cadastro_form
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -89,6 +106,7 @@ stories:
     - login_sucess: True 
   - action: utter_success_sign
   - action: event_form
+  - active_loop: event_form
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
@@ -99,13 +117,18 @@ stories:
   - slot_was_set:
     - event_completed: True
   - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
 
- 
 
 ### STORIES CORTADA PARA MARCAR CONSULTA, CASO HAJA OUTRO INICIO DE CONVERSA
 - story: Falando o dia que quer e marcando horario
   steps:
   - action: event_form
+  - active_loop: event_form
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
@@ -116,8 +139,11 @@ stories:
   - slot_was_set:
     - event_completed: True
   - action: utter_terminar_conversa
-
-
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback
 
 
 - story: perguntar dias livres e marcar consulta
@@ -126,6 +152,8 @@ stories:
   - active_loop: event_form
   - intent: perguntar_dias_livres
   - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
   - active_loop: event_form
   - slot_was_set:
     - form_completed: True
@@ -137,3 +165,8 @@ stories:
   - slot_was_set:
     - event_completed: True
   - action: utter_terminar_conversa
+  - intent: negacao
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_store_feedback

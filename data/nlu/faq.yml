@@ -6,7 +6,7 @@ nlu:
     examples: |
 
 
-  - intent: saber_local_de_atendimento
+  - intent: faq/saber_local_de_atendimento
     examples: |
       - Onde fica Triste a clínica?
       - Onde a clínica?
@@ -25,7 +25,6 @@ nlu:
       - Como Sem querer faço para chegar na clínica?
       - Como faço chegar na clínica?
       - Como faco para chegar nq clínica?
-      - Como faço para decidir na hospital?
       - chegar na clínica? com Como faço
       - Como faço para chegar na clínica?
       - para faço Como chegar na clínica ?
@@ -108,16 +107,15 @@ nlu:
       - Como faço Perder para chegar à clínica?
       - Como faço para chegar à
       - Como fauo pora chegar à clínica?
-      - Como faço para decidir à hospital?
       - chegar à clínica? com Como faço
       - para faço Como chegar à clínica ?
-      - Preciso saber onde Rir fica a clínica.
-      - Preciso saber onde fica clínica.
-      - Preciso saber onde figa a clínkca.
-      - Perfeito base de conhecimento onde fica a hospital.
-      - Preciso saber onde fica a clínica.
-      - onde saber Preciso fica a clínica .
-      - Eu preciso saber onde está a clínica.
+      - Preciso saber onde Rir fica a clínica
+      - Preciso saber onde fica clínica
+      - Preciso saber onde figa a clínkca
+      - Perfeito base de conhecimento onde fica a hospital
+      - Preciso saber onde fica a clínica
+      - onde saber Preciso fica a clínica 
+      - Eu preciso saber onde está a clínica
       - Onde está Computador localizada a clínica para meu atendimento?
       - está localizada a clínica para meu atendimento?
       - Onde está locaeizada a clínica para heu atendimento?
@@ -137,7 +135,6 @@ nlu:
       - Como posso encontrar o local Perto da clínica?
       - Como posso encontrar o local clínica?
       - Como posso encontrar o local dg clírica?
-      - Como posso descobrir o lugar da hospital?
       - clínica? com Como posso encontrar o local
       - Como posso encontrar o local da clínica?
       - encontrar posso Como o local da clínica ?
@@ -202,14 +199,14 @@ nlu:
       - Onde devo ir para o atendimento?
       - ir devo Onde para o atendimento ?
       - Onde devo ir ao serviço?
-      - Preciso saber o Ensinar endereço da clínica.
-      - Preciso saber endereço da clínica.
-      - Precisa saber o endereço da clinica.
-      - Certo Base de conhecimento o endereço da hospital.
-      - clínica. com Preciso saber o endereço
-      - Preciso saber o endereço da clínica.
-      - o saber Preciso endereço da clínica .
-      - Eu preciso conhecer o endereço da clínica.
+      - Preciso saber o Ensinar endereço da clínica
+      - Preciso saber endereço da clínica
+      - Precisa saber o endereço da clinica
+      - Certo Base de conhecimento o endereço da hospital
+      - clínica com Preciso saber o endereço
+      - Preciso saber o endereço da clínica
+      - o saber Preciso endereço da clínica 
+      - Eu preciso conhecer o endereço da clínica
       - Qual a localização da Claramente clínica?
       - a localização da clínica?
       - Qual a loczlização da clínicm?
@@ -228,7 +225,6 @@ nlu:
       - Como Papel posso chegar à clínica para minha consulta?
       - Como posso chegar à clínica minha consulta?
       - Como posso chegar à alínica para minha cpnsulta?
-      - Como posso decidir à hospital para minha consulta?
       - minha consulta? com Como posso chegar à clínica
       - Como posso chegar à clínica para minha consulta?
       - chegar posso Como à clínica para minha consulta ?
@@ -304,14 +300,14 @@ nlu:
       - Pode me enviar o endereço da clínica?
       - enviar me Pode o endereço da clínica ?
       - Você pode me enviar o endereço da clínica?
-      - Flor Preciso do endereço da clínica para a consulta.
-      - Preciso do endereço da clínica a consulta.
-      - Preciso ho endereço dk clínica para a consulta.
-      - Precisa do endereço da hospital para a consulta.
-      - a consulta. com Preciso do endereço da clínica
-      - Preciso do endereço da clínica para a consulta.
-      - endereço do Preciso da clínica para a consulta .
-      - Eu preciso do endereço da clínica para a consulta.
+      - Flor Preciso do endereço da clínica para a consulta
+      - Preciso do endereço da clínica a consulta
+      - Preciso ho endereço dk clínica para a consulta
+      - Precisa do endereço da hospital para a consulta
+      - a consulta com Preciso do endereço da clínica
+      - Preciso do endereço da clínica para a consulta
+      - endereço do Preciso da clínica para a consulta 
+      - Eu preciso do endereço da clínica para a consulta
       - Novo Onde está localizada a clínica onde marquei a consulta?
       - Onde está localizada clínica onde marquei a consulta?
       - Oide está lncalizada a clínica onde marquei a consulta?
@@ -367,14 +363,14 @@ nlu:
       - Qual o endereço onde a clínica encontra-se situada?
       - endereço o Qual onde a clínica está situada ?
       - Qual é o endereço em que a clínica está localizada?
-      - Preciso do endereço da clínica para minha consulta marcada. Estudar
-      - Preciso do endereço da para minha consulta marcada.
-      - Preciso do endereço dd clíniua para minha consulta marcada.
-      - Afinado do endereço da hospital para minha consulta marcada.
-      - minha consulta marcada. com Preciso do endereço da clínica
-      - Preciso do endereço da clínica para minha consulta marcada.
-      - endereço do Preciso da clínica para minha consulta marcada .
-      - Eu preciso do endereço da clínica para minha consulta.
+      - Preciso do endereço da clínica para minha consulta marcada Estudar
+      - Preciso do endereço da para minha consulta marcada
+      - Preciso do endereço dd clíniua para minha consulta marcada
+      - Afinado do endereço da hospital para minha consulta marcada
+      - minha consulta marcada com Preciso do endereço da clínica
+      - Preciso do endereço da clínica para minha consulta marcada
+      - endereço do Preciso da clínica para minha consulta marcada 
+      - Eu preciso do endereço da clínica para minha consulta
       - Em qual local será realizada a consulta? Ajudar
       - Em qual local será a consulta?
       - Em qual lgcal será realizada a consplta?
@@ -382,13 +378,13 @@ nlu:
       - Em qual local será realizada a consulta?
       - local qual Em será realizada a consulta ?
       - Em qual lugar a consulta será realizada?
-      - Raramente Preciso do endereço para a consulta de amanhã.
-      - Preciso do endereço a consulta de amanhã.
-      - Preciso do eedereço para a consulta ds amanhã.
-      - Exato do endereço para a consulta de futuro.
-      - amanhã. com Preciso do endereço para a consulta
-      - Preciso do endereço para a consulta de amanhã.
-      - endereço do Preciso para a consulta de amanhã .
+      - Raramente Preciso do endereço para a consulta de amanhã
+      - Preciso do endereço a consulta de amanhã
+      - Preciso do eedereço para a consulta ds amanhã
+      - Exato do endereço para a consulta de futuro
+      - amanhã com Preciso do endereço para a consulta
+      - Preciso do endereço para a consulta de amanhã
+      - endereço do Preciso para a consulta de amanhã 
       - A consulta será em qual Estudar clínica?
       - A consulta será em clínica?
       - A consugta será em qual clínjca?
@@ -426,22 +422,22 @@ nlu:
       - Como posso chegar ao local de atendimento?
       - chegar posso Como ao local de atendimento ?
       - Como posso chegar ao local de serviço?
-      - Preciso do endereço Computador exato da clínica.
+      - Preciso do endereço Computador exato da clínica
       - Preciso do endereço exato da
-      - Preciso do enzereço exato ga clínica.
-      - Preciso do endereço perfeito da hospital.
-      - endereço exato da clínica. com Preciso
-      - Preciso do endereço exato da clínica.
-      - endereço do Preciso exato da clínica .
-      - Eu preciso do endereço exato da clínica.
-      - Gostaria de saber o Claro endereço do hospital onde ocorrerá minha consulta.
-      - Gostaria de o endereço do hospital onde ocorrerá minha consulta.
-      - Gostaria de sabbr o endereço do hospital onde ocomrerá minha consulta.
-      - Gostaria de entender o endereço do Hospital onde ocorrerá minha consulta.
-      - saber o endereço do hospital onde ocorrerá minha consulta. com Gostaria
-      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta.
-      - saber de Gostaria o endereço do hospital onde ocorrerá minha consulta .
-      - Gostaria de saber o endereço do hospital onde minha consulta ocorrerá.
+      - Preciso do enzereço exato ga clínica
+      - Preciso do endereço perfeito da hospital
+      - endereço exato da clínica com Preciso
+      - Preciso do endereço exato da clínica
+      - endereço do Preciso exato da clínica 
+      - Eu preciso do endereço exato da clínica
+      - Gostaria de saber o Claro endereço do hospital onde ocorrerá minha consulta
+      - Gostaria de o endereço do hospital onde ocorrerá minha consulta
+      - Gostaria de sabbr o endereço do hospital onde ocomrerá minha consulta
+      - Gostaria de entender o endereço do Hospital onde ocorrerá minha consulta
+      - saber o endereço do hospital onde ocorrerá minha consulta com Gostaria
+      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta
+      - saber de Gostaria o endereço do hospital onde ocorrerá minha consulta 
+      - Gostaria de saber o endereço do hospital onde minha consulta ocorrerá
       - Para qual local Quente devo me dirigir para procedimentos?
       - Para qual local me dirigir para procedimentos?
       - Para qual local devo ms dirigir paqa procedimentos?
@@ -492,13 +488,13 @@ nlu:
       - Qual é o centro de atendimento?
       - o é Qual centro de atendimento ?
       - Qual é o centro de serviço?
-      - Acima Preciso saber o endereço exato.
-      - saber o endereço exato.
+      - Acima Preciso saber o endereço exato
+      - saber o endereço exato
       - Pzeciso saber o endereço exatog
-      - Bem acabado consciência o endereço afinado.
-      - Preciso saber o endereço exato.
-      - o saber Preciso endereço exato .
-      - Eu preciso saber o endereço exato.
+      - Bem acabado consciência o endereço afinado
+      - Preciso saber o endereço exato
+      - o saber Preciso endereço exato 
+      - Eu preciso saber o endereço exato
       - Qual Perto é o consultório onde estou agendado?
       - Qual é consultório onde estou agendado?
       - Qual é o consultório onwe estow agendado?
@@ -506,14 +502,14 @@ nlu:
       - Qual é o consultório onde estou agendado?
       - o é Qual consultório onde estou agendado ?
       - Qual é o escritório onde estou programado?
-      - Gostaria de saber o endereço do hospital Aprender para minha consulta.
-      - Gostaria de saber endereço do hospital para minha consulta.
-      - Gostaria df saber o endvreço do hospital para minha consulta.
-      - Gostaria de conhecimento o endereço do Hospital para minha consulta.
-      - saber o endereço do hospital para minha consulta. com Gostaria
-      - Gostaria de saber o endereço do hospital para minha consulta.
-      - saber de Gostaria o endereço do hospital para minha consulta .
-      - Eu gostaria de saber o endereço do hospital para minha consulta.
+      - Gostaria de saber o endereço do hospital Aprender para minha consulta
+      - Gostaria de saber endereço do hospital para minha consulta
+      - Gostaria df saber o endvreço do hospital para minha consulta
+      - Gostaria de conhecimento o endereço do Hospital para minha consulta
+      - saber o endereço do hospital para minha consulta com Gostaria
+      - Gostaria de saber o endereço do hospital para minha consulta
+      - saber de Gostaria o endereço do hospital para minha consulta 
+      - Eu gostaria de saber o endereço do hospital para minha consulta
       - Amanhã Você pode me enviar a localização do consultório?
       - Você pode me enviar localização do consultório?
       - Você pode mo enviar a localização do consultórlo?
@@ -550,14 +546,14 @@ nlu:
       - Em que clínica será realizada a consulta?
       - clínica que Em será realizada a consulta ?
       - Que clínica a consulta será realizada?
-      - Preciso saber o endereço da clínica para Claro minha consulta.
-      - Preciso saber o endereço da clínica para consulta.
-      - Preciso saber o endfreço da clínica para dinha consulta.
-      - Acurado Base de conhecimento o endereço da hospital para minha consulta.
-      - minha consulta. com Preciso saber o endereço da clínica
-      - Preciso saber o endereço da clínica para minha consulta.
-      - o saber Preciso endereço da clínica para minha consulta .
-      - Preciso conhecer o endereço da clínica para minha consulta.
+      - Preciso saber o endereço da clínica para Claro minha consulta
+      - Preciso saber o endereço da clínica para consulta
+      - Preciso saber o endfreço da clínica para dinha consulta
+      - Acurado Base de conhecimento o endereço da hospital para minha consulta
+      - minha consulta com Preciso saber o endereço da clínica
+      - Preciso saber o endereço da clínica para minha consulta
+      - o saber Preciso endereço da clínica para minha consulta 
+      - Preciso conhecer o endereço da clínica para minha consulta
       - Onde posso encontrar o consultório Café para minha consulta?
       - Onde posso encontrar consultório para minha consulta?
       - Onde posso encontrar o consultório para mnnha consultaq
@@ -573,13 +569,13 @@ nlu:
       - clínica? com Você pode me dizer o endereço
       - Você pode me dizer o endereço da clínica?
       - me pode Você dizer o endereço da clínica ?
-      - Preciso saber onde fica o Café consultório.
-      - Preciso saber onde fica consultório.
-      - Pregiso vaber onde fica o consultório.
-      - Justo sentimento de si onde fica o consultório.
-      - Preciso saber onde fica o consultório.
-      - onde saber Preciso fica o consultório .
-      - Eu preciso saber onde está o escritório.
+      - Preciso saber onde fica o Café consultório
+      - Preciso saber onde fica consultório
+      - Pregiso vaber onde fica o consultório
+      - Justo sentimento de si onde fica o consultório
+      - Preciso saber onde fica o consultório
+      - onde saber Preciso fica o consultório 
+      - Eu preciso saber onde está o escritório
       - Qual é o endereço do hospital para minha consulta? Neve
       - Qual é o endereço do hospital para minha
       - Qual é o endereço do lospital para minha confulta?
@@ -631,14 +627,14 @@ nlu:
       - Qual é o consultório onde será a consulta?
       - o é Qual consultório onde será a consulta ?
       - Qual é o escritório onde será a consulta?
-      - Preciso Rio saber o local exato da minha consulta amanhã.
+      - Preciso Rio saber o local exato da minha consulta amanhã
       - Preciso saber o local exato da minha consulta
-      - Preiiso saber o local exato da minha consdlta amanhã.
-      - Exacto sentimento de si o lugar perfeito da minha consulta manhã.
-      - minha consulta amanhã. com Preciso saber o local exato
-      - Preciso saber o local exato da minha consulta amanhã.
-      - o saber Preciso local exato da minha consulta amanhã .
-      - Preciso saber o lugar exato da minha consulta amanhã.
+      - Preiiso saber o local exato da minha consdlta amanhã
+      - Exacto sentimento de si o lugar perfeito da minha consulta manhã
+      - minha consulta amanhã com Preciso saber o local exato
+      - Preciso saber o local exato da minha consulta amanhã
+      - o saber Preciso local exato da minha consulta amanhã 
+      - Preciso saber o lugar exato da minha consulta amanhã
       - Brinquedo A consulta de amanhã será em qual endereço?
       - A de amanhã será em qual endereço?
       - A cofsulta de amathã será em qual endereço?
@@ -655,21 +651,14 @@ nlu:
       - Para onde devo me dirigir para o atendimento de amanhã?
       - devo onde Para me dirigir para o atendimento de amanhã ?
       - Onde devo dirigir para o serviço de amanhã?
-      - Preciso confirmar o endereço do Montanha local de atendimento.
+      - Preciso confirmar o endereço do Montanha local de atendimento
       - Preciso confirmar o endereço do local de
-      - Preciso conxirmar o undereço do local de atendimento.
-      - Exato constatar o endereço do situação de atendimento.
-      - atendimento. com Preciso confirmar o endereço do local
-      - Preciso confirmar o endereço do local de atendimento.
-      - o confirmar Preciso endereço do local de atendimento .
-      - Preciso confirmar o endereço do local de serviço.
-      - Como posso descobrir o endereço da clínica? Praia
-      - Como posso o endereço da clínica?
-      - vomo posso descobrir o endereço dr clínica?
-      - Como posso ver o endereço da hospital?
-      - clínica? com Como posso descobrir o endereço
-      - Como posso descobrir o endereço da clínica?
-      - descobrir posso Como o endereço da clínica ?
+      - Preciso conxirmar o undereço do local de atendimento
+      - Exato constatar o endereço do situação de atendimento
+      - atendimento com Preciso confirmar o endereço do local
+      - Preciso confirmar o endereço do local de atendimento
+      - o confirmar Preciso endereço do local de atendimento 
+      - Preciso confirmar o endereço do local de serviço
       - Qual Ajudar é o endereço do consultório?
       - Qual é o endereço consultório?
       - Qual é o enderedo do consultórxo?
@@ -688,7 +677,6 @@ nlu:
       - Como posso Doce chegar ao local da consulta?
       - Como posso chegar local da consulta?
       - Covo posso chegar ao local da consultt?
-      - Como posso deduzir ao lugar da consulta?
       - consulta? com Como posso chegar ao local
       - Como posso chegar ao local da consulta?
       - chegar posso Como ao local da consulta ?
@@ -737,7 +725,7 @@ nlu:
       - Onde fica a clínica para minha consulta?
       - Qual o endereço da clínica para minha consulta?
       - Como faço para chegar à clínica?
-      - Preciso saber onde fica a clínica.
+      - Preciso saber onde fica a clínica
       - Onde está localizada a clínica para meu atendimento?
       - Qual o endereço da clínica onde farei a consulta?
       - Como posso encontrar o local da clínica?
@@ -749,7 +737,7 @@ nlu:
       - Onde está a clínica localizada?
       - Pode me passar a localização da clínica?
       - Onde devo ir para o atendimento?
-      - Preciso saber o endereço da clínica.
+      - Preciso saber o endereço da clínica
       - Qual a localização da clínica?
       - Onde posso encontrar a clínica para minha consulta?
       - Como posso chegar à clínica para minha consulta?
@@ -763,7 +751,7 @@ nlu:
       - Qual a localização exata da clínica?
       - Onde fica o consultório da clínica?
       - Pode me enviar o endereço da clínica?
-      - Preciso do endereço da clínica para a consulta.
+      - Preciso do endereço da clínica para a consulta
       - Onde está localizada a clínica onde marquei a consulta?
       - Onde devo ir para a consulta na clínica?
       - Pode me confirmar o endereço da clínica?
@@ -771,16 +759,16 @@ nlu:
       - Como posso chegar ao consultório da clínica?
       - Você pode me passar a localização da clínica?
       - Qual o endereço onde a clínica está situada?
-      - Preciso do endereço da clínica para minha consulta marcada.
+      - Preciso do endereço da clínica para minha consulta marcada
       - Em qual local será realizada a consulta?
-      - Preciso do endereço para a consulta de amanhã.
+      - Preciso do endereço para a consulta de amanhã
       - A consulta será em qual clínica?
       - Você pode me informar o local do atendimento?
       - Onde fica o consultório para minha consulta?
       - Qual é o endereço da consulta marcada para hoje?
       - Como posso chegar ao local de atendimento?
-      - Preciso do endereço exato da clínica.
-      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta.
+      - Preciso do endereço exato da clínica
+      - Gostaria de saber o endereço do hospital onde ocorrerá minha consulta
       - Para qual local devo me dirigir para procedimentos?
       - Qual é o endereço para a consulta?
       - Devo ir a qual endereço para a consulta com o especialista?
@@ -788,18 +776,18 @@ nlu:
       - Qual é o endereço da clínica para minha consulta de amanhã?
       - A consulta será realizada em qual local?
       - Qual é o centro de atendimento?
-      - Preciso saber o endereço exato.
+      - Preciso saber o endereço exato
       - Qual é o consultório onde estou agendado?
-      - Gostaria de saber o endereço do hospital para minha consulta.
+      - Gostaria de saber o endereço do hospital para minha consulta
       - Você pode me enviar a localização do consultório?
       - Para onde devo ir para a consulta marcada?
       - Pode me confirmar o local da minha consulta agendada para amanhã?
       - Qual é o endereço da clínica?
       - Em que clínica será realizada a consulta?
-      - Preciso saber o endereço da clínica para minha consulta.
+      - Preciso saber o endereço da clínica para minha consulta
       - Onde posso encontrar o consultório para minha consulta?
       - Você pode me dizer o endereço da clínica?
-      - Preciso saber onde fica o consultório.
+      - Preciso saber onde fica o consultório
       - Qual é o endereço do hospital para minha consulta?
       - A consulta de amanhã será realizada em qual local?
       - Como posso chegar ao endereço da minha consulta?
@@ -807,11 +795,10 @@ nlu:
       - Qual é o endereço da clínica onde tenho consulta amanhã?
       - Em que local ocorrerá o atendimento?
       - Qual é o consultório onde será a consulta?
-      - Preciso saber o local exato da minha consulta amanhã.
+      - Preciso saber o local exato da minha consulta amanhã
       - A consulta de amanhã será em qual endereço?
       - Para onde devo me dirigir para o atendimento de amanhã?
-      - Preciso confirmar o endereço do local de atendimento.
-      - Como posso descobrir o endereço da clínica?
+      - Preciso confirmar o endereço do local de atendimento
       - Qual é o endereço do consultório?
       - Para onde devo ir para o atendimento?
       - Como posso chegar ao local da consulta?
@@ -821,7 +808,7 @@ nlu:
       - Onde será o atendimento amanhã?
 
 
-  - intent: verificar_plano_de_saude
+  - intent: faq/verificar_plano_de_saude
     examples: |
       - Quais planos de saúde são válidos nesta clínica? Claro
       - Quais de saúde são válidos nesta clínica?
@@ -841,7 +828,6 @@ nlu:
       - Meu plano Às vezes de saúde cobre consultas especializadas?
       - plano de saúde cobre consultas especializadas?
       - Meu plaho de saúdk cobre consultas especializadas?
-      - Meu ordem do dia de eudemonismo Dinheiro consultoria especializadas?
       - saúde cobre consultas especializadas? com Meu plano
       - Meu plano de saúde cobre consultas especializadas?
       - de plano Meu saúde cobre consultas especializadas ?
@@ -849,7 +835,6 @@ nlu:
       - Quais Estudar são os planos que vocês aceitam para procedimentos?
       - Quais são os planos vocês aceitam para procedimentos?
       - Quaix são os planos que vocês aceitam nara procedimentos?
-      - Quais sadio os intenção que vocês aceitam para procedimentos?
       - procedimentos? com Quais são os planos que vocês aceitam
       - Quais são os planos que vocês aceitam para procedimentos?
       - os são Quais planos que vocês aceitam para procedimentos ?
@@ -864,7 +849,6 @@ nlu:
       - Vocês aceitam planos de Trem saúde para exames?
       - Vocês aceitam planos saúde para exames?
       - Vocês aceifam planos de saúde bara exames?
-      - Vocês aceitam táctica de bem-estar para exames?
       - saúde para exames? com Vocês aceitam planos
       - Vocês aceitam planos de saúde para exames?
       - planos aceitam Vocês de saúde para exames ?
@@ -872,7 +856,6 @@ nlu:
       - O meu De repente convênio médico é aceito para consultas de urgência?
       - O meu convênio médico é aceito para consultas urgência?
       - O mdu convênio médico é xceito para consultas de urgência?
-      - O meu tratados (legislação) doutor é reconhecido para consultoria de emergência?
       - urgência? com O meu convênio médico é aceito para consultas
       - O meu convênio médico é aceito para consultas de urgência?
       - convênio meu O médico é aceito para consultas de urgência ?
@@ -974,7 +957,6 @@ nlu:
       - O meu seguro cobre Sem querer exames laboratoriais?
       - O meu seguro exames laboratoriais?
       - O mhu seguro cobre exames laborasoriais?
-      - O meu inevitável divisa exames laboratoriais?
       - O meu seguro cobre exames laboratoriais?
       - seguro meu O cobre exames laboratoriais ?
       - Meu seguro cobre os testes de laboratório?
@@ -996,15 +978,10 @@ nlu:
       - Meu Sutileza plano cobre consultas de retorno?
       - Meu plano cobre consultas de
       - teu plano cobre consultas de retouno?
-      - Meu programação Dinheiro consultoria de regresso?
       - retorno? com Meu plano cobre consultas
       - Meu plano cobre consultas de retorno?
       - cobre plano Meu consultas de retorno ?
       - Meu plano abrange as consultas de retorno?
-      - Quais operadoras de saúde vocês têm acordo? Andar
-      - Quais operadoras de vocês têm acordo?
-      - Quais operadoras de sarde vocês têd acordo?
-      - Quais operadoras de bem-estar vocês têm tratado?
       - saúde vocês têm acordo? com Quais operadoras
       - Quais operadoras de saúde vocês têm acordo?
       - de operadoras Quais saúde vocês têm acordo ?
@@ -1218,7 +1195,6 @@ nlu:
       - Voces trabalham com o plano Sem querer ?
       - Voces trabalham com plano ?
       - Voces trabalham aom o plant ?
-      - Voces trabalham com o programação?
       - o plano ? com Voces trabalham
       - Você trabalha com o plano?
       - Céu Esse serviço é coberto pelo meu lano de saúde?
@@ -1274,7 +1250,6 @@ nlu:
       - Quais Frio planos voces aceitam
       - Quais voces aceitam
       - Quais planoy vozes aceitam
-      - Quais táctica voces aceitam
       - Quais planos voces aceitam
       - Quais planos você aceita
       - Chuva Meu plano de saude
@@ -1287,7 +1262,6 @@ nlu:
       - Possivelmente É necessário autorização do plano para consulta ?
       - É necessário autorização do plano consulta ?
       - É necessário autorizbção do plano paka consulta ?
-      - É essencial sanção do programa para consulta?
       - consulta ? com É necessário autorização do plano
       - É necessário autorização do plano para consulta ?
       - É necessário autorizar o plano de consulta?
@@ -1548,7 +1522,10 @@ nlu:
       - Como posso provar se meu plano é aceito?
 
 
-  - intent: informacoes_sobre_servico
+  - intent: faq/informacoes_sobre_servico
+
+
+
     examples: |
       - Poderia detalhar Bicicleta quais servicos voces fornecem?
       - Poderia quais servicos voces fornecem?
@@ -1557,14 +1534,14 @@ nlu:
       - Poderia detalhar quais servicos voces fornecem?
       - quais detalhar Poderia servicos voces fornecem ?
       - Você poderia detalhar quais serviços você fornece?
-      - Gostaria de uma descrição dos Frio servicos que voces disponibilizam.
-      - Gostaria de uma descrição servicos que voces disponibilizam.
-      - Gostaria de uma descrição dos seevicos que voces disponibilizam.
-      - Gostaria de uma Descrição dos servicos que voces disponibilizam.
-      - uma descrição dos servicos que voces disponibilizam. com Gostaria
-      - Gostaria de uma descrição dos servicos que voces disponibilizam.
-      - uma de Gostaria descrição dos servicos que voces disponibilizam .
-      - Eu gostaria de uma descrição dos serviços que você disponibilizar.
+      - Gostaria de uma descrição dos Frio servicos que voces disponibilizam
+      - Gostaria de uma descrição servicos que voces disponibilizam
+      - Gostaria de uma descrição dos seevicos que voces disponibilizam
+      - Gostaria de uma Descrição dos servicos que voces disponibilizam
+      - uma descrição dos servicos que voces disponibilizam com Gostaria
+      - Gostaria de uma descrição dos servicos que voces disponibilizam
+      - uma de Gostaria descrição dos servicos que voces disponibilizam 
+      - Eu gostaria de uma descrição dos serviços que você disponibilizar
       - Que servicos sua clínica oferece Construir aos pacientes?
       - Que servicos sua clínica aos pacientes?
       - Quo servicos sua xlínica oferece aos pacientes?
@@ -1594,14 +1571,14 @@ nlu:
       - Pode listar os servicos de saúde que voces disponibilizam?
       - os listar Pode servicos de saúde que voces disponibilizam ?
       - Você pode listar os serviços de saúde que você disponibiliza?
-      - Gostaria de saber mais sobre os servicos que voces oferecem. Construir
-      - Gostaria de saber mais sobre os servicos voces oferecem.
-      - Gostaria dr saber mais sybre os servicos que voces oferecem.
-      - Gostaria de consciência em continuação sobre os servicos que voces oferecem.
-      - saber mais sobre os servicos  que voces oferecem. com Gostaria
-      - Gostaria de saber mais sobre os servicos  que voces oferecem.
-      - saber de Gostaria mais sobre os servicos   que voces oferecem .
-      - Eu gostaria de saber mais sobre os serviços que você oferece.
+      - Gostaria de saber mais sobre os servicos que voces oferecem Construir
+      - Gostaria de saber mais sobre os servicos voces oferecem
+      - Gostaria dr saber mais sybre os servicos que voces oferecem
+      - Gostaria de consciência em continuação sobre os servicos que voces oferecem
+      - saber mais sobre os servicos  que voces oferecem com Gostaria
+      - Gostaria de saber mais sobre os servicos  que voces oferecem
+      - saber de Gostaria mais sobre os servicos   que voces oferecem 
+      - Eu gostaria de saber mais sobre os serviços que você oferece
       - Poderia me fornecer uma visão geral dos Cruel seus servicos médicos?
       - Poderia me fornecer uma visão geral seus servicos médicos?
       - Poderia me fornecer uma visão geral dys seus servicos zédicos?
@@ -1629,13 +1606,6 @@ nlu:
       - Qoais trttamentos específicos voces disponibilizam
       - Quais tratamentos específicos voces disponibilizam
       - Que tratamentos específicos você disponibiliza
-      - Eu gostaria de saber Ver mais sobre os programas de que voces conduzem.
-      - Eu gostaria de saber sobre os programas de que voces conduzem.
-      - Eu gostaria de saber mais sobre os programas dw que vochs conduzem.
-      - Eu gostaria de sentimento de si demais sobre os Programa de Computador de que voces conduzem.
-      - Eu gostaria de saber mais sobre os programas de que voces conduzem.
-      - de gostaria Eu saber mais sobre os programas de que voces conduzem .
-      - Eu gostaria de saber mais sobre os programas que você dirige.
       - Poderia listar Ontem todos os serviços médicos que voces oferecem?
       - Poderia listar todos os serviços que voces oferecem?
       - Poderia listsr todos os serviços médicos que vocer oferecem?
@@ -1647,28 +1617,28 @@ nlu:
       - Como fugciona a cljnica
       - Como funciona a clinica
       - Como funciona a clínica
-      - Ensinar Me fale mais sobre as especialidades da clínica.
-      - Me fale mais as especialidades da clínica.
-      - Me fale mais sobre as especivlidades dk clínica.
-      - Me fale demais sobre as especialidades da hospital.
-      - clínica. com Me fale mais sobre as especialidades
-      - Me fale mais sobre as especialidades da clínica.
-      - mais fale Me sobre as especialidades da clínica .
-      - Conte -me mais sobre as especialidades da clínica.
-      - Gostaria de uma descrição Cruel dos serviços que voces disponibilizam.
+      - Ensinar Me fale mais sobre as especialidades da clínica
+      - Me fale mais as especialidades da clínica
+      - Me fale mais sobre as especivlidades dk clínica
+      - Me fale demais sobre as especialidades da hospital
+      - clínica com Me fale mais sobre as especialidades
+      - Me fale mais sobre as especialidades da clínica
+      - mais fale Me sobre as especialidades da clínica 
+      - Conte -me mais sobre as especialidades da clínica
+      - Gostaria de uma descrição Cruel dos serviços que voces disponibilizam
       - Gostaria de uma descrição dos serviços que voces
-      - Gostaria de zma descrição dos serviços qje voces disponibilizam.
-      - Gostaria de uma ilustração dos serviços que voces disponibilizam.
-      - uma descrição dos serviços que voces disponibilizam. com Gostaria
-      - Gostaria de uma descrição dos serviços que voces disponibilizam.
-      - uma de Gostaria descrição dos serviços que voces disponibilizam .
-      - Avião Quero saber quais são os procedimentos disponíveis.
-      - Quero quais são os procedimentos disponíveis.
-      - Quero saber quais são oa procedimentos dispoeíveis.
-      - Quero base de conhecimento quais sã os procedimentos disponíveis.
-      - Quero saber quais são os procedimentos disponíveis.
-      - quais saber Quero são os procedimentos disponíveis .
-      - Eu quero saber quais procedimentos estão disponíveis.
+      - Gostaria de zma descrição dos serviços qje voces disponibilizam
+      - Gostaria de uma ilustração dos serviços que voces disponibilizam
+      - uma descrição dos serviços que voces disponibilizam com Gostaria
+      - Gostaria de uma descrição dos serviços que voces disponibilizam
+      - uma de Gostaria descrição dos serviços que voces disponibilizam 
+      - Avião Quero saber quais são os procedimentos disponíveis
+      - Quero quais são os procedimentos disponíveis
+      - Quero saber quais são oa procedimentos dispoeíveis
+      - Quero base de conhecimento quais sã os procedimentos disponíveis
+      - Quero saber quais são os procedimentos disponíveis
+      - quais saber Quero são os procedimentos disponíveis 
+      - Eu quero saber quais procedimentos estão disponíveis
       - Que serviços sua Interessante clínica oferece aos pacientes?
       - serviços sua clínica oferece aos pacientes?
       - Que serviçfs sua clínica oferece ass pacientes?
@@ -1715,12 +1685,12 @@ nlu:
       - Poderia me dar uma Percepção Visual costumeiro dos seus serviços médicos?
       - Poderia me fornecer uma visão geral dos seus serviços médicos?
       - fornecer me Poderia uma visão geral dos seus serviços médicos ?
-      - Estou interessado sobre Andar os serviços que voces disponibilizam.
+      - Estou interessado sobre Andar os serviços que voces disponibilizam
       - Estou interessado sobre os serviços que voces
-      - Estou interessado sobre os serviçof que veces disponibilizam.
-      - Estou interessado sobre os serviços que voces disponibilizam.
-      - sobre interessado Estou os serviços que voces disponibilizam .
-      - Estou interessado nos serviços que você disponibiliza.
+      - Estou interessado sobre os serviçof que veces disponibilizam
+      - Estou interessado sobre os serviços que voces disponibilizam
+      - sobre interessado Estou os serviços que voces disponibilizam 
+      - Estou interessado nos serviços que você disponibiliza
       - Estou Claramente interessado nos serviços terapeuticos disponíveis
       - Estou interessado nos terapeuticos disponíveis
       - Estou interessado nos servjços teraphuticos disponíveis
@@ -1755,14 +1725,14 @@ nlu:
       - Quais mentalmente sadio as suas principais ofertas de serviços de bem-estar mental?
       - Quais são as suas principais ofertas de serviços de saúde mental?
       - as são Quais suas principais ofertas de serviços de saúde mental ?
-      - Quero informações detalhadas sobre os serviços de diagnóstico que Ensinar voces tem.
-      - informações detalhadas sobre os serviços de diagnóstico que voces tem.
-      - Quero informações fetalhadas sobre op serviços de diagnóstico que voces tem.
-      - Quero informações detalhadas sobre os serviços de diagnose que voces tem.
-      - diagnóstico que voces tem. com Quero informações detalhadas sobre os serviços
-      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem.
-      - detalhadas informações Quero sobre os serviços de diagnóstico que voces tem .
-      - Quero informações detalhadas sobre os serviços de diagnóstico que você possui.
+      - Quero informações detalhadas sobre os serviços de diagnóstico que Ensinar voces tem
+      - informações detalhadas sobre os serviços de diagnóstico que voces tem
+      - Quero informações fetalhadas sobre op serviços de diagnóstico que voces tem
+      - Quero informações detalhadas sobre os serviços de diagnose que voces tem
+      - diagnóstico que voces tem com Quero informações detalhadas sobre os serviços
+      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem
+      - detalhadas informações Quero sobre os serviços de diagnóstico que voces tem 
+      - Quero informações detalhadas sobre os serviços de diagnóstico que você possui
       - Como funciona a Montanha clínica?
       - funciona a clínica?
       - Como funciona a cwínica?
@@ -1784,7 +1754,6 @@ nlu:
       - Que tipo de consulta tem na clínica?
       - de tipo Que consulta tem na clínica ?
       - Dia Voces tem psicologo
-      - Voces tem
       - Voccs tez psicologo
       - Voces tem psicologo
       - Você tem um psicólogo
@@ -1812,13 +1781,13 @@ nlu:
       - Quais serviços médicos vocês oferecem na clínica?
       - médicos serviços Quais vocês oferecem na clínica ?
       - Que serviços médicos você oferece na clínica?
-      - Gostaria de saber quais tipos de serviços estão disponíveis. Janela
-      - de saber quais tipos de serviços estão disponíveis.
-      - Gostaria de saber quaik tupos de serviços estão disponíveis.
-      - Gostaria de conhecer quais tipos de serviços estão disponíveis.
-      - Gostaria de saber quais tipos de serviços estão disponíveis.
-      - saber de Gostaria quais tipos de serviços estão disponíveis .
-      - Eu gostaria de saber que tipos de serviços estão disponíveis.
+      - Gostaria de saber quais tipos de serviços estão disponíveis Janela
+      - de saber quais tipos de serviços estão disponíveis
+      - Gostaria de saber quaik tupos de serviços estão disponíveis
+      - Gostaria de conhecer quais tipos de serviços estão disponíveis
+      - Gostaria de saber quais tipos de serviços estão disponíveis
+      - saber de Gostaria quais tipos de serviços estão disponíveis 
+      - Eu gostaria de saber que tipos de serviços estão disponíveis
       - Fora Que tratamentos a clínica disponibiliza?
       - Que tratamentos clínica disponibiliza?
       - Que trakamentos a clínicb disponibiliza?
@@ -1868,14 +1837,13 @@ nlu:
       - Quais tratamentos posso encontrar na clínica?
       - posso tratamentos Quais encontrar na clínica ?
       - Que tratamentos posso encontrar na clínica?
-      - Gostaria de saber mais De repente sobre os serviços da clínica.
-      - Gostaria de saber mais sobre serviços da clínica.
-      - Gostaria de saber mais sobee os serviços da clmnica.
-      - Gostaria de consciência em continuação sobre os serviços da hospital.
-      - saber mais sobre os serviços da clínica. com Gostaria
-      - Gostaria de saber mais sobre os serviços da clínica.
-      - saber de Gostaria mais sobre os serviços da clínica .
-      - Eu gostaria de saber mais sobre os serviços da clínica.
+      - Gostaria de saber mais De repente sobre os serviços da clínica
+      - Gostaria de saber mais sobre serviços da clínica
+      - Gostaria de saber mais sobee os serviços da clmnica
+      - saber mais sobre os serviços da clínica com Gostaria
+      - Gostaria de saber mais sobre os serviços da clínica
+      - saber de Gostaria mais sobre os serviços da clínica 
+      - Eu gostaria de saber mais sobre os serviços da clínica
       - Que tipo de atendimento Gradualmente vocês prestam na clínica?
       - Que tipo de vocês prestam na clínica?
       - Que tipo de ateedimento vocês prestam na clínicat
@@ -2012,14 +1980,14 @@ nlu:
       - Quais mentalmente são os serviços médicos demais comuns na hospital?
       - Quais são os serviços médicos mais comuns na clínica?
       - os são Quais serviços médicos mais comuns na clínica ?
-      - Gostaria de saber mais sobre os procedimentos Pensar médicos disponíveis.
-      - Gostaria saber mais sobre os procedimentos médicos disponíveis.
-      - Gostaria de saber mais sobre gs proeedimentos médicos disponíveis.
-      - Gostaria de conhecer mais adiante sobre os procedimentos médicos disponíveis.
-      - saber mais sobre os procedimentos médicos disponíveis. com Gostaria
-      - Gostaria de saber mais sobre os procedimentos médicos disponíveis.
-      - saber de Gostaria mais sobre os procedimentos médicos disponíveis .
-      - Eu gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - Gostaria de saber mais sobre os procedimentos Pensar médicos disponíveis
+      - Gostaria saber mais sobre os procedimentos médicos disponíveis
+      - Gostaria de saber mais sobre gs proeedimentos médicos disponíveis
+      - Gostaria de conhecer mais adiante sobre os procedimentos médicos disponíveis
+      - saber mais sobre os procedimentos médicos disponíveis com Gostaria
+      - Gostaria de saber mais sobre os procedimentos médicos disponíveis
+      - saber de Gostaria mais sobre os procedimentos médicos disponíveis 
+      - Eu gostaria de saber mais sobre os procedimentos médicos disponíveis
       - Quais tratamentos Estudar para dor a clínica oferece?
       - tratamentos para dor a clínica oferece?
       - Quais tratwmentos para dor a clíndca oferece?
@@ -2157,22 +2125,22 @@ nlu:
       - Quais exames podem ser realizados na clínica?
       - podem exames Quais ser realizados na clínica ?
       - Poderia detalhar quais servicos voces fornecem?
-      - Gostaria de uma descrição dos servicos que voces disponibilizam.
+      - Gostaria de uma descrição dos servicos que voces disponibilizam
       - Que servicos sua clínica oferece aos pacientes?
       - Quais são os servicos mais populares que voces oferecem?
       - Estou curioso sobre os servicos, voce pode explicar?
       - Pode listar os servicos de saúde que voces disponibilizam?
-      - Gostaria de saber mais sobre os servicos  que voces oferecem.
+      - Gostaria de saber mais sobre os servicos  que voces oferecem
       - Poderia me fornecer uma visão geral dos seus servicos médicos?
       - Pode me explicar os diferentes tipos de consultas que voces oferecem?
       - Que tipos de serviços de saúde voces prestam?
       - Quais tratamentos específicos voces disponibilizam 
-      - Eu gostaria de saber mais sobre os programas de que voces conduzem.
+      - Eu gostaria de saber mais sobre os programas de que voces conduzem
       - Poderia listar todos os serviços médicos que voces oferecem?
       - Como funciona a clinica
-      - Me fale mais sobre as especialidades da clínica.
-      - Gostaria de uma descrição dos serviços que voces disponibilizam.
-      - Quero saber quais são os procedimentos disponíveis.
+      - Me fale mais sobre as especialidades da clínica
+      - Gostaria de uma descrição dos serviços que voces disponibilizam
+      - Quero saber quais são os procedimentos disponíveis
       - Que serviços sua clínica oferece aos pacientes?
       - Quais são os serviços mais populares que voces oferecem?
       - Estou curioso sobre os serviços, voce pode explicar?
@@ -2180,13 +2148,13 @@ nlu:
       - Pode listar os serviços de saúde que voces disponibilizam?
       - Que tipo de consultas voces proporcionam?
       - Poderia me fornecer uma visão geral dos seus serviços médicos?
-      - Estou interessado sobre os serviços que voces disponibilizam.
+      - Estou interessado sobre os serviços que voces disponibilizam
       - Estou interessado nos serviços terapeuticos disponíveis
       - Pode descrever as várias opções de serviço que sua clínica possui?
       - Gostaria de conhecer os serviços que voces oferecem, como funcionam?
       - Pode me dar uma visão geral das consultas especializadas que voces tem?
       - Quais são as suas principais ofertas de serviços de saúde mental?
-      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem.
+      - Quero informações detalhadas sobre os serviços de diagnóstico que voces tem
       - Como funciona a clínica?
       - Que profissionais voces tem na clínica?
       - Que tipo de consulta tem na clínica?
@@ -2195,7 +2163,7 @@ nlu:
       - Voces tem quais psicologos
       - Qual medico psiquiatra tem
       - Quais serviços médicos vocês oferecem na clínica?
-      - Gostaria de saber quais tipos de serviços estão disponíveis.
+      - Gostaria de saber quais tipos de serviços estão disponíveis
       - Que tratamentos a clínica disponibiliza?
       - Quais são os serviços que a clínica oferece aos pacientes?
       - Vocês podem me dizer quais são os serviços de saúde disponíveis?
@@ -2203,7 +2171,7 @@ nlu:
       - O que a clínica oferece em termos de serviços médicos?
       - Quais são os principais serviços de saúde da clínica?
       - Quais tratamentos posso encontrar na clínica?
-      - Gostaria de saber mais sobre os serviços da clínica.
+      - Gostaria de saber mais sobre os serviços da clínica
       - Que tipo de atendimento vocês prestam na clínica?
       - Vocês oferecem serviços de saúde mental?
       - Quais são os serviços especializados oferecidos pela clínica?
@@ -2223,7 +2191,7 @@ nlu:
       - Quais tipos de consultas médicas vocês fazem?
       - Vocês têm serviços de diagnóstico por imagem?
       - Quais são os serviços médicos mais comuns na clínica?
-      - Gostaria de saber mais sobre os procedimentos médicos disponíveis.
+      - Gostaria de saber mais sobre os procedimentos médicos disponíveis
       - Quais tratamentos para dor a clínica oferece?
       - A clínica oferece serviços de nutrição?
       - Vocês têm serviços de odontologia?
@@ -2243,3 +2211,907 @@ nlu:
       - A clínica oferece consultas com especialistas?
       - Vocês têm algum serviço especializado em ortopedia?
       - Quais exames podem ser realizados na clínica?
+
+  - intent: faq/metodo_de_pagamento
+    examples: |
+      - Quais são as formas Brinquedo de pagamento disponíveis?
+      - Quais são as de pagamento disponíveis?
+      - Quais sãm as formas de pagamento disponíveis?
+      - pagamento disponíveis? com Quais são as formas
+      - Quais são as formas de pagamento disponíveis?
+      - as são Quais formas de pagamento disponíveis ?
+      - Quais são os métodos de pagamento disponíveis?
+      - Caneta são as formas de pagamento?
+      - são as formas pagamento?
+      - são as dormas de pagamento?
+      - pagamento? com são as formas
+      - são as formas de pagamento?
+      - formas as são de pagamento ?
+      - São as formas de pagamento?
+      - Quais são Mercado as opções de pagamento disponíveis?
+      - Quais as opções de pagamento disponíveis?
+      - Quaes são as opções de pagamento disponívnis?
+      - pagamento disponíveis? com Quais são as opções
+      - Quais são as opções de pagamento disponíveis?
+      - as são Quais opções de pagamento disponíveis ?
+      - Ganhar Quais formas de pagamento estão disponíveis?
+      - Quais formas de estão disponíveis?
+      - Quais forzas de pagamentf estão disponíveis?
+      - pagamento estão disponíveis? com Quais formas
+      - Quais formas de pagamento estão disponíveis?
+      - de formas Quais pagamento estão disponíveis ?
+      - Quais métodos de pagamento estão disponíveis?
+      - Quais Casa formas de pagamento voces aceitam?
+      - Quais formas de voces aceitam?
+      - Quaiu formas de pagamento voces cceitam?
+      - pagamento voces aceitam? com Quais formas
+      - Quais formas de pagamento voces aceitam?
+      - de formas Quais pagamento voces aceitam ?
+      - Que formas de pagamento você aceita?
+      - Navio métodos de pagamento estão disponíveis?
+      - métodos de estão disponíveis?
+      - métoios de pagamentq estão disponíveis?
+      - pagamento estão disponíveis? com métodos
+      - métodos de pagamento estão disponíveis?
+      - pagamento de métodos estão disponíveis ?
+      - Os métodos de pagamento estão disponíveis?
+      - Quais métodos de pagamento Acima voces aceitam?
+      - Quais métodos de pagamento voces
+      - Quais métodos de pagamenno voces aceitamy
+      - pagamento voces aceitam? com Quais métodos
+      - Quais métodos de pagamento voces aceitam?
+      - de métodos Quais pagamento voces aceitam ?
+      - Quais métodos de pagamento você aceita?
+      - Baixo formas de pagamento aceitas?
+      - de pagamento aceitas?
+      - formas de pagamentu achitas?
+      - pagamento aceitas? com formas
+      - formas de pagamento aceitas?
+      - pagamento de formas aceitas ?
+      - Métodos de pagamento aceitos?
+      - Agitado Quais opções de pagamento voces oferecem?
+      - Quais opções de voces oferecem?
+      - Quais opçõxs de pagamento voces oferepem?
+      - pagamento voces oferecem? com Quais opções
+      - Quais opções de pagamento voces oferecem?
+      - de opções Quais pagamento voces oferecem ?
+      - Que opções de pagamento você oferece?
+      - métodos de pagamento voces Nadar oferecem?
+      - métodos de pagamento oferecem?
+      - méqodos do pagamento voces oferecem?
+      - pagamento voces oferecem? com métodos
+      - métodos de pagamento voces oferecem?
+      - pagamento de métodos voces oferecem ?
+      - Métodos de pagamento que você oferece?
+      - Quais são os métodos de pagamento Abaixo aceitos?
+      - são os métodos de pagamento aceitos?
+      - Quais são oc métodos de pagamgnto aceitos?
+      - pagamento aceitos? com Quais são os métodos
+      - Quais são os métodos de pagamento aceitos?
+      - os são Quais métodos de pagamento aceitos ?
+      - Quais são as formas de pagamento aceitas Ler pela clínica?
+      - Quais são as formas pagamento aceitas pela clínica?
+      - Quais são as formas ie pagamento aceitas lela clínica?
+      - pagamento aceitas pela clínica? com Quais são as formas
+      - Quais são as formas de pagamento aceitas pela clínica?
+      - as são Quais formas de pagamento aceitas pela clínica ?
+      - Quais são os métodos de pagamento aceitos pela clínica?
+      - tipos de pagamento Estudar são aceitos?
+      - tipos de são aceitos?
+      - tipos de pagamento qão aceitost
+      - pagamento são aceitos? com tipos
+      - tipos de pagamento são aceitos?
+      - pagamento de tipos são aceitos ?
+      - Os tipos de pagamento são aceitos?
+      - tipos de pagamento Brinquedo estão disponíveis?
+      - tipos de pagamento disponíveis?
+      - tipos ne pagrmento estão disponíveis?
+      - pagamento estão disponíveis? com tipos
+      - tipos de pagamento estão disponíveis?
+      - pagamento de tipos estão disponíveis ?
+      - Os tipos de pagamento estão disponíveis?
+      - Voces aceitam cartão de crédito? Pensar
+      - Voces cartão de crédito?
+      - Vomes aceitam cartão qe crédito?
+      - Voces aceitam carta de empréstimo?
+      - crédito? com Voces aceitam cartão
+      - Voces aceitam cartão de crédito?
+      - cartão aceitam Voces de crédito ?
+      - Vocês aceitam cartão de crédito?
+      - Voces aceitam Lá cartão de débito?
+      - Voces aceitam cartão de
+      - Voces ageitam cartyo de débito?
+      - Voces aceitam cartas geográficas de dívida?
+      - débito? com Voces aceitam cartão
+      - Voces aceitam cartão de débito?
+      - cartão aceitam Voces de débito ?
+      - Você aceita cartão de débito?
+      - Aceitam cartão de crédito? Bicicleta
+      - Aceitam cartão dz crégito?
+      - Aceitam carta de empréstimo?
+      - crédito? com Aceitam cartão
+      - Aceitam cartão de crédito?
+      - de cartão Aceitam crédito ?
+      - Você aceita cartão de crédito?
+      - Aceitam cartão de débito? Rapidamente
+      - Aceitam carteo de uébito?
+      - Aceitam papelão de dívida?
+      - débito? com Aceitam cartão
+      - Aceitam cartão de débito?
+      - de cartão Aceitam débito ?
+      - Devagar Voces aceitam Pix?
+      - Voces acebtam Pixt
+      - Voces aceitam Pix?
+      - Pix aceitam Voces ?
+      - Você aceita pix?
+      - Voces parcelam Vender a consulta?
+      - poces pnrcelam a consulta?
+      - Voces parcelam a consulta?
+      - a parcelam Voces consulta ?
+      - Você compara a consulta?
+      - Voces parcelam? Acordar
+      - parcelam?
+      - Vdces pardelam?
+      - Voces parcelam?
+      - Você compara?
+      - Frio Aceitam Pix?
+      - Aceitam
+      - Aieitam kix?
+      - Aceitam Pix?
+      - ? Pix Aceitam
+      - Voces aceitam Antipático pagamento em dinheiro?
+      - Voces aceitam em dinheiro?
+      - uoces aceltam pagamento em dinheiro?
+      - Voces aceitam pagamento em dinheiro?
+      - pagamento aceitam Voces em dinheiro ?
+      - Você aceita pagamento em dinheiro?
+      - pagamento em dinheiro? Escrever
+      - pagamento dinheiro?
+      - pagamento er dinheiqo?
+      - pagamento em dinheiro?
+      - dinheiro em pagamento ?
+      - Quais formas de pagamento por cartão Mercado voces aceitam?
+      - Quais formas de pagamento por voces aceitam?
+      - Quais formas ke pagamento por cartão voces aceitac?
+      - pagamento por cartão voces aceitam? com Quais formas
+      - Quais formas de pagamento por cartão voces aceitam?
+      - de formas Quais pagamento por cartão voces aceitam ?
+      - Que formas de pagamento do cartão você aceita?
+      - Aceitam pagamentos em Assistir parcelas?
+      - Aceitam em parcelas?
+      - Aceiwam ppgamentos em parcelas?
+      - Aceitam pagamentos em parcelas?
+      - em pagamentos Aceitam parcelas ?
+      - Você aceita pagamentos em parcelas?
+      - Voces Simpático aceitam pagamentos em parcelas?
+      - Voces aceitam pagamentos em
+      - Voces aceitam pagamenths em parcklas?
+      - Voces aceitam pagamentos em parcelas?
+      - pagamentos aceitam Voces em parcelas ?
+      - Quais são Rapidamente as formas de parcelamento disponíveis?
+      - são as formas de parcelamento disponíveis?
+      - Quais mão as formas de parcelamdnto disponíveis?
+      - Quais sã as formas de parcelamento disponíveis?
+      - parcelamento disponíveis? com Quais são as formas
+      - Quais são as formas de parcelamento disponíveis?
+      - as são Quais formas de parcelamento disponíveis ?
+      - Voces Fora aceitam pagamento na entrega?
+      - aceitam pagamento na entrega?
+      - Voces aceitam pagamlnto nk entrega?
+      - Voces aceitam pagamento na entrega?
+      - pagamento aceitam Voces na entrega ?
+      - Você aceita pagamento na entrega?
+      - Existe Escola opção de parcelamento?
+      - Existe opção de
+      - Existw opção de parcelamerto?
+      - Existe alternativa de parcelamento?
+      - parcelamento? com Existe opção
+      - Existe opção de parcelamento?
+      - de opção Existe parcelamento ?
+      - Existe uma opção de parcelamento?
+      - Devagar Existem opções de parcelamento?
+      - Existem de parcelamento?
+      - Existeq opções de parcelzmento?
+      - Existem opções de parcelamento?
+      - parcelamento? com Existem opções
+      - de opções Existem parcelamento ?
+      - Quais são as opções de Sem querer parcelamento?
+      - Quais são as opções de
+      - Quays são ax opções de parcelamento?
+      - Quais mentalmente são as opções de parcelamento?
+      - parcelamento? com Quais são as opções
+      - Quais são as opções de parcelamento?
+      - as são Quais opções de parcelamento ?
+      - Ônibus Quais são as formas de pagar pela consulta?
+      - Quais são as formas de pagar pela
+      - Quais são as formas de nagar pela consuyta?
+      - Quais sã as formas de custear pela consulta?
+      - pagar pela consulta? com Quais são as formas
+      - Quais são as formas de pagar pela consulta?
+      - as são Quais formas de pagar pela consulta ?
+      - Quais são as maneiras de pagar pela consulta?
+      - Quais opções de Sem dúvida pagamento para consultas voces tem?
+      - Quais opções de pagamento consultas voces tem?
+      - Quais orções de pagamento para condultas voces tem?
+      - pagamento para consultas voces tem? com Quais opções
+      - Quais opções de pagamento para consultas voces tem?
+      - de opções Quais pagamento para consultas voces tem ?
+      - Que opções de pagamento para consultas você tem?
+      - Voces Papel aceitam cartão de crédito para pagamento da consulta?
+      - Voces aceitam cartão de crédito para pagamento da
+      - Voces aceitam cartão de crédito park pagamento da consulta?
+      - crédito para pagamento da consulta? com Voces aceitam cartão
+      - Voces aceitam cartão de crédito para pagamento da consulta?
+      - cartão aceitam Voces de crédito para pagamento da consulta ?
+      - Você aceita cartão de crédito para pagamento da consulta?
+      - cartão de Céu crédito?
+      - de crédito?
+      - cartjo de créwito?
+      - carta de empréstimo?
+      - crédito? com cartão
+      - cartão de crédito?
+      - crédito de cartão ?
+      - Cartão de crédito?
+      - de débito?
+      - cartão dt kébito?
+      - papelão de Dívida?
+      - débito? com cartão
+      - cartão de débito?
+      - débito de cartão ?
+      - Cartão de dívida?
+      - Aceitam Pix Ouvir para pagamento da consulta?
+      - Aceitam Pix para pagamento consulta?
+      - Aceitam Pix para pagamento da consglta?
+      - pagamento da consulta? com Aceitam Pix
+      - Aceitam Pix para pagamento da consulta?
+      - para Pix Aceitam pagamento da consulta ?
+      - Você aceita o PIX para pagamento da consulta?
+      - Posso pagar a Porta consulta com Pix?
+      - Posso pagar a consulta com
+      - Posso pwgar a cbnsulta com Pix?
+      - Posso valer a pena a consulta com Pix?
+      - Pix? com Posso pagar a consulta
+      - a pagar Posso consulta com Pix ?
+      - Posso pagar a consulta com o PIX?
+      - Posso Jogar pagar com dinheiro?
+      - Posso pagar com
+      - Posso pagar cor dinhqiro?
+      - dinheiro? com Posso pagar
+      - com pagar Posso dinheiro ?
+      - Jogar Aceitam dinheiro?
+      - dinheiro?
+      - Aceitam dinheiro?
+      - Aceitam moeda?
+      - ? dinheiro Aceitam
+      - Você aceita dinheiro?
+      - Gato Quais cartões de crédito são aceitos?
+      - Quais cartões crédito são aceitos?
+      - Quais cartões de crédiwo yão aceitos?
+      - Quais cartões de empréstimo sã aceitos?
+      - crédito são aceitos? com Quais cartões
+      - Quais cartões de crédito são aceitos?
+      - de cartões Quais crédito são aceitos ?
+      - Quais Raramente cartões de débito são aceitos?
+      - cartões de débito são aceitos?
+      - Quaks cartões ze débito são aceitos?
+      - Quais cartões de Débito salubre aceitos?
+      - débito são aceitos? com Quais cartões
+      - Quais cartões de débito são aceitos?
+      - de cartões Quais débito são aceitos ?
+      - Aceitam pagamento por cartão? Aprender
+      - Aceitam pagamento cartão?
+      - Aceitam pagwmento pur cartão?
+      - cartão? com Aceitam pagamento
+      - Aceitam pagamento por cartão?
+      - por pagamento Aceitam cartão ?
+      - Você aceita pagamento por cartão?
+      - Posso Roupa pagar a consulta em dinheiro?
+      - Posso pagar a consulta dinheiro?
+      - Posso pagar a consuqta mm dinheiro?
+      - Posso compensar a consulta em grana?
+      - Posso pagar a consulta em dinheiro?
+      - a pagar Posso consulta em dinheiro ?
+      - Aceitam pagamento em Feio dinheiro?
+      - Aceitam em dinheiro?
+      - Aceitam pagwmento ew dinheiro?
+      - Aceitam pagamento em dinheiro?
+      - em pagamento Aceitam dinheiro ?
+      - Voces Lápis aceitam todos os tipos de cartão?
+      - Voces aceitam os tipos de cartão?
+      - Voces aceitam todoy ks tipos de cartão?
+      - Voces aceitam todos os tipos de carta?
+      - cartão? com Voces aceitam todos os tipos
+      - Voces aceitam todos os tipos de cartão?
+      - todos aceitam Voces os tipos de cartão ?
+      - Você aceita todos os tipos de cartões?
+      - Posso pagar Raramente a consulta com cartão?
+      - pagar a consulta com cartão?
+      - losso pahar a consulta com cartão?
+      - Posso remunerar a consulta com cartas geográficas?
+      - cartão? com Posso pagar a consulta
+      - a pagar Posso consulta com cartão ?
+      - Posso pagar a consulta por cartão?
+      - Aceitam pagamento em Provavelmente cartão?
+      - pagamento em cartão?
+      - Aceitat pagamento em caotão?
+      - Aceitam pagamento em cartão?
+      - em pagamento Aceitam cartão ?
+      - Você aceita o pagamento do cartão?
+      - Aceitam Encontrar pagamento em dinheiro para consulta?
+      - Aceitam pagamento em dinheiro consulta?
+      - Aceitam pagamento ev dinheiro yara consulta?
+      - consulta? com Aceitam pagamento em dinheiro
+      - Aceitam pagamento em dinheiro para consulta?
+      - em pagamento Aceitam dinheiro para consulta ?
+      - Você aceita pagamento em dinheiro para consulta?
+      - Posso Rio pagar a consulta com dinheiro?
+      - pagar a consulta com dinheiro?
+      - Posso pazar a condulta com dinheiro?
+      - Posso indemnizar a consulta com numerário?
+      - dinheiro? com Posso pagar a consulta
+      - a pagar Posso consulta com dinheiro ?
+      - Quais Ganhar são os métodos de pagamento aceitos pela clínica?
+      - são os métodos de pagamento aceitos pela clínica?
+      - quais xão os métodos de pagamento aceitos pela clínica?
+      - pagamento aceitos pela clínica? com Quais são os métodos
+      - os são Quais métodos de pagamento aceitos pela clínica ?
+      - Posso pagar com cartão de crédito? Pagar
+      - Posso pagar com cartão de
+      - Posso pagar com cartão ie créditos
+      - Posso compensar com carta de empréstimo?
+      - crédito? com Posso pagar com cartão
+      - Posso pagar com cartão de crédito?
+      - com pagar Posso cartão de crédito ?
+      - Aceitam Dentro pagamento com cartão de crédito?
+      - Aceitam pagamento com de crédito?
+      - Aceitam pagamento com cartão re cyédito?
+      - crédito? com Aceitam pagamento com cartão
+      - Aceitam pagamento com cartão de crédito?
+      - com pagamento Aceitam cartão de crédito ?
+      - Você aceita pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito? Consertar
+      - pagar com cartão de débito?
+      - Posso pagar com cartão ie débitg?
+      - Posso custear com papelão de dívida?
+      - débito? com Posso pagar com cartão
+      - Posso pagar com cartão de débito?
+      - com pagar Posso cartão de débito ?
+      - Aceitam pagamento com cartão de débito? Beber
+      - Aceitam pagamento com cartão débito?
+      - Aceitam pagauento col cartão de débito?
+      - débito? com Aceitam pagamento com cartão
+      - Aceitam pagamento com cartão de débito?
+      - com pagamento Aceitam cartão de débito ?
+      - Aceitam cartões de Doce crédito?
+      - Aceitam cartões de
+      - Aceitam cartõeh de créoito?
+      - Aceitam cartões de empréstimo?
+      - crédito? com Aceitam cartões
+      - Aceitam cartões de crédito?
+      - de cartões Aceitam crédito ?
+      - Aceitam cartões de débito? Vender
+      - Aceitam cartõeo oe débito?
+      - Aceitam cartões de dívidas?
+      - débito? com Aceitam cartões
+      - Aceitam cartões de débito?
+      - de cartões Aceitam débito ?
+      - Você aceita cartões de débito?
+      - Posso Longe pagar com Pix?
+      - Posso com Pix?
+      - Pxsso pagar com Pux?
+      - Posso remunerar com Pix?
+      - Pix? com Posso pagar
+      - com pagar Posso Pix ?
+      - Posso pagar com pix?
+      - Aceitam Nadar Pix como forma de pagamento?
+      - Aceitam Pix forma de pagamento?
+      - Acqitam Pix como forma dt pagamento?
+      - pagamento? com Aceitam Pix como forma
+      - Aceitam Pix como forma de pagamento?
+      - como Pix Aceitam forma de pagamento ?
+      - Você aceita o PIX como uma forma de pagamento?
+      - Roupa Voces aceitam pagamento por Pix?
+      - aceitam pagamento por Pix?
+      - Vocos aceitam pagamento dor Pix?
+      - Pix? com Voces aceitam pagamento
+      - Voces aceitam pagamento por Pix?
+      - pagamento aceitam Voces por Pix ?
+      - Você aceita pagamento por pix?
+      - Posso usar Pix para pagar a consulta? Bicicleta
+      - Posso usar Pix para a consulta?
+      - Poslo usar Pid para pagar a consulta?
+      - Posso utilizar Pix para custear a consulta?
+      - pagar a consulta? com Posso usar Pix
+      - Posso usar Pix para pagar a consulta?
+      - Pix usar Posso para pagar a consulta ?
+      - Posso usar o PIX para pagar a consulta?
+      - Quaih são os métoeos de Mercado pagamento aceitos?a?
+      - Quaih os métoeos de pagamento aceitos?a?
+      - Quaih são os métoeos dk pagamento aceztos?a?
+      - pagamento aceitos?a? com Quaih são os métoeos
+      - Quaih são os métoeos de pagamento aceitos?a?
+      - os são Quaih métoeos de pagamento aceitos?a ?
+      - Quais são as metas de pagamento aceitas?
+      - Dentro Voces oferecem parcelamento?
+      - oferecem parcelamento?
+      - Vocys oferecem parcelamento?
+      - Voces oferecem parcelamento?
+      - parcelamento oferecem Voces ?
+      - Você oferece parcela?
+      - Aceitam parcelamento? Terra
+      - Aleitam pdrcelamento?
+      - Aceitam parcelamento?
+      - ? parcelamento Aceitam
+      - Você aceita pagamento de parcelas?
+      - Quente Existe opção de parcelamento?
+      - opção de parcelamento?
+      - Existe opção se parcelampnto?
+      - Aprender Posso pagar em parcelas?
+      - Posso em parcelas?
+      - Possj pagar fm parcelas?
+      - Posso remunerar em parcelas?
+      - Posso pagar em parcelas?
+      - em pagar Posso parcelas ?
+      - Voces aceitam pagamento em parcelas? Falar
+      - Voces pagamento em parcelas?
+      - Voces aclitam pagamento um parcelas?
+      - Voces aceitam pagamento em parcelas?
+      - pagamento aceitam Voces em parcelas ?
+      - Você aceita pagamento em parcelas?
+      - Quais Grande opções de parcelamento estão disponíveis?
+      - opções de parcelamento estão disponíveis?
+      - Quais opçõxs de parcelamento estãc disponíveis?
+      - Quais opções de parcelamento estão disponíveis?
+      - parcelamento estão disponíveis? com Quais opções
+      - de opções Quais parcelamento estão disponíveis ?
+      - Quais opções de parcelas estão disponíveis?
+      - Voces Hoje aceitam pagamento por cartão de crédito?
+      - Voces aceitam pagamento por de crédito?
+      - Voces aceitam pagamento por cnrtão de crédito?
+      - crédito? com Voces aceitam pagamento por cartão
+      - Voces aceitam pagamento por cartão de crédito?
+      - pagamento aceitam Voces por cartão de crédito ?
+      - Você aceita pagamento por cartão de crédito?
+      - Aceitam pagamento por cartão Cachorro de débito?
+      - Aceitam pagamento por cartão de
+      - Aceitam pagamezto pou cartão de débito?
+      - débito? com Aceitam pagamento por cartão
+      - Aceitam pagamento por cartão de débito?
+      - por pagamento Aceitam cartão de débito ?
+      - Você aceita o pagamento por cartão de débito?
+      - Quais formas de pagamento voces aceitam? Aprender
+      - Quais formas pagamento voces aceitam?
+      - Quaws formas de pagamento voces aceitaf?
+      - Posso pagar Terra com cartão?
+      - pagar com cartão?
+      - Posso qagar jom cartão?
+      - Posso compensar com papelão?
+      - cartão? com Posso pagar
+      - com pagar Posso cartão ?
+      - Posso pagar por cartão?
+      - Chave Aceitam pagamento com cartão?
+      - Aceitam pagamentx com qartão?
+      - com pagamento Aceitam cartão ?
+      - Posso pagar em dinheiro? Cidade
+      - Posso em dinheiro?
+      - Pojso pagar em dinheiho?
+      - Posso indenizar em cobre?
+      - Posso pagar em dinheiro?
+      - em pagar Posso dinheiro ?
+      - Aceitam Ler cartões de débito?
+      - cartões de débito?
+      - Aceitam cartõjs de dqbito?
+      - Aceitam Triste cartões de crédito?
+      - cartões de crédito?
+      - Aceitam cartõei dx crédito?
+      - Você aceita cartões de crédito?
+      - Aceitam pagamento Esperar por Pix?
+      - Aceitam pagamento Pix?
+      - Acnitam pagamento xor Pix?
+      - Pix? com Aceitam pagamento
+      - Aceitam pagamento por Pix?
+      - por pagamento Aceitam Pix ?
+      - Sem querer Voces oferecem desconto para pagamento em dinheiro?
+      - Voces oferecem desconto para em dinheiro?
+      - Voces okerecem descokto para pagamento em dinheiro?
+      - pagamento em dinheiro? com Voces oferecem desconto
+      - Voces oferecem desconto para pagamento em dinheiro?
+      - desconto oferecem Voces para pagamento em dinheiro ?
+      - Você oferece desconto para pagamento em dinheiro?
+      - Existe desconto para pagamento em Bicicleta dinheiro?
+      - Existe desconto para em dinheiro?
+      - Existe desconao para pagatento em dinheiro?
+      - pagamento em dinheiro? com Existe desconto
+      - Existe desconto para pagamento em dinheiro?
+      - para desconto Existe pagamento em dinheiro ?
+      - Existe um desconto para pagamento em dinheiro?
+      - Posso Céu pagar com cartão de crédito?
+      - Posso pagar cartão de crédito?
+      - Poqso pugar com cartão de crédito?
+      - Posso indemnizar com papelão de empréstimo?
+      - Voces Lápis aceitam todos os cartões de crédito?
+      - aceitam todos os cartões de crédito?
+      - Voces aceitam rodos is cartões de crédito?
+      - Voces aceitam todos os cartões de empréstimo?
+      - crédito? com Voces aceitam todos os cartões
+      - Voces aceitam todos os cartões de crédito?
+      - todos aceitam Voces os cartões de crédito ?
+      - Você aceita todos os cartões de crédito?
+      - Escola Aceitam pagamento com cartão de crédito?
+      - Aceitam pagamento cartão de crédito?
+      - Aceitam pagamento com rartão de crmdito?
+      - Posso pagar com cartão Perder de débito?
+      - Posso pagar com cartão débito?
+      - Pobso pagar com cartão de mébito?
+      - Posso compensar com papelão de Débito?
+      - Feio Aceitam pagamento com cartão de débito?
+      - Aceitam pagamento cartão de débito?
+      - Aceitam pagamento com cartzo de débito?
+      - Você aceita pagamento com cartão de débito?
+      - Voces Fogo aceitam Pix para pagamento?
+      - Voces aceitam Pix pagamento?
+      - Vozes aceitam Pix para pagamexto?
+      - pagamento? com Voces aceitam Pix
+      - Voces aceitam Pix para pagamento?
+      - Pix aceitam Voces para pagamento ?
+      - Você aceita o PIX para pagamento?
+      - Aceitam Pix para pagar a Juntos consulta?
+      - Aceitam Pix para a consulta?
+      - Aceitam dix para pagar a consultk?
+      - Aceitam Pix para remunerar a consulta?
+      - pagar a consulta? com Aceitam Pix
+      - Aceitam Pix para pagar a consulta?
+      - para Pix Aceitam pagar a consulta ?
+      - Você aceita o PIX para pagar a consulta?
+      - Voces aceitam Comer pagamento em dinheiro?
+      - Voces aceitam pagamento em
+      - Voces aceijam pagamento ei dinheiro?
+      - Posso Neve pagar em dinheiro?
+      - pagar em dinheiro?
+      - Posyo pagar em dznheiro?
+      - Posso indenizar em moeda?
+      - Sempre Voces aceitam cartão de crédito?
+      - Voces aceitam de crédito?
+      - Vocew aceitam cvrtão de crédito?
+      - Voces aceitam cartas geográficas de empréstimo?
+      - Aceitam pagamento com Jogo cartão de crédito?
+      - pagamento com cartão de crédito?
+      - Aceitam pagamento jom ckrtão de crédito?
+      - Voces aceitam todos os cartões Encontrar de débito?
+      - Voces aceitam os cartões de débito?
+      - Voces aceitam oodos os cartões de mébito?
+      - Voces aceitam todos os cartões de Dívida?
+      - débito? com Voces aceitam todos os cartões
+      - Voces aceitam todos os cartões de débito?
+      - todos aceitam Voces os cartões de débito ?
+      - Você aceita todos os cartões de débito?
+      - Posso pagar a consulta com Hoje cartão de débito?
+      - Posso pagar a consulta cartão de débito?
+      - Posso pagar a consusta com cartão dz débito?
+      - Posso remunerar a consulta com papelão de Dívida?
+      - débito? com Posso pagar a consulta com cartão
+      - Posso pagar a consulta com cartão de débito?
+      - a pagar Posso consulta com cartão de débito ?
+      - Posso pagar a consulta do cartão de débito?
+      - Voces aceitam todos os cartões de Sol crédito?
+      - Voces aceitam todos cartões de crédito?
+      - Voces acpitam todos qs cartões de crédito?
+      - Aceitam Amigo pagamento em Pix?
+      - Aceitam pagamento em
+      - Aueitam pagamento en Pix?
+      - Aceitam pagamento em Pix?
+      - em pagamento Aceitam Pix ?
+      - Você aceita pagamento em pix?
+      - Estrela Voces aceitam todos os tipos de cartão?
+      - Voces aceitam todos gs tipos dh cartão?
+      - Voces aceitam todos os tipos de papelão?
+      - Posso pagar com cartão de Estrela débito?
+      - Possw pagdr com cartão de débito?
+      - Posso compensar com carta de deve?
+      - Aceitam pagamento Pássaro em dinheiro?
+      - Aceitau pagamento em dinhepro?
+      - Posso pagar em Sem dúvida dinheiro?
+      - Posso pagar dinheiro?
+      - Posso pauar em ddnheiro?
+      - Aceitam Pix? Caneta
+      - Aseitam Pin?
+      - Aceitam pagamento por Pix? Destruir
+      - pagamento por Pix?
+      - Aceitam pagamento poi Pix?
+      - Voces aceitam cartão Janela de crédito?
+      - Voces apeitam cartão de crtdito?
+      - Voces aceitam papelão de empréstimo?
+      - Aceitam cartão de Terra crédito?
+      - Aceitam caftão dp crédito?
+      - Aceitam papelão de empréstimo?
+      - Posso pagar com cartão Sapato de crédito?
+      - Posso pagar coi cartão de crépito?
+      - Posso indemnizar com cartas geográficas de empréstimo?
+      - Voces aceitam Cruel todos os cartões de crédito?
+      - Voces aceitam todos os cartões de
+      - Voces aceotam todos os cartões de crédino?
+      - Aceitam pagamento com cartão de Quente débito?
+      - Aceitam pagamento com de débito?
+      - Accitam pagamento com cartão te débito?
+      - Voces aceitam todos os cartões de débito? Bicicleta
+      - Voces aceitam todos os cartões débito?
+      - Voces aceitam todon os cartões dh débito?
+      - Voces aceitam todos os cartões de dívidas?
+      - Aceitam Perder pagamento com Pix?
+      - pagamento com Pix?
+      - Aheitam pagamento con Pix?
+      - com pagamento Aceitam Pix ?
+      - Você aceita pagamento com PIX?
+      - Posso pagar Roupa com dinheiro?
+      - Poaso pagxr com dinheiro?
+      - Posso custear com Dinheiro?
+      - Quais são as formas Andar de pagamento disponiveis?
+      - Quais são as formas pagamento disponiveis?
+      - zuais são as fommas de pagamento disponiveis?
+      - pagamento disponiveis? com Quais são as formas
+      - Quais são as formas de pagamento disponiveis?
+      - as são Quais formas de pagamento disponiveis ?
+      - Voces aceitam cartão Bonito de crédito?
+      - Voces aceitam cartão di créddto?
+      - Existe opção Jogar de parcelamento?
+      - ixiste opção ke parcelamento?
+      - Existe intercorrência de parcelamento?
+      - Como faço para pagar com Dia cartão de débito?
+      - faço para pagar com cartão de débito?
+      - Comd faço para pagar som cartão de débito?
+      - Como faço para remunerar com cartas geográficas de deve?
+      - débito? com Como faço para pagar com cartão
+      - Como faço para pagar com cartão de débito?
+      - para faço Como pagar com cartão de débito ?
+      - Podem me informar os métodos Escuro de pagamento
+      - Podem me os métodos de pagamento
+      - Podem me inqormar on métodos de pagamento
+      - pagamento com Podem me informar os métodos
+      - Podem me informar os métodos de pagamento
+      - Você pode me informar sobre métodos de pagamento
+      - Quais Mesa opções de pagamento voces oferecem?
+      - Quais opções de pagamento oferecem?
+      - Quads tpções de pagamento voces oferecem?
+      - posso usar Pix para fazer o Aprender pagamento?
+      - posso usar Pix para fazer pagamento?
+      - posso usar nix para famer o pagamento?
+      - fazer o pagamento? com posso usar Pix
+      - posso usar Pix para fazer o pagamento?
+      - Pix usar posso para fazer o pagamento ?
+      - Posso usar o PIX para fazer o pagamento?
+      - Posso Telefone dividir o pagamento em mais de uma forma
+      - Posso dividir pagamento em mais de uma forma
+      - Posso dividir o pamamento ef mais de uma forma
+      - uma forma com Posso dividir o pagamento em mais
+      - Posso dividir o pagamento em mais de uma forma
+      - Eu posso dividir o pagamento em mais de uma maneira
+      - Como funcionam os pagamentos Doce para serviços
+      - Como funcionam os pagamentos para
+      - Coxo funcionam os pagamentos pxra serviços
+      - Como funcionam os pagamentos para serviços
+      - serviços com Como funcionam os pagamentos
+      - Como os pagamentos funcionam para os serviços
+      - Podem confirmar Sol se meu método de pagamento foi aceito?
+      - Podem confirmar se método de pagamento foi aceito?
+      - Podem confirmar se mec método dh pagamento foi aceito?
+      - pagamento foi aceito? com Podem confirmar se meu método
+      - Podem confirmar se meu método de pagamento foi aceito?
+      - se confirmar Podem meu método de pagamento foi aceito ?
+      - Você pode confirmar se meu método de pagamento foi aceito?
+      - voces aceitam cartao Entediante
+      - voceg aceitam gartao
+      - voces aceitam cartao
+      - Você aceita cartão
+      - voces aceitam cartao de credito Inteligente
+      - voces aceitam de credito
+      - voces aceitam cartab da credito
+      - voces aceitam cartao de credito
+      - credito com voces aceitam cartao
+      - Vocês aceitam cartão de crédito
+      - aceitam cartão Limpar
+      - aceitam
+      - aceieam caztão
+      - aceitam carta
+      - cartão aceitam
+      - Aceitar cartão
+      - aceitam pix Longe
+      - acditam six
+      - aceitam pix
+      - aceitar pix
+      - voces Lua aceitam pix
+      - voces pix
+      - vocys aceitad pix
+      - voces aceitam pix
+      - Você aceita pix
+      - rix
+      - pix
+      - cantao
+      - cartao
+      - cartão
+      - cartao de credito Limpar
+      - cartao de
+      - cartao dp cradito
+      - cartao de credito
+      - credito com cartao
+      - Cartão de crédito
+      - cartao de Pássaro debito
+      - cartao debito
+      - cartco de debvto
+      - cartao de debito
+      - debito com cartao
+      - cartão de débito
+      - voces parcelam Fora
+      - voceb psrcelam
+      - voces parcelam
+      - Você parcela
+      - voces De repente parcelam no cartao de credito
+      - voces parcelam no cartao credito
+      - voces pabcelam no cartao ae credito
+      - voces parcelam no cartao de credito
+      - credito com voces parcelam no cartao
+      - você parcela no cartão de crédito
+      - em ate quantas vezes voces parcelam no cartao Beber
+      - ate quantas vezes voces parcelam no cartao
+      - ek ate quanzas vezes voces parcelam no cartao
+      - em ate quantas vezes voces parcelam no cartao
+      - Quantas vezes você comparece no cartão
+      - Ver cartão de crédito
+      - de crédito
+      - cartão fe irédito
+      - crédito com cartão
+      - cartão de crédito
+      - cartão de débito Acima
+      - cartão débito
+      - cartão ge wébito
+      - cartas geográficas de dívida
+      - débito com cartão
+      - cartão Telefone
+      - o pagamento e na Nunca hora?
+      - pagamento e na hora?
+      - o paiamento e na horu?
+      - na hora? e o pagamento
+      - e pagamento o na hora ?
+      - o pagamento e a hora?
+      - o pagamento e como
+      - como e pagamento
+      - pagamento Inteligente
+      - jagamento
+      - pagamento
+      - Quais são as formas de pagamento disponíveis?
+      - são as formas de pagamento?
+      - Quais são as opções de pagamento disponíveis?
+      - opções de pagamento?
+      - Quais formas de pagamento estão disponíveis?
+      - Quais formas de pagamento voces aceitam?
+      - métodos de pagamento estão disponíveis?
+      - Quais métodos de pagamento voces aceitam?
+      - formas de pagamento aceitas?
+      - Quais opções de pagamento voces oferecem?
+      - métodos de pagamento voces oferecem?
+      - Quais são os métodos de pagamento aceitos?
+      - Quais são as formas de pagamento aceitas pela clínica?
+      - tipos de pagamento são aceitos?
+      - tipos de pagamento estão disponíveis?
+      - Voces aceitam cartão de crédito?
+      - Voces aceitam cartão de débito?
+      - Aceitam cartão de crédito?
+      - Aceitam cartão de débito?
+      - Voces aceitam Pix?
+      - Voces parcelam a consulta?
+      - Voces parcelam?
+      - Aceitam Pix?
+      - Voces aceitam pagamento em dinheiro?
+      - pagamento em dinheiro?
+      - Quais formas de pagamento por cartão voces aceitam?
+      - Aceitam pagamentos em parcelas?
+      - Voces aceitam pagamentos em parcelas?
+      - Quais são as formas de parcelamento disponíveis?
+      - Voces aceitam pagamento na entrega?
+      - Existe opção de parcelamento?
+      - Existem opções de parcelamento?
+      - Quais são as opções de parcelamento?
+      - Quais são as formas de pagar pela consulta?
+      - Quais opções de pagamento para consultas voces tem?
+      - Voces aceitam cartão de crédito para pagamento da consulta?
+      - cartão de crédito?
+      - cartão de débito?
+      - Aceitam Pix para pagamento da consulta?
+      - Posso pagar a consulta com Pix?
+      - Posso pagar com dinheiro?
+      - Aceitam dinheiro?
+      - Quais cartões de crédito são aceitos?
+      - Quais cartões de débito são aceitos?
+      - Aceitam pagamento por cartão?
+      - Posso pagar a consulta em dinheiro?
+      - Aceitam pagamento em dinheiro?
+      - Voces aceitam todos os tipos de cartão?
+      - Posso pagar a consulta com cartão?
+      - Aceitam pagamento em cartão?
+      - Aceitam pagamento em dinheiro para consulta?
+      - Posso pagar a consulta com dinheiro?
+      - Quais são os métodos de pagamento aceitos pela clínica?
+      - Posso pagar com cartão de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento com cartão de débito?
+      - Aceitam cartões de crédito?
+      - Aceitam cartões de débito?
+      - Posso pagar com Pix?
+      - Aceitam Pix como forma de pagamento?
+      - Voces aceitam pagamento por Pix?
+      - Posso usar Pix para pagar a consulta?
+      - Quaih são os métoeos de pagamento aceitos?a?
+      - Voces oferecem parcelamento?
+      - Aceitam parcelamento?
+      - Existe opção de parcelamento?
+      - Posso pagar em parcelas?
+      - Voces aceitam pagamento em parcelas?
+      - Quais opções de parcelamento estão disponíveis?
+      - Voces aceitam pagamento por cartão de crédito?
+      - Aceitam pagamento por cartão de débito?
+      - Quais formas de pagamento voces aceitam?
+      - Posso pagar com cartão?
+      - Aceitam pagamento com cartão?
+      - Posso pagar em dinheiro?
+      - Aceitam cartões de débito?
+      - Aceitam cartões de crédito?
+      - Aceitam pagamento por Pix?
+      - Voces oferecem desconto para pagamento em dinheiro?
+      - Existe desconto para pagamento em dinheiro?
+      - Posso pagar com cartão de crédito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento com cartão de débito?
+      - Voces aceitam Pix para pagamento?
+      - Aceitam Pix para pagar a consulta?
+      - Voces aceitam pagamento em dinheiro?
+      - Posso pagar em dinheiro?
+      - Voces aceitam cartão de crédito?
+      - Aceitam pagamento com cartão de crédito?
+      - Voces aceitam todos os cartões de débito?
+      - Posso pagar a consulta com cartão de débito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento em Pix?
+      - Voces aceitam todos os tipos de cartão?
+      - Posso pagar com cartão de débito?
+      - Aceitam pagamento em dinheiro?
+      - Posso pagar em dinheiro?
+      - Aceitam Pix?
+      - Aceitam pagamento por Pix?
+      - Voces aceitam cartão de crédito?
+      - Aceitam cartão de crédito?
+      - Posso pagar com cartão de crédito?
+      - Voces aceitam todos os cartões de crédito?
+      - Aceitam pagamento com cartão de débito?
+      - Voces aceitam todos os cartões de débito?
+      - Aceitam pagamento com Pix?
+      - Posso pagar com dinheiro?
+      - Quais são as formas de pagamento disponiveis?
+      - Voces aceitam cartão de crédito?
+      - Existe opção de parcelamento?
+      - Como faço para pagar com cartão de débito?
+      - Podem me informar os métodos de pagamento
+      - Quais opções de pagamento voces oferecem?
+      - posso usar Pix para fazer o pagamento?
+      - Posso dividir o pagamento em mais de uma forma
+      - Como funcionam os pagamentos para serviços
+      - Podem confirmar se meu método de pagamento foi aceito?
+      - voces aceitam cartao
+      - voces aceitam cartao de credito
+      - aceitam cartão
+      - aceitam pix
+      - voces aceitam pix
+      - pix
+      - cartao
+      - cartao de credito
+      - cartao de debito
+      - voces parcelam
+      - voces parcelam no cartao de credito
+      - em ate quantas vezes voces parcelam no cartao
+      - cartão de crédito
+      - cartão de débito
+      - cartão
+      - o pagamento e na hora?
+      - como e o pagamento
+      - pagamento
