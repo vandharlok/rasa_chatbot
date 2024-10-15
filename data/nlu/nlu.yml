@@ -7,24 +7,23 @@ nlu:
     examples: |
       - tenho cadastro sim
       - tenho
+      - tenho
+      - tenho
+      - quero sim
+      - quero
       - tenho sim
-      - pode ser Cachorro
+      - pode ser 
       - pode
-      - pode lançado
       - ser pode
       - poderia ser
-      - pode sim Fogo
       - pide sxm
       - pode sim
       - Talvez sim
-      - quero sim Pássaro
+      - quero sim 
       - sim
-      - quiro six
       - quero sim
-      - Sim  eu quero
-      - Casa exatamente
+      - Sim eu quero
       - exatomente
-      - justamente
       - exatamente
       - isso Esperar mesmo
       - isso
@@ -32,31 +31,21 @@ nlu:
       - isso mesmo
       - claro
       - Claro
-      - claro que Agitado sim
       - claro que sim
-      - com certeza Destruir
-      - com
       - cvm centeza
       - certeza com
-      - quwro szm
       - desejo sim Lento
       - desejo
-      - deskjo siw
       - sim desejo
       - Eu desejo
-      - s
-      - ss
-      - Ss
-      - sym
       - Sim
-      - isoo
       - sou Lá sim
       - sou
       - soy wim
       - sou sim
       - sim eu sou
       - Eu sou
-      - Com certeza Casa
+      - Com certeza
       - certeza
       - Cgm ceqteza
       - Com segurança
@@ -66,80 +55,58 @@ nlu:
       - Clajo qud sim
       - Naturalmente que sim
       - Absoyutamente
-      - Inteiramente
       - Absolutamente
-      - Flor Sim  por favor
+      - Sim flor  por favor
       - por favor
-      - Sim  eor favyr
       - Sim por gentileza
       - favor com Sim 
       - Sim  por favor
       - por   Sim favor
       - Concocdo
       - Concordo
-      - sss
       - Ótimh
       - Ótimo
       - Excelente
       - Óptimg
       - Óptimo
-      - Pode ser Acordar
+      - Pode ser 
       - ser Pode
       - Poderia ser
-      - Sim  Consertar pode
-      - Sim  podr
+      - Sim pode
+      - Sim podr
       - Sim pode
       - pode Sim 
-      - pode   Sim
       - Sim você pode
-      - Pgde spm
       - Pode sim
-      - Sim  claro Separadamente
       - Sim 
-      - Sum  cparo
-      - Sim rotundamente
       - claro Sim 
-      - claro   Sim
       - Sim claro
       - Melhor ainda Carro
-      - ainda
       - Mulhor minda
       - Melhor ainda
       - Ainda melhor
       - Concordo Dia
       - Cqncordo
       - Claro que
-      - Claro qce six
-      - Decerto que sim
-      - Frio Com certeza
-      - Cpm cegteza
-      - Com pose
-      - Claro De repente
-      - Claeo
-      - Pálido
-      - Sim Café
-      - Siy
-      - ja sim Fraco
+      - Claro qce sim
       - ja sim
       - agora sim
-      - Sim  gostaria de Computador agendar
-      - Sim  de agendar
-      - Sim  gostarij de ageedar
+      - Sim gostaria de Computador agendar
+      - Sim de agendar
+      - Sim gostarij de ageedar
       - Sim gostaria de programar
       - agendar com Sim  gostaria
       - Sim  gostaria de agendar
       - gostaria   Sim de agendar 
       - Sim  eu gostaria de agendar
-      - Triste Com certeza  quero agendar
+      - Com certeza  quero agendar
       - Com certeza  quero
       - Com cegteza  qugro agendar
-      - Com desembaraço quero programar
       - Com certeza  quero agendar
-      -   certeza Com quero agendar 
+      - certeza Com quero agendar 
       - Sim  eu desejo agendar Navio
       - eu desejo agendar
       - Sic  eu degejo agendar
-      - Sim eu impertinência planificar
       - Sim  eu desejo agendar
       - eu   Sim desejo agendar 
       - Sim  eu quero agendar
@@ -162,7 +129,7 @@ nlu:
       - Sim  dvsejo agendarz
       - Sim  desejo agendar
       - desejo   Sim agendar 
-      - Ganhar Sim  quero agendar a consulta
+      - Sim  quero agendar a consulta
       - quero agendar a consulta
       - Simx quero agendar a conwulta
       - Sim quero planificar a consulta
@@ -181,118 +148,103 @@ nlu:
       - Sim quero sim
       - quero   Sim sim 
       - Sim  eu quero
-      - Sim  Assistir desejo marcar a consulta
+      - Sim  desejo marcar a consulta
       - Sim  desejo a consulta
       - Sim  degejo marcar a coqsulta
       - Sim deseo indicar a consulta
       - Sim  desejo marcar a consulta
-      - desejo   Sim marcar a consulta 
+      - desejo sim marcar a consulta 
       - Sim  eu quero marcar a consulta
       - Com Sem querer certeza  pode agendar
       - certeza  pode agendar
       - Com certeya  pode agengar
-      - Com segurança pode planificar
       - Com certeza  pode agendar
-      -   certeza Com pode agendar 
+      - certeza Com pode agendar 
       - Certamente você pode agendar
       - Acordar Sim  já quero agendar
-      - Sim  quero agendar
-      - Slm  já qwero agendar
-      - Sim já quero planificar
-      - Sim  já quero agendar
-      - já   Sim quero agendar 
+      - Sim quero agendar
+      - Slm já qwero agendar
+      - Sim já quero agendar
+      - já Sim quero agendar 
       - Sim  eu já quero agendar
-      - Sim  desejo marcar Antipático
-      - Sim  marcar
-      - him  desejo uarcar
+      - Sim desejo marcar 
+      - Sim marcar
+      - him desejo uarcar
       - Sim deseo indicar
-      - Sim  desejo marcar
-      - desejo   Sim marcar 
-      - Sim  eu quero marcar
-      - Sim  por favor  agende Provavelmente
-      - Sim  por agende
+      - Sim desejo marcar
+      - desejo Sim marcar 
+      - Sim eu quero marcar
+      - Sim por favor  agende 
+      - Sim por agende
       - Simw por favor  agendq
       - Sim por gentileza agende
       - favor  agende com Sim 
-      - Sim  por favor  agende
-      - por   Sim favor   agende 
+      - Sim  por favor agende
+      - por Sim favor agende 
       - Sim  agende
-      - Pode marcar  sim Computador
+      - Pode marcar sim 
       - Pode sim
-      - Pode magcar  sims
-      - Pode delimitar sim
+      - Pode magcar sim
       - Pode marcar  sim
-      -   marcar Pode sim 
+      - marcar Pode sim 
       - Você pode marcar  sim
-      - Sim  Alto quero remarcar a consulta
-      - Sim  quero a consulta
-      - Sim  quexo remarcnr a consulta
-      - Sim quero notar a consulta
       - Sim  quero remarcar a consulta
-      - quero   Sim remarcar a consulta 
+      - Sim  quexo remarcnr a consulta
+      - Sim  quero remarcar a consulta
+      - quero sim remarcar a consulta 
       - Sim  eu quero reagendar a consulta
-      - Sim  pode remarcar a data da Cidade consulta
+      - Sim  pode remarcar a data da consulta
       - Sim  pode remarcar a data consulta
       - Sim  poje remarcar a data dm consulta
-      - Sim pode notar a dia da consulta
-      - consulta com Sim  pode remarcar a data
+      - consulta com sim pode remarcar a data
       - Sim  pode remarcar a data da consulta
-      - pode   Sim remarcar a data da consulta 
-      - Sim  você pode reagendar a data da nomeação
-      - Com certeza  Estrela quero remarcar
+      - pode sim remarcar a data da consulta 
+      - Sim  você pode reagendar a data do agendamento
       - certeza  quero remarcar
       - Coy certeza  quero remarcarx
-      - Com altivez quero reparar
       - Com certeza  quero remarcar
-      -   certeza Com quero remarcar 
+      - certeza Com quero remarcar 
       - Com certeza  quero reagendar
       - Sim  preciso remarcar a De repente consulta
       - preciso remarcar a consulta
       - Sim  preciso remarcir a cobsulta
       - Sim  preciso remarcar a consulta
-      - preciso   Sim remarcar a consulta 
+      - preciso sim remarcar a consulta 
       - Sim  eu preciso reagendar o compromisso
       - Claro Sim  pode remarcar  por favor
       - Sim  remarcar  por favor
       - Sim  pove remarcar  pov favor
-      - Sim pode comentar por gentileza
       - favor com Sim  pode remarcar 
       - Sim  pode remarcar  por favor
       - pode   Sim remarcar   por favor 
       - Sim  você pode reagendar  por favor
       - Lá Sim  quero sim remarcar
       - Sim  quero remarcar
-      - Sem  quero sim remarcarh
-      - Sim quero sim reparar
       - Sim  quero sim remarcar
       - quero   Sim sim remarcar 
-      - Sim  eu quero reagendar
-      - Claro  pode Rio remarcar a consulta
-      - Claro  pode remarcar consulta
-      - Clako  pode remarcau a consulta
-      - Brilhante pode mencionar a consulta
+      - Sim eu quero reagendar
+      - Claro pode Rio remarcar a consulta
+      - Claro pode remarcar consulta
+      - Clako pode remarcau a consulta
       - Claro  pode remarcar a consulta
-      - pode   Claro remarcar a consulta 
-      - Obviamente  você pode reagendar a nomeação
-      - Sim  desejo Cozinhar remarcar a consulta
-      - Sid  desejo remarcar a conselta
-      - Sim fantasia notar a consulta
-      - Sim  desejo remarcar a consulta
-      - desejo   Sim remarcar a consulta 
-      - Sim  por favor  remarque para Calmo mim
+      - pode claro remarcar a consulta 
+      - Sim desejo remarcar a consulta
+      - Sid desejo remarcar a consulta
+      - Sim desejo remarcar a consulta
+      - desejo sim remarcar a consulta 
+      - Sim  por favor remarque para Calmo mim
       - Sim  por remarque para mim
-      - Sim  pdr favor  gemarque para mim
+      - Sim  pdr favor remarque para mim
       - Sim por gentileza remarque para mim
-      - mim com Sim  por favor  remarque
-      - Sim  por favor  remarque para mim
-      - por   Sim favor   remarque para mim 
-      - Sim  por favor  reagendá -lo
+      - Sim  por favor remarque para mim
+      - por sim favor remarque para mim 
+      - Sim  por favor reagendá -lo
       - Sim  Antipático quero cancelar a consulta agendada
       - Sim  quero a consulta agendada
-      - Shm  quero cancelar a consulta ahendada
+      - Shm  quero cancelar a consulta agendada
       - Sim quero cassar a consulta agendada
       - Sim  quero cancelar a consulta agendada
-      - quero   Sim cancelar a consulta agendada 
+      - quero sim cancelar a consulta agendada 
       - Sim  quero cancelar a consulta programada
       - Pode cancelar minha consulta sim Avião
       - Pode cancelar minha consulta
@@ -300,30 +252,29 @@ nlu:
       - Pode cancelar minha consulta sim
       - minha cancelar Pode consulta sim 
       - Você pode cancelar minha consulta sim
-      - Sim  Brincar eu desejo cancelar
-      - Sim  eu cancelar
-      - Sim  ea aesejo cancelar
-      - Sim  eu desejo cancelar
-      - eu   Sim desejo cancelar 
-      - Sim  eu quero cancelar
-      - Sim  cancele minha consulta  por Baixo favor
-      - Sim  cancele consulta  por favor
-      - Sim  clncele mvnha consulta  por favor
+      - Sim eu cancelar
+      - Sim ea aesejo cancelar
+      - Sim eu desejo cancelar
+      - eu Sim desejo cancelar 
+      - Sim eu quero cancelar
+      - Sim cancele minha consulta  por Baixo favor
+      - Sim cancele consulta  por favor
+      - Sim clncele mvnha consulta  por favor
       - Sim cancele minha consulta por gentileza
-      - favor com Sim  cancele minha consulta 
-      - Sim  cancele minha consulta  por favor
-      - cancele   Sim minha consulta   por favor 
+      - favor com Sim cancele minha consulta 
+      - Sim  cancele minha consulta por favor
+      - cancele Sim minha consulta  por favor 
       - Sim  desejo cancelar Chave a consulta
-      - Simv aesejo cancelar a consulta
+      - Sim aesejo cancelar a consulta
       - Sim  desejo cancelar a consulta
-      - desejo   Sim cancelar a consulta 
+      - desejo sim cancelar a consulta 
       - Sim  quero cancelar a consulta
       - Grande Sim  pode cancelar a consulta
-      - Sim  pode cancelar a
-      - Simk pode cancelar a ponsulta
+      - Sim  pode cancelar 
+      - Sim pode cancelar a ponsulta
       - Sim pode invalidar a consulta
       - Sim  pode cancelar a consulta
-      - pode   Sim cancelar a consulta 
+      - pode sim cancelar a consulta 
       - Sim  você pode cancelar a consulta
       - Sim  Nadar quero cancelar a consulta agendada
       - Sim  quero cancelar consulta agendada
@@ -332,7 +283,7 @@ nlu:
       - Sim  já tenho cadastro com vocês Juntos
       - Sim  já tenho com vocês
       - Sim  má tcnho cadastro com vocês
-      - Sim já tenho cadastro rural com vocês
+      - Sim já tenho cadastro com vocês
       - vocês com Sim  já tenho cadastro
       - já   Sim tenho cadastro com vocês 
       - Sim  eu já tenho registro com você
@@ -341,35 +292,30 @@ nlu:
       - Sim  estou cadastrxdo cof vocês
       - Sim estou cadastrado com vocês
       - vocês com Sim  estou cadastrado
-      - estou   Sim cadastrado com vocês 
+      - estou sim cadastrado com vocês 
       - Sim  estou registrado com você
       - Sim  tenho Forte cadastro
       - Sim  cadastro
       - Siu  trnho cadastro
       - Sim tenho cadastro rural
       - Sim  tenho cadastro
-      - tenho   Sim cadastro 
-      - Sim  Trabalhar já tenho cadastro sim
+      - tenho sim cadastro 
+      - Sim Trabalhar já tenho cadastro sim
       - já tenho cadastro sim
-      - Szm  já fenho cadastro sim
+      - Sim  já fenho cadastro sim
       - Sim já tenho cadastro rural sim
       - Sim  já tenho cadastro sim
       - já   Sim tenho cadastro sim 
       - Sim  eu já tenho registro sim
-      - Sim  eu já sou Brinquedo cadastrado
+      - Sim  eu já sou  cadastrado
       - Sim  já sou cadastrado
       - Sim  ep já sou gadastrado
       - Sim eu já sou cadastrado
       - Sim  eu já sou cadastrado
       - eu   Sim já sou cadastrado 
       - Sim  já estou registrado
-      - Sim  Cidade sou cadastrado na plataforma
       - Sim  sou na plataforma
-      - Sim  sou cadastmado na paataforma
       - Sim sou cadastrado na píer
-      - Sim  sou cadastrado na plataforma
-      - sou   Sim cadastrado na plataforma 
-      - Sim  estou registrado na plataforma
       - Sim  já possuo cadastro Frequentemente com vocês
       - Sim  possuo cadastro com vocês
       - Sim  já possyo cadastro cob vocês
@@ -392,54 +338,51 @@ nlu:
       - Sim  podem checar  já tenho cadastro Sapato
       - Sim  podem checar  tenho cadastro
       - Sim  podxm cxecar  já tenho cadastro
-      - Sim podem conferir já tenho cadastro rural
+      - Sim podem conferir já tenho cadastro 
       - Sim  podem checar  já tenho cadastro
       - podem   Sim checar   já tenho cadastro 
       - Sim  eles podem verificar  eu já tenho registro
       - Sim  Lá estou sim cadastrado
       - estou sim cadastrado
-      - iim  estou scm cadastrado
+      - sim  estou scm cadastrado
       - Sim estou sim cadastrado
       - Sim  estou sim cadastrado
-      - estou   Sim sim cadastrado 
+      - estou sim  cadastrado 
       - Sim  estou registrado
       - Sim  quero marcar uma Mesa consulta
       - Sim  marcar uma consulta
       - Sime quero farcar uma consulta
       - Sim quero delimitar uma consulta
       - Sim  quero marcar uma consulta
-      - quero   Sim marcar uma consulta 
+      - quero sim marcar uma consulta 
       - Sim  eu quero marcar uma consulta
       - Sim  Assistir desejo marcar uma consulta
-      - desejo marcar uma consulta
-      - Scm  sesejo marcar uma consulta
-      - Sim anelo delimitar uma consulta
+      - sim desejo sim marcar uma consulta
       - Sim  desejo marcar uma consulta
-      - desejo   Sim marcar uma consulta 
+      - desejo sim marcar uma consulta 
       - Sim  pode marcar a consulta Ler
       - pode marcar a consulta
       - eim  pode marcab a consulta
       - Sim pode indicar a consulta
       - Sim  pode marcar a consulta
-      - pode   Sim marcar a consulta 
+      - pode sim marcar a consulta 
       - Sim  você pode marcar a consulta
       - Sim  desejo marcar Devagar agora
       - Sim  desejo marcar
       - Simu deuejo marcar agora
       - Sim caprichoso indicar actualmente
       - Sim  desejo marcar agora
-      - desejo   Sim marcar agora 
+      - desejo Sim marcar agora 
       - Sim  eu quero marcar agora
       - Sim  quero marcar a consulta com Claro vocês
       - Sim  quero marcar a consulta vocês
       - Sim  quero matcar a consulta com vqcês
-      - Sim quero indicar a consulta com vocês
-      - vocês com Sim  quero marcar a consulta
-      - quero   Sim marcar a consulta com vocês 
+      - vocês com sim quero marcar a consulta
+      - quero sim marcar a consulta com vocês 
       - Sim  eu quero marcar a consulta com você
-      - Sim  por favor  Separadamente marque a consulta
-      - Sim  por favor  marque consulta
-      - Sim  psr favor  maaque a consulta
+      - Sim  por favor Separadamente marque a consulta
+      - Sim  por favor marque consulta
+      - Sim  psr favor maaque a consulta
       - Sim por gentileza marque a consulta
       - favor  marque a consulta com Sim 
       - Sim  por favor  marque a consulta
@@ -559,8 +502,6 @@ nlu:
       - Quais são os próximos dias disponíveis para nomeação?
       - Que Calmo data tem disponível?
       - Que data disponível?
-      - lue data tsm disponível?
-      - Que dia tem que está por aparecer?
       - Que data tem disponível?
       - tem data Que disponível ?
       - Que data está disponível?
@@ -1324,137 +1265,122 @@ nlu:
 
   - intent: negacao
     examples: |
-      - Não  Alto obrigado
+      - Não  obrigado
       - Nbo  obrigkdo
       - Não agradecido
       - obrigado Não 
       - obrigado   Não 
-      - Não  Sem querer não quero agendar
-      - Não  não agendar
-      - Nãl  não quero agsndar
+      - Não não quero agendar
+      - Não não agendar
+      - Nãl não quero agsndar
       - Não não quero programar
-      - Não  não quero agendar
-      - não   Não quero agendar 
-      - Não  eu não quero agendar
-      - Não  por Brinquedo enquanto está tudo bem
-      - por enquanto está tudo bem
+      - Não não quero agendar
+      - não Não quero agendar 
+      - Não eu não quero agendar
       - Nbo  pnr enquanto está tudo bem
       - Não por de acordo de está tudo bem
       - enquanto está tudo bem com Não 
-      - Não  por enquanto encontra-se tudo bem
-      - por   Não enquanto está tudo bem 
-      - Não  por enquanto está tudo bem
-      - Não  não Rapidamente preciso marcar agora
-      - Não  não marcar agora
-      - Não  não pteciso marcay agora
+      - Não por enquanto encontra-se tudo bem
+      - Não por enquanto está tudo bem
+      - Não não Rapidamente preciso marcar agora
+      - Não não marcar agora
+      - Não não pteciso marcay agora
       - Não não bem acabado delimitar ora
-      - Não  não preciso marcar agora
-      - não   Não preciso marcar agora 
-      - Não  não Abaixo desejo remarcar a consulta
+      - Não não preciso marcar agora
+      - não Não preciso marcar agora 
+      - Não desejo remarcar a consulta
       - não desejo remarcar a consulta
-      - lão  não desejo remarcar a colsulta
       - Não não afã notar a consulta
-      - Não  não desejo remarcar a consulta
-      - não   Não desejo remarcar a consulta 
-      - Não  não quero reagendar a consulta
-      - Não  não preciso cancelar Papel a consulta
+      - Não não desejo remarcar a consulta
+      - não desejo remarcar a consulta 
+      - Não não quero reagendar a consulta
+      - Não não preciso cancelar Papel a consulta
       - não preciso cancelar a consulta
-      - Não  não pheciso caacelar a consulta
-      - Não não Pregadura invalidar a consulta
-      - Não  não preciso cancelar a consulta
-      - não   Não preciso cancelar a consulta 
-      - Não  já está tudo Rápido certo  obrigado
-      - Não  já está tudo certo 
-      - Nio  já eswá tudo certo  obrigado
+      - Não não pheciso caacelar a consulta
+      - Não não preciso cancelar a consulta
+      - não Não preciso cancelar a consulta 
+      - Não já está tudo Rápido certo  obrigado
+      - Não já está tudo certo 
+      - Nio já eswá tudo certo  obrigado
       - Não já está tudo certo apreciativo
-      - Não  já está tudo certo  obrigado
-      - Não  já encontra-se tudo certo  obrigado
-      - já   Não está tudo certo   obrigado 
-      - Não  está tudo bem  obrigado
-      - Não  não tenho interesse em agendar Fogo
-      - Não  não tenho interesse em
-      - Não  não tento inceresse em agendar
+      - Não já está tudo certo  obrigado
+      - Não já encontra-se tudo certo  obrigado
+      - já  Não está tudo certo   obrigado 
+      - Não está tudo bem  obrigado
+      - Não não tenho interesse em agendar Fogo
+      - Não não tenho interesse em
+      - Não não tento inceresse em agendar
       - Não não tenho preocupação em planificar
-      - Não  não tenho interesse em agendar
-      - não   Não tenho interesse em agendar 
+      - Não não tenho interesse em agendar
+      - não Não tenho interesse em agendar 
       - Não quero Comprar remarcar
       - Nlo quero rnmarcar
       - Não quero mencionar
       - Não quero remarcar
       - Eu não quero reagendar
-      - Não Velho preciso cancelar  obrigado
+      - Não Velho preciso cancelar obrigado
       - Não preciso cancelar 
       - Não prepiso cancelarr obrigado
-      - Não correcto invalidar apreciativo
       - Não preciso cancelar  obrigado
       - cancelar preciso Não   obrigado 
-      - Não desejo agendar no momento Rir
+      - Não desejo agendar no momento 
       - Não desejo agendar momento
-      - cão desejo agendar nb momento
+      - não desejo agendar nb momento
       - Não desejo agendar no momento
-      - agendar desejo Não no momento 
       - Eu não quero agendar no momento
-      - Não  não cadastro ainda
-      - Nuo  não tenoo cadastro ainda
+      - Não não cadastro ainda
+      - Nuo não tenoo cadastro ainda
       - Não não tenho cadastro rural ainda
-      - Não  não tenho cadastro ainda
-      - não   Não tenho cadastro ainda 
-      - Não  ainda não tenho registro
-      - Não  prefiro não Brinquedo marcar agora
-      - Não  prefiro não marcar
-      - Não  prefiho nãk marcar agora
+      - Não não tenho cadastro ainda
+      - não Não tenho cadastro ainda 
+      - Não ainda não tenho registro
+      - Não prefiro não Brinquedo marcar agora
+      - Não prefiro não marcar
+      - Não prefiho nãk marcar agora
       - Não prefiro não delimitar actualmente
-      - Não  prefiro não marcar agora
-      - prefiro   Não não marcar agora 
-      - Não  eu prefiro não marcar agora
-      - Não  não quero cancelar a Gradualmente consulta
-      - Não  não quero a consulta
-      - eão  nãs quero cancelar a consulta
+      - Não prefiro não marcar agora
+      - Não eu prefiro não marcar agora
+      - Não não quero cancelar a Gradualmente consulta
+      - Não não quero a consulta
+      - eão nãs quero cancelar a consulta
       - Não não quero rescindir a consulta
-      - Não  não quero cancelar a consulta
-      - não   Não quero cancelar a consulta 
+      - Não não quero cancelar a consulta
+      - não Não quero cancelar a consulta 
       - Não quero Encontrar marcar uma consulta agora
       - Não marcar uma consulta agora
-      - fão quero marcar uma consulta agorat
+      - não quero marcar uma consulta agorat
       - Não quero delimitar uma consulta ora
       - Não quero marcar uma consulta agora
       - marcar quero Não uma consulta agora 
-      - Não  obrigado  vou deixar Cozinhar para depois
-      - Neo  obrigaqo  vou deixar para depois
+      - Não obrigado vou deixar Cozinhar para depois
+      - Neo obrigaqo vou deixar para depois
       - Não agradecido vou finalizar para próximo
-      - depois com Não  obrigado  vou deixar
-      - Não  obrigado  vou deixar para depois
-      - Não  obrigado  vou deixar para mais tarde
-      - Não  não preciso agendar Escrever
+      - Não obrigado vou deixar para depois
+      - Não obrigado vou deixar para mais tarde
+      - Não não preciso agendar Escrever
       - não preciso agendar
-      - Não  não preciso agendnr
-      - Não não acurado planificar
-      - Não  não preciso agendar
-      - não   Não preciso agendar 
+      - Não não preciso agendnr
+      - Não preciso agendar
       - Não quero remarcar a consulta Velho
-      - Não quero remarcar a
-      - zão quero remarbar a consulta
+      - Não quero remarcar
+      - não quero remarbar a consulta
       - Não quero reparar a consulta
       - Não quero remarcar a consulta
-      - remarcar quero Não a consulta 
       - Não quero reagendar o compromisso
-      - Não  já resolvi  Brincar obrigado
-      - Nãd  ká resolvi  obrigado
       - Não já resolvi agradecido
-      - Não  já resolvi  obrigado
-      - Não  eu já decidi  obrigado
-      - Não  não Destruir quero cancelar
-      - Não  não cancelar
-      - Não  não queio cancetar
+      - Não já resolvi  obrigado
+      - Não eu já decidi  obrigado
+      - Não não Destruir quero cancelar
+      - Não não cancelar
+      - Não não queio cancetar
       - Não não quero anular
-      - Não  não quero cancelar
-      - não   Não quero cancelar 
-      - Não  eu não quero cancelar
-      - Não  está tudo certo com a Agitado consulta
-      - Não  está tudo certo a consulta
-      - Não  está tudo certx cou a consulta
+      - Não não quero cancelar
+      - não Não quero cancelar 
+      - Não eu não quero cancelar
+      - Não está tudo certo com a Agitado consulta
+      - Não está tudo certo a consulta
+      - Não está tudo certx cou a consulta
       - Não está tudo certo com a consulta
-      - a consulta com Não  está tudo certo
       - Não  está tudo bem com a consulta
       - Não desejo marcar Procurar uma consulta  obrigado
       - Não marcar uma consulta  obrigado
@@ -1462,20 +1388,17 @@ nlu:
       - Não caprichoso delimitar uma consulta apreciativo
       - Não desejo marcar uma consulta  obrigado
       - marcar desejo Não uma consulta   obrigado 
-      - Não  não tenho Abaixo interesse em cancelar
-      - Não  não tenho em cancelar
-      - Nãf  não tsnho interesse em cancelar
-      - Não  não tenho interesse em cancelar
-      - não   Não tenho interesse em cancelar 
-      - Não  obrigado  não tenho cadastro ainda Simpático
-      - Não  obrigado  não cadastro ainda
-      - tão  obrigado  nãh tenho cadastro ainda
+      - Não não tenho Abaixo interesse em cancelar
+      - Não não tenho em cancelar
+      - Nãf não tsnho interesse em cancelar
+      - Não não tenho interesse em cancelar
+      - não Não tenho interesse em cancelar 
+      - Não obrigado  não tenho cadastro ainda Simpático
+      - Não obrigado  não cadastro ainda
       - Não apreciativo não tenho cadastro rural ainda
       - Não  obrigado  não tenho cadastro ainda
       - obrigado   Não   não tenho cadastro ainda 
       - Não  obrigado  ainda não tenho registro
-      - Mercado Não preciso marcar agora
-      - preciso marcar agora
       - Nãg preciso mqrcar agora
       - Não acurado indicar atualmente
       - Não preciso marcar agora
@@ -1483,7 +1406,7 @@ nlu:
       - Nãow prefiro noo cancelar
       - Não prefiro não anular
       - Não  prefiro não cancelar
-      - prefiro   Não não cancelar 
+      - prefiro  Não não cancelar 
       - Não  obrigado  não preciso remarcar Rir
       - Não  obrigado  preciso remarcar
       - Não  obrcgado  não treciso remarcar
@@ -1505,74 +1428,59 @@ nlu:
       - Não quero fazer nada disso agora
       - fazer quero Não nada disso agora 
       - Eu não quero fazer nada disso agora
-      - Nao  estou bem com Devagar o que já está agendado
-      - estou bem com o que já está agendado
-      - Nao  jstou bet com o que já está agendado
-      - Nao estou bem com o que já está agendado
-      - o que já está agendado com Nao  estou bem
-      - Nao  estou bem com o que já encontra-se agendado
-      - estou   Nao bem com o que já está agendado 
-      - Não  estou bem com o que já está agendado
-      - Gradualmente Nao desejo cancelar a consulta
       - Nao desejo cancelar consulta
       - Nao desejo cancelaw a censulta
       - Nao caprichoso invalidar a consulta
       - Nao desejo cancelar a consulta
       - cancelar desejo Nao a consulta 
       - Não quero cancelar a consulta
-      - Nao  não quero marcar nenhuma Feliz consulta no momento
-      - Nao  quero marcar nenhuma consulta no momento
-      - Nao  não quero marcar nenhuma consulta no momesto
+      - Nao não quero marcar nenhuma Feliz consulta no momento
+      - Nao quero marcar nenhuma consulta no momento
+      - Nao não quero marcar nenhuma consulta no momesto
       - Nao não quero delimitar nenhuma pessoa consulta no dia
-      - Nao  não quero marcar nenhuma consulta no momento
-      - não   Nao quero marcar nenhuma consulta no momento 
-      - Não  não quero marcar compromissos no momento
-      - Nao  obrigado  já estou Aqui cadastrado
-      - obrigado  já estou cadastrado
-      - Naa  obrigado  jp estou cadastrado
+      - Nao não quero marcar nenhuma consulta no momento
+      - não Nao quero marcar nenhuma consulta no momento 
+      - Não não quero marcar compromissos no momento
+      - Nao obrigado já estou Aqui cadastrado
+      - obrigado já estou cadastrado
+      - Nao obrigado jp estou cadastrado
       - Nao agradecido já estou cadastrado
-      - Nao  obrigado  já estou cadastrado
-      - obrigado   Nao   já estou cadastrado 
-      - Não  obrigado  já estou registrado
-      - Nao  não tenho intenção Comprar de cancelar
-      - Nao  não tenho intenção de
-      - yao  não tenho intençãi de cancelar
+      - Nao  obrigado já estou cadastrado
+      - obrigado Nao já estou cadastrado 
+      - Não obrigado  já estou registrado
+      - Nao não tenho intenção Comprar de cancelar
+      - Nao não tenho intenção de
       - Nao não tenho objectivo de invalidar
       - cancelar com Nao  não tenho intenção
-      - Nao  não tenho intenção de cancelar
-      - não   Nao tenho intenção de cancelar 
+      - Nao não tenho intenção de cancelar
+      - não Nao tenho intenção de cancelar 
       - Não  não tenho intenção de cancelar
       - Sempre Nao preciso agendar uma nova consulta
       - Nao preciso agendar uma consulta
       - Nao preciso agefdar uma nosa consulta
-      - Nao acurado programar uma fresco consulta
       - Nao preciso agendar uma nova consulta
       - agendar preciso Nao uma nova consulta 
       - Não preciso agendar uma nova consulta
-      - Nao  vou manter a data da Provavelmente consulta
-      - Nao  vou manter data da consulta
-      - Nao  vou mantef a data da consultay
+      - Nao vou manter a data da Provavelmente consulta
+      - Nao vou manter data da consulta
+      - Nao vou mantef a data da consultay
       - Nao vou poupar a dia da consulta
-      - consulta com Nao  vou manter a data
-      - Nao  vou manter a data da consulta
-      - vou   Nao manter a data da consulta 
-      - Não  vou manter a data de compromisso
-      - Nao  obrigado  De repente vou deixar como está
-      - Nao  vou deixar como está
-      - Nao  obrigado  sou deixsr como está
+      - Nao vou manter a data da consulta
+      - vou Nao manter a data da consulta 
+      - Não vou manter a data de compromisso
+      - Nao obrigado  De repente vou deixar como está
+      - Nao vou deixar como está
       - Nao apreciativo vou dar como está
       - Nao  obrigado  vou deixar como está
       - Nao  obrigado  vou deixar como encontra-se
-      - obrigado   Nao   vou deixar como está 
       - Não  obrigado  vou deixar como é
       - Nao tenho cadastro Pagar ainda  obrigado
-      - tenho cadastro ainda  obrigado
       - Nao tegho cpdastro ainda  obrigado
       - Nao tenho cadastro rural ainda apreciativo
       - Nao tenho cadastro ainda  obrigado
       - cadastro tenho Nao ainda   obrigado 
       - Ainda não tenho registro  obrigado
-      - Nao  não quero remarcar a data Rir da consulta
+      - Nao  não quero remarcar a data da consulta
       - Nao  não quero remarcar a data consulta
       - Nao  não qwero remarcar a pata da consulta
       - Nao não quero reparar a dia da consulta
@@ -1582,48 +1490,45 @@ nlu:
       - Não  não quero reagendar a data da consulta
       - Nao preciso remarcar  obrigado Às vezes
       - Nao preciso remarcar 
-      - hao precijo remarcar  obrigado
+      - nao precijo remarcar obrigado
       - Nao exato notar agradecido
-      - Nao preciso remarcar  obrigado
-      - remarcar preciso Nao   obrigado 
-      - Não preciso reagendar  obrigado
-      - Nao  não preciso de ajuda com Feio isso agora
-      - Nao  não preciso de com isso agora
-      - Nao  não preciso di ajuda com isso agura
+      - Nao preciso remarcar obrigado
+      - remarcar preciso Nao obrigado 
+      - Não preciso reagendar obrigado
+      - Nao não preciso de ajuda com Feio isso agora
+      - Nao não preciso de com isso agora
+      - Nao não preciso di ajuda com isso agura
       - Nao não certo de auxílio com isso ora
       - ajuda com isso agora com Nao  não preciso
-      - Nao  não necessito de ajuda com isso agora
-      - não   Nao preciso de ajuda com isso agora 
-      - Não  não preciso de ajuda agora
+      - Nao não necessito de ajuda com isso agora
+      - não Nao preciso de ajuda com isso agora 
+      - Não não preciso de ajuda agora
       - Nao quero agendar Doce uma consulta no momento
       - quero agendar uma consulta no momento
       - Nao quero agendar uma conqulta no momento
-      - Nao quero planificar uma consulta no instante
       - Nao quero agendar uma consulta no momento
       - agendar quero Nao uma consulta no momento 
       - Não quero agendar uma consulta no momento
-      - Nao  Dançar prefiro não mexer no agendamento
-      - Nao  não mexer no agendamento
-      - Nao  prgfiro não mexer no atendamento
+      - Nao Dançar prefiro não mexer no agendamento
+      - Nao não mexer no agendamento
+      - Nao prgfiro não mexer no atendamento
       - Nao prefiro não remover no agendamento
-      - Nao  prefiro não mexer no agendamento
-      - prefiro   Nao não mexer no agendamento 
-      - Não  prefiro não mexer com a programação
-      - Nao  obrigado  está tudo Escuro certo
-      - Nao  está tudo certo
-      - Nso  obrigado  estw tudo certo
+      - Nao prefiro não mexer no agendamento
+      - prefiro Nao não mexer no agendamento 
+      - Nao obrigado  está tudo Escuro certo
+      - Nao está tudo certo
+      - Nso obrigado estw tudo certo
       - Nao apreciativo está tudo certo
-      - Nao  obrigado  está tudo certo
-      - Nao  obrigado  encontra-se tudo certo
-      - obrigado   Nao   está tudo certo 
-      - Não  obrigado  está tudo bem
-      - Nao  Terra não quero fazer alterações
+      - Nao obrigado está tudo certo
+      - Nao obrigado encontra-se tudo certo
+      - obrigado Nao está tudo certo 
+      - Não obrigado está tudo bem
+      - Nao Terra não quero fazer alterações
       - não quero fazer alterações
-      - Nao  nko quero facer alterações
       - Nao não quero produzir alterações
-      - Nao  não quero fazer alterações
-      - não   Nao quero fazer alterações 
-      - Não  não quero fazer alterações
+      - Nao não quero fazer alterações
+      - não Nao quero fazer alterações 
+      - Não não quero fazer alterações
       - Nao desejo marcar uma Terra consulta agora
       - Nao desejo marcar uma consulta
       - Nko desejo marcap uma consulta agora
@@ -1634,22 +1539,18 @@ nlu:
       - Nao preciso fazer isso agora
       - fazer preciso Nao isso agora 
       - Não preciso fazer isso agora
-      - Nao  obrigado  hou aensar mais um pouco
-      - Nao  obrigado  vou pensar mais um pouco
-      - obrigado   Nao   vou pensar mais um pouco 
-      - Não  obrigado  vou pensar um pouco mais
-      - Nao  já estou organizado a consulta
-      - Nao  jf estiu organizado com a consulta
+      - Nao obrigado hou aensar mais um pouco
+      - Não obrigado  vou pensar um pouco mais
+      - Nao já estou organizado a consulta
+      - Nao jf estiu organizado com a consulta
       - Nao já estou organizado com a consulta
       - a consulta com Nao  já estou organizado
-      - já   Nao estou organizado com a consulta 
       - Não  já estou organizado com a consulta
-      - Avião nao obrigado
       - nzo obrigido
       - nao apreciativo
       - obrigado nao
       - não  obrigado
-      - nao Fogo somente isso obrigado
+      - nao somente isso obrigado
       - nao isso obrigado
       - nao sombnte isso onrigado
       - nao apenas isso agradecido
@@ -1665,150 +1566,116 @@ nlu:
       - Não só isso agradecido
       - Não somente isso obrigado
       - Não só isso obrigado
-      - Não Dia
-      - Nãi
       - Não
-      - Acho que não Ensinar
-      - Acho que
-      - Acho quk nãx
-      - Acho que não
+      - Acho que não 
       - Eu não acho
-      - Casa somente isso
-      - ssmente irso
       - apenas isso
       - isso somente
-      - Apenas isso
-      - nao  somente
-      - nzo  somente isxo
-      - nao só isso
-      - nao  somente isso
-      - somente   nao isso
-      - Não  isso é tudo
-      - não  Sol so isso
-      - não  so
-      - nãoa so zsso
+      - Apenas isso, obrigado
+      - nao somente, obrigado
+      - nzo somente isxo
+      - nao só isso, obrigado
+      - nao somente isso
+      - somente nao isso
+      - Não isso é tudo
+      - não so
+      - não so zsso
       - não so isso
-      - não  so isso
-      - Não  apenas isso
-      - não  Mar somentet isso mesmo
-      - não  somentet mesmo
-      - nxo  somentet psso mesmo
+      - Não apenas isso
+      - não Mar somentet isso mesmo
+      - não somentet mesmo
+      - nxo somentet psso mesmo
       - não somentet isso mesmo
-      - não  somentet isso mesmo
-      - Nem Vento pensar
-      - Nen pensaj
+      - não somentet isso mesmo
+      - Nen pensa
       - Nem pensar sobre
-      - pensar Nem
-      - Nem pense
-      - Nãe é possívew
-      - Não é praticável
       - Não é possível
       - não
       - não Definitivamente
-      - Não  obrigado Mesa
-      - Nãon obrigadf
-      - Não apreciativo
+      - Não obrigado 
       - obrigado Não 
-      - obrigado   Não
+      - obrigado Não
       - jeito nenhum
-      - Jnmais
       - Jamais
       - Nunca
-      - naw
       - nao
       - n
       - naum Nunca
       - nqum
       - Naum
-      - naum
-      - Nãg é posstvel
-      - Não é factível
       - Não 
-      - Nao  obrigudo
-      - Não Forte concordo
-      - Noo conyordo
+      - Nao obrigudo
+      - Nao conyordo
       - Não concordo
       - Eu não concordo
-      - Não  de Rapidamente forma alguma
-      - Não  de forma
-      - Não  de fdrma alduma
       - Não de jeito alguma
-      - forma alguma com Não 
-      - Não  de forma alguma
-      - de   Não forma alguma
-      - Não  de jeito nenhum
-      - nãl
-      - nao Nadar sou
-      - nbo sku
+      - Não de forma alguma
+      - Não de jeito nenhum
       - nao sou
       - Eu não sou
-      - Não  obrigado
-      - Não  não quero agendar
-      - Não  por enquanto está tudo bem
-      - Não  não preciso marcar agora
-      - Não  não desejo remarcar a consulta
-      - Não  não preciso cancelar a consulta
-      - Não  já está tudo certo  obrigado
-      - Não  não tenho interesse em agendar
+      - Não obrigado
+      - Não não quero agendar
+      - Não por enquanto está tudo bem
+      - Não não preciso marcar agora
+      - Não não desejo remarcar a consulta
+      - Não não preciso cancelar a consulta
+      - Não já está tudo certo  obrigado
+      - Não não tenho interesse em agendar
       - Não quero remarcar
       - Não preciso cancelar  obrigado
       - Não desejo agendar no momento
-      - Não  não tenho cadastro ainda
-      - Não  prefiro não marcar agora
-      - Não  não quero cancelar a consulta
+      - Não não tenho cadastro ainda
+      - Não prefiro não marcar agora
+      - Não não quero cancelar a consulta
       - Não quero marcar uma consulta agora
-      - Não  obrigado  vou deixar para depois
-      - Não  não preciso agendar
+      - Não obrigado  vou deixar para depois
+      - Não não preciso agendar
       - Não quero remarcar a consulta
-      - Não  já resolvi  obrigado
-      - Não  não quero cancelar
-      - Não  está tudo certo com a consulta
+      - Não já resolvi  obrigado
+      - Não não quero cancelar
+      - Não está tudo certo com a consulta
       - Não desejo marcar uma consulta  obrigado
-      - Não  não tenho interesse em cancelar
-      - Não  obrigado  não tenho cadastro ainda
+      - Não não tenho interesse em cancelar
+      - Não obrigado  não tenho cadastro ainda
       - Não preciso marcar agora
-      - Não  prefiro não cancelar
-      - Não  obrigado  não preciso remarcar
+      - Não prefiro não cancelar
+      - Não obrigado  não preciso remarcar
       - Não quero fazer nada disso agora
       - Nao desejo cancelar a consulta
-      - Nao  não quero marcar nenhuma consulta no momento
-      - Nao  obrigado  já estou cadastrado
-      - Nao  não tenho intenção de cancelar
+      - Nao não quero marcar nenhuma consulta no momento
+      - Nao obrigado  já estou cadastrado
+      - Nao não tenho intenção de cancelar
       - Nao preciso agendar uma nova consulta
-      - Nao  vou manter a data da consulta
-      - Nao  obrigado  vou deixar como está
+      - Nao vou manter a data da consulta
+      - Nao obrigado  vou deixar como está
       - Nao tenho cadastro ainda  obrigado
-      - Nao  não quero remarcar a data da consulta
+      - Nao não quero remarcar a data da consulta
       - Nao preciso remarcar  obrigado
-      - Nao  não preciso de ajuda com isso agora
+      - Nao não preciso de ajuda com isso agora
       - Nao quero agendar uma consulta no momento
-      - Nao  prefiro não mexer no agendamento
-      - Nao  obrigado  está tudo certo
-      - Nao  não quero fazer alterações
+      - Nao prefiro não mexer no agendamento
+      - Nao obrigado  está tudo certo
+      - Nao não quero fazer alterações
       - Nao desejo marcar uma consulta agora
       - Nao preciso fazer isso agora
-      - Nao  obrigado  vou pensar mais um pouco
-      - Nao  já estou organizado com a consulta
+      - Nao obrigado  vou pensar mais um pouco
+      - Nao já estou organizado com a consulta
       - nao obrigado
       - nao somente isso obrigado
       - somente isso obrigado
       - Não somente isso obrigado
-      - Não
       - De maneira nenhuma
       - Acho que não
       - somente isso
-      - nao  somente isso
-      - não  so isso
-      - não  somentet isso mesmo
+      - nao somente isso
+      - não so isso
+      - não somentet isso mesmo
       - Nem pensar
       - Não é possível
       - Definitivamente não
       - Não  obrigado
       - Absolutamente não
       - De jeito nenhum
-      - Jamais
-      - nao
-      - n
       - naum
       - nn
       - Nem pensar

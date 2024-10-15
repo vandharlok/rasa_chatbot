@@ -8,6 +8,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
 from rasa_sdk.events import  SlotSet
 
+from rasa_sdk.events import EventType
 
 import requests
 import logging 
@@ -58,22 +59,27 @@ class ValidateAndAddEvent(Action):
 
     def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
-    ) -> List[Dict[Text, Any]]:
+    ) -> List[EventType]:
+
         time_str = tracker.get_slot('time')
         cpf_user = tracker.get_slot('cpf')
-        
+        medico_id = tracker.get_slot('medicoId')
+        nome_user = tracker.get_slot('nome')  # Assuming you have user's name in a slot
+
+        if not medico_id:
+            dispatcher.utter_message(text="Desculpe, não identifiquei o profissional para agendar a consulta.")
+            return []
 
         target_date = dateparser.parse(time_str, settings={'TIMEZONE': 'America/Sao_Paulo', 'RETURN_AS_TIMEZONE_AWARE': True})
         if not target_date:
             dispatcher.utter_message(text="Formato de data e hora incorreto. Por favor, tente novamente.")
             return [SlotSet("time", None), FollowupAction("action_listen")]
-    
+
         new_end_time = target_date + timedelta(hours=1)
-        
-        string_length = 10  
+        string_length = 10
         random_string = generate_random_string(string_length)
-        
-        start_time= target_date.isoformat()
+
+        start_time = target_date.isoformat()
         new_end_time_str = new_end_time.isoformat()
 
         try:
@@ -81,23 +87,30 @@ class ValidateAndAddEvent(Action):
             data = {
                 "codAgendamento": random_string,
                 "cpfUser": cpf_user,
-                "nomeUser": "vands",
+                "nomeUser": "vand",
                 "dataInicial": start_time,
                 "dataFinal": new_end_time_str,
-                "medicoId" : 1
+                "medicoId": medico_id
             }
             response = requests.post(url, json=data)
             if 200 <= response.status_code < 300:
                 dispatcher.utter_message(text="Consulta marcada!")
                 logger.info("Appointment created")  
-                return [SlotSet("form_completed", False),SlotSet("time", None),SlotSet("event_completed", True), SlotSet("event_id", None),SlotSet("cpf", None)]
+                return [
+                    SlotSet("form_completed", False),
+                    SlotSet("time", None),
+                    SlotSet("event_completed", True),
+                    SlotSet("event_id", None),
+                    SlotSet("cpf", None),
+                    SlotSet("especialista", None),
+                    SlotSet("profissional", None),
+                    SlotSet("medicoId", None),
+                ]
             else:
                 dispatcher.utter_message(text="Falha ao cadastrar o usuário. Tente novamente.")
                 logger.warning("Fail to appoint.")
                 return [SlotSet("time", None), SlotSet("cpf", None)]
-            
         except requests.exceptions.RequestException as e:
-            #fazer um log aki
             dispatcher.utter_message(text="Erro ao conectar ao serviço de cadastro.")
             logger.error("Error to connect to service")
             return [SlotSet("time", None), SlotSet("event_id", None), SlotSet("cpf", None)]
@@ -105,8 +118,6 @@ class ValidateAndAddEvent(Action):
             logger.error("Error to connect to service")
             dispatcher.utter_message(text=f"Não foi possível adicionar o evento: {e}")
             return [SlotSet("time", None), SlotSet("event_id", None), SlotSet("cpf", None)]
-        
-        
         
 class ActionFindFreeSlots(Action):
     def name(self) -> Text:
@@ -120,10 +131,10 @@ class ActionFindFreeSlots(Action):
 
         if free_slots:
             dispatcher.utter_message(text=f"Os próximos horários disponíveis são: {', '.join(free_slots)}")
-            return [SlotSet("free_slots", free_slots),SlotSet("time", None)]
+            return [SlotSet("free_slots", free_slots)]
         else:
             dispatcher.utter_message(text="Nenhum horário disponível dentro do intervalo especificado.")
-            return [SlotSet("free_slots", []),SlotSet("time", None)]
+            return [SlotSet("free_slots", [])]
         
         
 class ModifyGoogleCalendarEvent(Action):

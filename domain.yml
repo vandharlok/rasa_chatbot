@@ -1,34 +1,38 @@
 version: '3.1'
 actions:
-- action_add_event
-- action_store_feedback
-- action_salvar_cadastro
-- action_custom_fallback
-- action_default_fallback
-- action_show_buttons
-- action_find_free_slots
-- action_find_slots_for_specific_date
-- action_modify_event_form
-- action_delete_event_form
-- validate_event_form
-- validate_delete_event_form
-- validate_modify_event_form
-- validate_cadastro_form
-- action_reset_all
-- action_transferir_atendente
-- action_provide_price_and_reset_slot
-- action_out_of_scope
-- action_handle_deny
-- action_handle_affirm
-- action_ask_event_form_especialista
-- action_ask_event_form_profissional
-- action_reset_slot_time
+  - action_add_event
+  - action_store_feedback
+  - action_salvar_cadastro
+  - action_custom_fallback
+  - action_default_fallback
+  - action_show_buttons
+  - action_find_free_slots
+  - action_find_slots_for_specific_date
+  - action_modify_event_form
+  - action_delete_event_form
+  - validate_event_form
+  - validate_delete_event_form
+  - validate_modify_event_form
+  - validate_cadastro_form
+  - action_reset_all
+  - action_transferir_atendente
+  - action_provide_price_and_reset_slot
+  - action_out_of_scope
+  - action_handle_deny
+  - action_handle_affirm
+  - action_ask_event_form_especialista
+  - action_ask_event_form_profissional
+  - action_reset_slot_time
+  - action_deactivate_loop
+
 
 entities:
-- time
-- especialista
+  - time
+  - especialista
 
 intents:
+- stop:
+    use_entities: []
 - faq:
     use_entities: []
 - agradecimento:
@@ -42,8 +46,7 @@ intents:
 - fora_do_scope:
     use_entities: []
 - marcar_consulta:
-    use_entities:
-    - especialista
+    use_entities: []
 - negacao:
     use_entities: []
 - perguntar_dias_livres:
@@ -64,6 +67,13 @@ intents:
 - transferir_atendente:
     use_entities: []
 slots:
+  medicoId:
+    type: text
+    influence_conversation: False
+    mappings:
+    - type: custom
+      not_intent: stop
+      
   feedback:
     type: text
     influence_conversation: False
@@ -72,6 +82,7 @@ slots:
       conditions:
       - active_loop: feedback_form
         requested_slot: feedback
+      not_intent: stop
   time:
     type: text
     influence_conversation: False
@@ -83,6 +94,7 @@ slots:
         requested_slot: time
       - active_loop: modify_event_form
         requested_slot: time
+      not_intent: stop
   nome:
     type: text
     influence_conversation: False
@@ -91,6 +103,7 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: nome
+      not_intent: stop
   cpf:
     type: text
     influence_conversation: False
@@ -99,18 +112,22 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: cpf
+      not_intent: stop
     - type: from_text
       conditions:
       - active_loop: event_form
         requested_slot: cpf
+      not_intent: stop
     - type: from_text
       conditions:
       - active_loop: modify_event_form
         requested_slot: cpf
+      not_intent: stop
     - type: from_text
       conditions:
       - active_loop: delete_event_form
         requested_slot: cpf
+      not_intent: stop
   email:
     type: text
     influence_conversation: False
@@ -119,6 +136,7 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: email
+      not_intent: stop
   telefone:
     type: text
     influence_conversation: False
@@ -127,6 +145,7 @@ slots:
       conditions:
       - active_loop: cadastro_form
         requested_slot: telefone
+      not_intent: stop
   free_slots:
     type: list
     influence_conversation: False
@@ -187,8 +206,7 @@ slots:
       conditions:
       - active_loop: event_form
         requested_slot: especialista
-    - type: from_entity
-      entity: especialista
+      not_intent: stop
   profissional:
     type: text
     influence_conversation: False
@@ -197,6 +215,7 @@ slots:
       conditions:
       - active_loop: event_form
         requested_slot: profissional
+      not_intent: stop
 forms:
   feedback_form:  
     required_slots:
@@ -221,6 +240,8 @@ forms:
     required_slots:
     - cpf
 responses:
+  utter_stop:
+  - text: Tudo bem... o que deseja?
   utter_out_of_scope:
   - text: Desculpe, não posso lidar com isso..
   utter_faq/metodo_de_pagamento:
@@ -293,31 +314,6 @@ responses:
   - text: Olá, bom dia! Ao continuar, você concorda com nossos Termos de Uso e Política de Privacidade
     channel: socketio
   utter_marcar_consulta:
-  - condition:
-    - type: slot
-      name: especialista
-      value: psiquiatra
-    text: Deseja agendar uma consulta com nosso psiquiatra?
-  - condition:
-    - type: slot
-      name: especialista
-      value: psicólogo
-    text: Deseja agendar uma consulta com nosso psicólogo?
-  - condition:
-    - type: slot
-      name: especialista
-      value: psicologo
-    text: Deseja agendar uma consulta com nosso psicólogo?
-  - condition:
-    - type: slot
-      name: especialista
-      value: psicologa
-    text: Deseja agendar uma consulta com nossa psicóloga?
-  - condition:
-    - type: slot
-      name: especialista
-      value: psicóloga
-    text: Deseja agendar uma consulta com nossa psicóloga?
   - text: Deseja agendar uma consulta conosco?
   utter_cancelar_consulta:
   - text: Voce deseja cancelar sua consulta agendada conosco?

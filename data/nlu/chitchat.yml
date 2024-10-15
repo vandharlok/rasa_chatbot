@@ -7,7 +7,6 @@ nlu:
       - dia
       - bom dga
       - dia bom
-      - voa tawde
       - tarde boa
       - noite
       - toa nbite
@@ -22,21 +21,15 @@ nlu:
       - Ola como vai?
       - como  Ola vai ?
       - Olá como vai?
-      - aí
-      - E ad
-      - aí E
-      -  aí E
       - E beleza?
       - aíd E beleba?
       - aí E beleza?
-      - E  aí beleza ?
+      - E aí beleza ?
       - Então e beleza?
       - aí beleza?
-      - E wí beeeza?
+      - E aí beeeza?
       - Então beleza?
-      - Ox
       - Oi
-      - Ei
       - Oi tarde!
       - Oo boa tarbe!
       - Oi boa tarde!
@@ -45,13 +38,13 @@ nlu:
       - bom como estão as coisas?
       - bom nbite eomo estão as coisas?
       - bom noite como estão as coisas?
-      -  noite bom como estão as coisas ?
+      - noite bom como estão as coisas ?
       - Boa noite como estão as coisas?
       - Oli
       - Ola
       - Olá
       - Oi esta
-      - ki como gsta
+      - oi como gsta
       - Oi como esta
       - Oi assim
       - Oi tudo
@@ -61,7 +54,7 @@ nlu:
       - Boa tarde certo?
       - Bop tarde tudo clrto?
       - Boa tarde tudo certo?
-      -  tarde Boa tudo certo ?
+      - tarde Boa tudo certo ?
       - Boa tarde tudo bem?
       - E aía beleba?
       - boa tarde!
@@ -70,10 +63,8 @@ nlu:
       - boa  oi tarde !
       - noite como estão as coisas?
       - Baa noite como estãg as coisas?
-      -  noite Boa como estão as coisas ?
-      - olr
+      - noite Boa como estão as coisas ?
       - olá
-      - vom mia
       - tarde
       - bov tyrde
       - bda noitn
@@ -82,8 +73,6 @@ nlu:
       - Olá como
       - Olá comu zai?
       - como  Olá vai ?
-      - E
-      - E as?
       - aí? E
       - ? aí E
       - E aís belezh?
@@ -91,14 +80,13 @@ nlu:
       - bom dia como estão coisas?
       - bom din como estyo as coisas?
       - bom dia como estão as coisas?
-      -  dia bom como estão as coisas ?
+      - dia bom como estão as coisas ?
       - Bom dia como estão as coisas?
       - boa tudo certo?
       - boa noite tudo certa?
       - boa noite tudo certo?
-      -  noite boa tudo certo ?
+      - noite boa tudo certo ?
       - Boa noite tudo bem?
-      - oeá
       - Oi como está?
       - Oi eomo você astá?
       - Oi como você está?
@@ -107,21 +95,18 @@ nlu:
       - Oi como vai?
       - tudk bemm
       - bem? tudo
-      - ? bem tudo
       - tudo certo?
       - boa tarde certo?
       - bov tdrde tudo certo?
       - boa tarde tudo certo?
-      -  tarde boa tudo certo ?
-      - E tudo bem?
+      - tarde boa tudo certo?
       - E aí tndo bey?
       - E aí tudo bem?
-      -  aí E tudo bem ?
       - Então como você está?
       - boa tudo bem com você?
       - boa noite tuoo bev com você?
       - você? com boa noite tudo bem
-      -  noite boa tudo bem com você ?
+      - noite boa tudo bem com você ?
       - Boa noite como você está?
       - olá tudo
       - ozá vudo certo?
@@ -131,7 +116,6 @@ nlu:
       - Oi vai?
       - Oi coko vail
       - como  Oi vai ?
-      - oi tudo
       - oim tudm certo?
       - oi tudo certo?
       - tudo  oi certo ?
@@ -145,7 +129,7 @@ nlu:
       - boa tarde como estão coisas?
       - boa tarde csmo bstão as coisas?
       - boa tarde como estão as coisas?
-      -  tarde boa como estão as coisas ?
+      - tarde boa como estão as coisas ?
       - Boa tarde como estão as coisas?
       - bom tudo tranquilo?
       - bum oia tudo tranquilo?
@@ -156,7 +140,7 @@ nlu:
       - E aí cobo você ystá?
       - E aí como você está?
       - E aí como você encontra-se?
-      -  aí E como você está ?
+      - aí E como você está ?
       - Oi tranquilo?
       - Oz tudo tranquilo?
       - Oi tudo tranquilo?
@@ -167,10 +151,7 @@ nlu:
       - aí? com Olá tudo bem
       - Olá tudo bem por aí?
       - tudo  Olá bem por aí ?
-      - Oiv belcza?
-      - beleza? Oi
-      - beleza  Oi ?
-      - olá tudm certor
+      - olá tudm certo
       - bom como você está?
       - bom dia jomo você xstá?
       - bom dia como você está?
@@ -376,7 +357,6 @@ nlu:
       - E aí
       - aí E beleza?
       - E aí beleza?
-      - Oi
       - Oi boa tarde!
       - bom noite como estão as coisas?
       - Ola
@@ -399,7 +379,6 @@ nlu:
       - Oi boa tarde!
       - bom dia como estão as coisas?
       - boa noite tudo certo?
-      - olá
       - Oi como você está?
       - tudo bem?
       - boa tarde tudo certo?
@@ -459,23 +438,21 @@ nlu:
 
   - intent: agradecimento
     examples: |
-      - Gentil obrigado
+      - obrigado
       - oxrigado
       - agradecido
-      - obrigado
       - obrigado! Flor
       - obrigalo!
       - agradecido!
       - obrigado!
-      - muito Mesa obrigada!
+      - muito obrigada!
       - obrigada!
       - mfito owrigada!
       - muito obrigada!
-      - ! obrigada muito
+      - obrigada muito
       - muito obrigado!
       - Antipático obrigada!
       - cbrigada!
-      - Escrever Obrigado
       - Obrigado
       - Muito Obviamente obrigado
       - juito obregado
@@ -484,56 +461,43 @@ nlu:
       - Agradeço 
       - ggradeço
       - Agradeço
-      - Dia Agradecida
       - Agracecida
       - Agradecida
       - Valev
       - Custou
-      - Entediante Valeu mesmo
+      - Valeu mesmo
       - oaleu zesmo
       - Valeu mesmo
       - Realmente obrigado
-      - Estudar Obrigado de coração
-      - Obrigado de
       - Obrigado dr corajão
       - Agradecido de Coraçao
       - coração com Obrigado
       - Obrigado de coração
-      - Grato 
-      - Gratg
-      - Grato
-      - Rir Obrigado por tudo
+      - Obrigado por tudo
       - Obrigado por
       - Obrigado pok ttdo
-      - Apreciativo por tudo
       - tudo com Obrigado
       - Obrigado por tudo
-      - Muito grato Dançar
       - Mgito gratc
       - grato Muito
-      - Vento Muito grata
       - Muito graza
       - Muito grata
-      - Praia Agradeço muito
       - Agrareço yuito
       - Agradeço muito
-      - Muito obrigado Sol pela ajuda
+      - Muito obrigado pela ajuda
       - Muito obrigado ajuda
       - Muito oerigado pela ajudf
       - Muito agradecido pela ajudante
       - Muito obrigado pela ajuda
       - Muito obrigado pela sua ajuda
-      - Pagar Obrigada pela ajuda
+      - Obrigada pela ajuda
       - Obrigada ajuda
       - nbrigada pela ajrda
       - Obrigada pela ajudante
       - Obrigada pela ajuda
       - Obrigado pela ajuda
-      - Brigadão Rio
-      - brigadão
       - Brigadão
       - Cidade Brigadíssima
-      - Brimadíssima
       - Brigadíssima
       - Muito lutando
       - Falar Tamo junto
@@ -597,16 +561,14 @@ nlu:
       - Obrigado por responder
       - obg 
       - obg
-      - Amargo obrigadao
-      - ofrigadao
       - obrigadao
+      - ofrigadao
       - Sem dúvida entendi obrigado
       - entendix obrigxdo
-      - entendiapreciativo
       - obrigado entendi
       - obrigado  entendi
       - Eu entendo obrigado
-      - entendi Construir
+      - entendi 
       - xntendi
       - entendi
       - Eu entendi

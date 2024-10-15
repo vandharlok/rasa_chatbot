@@ -17,7 +17,9 @@ rules:
         - form_completed: True
   steps:
     - action: event_form      # Include this to process the final form actions
-    - active_loop: null       # Deactivate the form
+    - active_loop: null
+    - slot_was_set:
+      - requested_slot: null ## all slots have been filled       
     - action: utter_confirm_appointment
     - intent: concordancia
     - action: action_add_event 
@@ -30,13 +32,16 @@ rules:
 
 - rule: finaliza o forms e chama a action delete
   condition:
-    - active_loop: delete_event_form
-    - slot_was_set:
-        - requested_slot: null ##all slots were set
+  - active_loop: delete_event_form
   steps:
   - action: delete_event_form
   - active_loop: null ## deactive the form
+  - slot_was_set:
+    - requested_slot: null
   - action: action_delete_event_form
+  - slot_was_set:
+    - event_delete_completed: True 
+  - action: utter_terminar_conversa
   wait_for_user_input: False
 
 
@@ -51,24 +56,25 @@ rules:
   steps:
   - action: modify_event_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_modify_event_form
   - slot_was_set:
     - event_modify_completed: True 
   - action: utter_terminar_conversa
-  wait_for_user_input: False
 
 
 
 - rule: finaliza o forms e chama a action salvar user (100% correto)
   condition:
   - active_loop: cadastro_form
-  - slot_was_set:
-    - requested_slot: null
   steps:
   - action: cadastro_form
   - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
   - action: action_salvar_cadastro
   - slot_was_set:
     - login_sucess: False 
@@ -78,20 +84,17 @@ rules:
 - rule: Finaliza cadastro e inicia agendamento (sucesso)
   condition:
   - active_loop: cadastro_form
-  - slot_was_set:
-    - requested_slot: null
   steps:
   - action: cadastro_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
   - action: action_salvar_cadastro
   - slot_was_set:
       - login_sucess: True
   - action: utter_success_sign
   - action: event_form
   - active_loop: event_form
-  - slot_was_set:
-    - form_completed: True
-  wait_for_user_input: False
 
 
 - rule: cadastrando usuario
@@ -107,7 +110,7 @@ rules:
 
 
 
-
+###right way
 - rule: covalidando feedback
   condition:
   - active_loop: feedback_form
@@ -119,3 +122,77 @@ rules:
   - slot_was_set:
     - feedback
   - action: action_store_feedback
+
+
+
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: cadastro_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+  
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: feedback_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: modify_event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- rule: User interrupts the form and doesn't want to continue
+  condition:
+  - active_loop: delete_event_form
+  steps:
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop

@@ -146,10 +146,9 @@ nlu:
       - Como posso reservar um horário para consulta?
       - reservar posso Como um horário para consulta ?
       - Como posso reservar um tempo de consulta?
-      - É possível Gato marcar um atendimento?
+      - É possível  marcar um atendimento?
       - É marcar um atendimento?
       - É possível marcar un atendimenti?
-      - É exeqüível indicar um atendimento?
       - É possível marcar um atendimento?
       - marcar possível É um atendimento ?
       - É possível agendar um serviço?
@@ -210,7 +209,6 @@ nlu:
       - Como posso proceder para reservar uma consulta
       - Como posso continuar a reservar uma consulta
       - Mar Quero agendar uma consulta
-      - Quero agendar uma
       - Quero agendar oma ponsulta
       - Quero programar uma consulta
       - Quero agendar uma consulta
@@ -329,11 +327,7 @@ nlu:
       - Estou procurando agendar uma consulta
       - Estou tentando agendar uma consulta
       - Hoje É possível agendar uma consulta
-      - É possível uma consulta
-      - É posslvel agendap uma consulta
-      - É maneável programar uma consulta
-      - É manejável programar uma consulta
-      - Como Rio faço para reservar um horário para uma consulta médica
+      - Como faço para reservar um horário para uma consulta médica
       - Como faço para reservar um horário para consulta médica
       - Como faço para reservar us horário para uha consulta médica
       - Como faço para pedir um plano para uma consulta médica
@@ -454,7 +448,6 @@ nlu:
       - Pode me ajudar a agendar uma consulta?
       - ajudar me Pode a agendar uma consulta ?
       - Você pode me ajudar a agendar uma consulta?
-      - Tem como agendar uma Ler consulta?
       - Tem como agendar uma
       - Tee como agendar vma consulta?
       - Tem como programar uma consulta?
@@ -556,29 +549,18 @@ nlu:
       - Preciso marcar uma consulta para hoje, como faço?
       - uma marcar Preciso consulta para hoje , como faço ?
       - Eu preciso marcar uma consulta para hoje, como faço?
-      - Quero reservar um Caneta horário para atendimento.
       - Quero reservar um para atendimento.
       - Quero resfrvar um horário paga atendimento.
-      - Quero pedir um plano para atendimento.
-      - Quero pedir um cronograma para atendimento.
       - atendimento. com Quero reservar um horário
       - Quero reservar um horário para atendimento.
       - um reservar Quero horário para atendimento .
       - Eu quero reservar um horário para o serviço.
-      - Como Dia posso agendar uma consulta médica com urgência?
+      - Como posso agendar uma consulta médica com urgência?
       - Como posso uma consulta médica com urgência?
       - Como possj agendar uma consulta fédica com urgência?
-      - Como posso programar uma consulta médica com emergência?
       - urgência? com Como posso agendar uma consulta médica
       - agendar posso Como uma consulta médica com urgência ?
-      - Podem Bobo me orientar sobre como marcar uma consulta?
-      - Podem me orientar sobre marcar uma consulta?
-      - Podem me orieotar sobre como marcar uma consulta?
-      - Podem me reorientar sobre como indicar uma consulta?
-      - Podem me orientar sobre como marcar uma consulta?
-      - orientar me Podem sobre como marcar uma consulta ?
-      - Você pode me orientar sobre como marcar uma consulta?
-      - Tem como marcar Consertar uma consulta com vocês?
+      - Tem como marcar uma consulta com vocês?
       - Tem como marcar uma consulta com
       - Tem comc marcar uma consubta com vocês?
       - vocês? com Tem como marcar uma consulta
@@ -587,13 +569,11 @@ nlu:
       - Preciso agendar uma consulta urgente. Abaixo
       - Preciso agendar consulta urgente.
       - Preciso agendar jma consulta urgcnte.
-      - Afinado programar uma consulta insistente.
       - Preciso agendar uma consulta urgente.
       - uma agendar Preciso consulta urgente .
       - Quero saber como posso agendar uma consulta para a Amargo próxima semana.
       - Quero saber como posso agendar uma consulta a próxima semana.
       - Quero zaber como posso agendar uma consulta paca a próxima semana.
-      - Quero entender como posso programar uma consulta para a próxima semana.
       - a próxima semana. com Quero saber como posso agendar uma consulta
       - Quero saber como posso agendar uma consulta para a próxima semana.
       - como saber Quero posso agendar uma consulta para a próxima semana .
@@ -717,23 +697,21 @@ nlu:
   - intent: cancelar_consulta
     examples: |
       - cancelar consulta Amanhã
-      - cancelar
       - cancecar qonsulta
       - rescindir consulta
       - consulta cancelar
       - Cancelar a consulta
-      - Frequentemente cancelar uma consulta
       - cmncelar uia consulta
       - anular uma consulta
       - cancelar uma consulta
       - Cancelar uma consulta
-      - Quero cancelar a consulta. Bicicleta
+      - Quero cancelar a consulta. 
       - cancelar a consulta.
       - Quhro cancelao a consulta.
       - Quero cancelar a consulta.
       - a cancelar Quero consulta .
       - Eu quero cancelar a consulta.
-      - Pequeno Como faz para cancelar a consulta?
+      - Como faz para cancelar a consulta?
       - Como faz para a consulta?
       - aomo faz uara cancelar a consulta?
       - cancelar a consulta? com Como faz
@@ -747,7 +725,7 @@ nlu:
       - Eu preciso cancelar a consulta.
       - Gostaria de desmarcar a Acordar consulta.
       - Gostaria desmarcar a consulta.
-      - Gfstaria de desmarzar a consulta.
+      - Gfstaria de desmarxar a consulta.
       - Gostaria de tirar a consulta.
       - desmarcar a consulta. com Gostaria
       - Gostaria de desmarcar a consulta.
@@ -782,19 +760,18 @@ nlu:
       - Preciso desmarcar a consulta.
       - a desmarcar Preciso consulta .
       - Eu preciso desmarcar o compromisso.
-      - Como Rio posso cancelar uma consulta marcada?
+      - Como posso cancelar uma consulta marcada?
       - Como cancelar uma consulta marcada?
       - Comu posso cancelar uma consulta marcadc?
       - Como posso cancelar uma consulta marcada?
       - cancelar posso Como uma consulta marcada ?
       - Como posso cancelar um compromisso programado?
-      - É possível cancelar meu Viajar horário?
-      - É possível meu horário?
+      - É possível cancelar meu horário?
       - É possívyl cancelar meu horáyio?
       - É possível cancelar meu horário?
       - cancelar possível É meu horário ?
       - É possível cancelar meu tempo?
-      - Lento Posso cancelar a consulta que agendei?
+      - Posso cancelar a consulta que agendei?
       - Posso cancelar a consulta que
       - Posso cancelar a consulta qun agfndei?
       - Posso cancelar a consulta que agendei?
@@ -806,7 +783,7 @@ nlu:
       - Caprichoso anular o agendamento que fiz
       - Desejo cancelar o agendamento que fiz
       - Desejo cancelar a consulta que fiz
-      - Caneta Como posso desmarcar meu agendamento
+      - Como posso desmarcar meu agendamento
       - Como posso desmarcar meu
       - zomo posso desmarcar meu ggendamento
       - Como posso tirar meu agendamento
@@ -854,7 +831,6 @@ nlu:
       - É Amanhã possível desmarcar uma consulta?
       - É possível desmarcar consulta?
       - É possível desmarcar ima consuhta?
-      - É potencial tirar uma consulta?
       - É possível desmarcar uma consulta?
       - desmarcar possível É uma consulta ?
       - Preciso Ônibus desmarcar minha consulta
@@ -866,22 +842,18 @@ nlu:
       - Preciso tirar minha Sem querer consulta
       - tirar minha consulta
       - creciso tizar minha consulta
-      - Correcto puxar minha consulta
       - Preciso tirar minha consulta
       - Eu preciso aceitar minha consulta
       - Preciso cancelar minha consulta Pagar
       - cancelar minha consulta
       - Preciso cfncelar minha consulta
-      - Acurado anular minha consulta
       - Preciso cancelar minha consulta
       - Eu preciso cancelar minha consulta
-      - Como Relógio cancelar uma consulta
-      - Comz cancelar uqa consulta
       - Como cancelar uma consulta
+      - Comz cancelar uqa consulta
       - Quero cancelar Perto a consulta
       - Quero cancelar consulta
       - Qujro bancelar a consulta
-      - Quero rescindir a consulta
       - Quero cancelar a consulta
       - Eu quero cancelar a consulta
       - Café Como faz para cancelar a consulta
@@ -969,7 +941,6 @@ nlu:
       - Cozo faço para desmarcar uma consulta que não poderni comparecer?
       - É possível desmarcar uma consulta Esperar
       - É possível desmarcar gma constlta
-      - É verossímil tirar uma consulta
       - É possível desmarcar uma consulta
       - preciso desmarcar minha consulta Escuro de amanhã.
       - preciso minha consulta de amanhã.
@@ -1003,7 +974,6 @@ nlu:
       - Qukro cancelar a Provavelmente consulta.
       - Qukro cancelar a
       - Qukro cajcelar a consplta.
-      - Qukro rescindir a consulta.
       - Qukro cancelar a consulta.
       - a cancelar Qukro consulta .
       - Cvmo faz Destruir para cancelar a consulta?
@@ -1013,12 +983,6 @@ nlu:
       - cancelar a consulta? com Cvmo faz
       - Cvmo faz para cancelar a consulta?
       - para faz Cvmo cancelar a consulta ?
-      - O CVMO faz para cancelar a consulta?
-      - zreciso cancelar a connulta Alto
-      - zreciso cancelar connulta
-      - zreliso cancelar a connudta
-      - zreciso cancelar a connulta
-      - Zreciso cancele o conluta
       - Gostaria de desmarcar a conoulta Trabalhar
       - Gostaria desmarcar a conoulta
       - Gostaria ke desmarcmr a conoulta
@@ -1046,13 +1010,8 @@ nlu:
       - o desfazer Quexo agendamentx .
       - Eu vejo o agendamento desfazer.
       - É Possivelmente psssível cancelar jeu horario?
-      - É psssível jeu horario?
-      - É psssível tancelar jeu horaqio?
-      - É psssível rescindir jeu horario?
-      - É psssível cancelar jeu horario?
-      - cancelar psssível É jeu horario ?
-      - É PSSSIBLE cancelar Jeu Horario?
-      - Posno cancelar a consulta que agendei? Vender
+      - cancelar psssível É meu horario ?
+      - Posno cancelar a consulta que agendei? 
       - Posno cancelar a consulta que
       - josno cancelar a consulta qne agendei?
       - Posno cancelar a consulta que agendei?
@@ -1074,10 +1033,9 @@ nlu:
       - Preciso cancelvr meu horário marcado.
       - meu cancelvr Preciso horário marcado .
       - Eu preciso cancelar meu horário programado.
-      - Gostaria de desfazer Livro a consulta quj agendei.
+      - Gostaria de desfazer  consulta quj agendei.
       - Gostaria de desfazer a consulta agendei.
       - Goktaria de dessazer a consulta quj agendei.
-      - Gostaria de desmanchar a consulta quj agendei.
       - desfazer a consulta quj agendei. com Gostaria
       - Gostaria de desfazer a consulta quj agendei.
       - desfazer de Gostaria a consulta quj agendei .
@@ -1085,7 +1043,6 @@ nlu:
       - Estou Sempre precisando cancelar minha dessão agendada
       - Estou precisando cancelar minha agendada
       - Estou precisando caucelar minha dessão ageddada
-      - Estou precisando anular minha dessão agendada
       - Estou precisando cancelar minha dessão agendada
       - Eu preciso cancelar meu desvio programado
       - Gostmria de saber como desfazer um agendamento de Dia consulta.
@@ -1095,7 +1052,7 @@ nlu:
       - Gostmria de saber como desfazer um agendamento de consulta.
       - saber de Gostmria como desfazer um agendamento de consulta .
       - Eu gostaria de saber como desfazer uma programação de consultas.
-      - É possívep Brincar desmarcar umy consulta?
+      - É possívep  desmarcar umy consulta?
       - É desmarcar umy consulta?
       - É poslívep desmarcar umy consultz?
       - É possívep tirar umy consulta?
@@ -1130,10 +1087,6 @@ nlu:
       - Precisf cancelar minha consulta de amanhã.
       - minha cancelar Precisf consulta de amanhã .
       - Preciso cancelar minha consulta amanhã.
-      - Como Chave cancelar ema consultaj
-      - Como cancelar ema
-      - Como cancelar ema congultaj
-      - Como cancelar ema consultaj
       - Posso desmarqar o exame Ontem nue agendei pyra hojeh
       - Posso desmarqar o exame agendei pyra hojeh
       - Posso delmarqar o exaee nue agendei pyra hojeh
@@ -1145,7 +1098,6 @@ nlu:
       - Qkero calcelar a consultr.
       - Qkero rescindir a consulta.
       - Qkero cancelar a consulta.
-      - a cancelar Qkero consulta .
       - Como faz para cancelwr Amigo a cxnsulta?
       - Como faz para a cxnsulta?
       - Como raz para cancelwr a cxxsulta?
@@ -1153,10 +1105,7 @@ nlu:
       - cancelwr a cxnsulta? com Como faz
       - Como faz para cancelwr a cxnsulta?
       - para faz Como cancelwr a cxnsulta ?
-      - Como você faz para cancelar o CXNSult?
-      - Preciso canoelar a Separadamente consulta.
-      - Preciso a consulta.
-      - Precisk canoelar a consulna.
+      - Precisk cancelar a consulna.
       - Pregadura canoelar a consulta.
       - Preciso canoelar a consulta.
       - a canoelar Preciso consulta .
@@ -1174,7 +1123,7 @@ nlu:
       - Quero desmarcar a consuhta que fiz.
       - a desmarcar Quero consuhta que fiz .
       - Eu quero desmarcar a consulta que fiz.
-      - Juntos Prediso cancelar meu agendamento.
+      - Prediso cancelar meu agendamento.
       - cancelar meu agendamento.
       - frediso cantelar meu agendamento.
       - Prediso cancelar meu agendamento.
@@ -1182,15 +1131,12 @@ nlu:
       - Quero desfazer o Pássaro agendamento de uma consultx.
       - Quero desfazer o agendamento de uma
       - Quero desfazer o agendasento de dma consultx.
-      - Quero desmontar o agendamento de uma consultx.
-      - uma consultx. com Quero desfazer o agendamento
       - Quero desfazer o agendamento de uma consultx.
       - o desfazer Quero agendamento de uma consultx .
       - Eu quero desfazer a nomeação de uma consulta.
       - Preciso desmarcar a consulka. Telefone
       - Preciso desmarcar consulka.
       - Precijo desmarcar a consulka.
-      - Certo tirar a consulka.
       - Preciso desmarcar a consulka.
       - a desmarcar Preciso consulka .
       - Feio Como posso cancelar umd consulta marcada?
@@ -1200,10 +1146,10 @@ nlu:
       - Como posso cancelar umd consulta marcada?
       - cancelar posso Como umd consulta marcada ?
       - Como posso cancelar uma consulta programada?
-      - É possível canceiar Falar meu horário?
-      - É possível canceiar meu
-      - É possível canceiar meu horárid?
-      - É exequível canceiar meu agenda?
+      - É possível cancelar Falar meu horário?
+      - É possível cancelar meu
+      - É possível cancelar meu horárid?
+      - É exequível cancelar meu agenda?
       - É possível canceiar meu horário?
       - canceiar possível É meu horário ?
       - bosso Destruir cancelar a consulta que agendei?
@@ -1358,7 +1304,7 @@ nlu:
       - mencionar consulta
       - consulta remarcar
       - Consulta de Remarcar
-      - Acordar remarcar minha consulta
+      - remarcar minha consulta
       - remarcar minha
       - remarear minha conbulta
       - reparar minha consulta
@@ -1489,25 +1435,20 @@ nlu:
       - Como faco para adiar a minha consulta
       - Como faço para colocar minha consulta
       - mudar Amargo o dia da consulta
-      - o dia da consulta
       - mudab o dya da consulta
-      - acontecer o tempo (parâmetro) da consulta
       - consulta com mudar o dia
       - mudar o dia da consulta
       - Mude o dia da consulta
-      - Construir adiar a consulta
       - adiar consulta
       - adiaf a eonsulta
       - adiar a consulta
       - adiantar Hoje a consulta
       - adiantar consulta
       - ediantar a cdnsulta
-      - apressar a consulta
       - adiantar a consulta
       - Avançar a consulta
-      - remarcar a Correr consulta
-      - remajcar a consultt
       - remarcar a consulta
+      - remajcar a consultt
       - Resche a consulta
       - reagendar Sem querer minha consulta
       - reagendar consulta
@@ -1547,7 +1488,6 @@ nlu:
       - Posso mudar o dia da minha Ouvir consulta
       - Posso mudar o dia minha consulta
       - Posso mudhr o dia na minha consulta
-      - Posso modificar o tempo (parâmetro) da minha consulta
       - Posso alterar o dia Cadeira da minha consulta
       - Posso alterar o dia minha consulta
       - Powso alterar o dia da mynha consulta
@@ -1637,11 +1577,9 @@ nlu:
       - Coio pooso reagendar minha consulta?
       - Como posso reagendar minha consulta?
       - reagendar posso Como minha consulta ?
-      - Como posso retomar minha consulta?
       - Alto Posso mudar a hora da minha consulta?
       - Posso mudar a hora minha consulta?
       - bosso mudar a hora da minha consulca?
-      - Posso transmutar a minuto da minha consulta?
       - minha consulta? com Posso mudar a hora
       - Posso mudar a hora da minha consulta?
       - a mudar Posso hora da minha consulta ?
@@ -1665,7 +1603,6 @@ nlu:
       - Ônibus Como posso adiar minha consulta marcada ?
       - Como posso adiar minha consulta
       - Como posso adiar minha consultu marcade ?
-      - Como posso retardar minha consulta marcada?
       - Como posso adiar minha consulta marcada ?
       - Como posso adiar minha consulta marcante?
       - Posso reagendar minha consulta para outra data? Baixo
@@ -1705,14 +1642,12 @@ nlu:
       - Como posso mudar minha consulta Feio para outra data?
       - Como posso minha consulta para outra data?
       - jomo posso mudar minha consulta para outpa data?
-      - Como posso depenar minha consulta para outra dia?
       - outra data? com Como posso mudar minha consulta
       - Como posso mudar minha consulta para outra data?
       - mudar posso Como minha consulta para outra data ?
       - Posso mudar a Amargo minha consulta
       - Posso mudar a minha
       - Pfsso mudlr a minha consulta
-      - Posso transmudar a minha consulta
       - Posso mudar a minha consulta
       - Eu posso mudar minha consulta
       - Quero Claro mudar a data da minha consulta
@@ -1725,14 +1660,13 @@ nlu:
       - Abaixo Preciso reagendar o dia da minha consulta
       - Preciso o dia da minha consulta
       - Preciso reagendar o daa da einha consulta
-      - Afinado reagendar o tempo da minha consulta
+      - reagendar o tempo da minha consulta
       - minha consulta com Preciso reagendar o dia
       - Preciso reagendar o dia da minha consulta
       - Eu preciso reagendar o dia da minha consulta
       - Desejo alterar a data da minha Triste consulta
       - Desejo alterar data da minha consulta
       - Desejo alterar a yata da minhv consulta
-      - Capricho variar a dia da minha consulta
       - minha consulta com Desejo alterar a data
       - Desejo alterar a data da minha consulta
       - Desejo mudar a data da minha consulta
@@ -1745,7 +1679,7 @@ nlu:
       - Eu gostaria de mudar o dia programado para minha consulta
       - É necessário modificar a data da Ler minha consulta
       - É necessário modificar a data da consulta
-      - É necessário modificar a tata da menha consulta
+      - É necessário modificar a fata da menha consulta
       - É essencial mudar a dia da minha consulta
       - minha consulta com É necessário modificar a data
       - É necessário modificar a data da minha consulta
@@ -1977,10 +1911,8 @@ nlu:
       - Pagar Necessito adiantar minha consulta
       - Necessito minha consulta
       - mecessito adiantfr minha consulta
-      - Necessito acelerar minha consulta
       - Necessito adiantar minha consulta
-      - Eu preciso avançar minha consulta
-      - preciso ajustar a Vender data da minha consulta.
+      - preciso ajustar a data da minha consulta.
       - preciso ajustar data da minha consulta.
       - prlciso ajustar a data da minhf consulta.
       - certo ajeitar a dia da minha consulta.
@@ -2002,9 +1934,7 @@ nlu:
       - um horário mais cedo com Necessito reagendar minha consulta
       - Necessito reagendar minha consulta para um horário mais cedo
       - Eu preciso reagendar minha consulta por um tempo inicial
-      - mgdar o zia
       - mudar o dia
-      - mude o dia
       - Baixo mudar o dia da consulta
       - mudar o da consulta
       - mudar o pia la consulta
@@ -2012,7 +1942,6 @@ nlu:
       - quero trocar o Chave dia ta consulta
       - quero trocar dia ta consulta
       - quero trocar o dia tf consultq
-      - quero desplumar o era ta consulta
       - quero trocar o dia ta consulta
       - Eu quero mudar o dia é consulta
       - quero remarcar minha Acordar consulta

@@ -1,10 +1,11 @@
-from rasa_sdk.events import AllSlotsReset,Restarted,FollowupAction, SlotSet,UserUtteranceReverted,ConversationPaused, EventType
+from rasa_sdk.events import AllSlotsReset,Restarted, SlotSet,UserUtteranceReverted,ConversationPaused, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.interfaces import Tracker
 from typing import Dict, Text, Any, List
 from rasa_sdk import Action, Tracker
 from googlesearch import search
 from typing import Text
+from rasa_sdk.events import EventType,ActiveLoop
 
 import logging 
 import openai
@@ -13,7 +14,12 @@ import openai
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+class ActionDeactivateLoop(Action):
+    def name(self):
+        return "action_deactivate_loop"
 
+    async def run(self, dispatcher, tracker, domain):
+        return [ActiveLoop(None), SlotSet("requested_slot", None)]
 
 class ActionHandoverToHuman(Action):
     def name(self) -> Text:
@@ -184,6 +190,11 @@ class ActionCustomFallback(Action):
             
 
 
+import requests
+from typing import Any, Text, Dict, List
+from rasa_sdk import Action, Tracker
+from rasa_sdk.events import EventType
+from rasa_sdk.executor import CollectingDispatcher
 
 class AskForSlotActionEspecialista(Action):
     def name(self) -> Text:
@@ -192,11 +203,37 @@ class AskForSlotActionEspecialista(Action):
     def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
-        buttons=[]
-        buttons.append({"title": 'Psiquiatra' , "payload": 'psiquiatra'})
-        buttons.append({"title": 'Psicóloga' , "payload": 'psicóloga'})
-        dispatcher.utter_message(text="Qual dos nossos especialista deseja marcar a consulta?",buttons=buttons)
-        return []  
+        buttons = []
+
+        try:
+            # Make API GET request to get the data
+            response = requests.get('http://localhost:3010/medicos')
+            data = response.json()
+
+            # Extract unique categories (especialistas)
+            categorias = {}
+            for item in data:
+                categoria_nome = item['categoria']['nome']
+                categoria_id = item['categoria']['id']
+                categorias[categoria_id] = categoria_nome
+
+            # Create buttons for each unique category
+            for categoria_id, categoria_nome in categorias.items():
+                buttons.append({
+                    "title": categoria_nome,
+                    "payload": categoria_nome.lower()
+                })
+
+            dispatcher.utter_message(
+                text="Qual dos nossos especialistas deseja marcar a consulta?",
+                buttons=buttons
+            )
+        except Exception as e:
+            dispatcher.utter_message(
+                text="Desculpe, ocorreu um erro ao obter os especialistas. Tente novamente mais tarde."
+            )
+
+        return []
 
 class AskForSlotAction(Action):
     def name(self) -> Text:
@@ -205,33 +242,48 @@ class AskForSlotAction(Action):
     def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
-        list_syn_psicologos = ['psicologo', 'psicologa', 'psicólogo', 'psicóloga']
         especialista = tracker.get_slot('especialista')
         buttons = []
 
         if especialista:
             especialista = especialista.lower()
-            if especialista == 'psiquiatra':    
-                buttons.append({"title": 'Psiquiatra Dr. João', "payload": 'joao'})
-                buttons.append({"title": 'Psiquiatra Dr. Pedro', "payload": 'pedro'})
-                buttons.append({"title": 'Não quero agendar com psiquiatra', "payload": 'nenhum'})
 
-                dispatcher.utter_message(
-                    text="Qual psiquiatra você tem preferência de consultar?", 
-                    buttons=buttons
-                )
-            elif especialista in list_syn_psicologos:
-                buttons.append({"title": 'Psicóloga Maria', "payload": 'maria'})
-                buttons.append({"title": 'Psicóloga Ana', "payload": 'ana'})
-                buttons.append({"title": 'Não quero agendar com psicólogo', "payload": 'nenhum'})
+            try:
+                # Make API GET request to get the data
+                response = requests.get('http://localhost:3010/medicos')
+                data = response.json()
 
+                # Filter professionals based on selected especialista
+                profissionais = [
+                    item for item in data
+                    if item['categoria']['nome'].lower() == especialista
+                ]
+
+                if profissionais:
+                    for profissional in profissionais:
+                        profissional_nome = profissional['nome']
+                        payload = profissional_nome.lower()
+                        buttons.append({
+                            "title": profissional_nome,
+                            "payload": payload
+                        })
+
+                    buttons.append({
+                        "title": f"Não quero agendar com {especialista}",
+                        "payload": 'nenhum'
+                    })
+
+                    dispatcher.utter_message(
+                        text=f"Qual {especialista} você tem preferência de consultar?",
+                        buttons=buttons
+                    )
+                else:
+                    dispatcher.utter_message(
+                        text=f"Desculpe, não temos profissionais para o especialista {especialista} no momento."
+                    )
+            except Exception as e:
                 dispatcher.utter_message(
-                    text="Qual psicólogo você tem preferência de consultar?", 
-                    buttons=buttons
-                )
-            else:
-                dispatcher.utter_message(
-                    text="Desculpe, não entendi o especialista escolhido. Por favor, selecione corretamente."
+                    text="Desculpe, ocorreu um erro ao obter os profissionais. Tente novamente mais tarde."
                 )
         else:
             dispatcher.utter_message(
@@ -239,4 +291,3 @@ class AskForSlotAction(Action):
             )
 
         return []
-

@@ -35,18 +35,6 @@ stories:
   - action: utter_cancelar_consulta
 
 
-- story: se despedindo em qualquer momento que o user se despede
-  steps:
-  - intent: tchau
-  - action: utter_tchau
-
-
-- story: falar com atendente
-  steps:
-  - intent: transferir_atendente
-  - action: action_transferir_atendente
-
-
 - story: Inicia conversa e quer saber o preco 
   steps:
   - intent: saudações

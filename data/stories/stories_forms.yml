@@ -14,9 +14,9 @@ stories:
   - intent: concordancia
   - action: delete_event_form
   - active_loop: delete_event_form
+  - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - active_loop: null
   - action: action_delete_event_form
   - slot_was_set:
     - event_delete_completed: True
@@ -26,6 +26,10 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
 
 
@@ -40,9 +44,9 @@ stories:
   - intent: concordancia
   - action: delete_event_form
   - active_loop: delete_event_form
+  - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - active_loop: null
   - action: action_delete_event_form
   - slot_was_set:
     - event_delete_completed: True
@@ -51,8 +55,11 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
-
 
 #### STORIES MARCANDO CONSULTA
 #### STORIES MARCANDO CONSULTA
@@ -69,10 +76,10 @@ stories:
   - intent: concordancia
   - action: event_form
   - active_loop: event_form
+  - active_loop: null
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
-  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
@@ -83,6 +90,10 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
 
 - story: marcar consulta sem cadastrado
@@ -98,19 +109,19 @@ stories:
   - action: utter_inform_form
   - action: cadastro_form
   - active_loop: cadastro_form
+  - active_loop: null
   - slot_was_set:
     - requested_slot: null
-  - active_loop: null
   - action: action_salvar_cadastro
   - slot_was_set:
     - login_sucess: True 
   - action: utter_success_sign
   - action: event_form
   - active_loop: event_form
+  - active_loop: null
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
-  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
@@ -121,6 +132,10 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
 
 
@@ -129,10 +144,10 @@ stories:
   steps:
   - action: event_form
   - active_loop: event_form
+  - active_loop: null
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
-  - active_loop: null
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
@@ -143,6 +158,10 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
 
 
@@ -154,11 +173,12 @@ stories:
   - action: action_find_free_slots
   - slot_was_set:
     - free_slots
+  - action: event_form
   - active_loop: event_form
+  - active_loop: null 
   - slot_was_set:
     - form_completed: True
     - requested_slot: null
-  - active_loop: null 
   - action: utter_confirm_appointment
   - intent: concordancia
   - action: action_add_event
@@ -169,4 +189,82 @@ stories:
   - action: feedback_form
   - active_loop: feedback_form
   - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - slot_was_set:
+    - feedback
   - action: action_store_feedback
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: cadastro_form
+  - active_loop: cadastro_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: event_form
+  - active_loop: event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+  
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: delete_event_form
+  - active_loop: delete_event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: modify_event_form
+  - active_loop: modify_event_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+
+
+- story: User interrupts the form and doesn't want to continue
+  steps:
+  - action: feedback_form
+  - active_loop: feedback_form
+  - or:
+    - intent: stop
+    - intent: negacao
+  - action: action_deactivate_loop
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_stop
+
+

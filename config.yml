@@ -13,6 +13,9 @@ pipeline:
   case_sensitive: False
 - name: SpacyFeaturizer
 - name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 2
+  max_ngram: 4
 - name: DIETClassifier
   epochs: 60
   unidirectional_encoder: False
@@ -36,19 +39,21 @@ pipeline:
   tensorboard_log_directory: "./tensorboard/DIET"
   tensorboard_log_level: epoch
 - name: ResponseSelector
-  epochs: 50
+  epochs: 12
   retrieval_intent: faq
+  check_for_contradictions: True
   tensorboard_log_directory: "./tensorboard/faq"
   tensorboard_log_level: epoch
-  learning_rate: 0.001
+  learning_rate: 0.00002
   constrain_similarities: True
-  batch_size: 32  #quantidade de exemplos que sera processado de uma so vez em cada iteracao
-  early_stopping_patience: 5
+  batch_size: 8
+  loss_type: cross_entropy
+  regularization_constant: 0.001
   evaluate_on_number_of_examples: 200
-  evaluate_every_number_of_epochs: 10 # Less frequent evaluation
+  evaluate_every_number_of_epochs: 1 # Less frequent evaluation
 - name: FallbackClassifier
   threshold: 0.7
-  ambiguity_threshold: 0.2
+  ambiguity_threshold: 0.3
   core_fallback_action_name: "action_custom_fallback"
 - name: DucklingEntityExtractor
   url: http://localhost:8000
@@ -57,28 +62,30 @@ pipeline:
   timezone: "America/Sao_Paulo"
 
 policies:
-- name: RulePolicy
-  core_fallback_threshold: 0.2
-  core_fallback_action_name: "action_custom_fallback"
-  enable_fallback_prediction: True
-  check_for_contradictions: True
-  tensorboard_log_directory: "./tensorboard/Policy"
-  tensorboard_log_level: epoch
-  restrict_rules: true 
 - name: TEDPolicy
   max_history: 12
   epochs: 50
   check_for_contradictions: True
-  batch_size: 16
+  batch_size: 
+  - 8
+  - 16
   early_stopping_patience: 10
-  learning_rate: 0.0005
-  regularization_constant: 0.0015
-  dropout_rate: 0.15
+  learning_rate: 0.0007
+  regularization_constant: 0.0005
+  dropout_rate: 0.25
   evaluate_every_number_of_epochs: 5
   evaluate_on_number_of_examples: 200
   model_confidence: "softmax"
   tensorboard_log_directory: "./tensorboard/TED"
   tensorboard_log_level: epoch
+- name: RulePolicy
+  core_fallback_threshold: 0.3
+  core_fallback_action_name: "action_custom_fallback"
+  enable_fallback_prediction: True
+  check_for_contradictions: True
+  tensorboard_log_directory: "./tensorboard/Policy"
+  tensorboard_log_level: epoch
+  restrict_rules: True 
 
 
 

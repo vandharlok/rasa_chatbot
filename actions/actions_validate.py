@@ -7,7 +7,7 @@ from helpers.utils import validate_cpf_bd, validate_cpf_value,validate_time_def
 
 import re
 import logging 
-
+import requests
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -141,37 +141,87 @@ class ValidateCPFActionEvent(FormValidationAction):
         return validate_time_def(slot_value, dispatcher)
     
     def validate_especialista(
-        self, 
+        self,
         slot_value: Any,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        
-        names=['psicóloga','psiquiatra','psicologo','psicologa','psicólogo']
-        if slot_value.lower() in names:
-            return {"especialista": slot_value.lower()}
-        else:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+
+        if not slot_value:
+            dispatcher.utter_message(text="Desculpe, não recebi o especialista desejado. Por favor, escolha corretamente.")
             return {"especialista": None}
-        
+
+
+        # Fetch categories from API
+        try:
+            response = requests.get('http://localhost:3010/medicos')
+            data = response.json()
+
+            # Extract unique categories
+            categorias = set()
+            for item in data:
+                categoria_nome = item['categoria']['nome'].lower()
+                categorias.add(categoria_nome)
+
+            if slot_value in categorias:
+                return {"especialista": slot_value}
+            else:
+                dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
+                return {"especialista": None}
+        except Exception as e:
+            dispatcher.utter_message(text="Desculpe, ocorreu um erro ao obter os especialistas. Tente novamente mais tarde.")
+            return {"especialista": None}
+
     def validate_profissional(
-        self, 
+        self,
         slot_value: Any,
         dispatcher: CollectingDispatcher,
         tracker: Tracker,
-        domain: DomainDict,     
-        ) -> Dict[Text,Any]:
-        
-        names=['pedro','maria','ana','joao']
-        if slot_value.lower() in names:
-            return {"profissional": slot_value.lower()}
-        elif slot_value.lower() == 'nenhum':
-            return {"especialista": None,"profissional":None}
-        else:
-            dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para especialista.")
+        domain: Dict[Text, Any],
+    ) -> Dict[Text, Any]:
+
+        if not slot_value:
+            dispatcher.utter_message(text="Desculpe, não recebi o profissional desejado. Por favor, escolha corretamente.")
             return {"profissional": None}
         
+        slot_value = slot_value.lower()
+
+        if slot_value == 'nenhum':
+            return {"especialista": None, "profissional": None, "medicoId": None}
+
+        especialista = tracker.get_slot('especialista')
+        if not especialista:
+            dispatcher.utter_message(text="Desculpe, não identifiquei o especialista escolhido. Por favor, escolha corretamente.")
+            return {"profissional": None}
+
+        # Fetch professionals from API filtered by especialista
+        try:
+            response = requests.get('http://localhost:3010/medicos')
+            data = response.json()
+
+            # Filter professionals based on 'especialista'
+            profissionais = [
+                item for item in data
+                if item['categoria']['nome'].lower() == especialista
+            ]
+
+            # Map of professional names to their IDs
+            profissionais_dict = {}
+            for profissional in profissionais:
+                nome = profissional['nome'].lower()
+                id_medico = profissional['id']
+                profissionais_dict[nome] = id_medico
+
+            if slot_value in profissionais_dict:
+                medico_id = profissionais_dict[slot_value]
+                return {"profissional": slot_value, "medicoId": medico_id}
+            else:
+                dispatcher.utter_message(text="Desculpe, não entendi. Por favor, escolha uma opção válida para profissional.")
+                return {"profissional": None}
+        except Exception as e:
+            dispatcher.utter_message(text="Desculpe, ocorreu um erro ao obter os profissionais. Tente novamente mais tarde.")
+            return {"profissional": None}
 class ValidateFeedbackForm(FormValidationAction):
     def name(self) -> Text:
         return "validate_feedback_form"

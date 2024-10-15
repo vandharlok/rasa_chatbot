@@ -40,8 +40,13 @@ rules:
   - action: utter_faq
 
 
-#
-
+- rule: checar dias livres
+  steps:
+  - intent: perguntar_dias_livres
+  - action: action_find_free_slots
+  - slot_was_set:
+    - free_slots
+  wait_for_user_input: False
 #- rule: Informando sobre local de atendimento
 #  steps:
 #  - intent: faq/saber_local_de_atendimento

@@ -6,59 +6,52 @@ nlu:
 
   - intent: preco_consulta
     examples: |
-      - quanto ta a consulta com o Roupa psicologo
+      - quanto ta a consulta com o psicologo
       - quanto ta a com o psicologo
       - qusnto ta a consulta com o psizologo
       - quanto ta a consulta com o psicologo
       - quanto é a consulta com o psicólogo
-      - Sapato quanto ta a consulta com o psiquiatra
+      - quanto ta a consulta com o psiquiatra
       - quanto ta a consulta com psiquiatra
       - luanto ta a consulta wom o psiquiatra
       - quanto ta a consulta com o encolhimento
       - o psiquiatra com quanto ta a consulta
       - quanto é a consulta com o psiquiatra
-      - Gradualmente quanto ta a a consulta
-      - ta a a consulta
       - qganto va a a consulta
       - quanto ta a a consulta
       - Quanto é a consulta
-      - qual o preco Beber da consulta
-      - qual o preco da
+      - qual o preco  da consulta
       - qual o preco dw cocsulta
       - segundo o preco da consulta
       - consulta com qual o preco
       - qual o preco da consulta
       - Qual é o preço da consulta
-      - Quanto custa uma consulta Falar geral nesta clínica
-      - Quanto custa uma consulta geral nesta
-      - Quanto custa uma consulta geral nesva clenica
+      - Quanto custa uma consulta geral nesta clínica
       - Quanto custa uma consulta habitual nesta hospital
       - Quanto custa uma consulta geral nesta clínica
       - Quanto custa uma consulta geral esta clínica
-      - Pode me Jogo informar qual é o valor de uma consulta
+      - Pode me informar qual é o valor de uma consulta
       - Pode me informar qual é o valor uma consulta
       - Pode me informar qual é o valor de umg consulya
-      - Pode me notificar enquanto é o operacionalidade de uma consulta
+      - Pode me notificar o preco de uma consulta
       - uma consulta com Pode me informar qual é o valor
       - Pode me informar qual é o valor de uma consulta
       - Você pode me informar qual é o valor de uma consulta
-      - Qual é o custo Perder para uma consulta com um especialista?
+      - Qual é o custo  para uma consulta com um especialista?
       - Qual é custo para uma consulta com um especialista?
       - Quav é o custo para uva consulta com um especialista?
-      - Segundo é o remunerações para uma consulta com um estudioso?
       - uma consulta com um especialista? com Qual é o custo
       - Qual é o custo para uma consulta com um especialista?
       - o é Qual custo para uma consulta com um especialista ?
       - Qual é o custo de uma consulta com um especialista?
-      - Voce poderia me dizer Lua quanto é cobrado por uma consulta?
+      - Voce poderia me dizer quanto é cobrado por uma consulta?
       - Voce poderia me dizer é cobrado por uma consulta?
       - Voce poderia le dlzer quanto é cobrado por uma consulta?
       - Voce poderia me dizer quanto é cobrado por uma consulta?
       - uma consulta? com Voce poderia me dizer quanto é cobrado
       - me poderia Voce dizer quanto é cobrado por uma consulta ?
       - Você poderia me dizer quanto é cobrado por uma consulta?
-      - Gostaria Fraco de saber o preço de uma consulta?
-      - Gostaria de saber o preço de uma
+      - Gostaria de saber o preço de uma consulta?
       - Gostaria de sabez o preço de umo consulta?
       - Gostaria de conhecer o custos de uma consulta?
       - Gostaria de saber o preço de uma consulta?
@@ -67,7 +60,6 @@ nlu:
       - Qual é o valor cobrado para uma consulta? Ajudar
       - Qual o valor cobrado para uma consulta?
       - Qual é o valkr cobrado papa uma consulta?
-      - Ingualmente é o lucro cobrado para uma consulta?
       - uma consulta? com Qual é o valor cobrado
       - Qual é o valor cobrado para uma consulta?
       - o é Qual valor cobrado para uma consulta ?
@@ -90,13 +82,11 @@ nlu:
       - Você pode fornecer preços para as consultas disponíveis?
       - Agitado Quanto custa a consulta?
       - custa a consulta?
-      - wuanto cwsta a consulta?
       - Quanto custa a consulta?
       - a custa Quanto consulta ?
-      - Qual o valor da consulta? Velho
+      - Qual o valor da consulta? 
       - Qual valor da consulta?
       - Qwal o valor da consulta?
-      - Ingualmente o lucro da consulta?
       - consulta? com Qual o valor
       - Qual o valor da consulta?
       - valor o Qual da consulta ?
@@ -107,32 +97,22 @@ nlu:
       - Quanto custa uma consulta nesta hospital?
       - Quanto custa uma consulta nesta clínica?
       - uma custa Quanto consulta nesta clínica ?
-      - qual o custo de uma Sorrir consulta nesta clínica?
+      - qual o custo de uma consulta nesta clínica?
       - qual o custo de uma nesta clínica?
       - qual o custo de sma consuwta nesta clínica?
-      - ingualmente o taxa de uma consulta nesta hospital?
       - uma consulta nesta clínica? com qual o custo
       - qual o custo de uma consulta nesta clínica?
       - custo o qual de uma consulta nesta clínica ?
       - Qual é o custo de uma consulta nesta clínica?
-      - Janela Qual é o valor?
       - Qual o valor?
-      - Qual é o vxlor?
       - Qual é o valor?
-      - o é Qual valor ?
       - preco
       - preço
-      - preyo
-      - custos
-      - quanto custa Separadamente
-      - custa
       - quacto cssta
       - quanto custa
       - quanto custa isso
-      - qual e o Pássaro valor
+      - qual e o valor
       - qual o valor
-      - quao e o vabor
-      - de que modo e o lucro
       - o valor e qual
       - Qual é o valor
       - valor
@@ -202,7 +182,7 @@ nlu:
       - uma consulta especializada? com Qual é o preço
       - Qual é o preço de uma consulta especializada?
       - o é Qual preço de uma consulta especializada ?
-      - Quanto custa um Sorrir exame médico na clínica?
+      - Quanto custa um exame médico na clínica?
       - Quanto custa um exame na clínica?
       - Quanto cssta um erame médico na clínica?
       - Quanto custa um examinação doutor na hospital?
@@ -301,11 +281,9 @@ nlu:
       - Quanto custa um atendimento na clínica?
       - um custa Quanto atendimento na clínica ?
       - Quanto custa um serviço na clínica?
-      - Qual o valor cobrado por uma consulta na Sempre especialidade de endocrinologia?
+      - Qual o valor cobrado por uma consulta de endocrinologia?
       - Qual o valor cobrado por uma na especialidade de endocrinologia?
       - Qual o valor cobrado phr ula consulta na especialidade de endocrinologia?
-      - Relativamente a o utilidade cobrado por uma consulta na Especialidades médicas de Endocrinologia?
-      - endocrinologia? com Qual o valor cobrado por uma consulta na especialidade
       - Qual o valor cobrado por uma consulta na especialidade de endocrinologia?
       - valor o Qual cobrado por uma consulta na especialidade de endocrinologia ?
       - Qual é o valor cobrado por uma consulta na especialidade da endocrinologia?
@@ -323,7 +301,7 @@ nlu:
       - Quanto encontra-se a consulta para acompanhamento com o psiquiatra?
       - a está Quanto consulta para acompanhamento com o psiquiatra ?
       - Quanto a consulta deve acompanhar o psiquiatra?
-      - Qual é o preço para uma consulta com o Bicicleta oftalmologista?
+      - Qual é o preço para uma consulta com o oftalmologista?
       - Qual é preço para uma consulta com o oftalmologista?
       - Qual é o preço cara uma consulta cox o oftalmologista?
       - Quão é o preços para uma consulta com o oftalmólogo?
@@ -340,7 +318,6 @@ nlu:
       - Qual é o valor de uma consulta para Triste exames preventivos?
       - Qual é o valor de uma consulta exames preventivos?
       - Qfal é o valor de uma consulta para exaees preventivos?
-      - Qual é o operacionalidade de uma consulta para exames preventivos?
       - uma consulta para exames preventivos? com Qual é o valor
       - Qual é o valor de uma consulta para exames preventivos?
       - o é Qual valor de uma consulta para exames preventivos ?
@@ -353,7 +330,6 @@ nlu:
       - Vocês poderiam informar o custo de uma Céu consulta de rotina?
       - Vocês poderiam o custo de uma consulta de rotina?
       - kocês poderiam informar o custo de uma consulta di rotina?
-      - Vocês poderiam anunciar o remunerações de uma consulta de ramerrão?
       - Vocês poderiam informar o custo de uma consulta de rotina?
       - informar poderiam Vocês o custo de uma consulta de rotina ?
       - Você poderia informar o custo de uma consulta de rotina?
@@ -364,14 +340,13 @@ nlu:
       - Quanto encontra-se a consulta com o reumatologista?
       - a está Quanto consulta com o reumatologista ?
       - Quanto custa a consulta com o reumatologista?
-      - Qual é o preço cobrado por uma consulta de Lento emergência?
-      - Qual é o preço cobrado por uma consulta de
+      - Qual é o preço cobrado por uma consulta de emergência?
       - Qual é o preço cobrado mor uma conszlta de emergência?
       - Desta maneira é o custo cobrado por uma consulta de crescimento?
       - emergência? com Qual é o preço cobrado por uma consulta
       - Qual é o preço cobrado por uma consulta de emergência?
       - o é Qual preço cobrado por uma consulta de emergência ?
-      - Flor Qual o valor para uma consulta com o gastroenterologista?
+      - Qual o valor para uma consulta com o gastroenterologista?
       - o valor para uma consulta com o gastroenterologista?
       - Qtal o valor para uma consulta com o vastroenterologista?
       - Tão o utilidade para uma consulta com o gastroenterologista?
@@ -379,7 +354,7 @@ nlu:
       - Qual o valor para uma consulta com o gastroenterologista?
       - valor o Qual para uma consulta com o gastroenterologista ?
       - Qual é o valor para uma consulta com o gastroenterologista?
-      - Quanto custa uma consulta de triagem na clínica? Pagar
+      - Quanto custa uma consulta de triagem na clínica? 
       - custa uma consulta de triagem na clínica?
       - Quanto busta uma consulta de triagem oa clínica?
       - Quanto custa uma consulta de triagem na hospital?
@@ -401,18 +376,14 @@ nlu:
       - o psicólogo? com Vocês podem me informar o valor da consulta
       - me podem Vocês informar o valor da consulta com o psicólogo ?
       - Você pode me dizer o valor da consulta com o psicólogo?
-      - Quanto custa o atendimento médico na clínica? Ouvir
-      - Quanto custa o atendimento médico na
+      - Quanto custa o atendimento médico na clínica? 
       - Quanto cysta o atendimento médico ka clínica?
       - Quanto custa o atendimento doutor na hospital?
       - Quanto custa o atendimento médico na clínica?
       - o custa Quanto atendimento médico na clínica ?
       - Quanto custa os cuidados médicos na clínica?
-      - Mesa Qual o preço para uma avaliação inicial com o oncologista?
       - Qual o preço para uma avaliação inicial com o
       - Qual o prhço para uma avaliação inicnal com o oncologista?
-      - Tão o qualidade para uma cálculo inicial com o oncologista?
-      - uma avaliação inicial com o oncologista? com Qual o preço
       - Qual o preço para uma avaliação inicial com o oncologista?
       - preço o Qual para uma avaliação inicial com o oncologista ?
       - Qual é o preço de uma avaliação inicial com o oncologista?
@@ -420,7 +391,6 @@ nlu:
       - Qual custo para realizar um exame de imagem?
       - Qual o custo para realizar um exale de imageo?
       - Quão o custos para efectuar um teste de Ícone?
-      - imagem? com Qual o custo para realizar um exame
       - Qual o custo para realizar um exame de imagem?
       - custo o Qual para realizar um exame de imagem ?
       - Qual é o custo para realizar um exame de imagem?
@@ -428,10 +398,8 @@ nlu:
       - Quanto custa consulta de revisão com o pediatra?
       - Quanto custg uma consulta de revisão cos o pediatra?
       - Quanto custa uma consulta de acompanhamento com o pediatra?
-      - revisão com o pediatra? com Quanto custa uma consulta
       - Quanto custa uma consulta de revisão com o pediatra?
       - uma custa Quanto consulta de revisão com o pediatra ?
-      - Triste Qual é o preço para uma consulta de urgência?
       - Qual é o para uma consulta de urgência?
       - Qual é o pzeço para uma consulta dx urgência?
       - Desta maneira é o gastos para uma consulta de emergência?
@@ -443,7 +411,6 @@ nlu:
       - Vocês poderiam me dizer valor cobrado por uma consulta com o neurologista?
       - Vocês poderiam me dizer o valor cobrado por uma consulta yom o neurologista?
       - Vocês poderiam me dizer o lucro cobrado por uma consulta com o neurologista?
-      - o neurologista? com Vocês poderiam me dizer o valor cobrado por uma consulta
       - me poderiam Vocês dizer o valor cobrado por uma consulta com o neurologista ?
       - Você poderia me dizer o valor cobrado por uma consulta com o neurologista?
       - Quanto custa agendar uma consulta com o Agitado psicoterapeuta?
@@ -478,7 +445,6 @@ nlu:
       - Qual valor de uma consulta de acompanhamento com o cardiologista?
       - qual o valor de uma codsulta de acompanhamento com o cardiologista?
       - Ingualmente o importância de uma consulta de Acompanhamento com o cardiólogo?
-      - o cardiologista? com Qual o valor de uma consulta de acompanhamento
       - valor o Qual de uma consulta de acompanhamento com o cardiologista ?
       - Qual é o valor de uma consulta de monitoramento com o cardiologista?
       - Vocês podem me dizer quanto custa uma consulta Longe de emergência?
@@ -490,7 +456,7 @@ nlu:
       - me podem Vocês dizer quanto custa uma consulta de emergência ?
       - Você pode me dizer quanto custa uma consulta de emergência?
       - Quanto sai uma Terra consulta com o pneumologista?
-      - Quanto sai uma consulta com o
+      - Quanto sai uma consulta
       - Quinto sam uma consulta com o pneumologista?
       - Quanto sai uma consulta com o pneumologista?
       - uma sai Quanto consulta com o pneumologista ?
