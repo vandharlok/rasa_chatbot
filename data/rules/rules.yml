@@ -6,7 +6,7 @@ rules:
   conversation_start: false
   steps:
   - intent: saudações
-  - action: utter_show_options
+  - action: utter_show_options_help
 
 
 - rule: Regra para confirmar se quer remarcar consulta
@@ -87,6 +87,6 @@ rules:
   steps:
   - action: utter_confirm_appointment
   - intent: negacao
-  - action: utter_show_options
+  - action: utter_show_options_help
   - action: action_reset_all
 
